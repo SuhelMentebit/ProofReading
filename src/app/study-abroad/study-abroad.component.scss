@@ -1,0 +1,354 @@
+
+.rounded-border {
+    border-radius: 10px;
+}
+
+.study-abroad-banner {
+    // height:50vh ;
+    box-shadow: inset 0 0 0 2000px rgb(88 147 235 / 6%);
+    background-size: 100% 100%;
+    background-image: url('../../assets/img/Study_Abroad_Icons/1.Header/Image_banner.png');
+    background-repeat: no-repeat;
+}
+
+.study-abroad {
+    background-color: #d7d4d4;
+    padding-bottom: 10px;
+}
+
+.light-gray-bg {
+    background-color: #e1e1e1;
+    padding: 2%
+}
+
+.study-abroad-header {
+    padding: 5% 0%;
+}
+
+.cust-border {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cust-border-2 {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.contact-card {
+    border-radius: 15px;
+    border: 1px solid gray;
+    margin: 5%;
+}
+
+.card-header,
+.card-footer {
+    background-color: #2d57a7;
+}
+
+.card-footer {
+    padding: 0%;
+}
+
+form.exam-page-form {
+    width: 50%
+}
+
+form.exam-page-form input[type=text] {
+    padding-left: 5px;
+    padding: 0;
+    font-size: 14px;
+    border: 1px solid transparent;
+    float: left;
+    height: 4vh;
+    width: 96%;
+    background: #f1f1f1;
+}
+
+form.exam-page-form button {
+    float: left;
+    width: 4%;
+    padding: 5.5px;
+    background: #1c4dc3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid transparent;
+    border-left: none;
+    cursor: pointer;
+    height: 4vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pill-div-course {
+    background-color: transparent;
+    border: 1px solid orange;
+    color: orange;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 22px;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.flex-div {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-div1 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.cust-padding {
+    padding-right: 1%;
+    padding-top: 5px !important;
+}
+
+.title-text {
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: -o-ellipsis-lastline;
+    font-size: 14px;
+    line-height: 1em;
+    top: 0;
+    margin: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    min-height: 40px;
+    width: 25%;
+    margin: 0px auto;
+}
+
+.btn-orange {
+    background-color: #ff7500;
+    color: #fff !important;
+    border-radius: 20px;
+    padding: 5px 17px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.pl-3 {
+    padding-left: 3%;
+}
+
+.below-banner {
+    padding: 1% 3%;
+}
+
+.right-white-border {
+    border-right: 1px solid #fff;
+}
+
+.orange-text {
+    color: orangered
+}
+
+.text-blue {
+    color: #1b4a85
+}
+
+.map-img {
+    width: 60%;
+    margin: 0px auto;
+    padding-bottom: 2%;
+}
+
+.img-holder img {
+    width: 15%;
+    margin-left: 2%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.img-holder {
+    text-align: center;
+}
+
+.study-div .border {
+    border: 1px solid #a0a3a7 !important;
+}
+
+.syu-help-img {
+    width: 80%;
+    margin: 0px auto;
+    display: block;
+}
+
+.mr-3 {
+    margin-right: 20px;
+}
+
+.border-rad {
+    border-bottom-right-radius: 15px;
+}
+
+.logo-img {
+    width: 100%
+}
+
+.flag-img {
+    width: 40% !important;
+    padding-left: 1%
+}
+
+.btn-blog-show-more {
+    border: 1px solid gray;
+    transform: translate(20%, 520%);
+}
+
+.btn-study-show-more {
+    border: 1px solid gray;
+    transform: translate(10%, 600%);
+}
+
+.limitTextHeight {
+    height: 20vh;
+    overflow: hidden;
+}
+
+.read-more-btn {
+    width: 20%;
+    margin: 2% auto;
+    border: 1px solid gray;
+}
+
+.flex-div1 .fa {
+    font-family: "Font Awesome 5 Free";
+}
+
+.select-filter {
+    height: 4vh;
+    padding: 0px 8%;
+    padding-left: 1%;
+    text-align: left;
+    border-right: none;
+    background-color: #142a76;
+    color: #fff;
+    font-size: 14px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.pl-2 {
+    padding-left: 2%;
+}
+
+.text-orange {
+    color: orangered
+}
+
+@media only screen and (max-width:767px) {
+    .study-div {
+        margin: 0px !important;
+    }
+    .study-div .mr-3 {
+        margin-right: 0px !important;
+    }
+    .map-img {
+        padding-bottom: 5% !important;
+    }
+    .select-filter {
+        padding: 0% !important
+    }
+    .flex-div {
+        display: block;
+    }
+    .pill-div-course {
+        display: inline-block;
+    }
+    form.exam-page-form {
+        width: 90%;
+    }
+    form.exam-page-form button {
+        width: 8%;
+        padding-left: 5px;
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        font-size: 14px !important;
+    }
+    .right-white-border {
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+    .study-div {
+        margin: 10px;
+        padding: 10px;
+    }
+    .pl-2 {
+        padding-left: 0%;
+    }
+    .pl-xs-2 {
+        padding-left: 10px;
+    }
+    .p-xs-0 {
+        padding: 0px;
+    }
+    .blog-inner-div .mr-3 {
+        margin-right: 12px !important;
+        margin-left: 10px;
+    }
+    .read-more-btn {
+        width: 30%;
+    }
+    .img-holder img {
+        width: 15% !important;
+        border-radius: 10px !important;
+    }
+}
+
+@media only screen and (max-width:1024px) and (min-width:768px) {
+    form.exam-page-form button {
+        width: 10%;
+        padding: 0px;
+    }
+}
+
+.pr-2 {
+    padding-right: 2%;
+}
+
+@media only screen and (min-width:992px) {
+    .select-filter {
+        padding: 5px;
+        height: 30px;
+    }
+    form.exam-page-form input[type=text] {
+        padding: 5px;
+        height: 30px;
+    }
+    form.exam-page-form button {
+        padding: 5px;
+        height: 30px;
+    }
+    form.exam-page-form button .fa {
+        display: block;
+    }
+    .contact-card {
+        margin: 9%;
+    }
+}
+
+.slide-image {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}

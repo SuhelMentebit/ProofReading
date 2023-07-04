@@ -1,0 +1,112 @@
+
+<section class="predictor">
+  <div class="neet-rank-predictor">
+    <div class="col-lg-12">
+      <div class="neet-rank-predictor-header text-center">
+        <h2 class="white-text-2 mb-0">NEET UG Rank Predictor</h2>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-12 mb-5">
+    <div class="row row-without-gutter txt">
+      <div class="card text-center">
+        <p>
+          Use Select Your University’s NEET Rank Predictor Tool which helps you
+          to find the possible colleges that you are eligible to get admission
+          to your medical course based on the cutoffs of years. This predicts
+          the college and rank based on the past cutoffs and according to your
+          NEET Score. This helps you to plan and fill the choices accordingly
+          without wasting your options and time. You just need to fill some
+          basic information with your current NEET score and leave it to the
+          NEET UG Rank Predictor of SYU
+        </p>
+      </div>
+    </div>
+    <div class="row form-head">
+      <div class="col-lg-3 col-sm-3 col-md-2"></div>
+      <div class="col-lg-6 col-sm-6 col-md-8">
+        <div class="card form-card">
+          <h3 class="text-center">Get Your College Prediction Here</h3>
+          <div class="form">
+            <form>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Full Name"
+                  name="name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="number"
+                  placeholder="Your Phone Number"
+                  name="number"
+                />
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Your Mail ID"
+                    name="email"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="rank"
+                    placeholder="Enter Rank"
+                    name="rank"
+                  />
+                </div>
+                <div class="form-group">
+                  <select class="form-control" id="quota">
+                    <option value="" selected disabled>Select Quota</option>
+                    <option
+                      *ngFor="let quota of quotas; let i = index"
+                      [value]="quotas[i].id"
+                    >
+                      {{ quotas[i].name }}
+                    </option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" id="domicile">
+                    <option value="" selected disabled>Select Domicile</option>
+                    <option
+                      *ngFor="let domicile of domiciles; let i = index"
+                      [value]="domiciles[i].id"
+                    >
+                      {{ domiciles[i].name }}
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn submit">SUBMIT DETAILS</button>
+              </div>
+            </form>
+            <p class="note">
+              *Note : Please fill info every time before changing NEET
+              parameters to protect from system abuse. Complete the payment for
+              detailed overview and get information of all colleges of last
+              three years.
+            </p>
+            <div class="text-center">
+              <button type="submit" class="btn pay">Pay Rs 600</button>
+            </div>
+            <p class="note">* Pay 600 INR to get detailed analysis</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+  </div>
+</section>
+<app-chat></app-chat>
+<app-footer></app-footer>

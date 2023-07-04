@@ -1,0 +1,922 @@
+.college-content-banner {
+     background-color: #fff;
+     // margin-top:10px;
+     margin-bottom: 10px;
+     // margin-left: 15px;
+     border-radius: 10px;
+     padding: 1% 2%;
+}
+
+.slider-div {
+     padding: 20px;
+}
+
+.college-content {
+     background-color: #d7d4d4;
+     padding-bottom: 10px;
+     margin-top: 3.8%;
+}
+
+.college-content-page-header {
+     padding-top: 5%;
+}
+
+.flex-holder {
+     display: flex;
+     justify-content: center;
+}
+
+.flex-holder1 {
+     display: flex;
+}
+
+.flex-holder2 {
+     display: flex;
+     margin-bottom: 10px;
+     justify-content: center;
+}
+
+.flex-holder3 {
+     display: flex;
+     justify-content: center;
+     margin-top: 3%;
+}
+
+.flex-holder3 img.rating-img {
+     height: 50%;
+}
+
+.flex-holder3 img.share-img {
+     height: 50%;
+}
+
+.flex-holder3 img.review-img {
+     height: 50%;
+}
+
+.ngx-gallery {
+     display: block;
+     margin: 0px auto;
+}
+
+.flex-holder4 {
+     display: flex;
+}
+
+.flex-holder p {
+     padding-left: 10px;
+}
+
+.flex-holder2 p {
+     padding-left: 0px;
+     margin-bottom: 0px;
+}
+
+.flex-holder3 p {
+     padding: 0px 10px;
+     padding-bottom: 0px;
+     margin-right: 6%;
+}
+
+.flex-holder p:last-child {
+     font-size: 10px;
+}
+
+.flex-holder .img-div img {
+     width: 100%
+}
+
+.img img {
+     width: 80%
+}
+
+.flex-holder2 img {
+     // width: 7%;
+     padding: 0px 10px;
+}
+
+.flex-holder1 img {
+     height: 50%;
+     // width: 5%;
+}
+
+.flex-holder1 p {
+     padding-left: 10px;
+}
+
+.flex-holder4 img {
+     width: 100%;
+}
+
+.flex-holder4 p {
+     padding: 0px 10px;
+}
+
+.flex-holder4 p:first-child {
+     font-size: 14px;
+}
+
+.flex-holder4 p:last-child {
+     font-size: 12px;
+}
+
+.orange-text {
+     color: orange;
+}
+
+.btn-orange {
+     background-color: #ff7500;
+     color: #fff !important;
+     border-radius: 20px;
+     padding: 5px 17px;
+     margin: 0px auto;
+}
+
+.btn-blue {
+     background-color: #254d95;
+     padding: 0px 50px;
+     font-size: 15px;
+     font-weight: 700;
+     // width:50%;
+     display: block;
+     line-height: normal;
+}
+
+.btn-blue img,
+.dl-btn img {
+     // width:15%;
+     padding: 5px;
+}
+
+.ml-3 {
+     margin-left: 3%
+}
+
+.ml-4 {
+     margin-left: 4%
+}
+
+.dl-btn {
+     border: 1px solid #254d95;
+     font-size: 15px;
+     padding: 0px 20px;
+     // width:50%
+     display: block;
+}
+
+.btn-white {
+     background-color: transparent;
+     color: #fff !important;
+     border: 1px solid #fff;
+     border-radius: 20px;
+     padding: 5px 30px;
+     margin-top: 20px;
+     margin-right: 20px;
+}
+
+.btn-orange img,
+.btn-white img {
+     padding-left: 10px;
+}
+
+.talk-to-expert {
+     margin-bottom: 10px;
+     // margin-left: 15px;
+     margin-right: 15px;
+     border-radius: 10px;
+     padding: 1%;
+     margin-top: 10px;
+}
+
+.college-content-div {
+     margin-top: 10px;
+     // margin-left: 15px;
+     // margin-right: 15px; 
+     border-radius: 10px;
+     padding: 1%;
+     padding-bottom: 0px;
+}
+
+#college-content-tab {
+     padding-top: 0px;
+     margin-bottom: 10px;
+     // margin-right: 15px;
+     border-radius: 10px;
+     // padding: 1%;
+}
+
+#college-content-tab .ui-tabview.ui-tabview-top>.ui-tabview-nav:first-child {
+     border-top-left-radius: 10px !important;
+     border-bottom-left-radius: 10px !important;
+}
+
+#college-content-tab .ui-tabview.ui-tabview-top>.ui-tabview-nav:last-child {
+     border-top-left-radius: 10px !important;
+     border-bottom-left-radius: 10px !important;
+}
+
+.other-courses .card-header {
+     background-color: orange;
+     color: #fff;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+}
+
+.other-courses {
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     padding: 0px;
+}
+
+.limitTextHeight {
+     height: 20vh;
+     overflow: hidden;
+}
+
+.read-more-btn {
+     width: 20%;
+     margin: 7% auto;
+     border: 1px solid gray;
+}
+
+.talk-to-expert .card-body img {
+     width: 40%
+}
+
+.other-courses .card-header h5 {
+     font-size: 18px;
+}
+
+.info-div {
+     margin-left: 14%;
+     margin-top: 3%
+}
+
+.custom-padding-row {
+     --bs-gutter-x: 0 !important;
+     --bs-gutter-y: 0 !important;
+}
+
+.social-share-dialog {
+     left: 20%
+}
+
+.social-icon {
+     padding: 10px;
+     width: 20%;
+}
+
+.cursor-pointer {
+     cursor: pointer;
+}
+
+@media only screen and (max-width:767px) {
+     .nav-tabs-ul {
+          display: block;
+     }
+
+     .stickyDiv {
+          position: relative !important;
+          z-index: 1 !important;
+          top: 0 !important;
+     }
+
+     .stickyNav {
+          top: 11.5% !important;
+     }
+
+     .tabcontent {
+          margin-right: 0px !important;
+     }
+
+     .custom-padding-row {
+          --bs-gutter-x: 0 !important;
+          --bs-gutter-y: 0 !important;
+     }
+
+     .custom-padding-right {
+          padding-right: 0px !important
+     }
+
+     .custom-padding-left {
+          padding-left: 0px !important;
+     }
+
+     .btns,
+     .add-info {
+          margin-top: 3%;
+     }
+
+     .flex-holder2 {
+          margin-bottom: 0px !important;
+     }
+
+     .flex-holder3 {
+          margin: 2% 0%;
+          padding-left: 3%
+     }
+
+     .dl-btn,
+     .btn-blue {
+          display: inline;
+     }
+
+     .flex-holder3 img.rating-img,
+     .flex-holder3 img.share-img,
+     .flex-holder3 img.review-img {
+          height: 60%;
+     }
+
+     .dl-btn {
+          margin: 0% 3%;
+     }
+
+     .other-courses .card-header h5 {
+          margin-bottom: 0px;
+     }
+
+     .flex-holder3 p {
+          margin-right: 0%;
+          font-size: 11px;
+          margin-bottom: 0px;
+          line-height: normal;
+     }
+
+     .info-div {
+          margin-left: 3%;
+     }
+
+     .flex-holder1 img {
+          // width: 5%;
+          height: 50%;
+     }
+
+     .flex-holder {
+          display: block;
+          text-align: center;
+     }
+
+     .banner-jee-img img {
+          width: 20%;
+          margin-bottom: 20px;
+     }
+
+     .exam-content-banner {
+          height: 50vh;
+     }
+
+     .exam-content-div {
+          margin-right: 5px;
+          margin-left: 5px;
+     }
+
+     #exam-content-tab {
+          margin-right: 0px;
+     }
+
+     .read-more-btn {
+          width: 40%;
+     }
+
+     #college-content-tab .ui-tabview .ui-tabview-panel {
+          margin-right: 0px;
+     }
+
+     .talk-to-expert .card-body img {
+          width: 50% !important
+     }
+
+     #college-content-tab .ui-tabview .ui-tabview-panel {
+          margin-right: 0px
+     }
+
+     .flex-holder3 .img-div img {
+          width: 100%
+     }
+
+     .college-content-banner {
+          margin-right: 0px;
+          margin-left: 0px;
+          padding-bottom: 20px;
+     }
+
+     .img img {
+          width: 100%;
+     }
+
+     .btn-blue img,
+     .dl-btn img {
+          // width: 25%;
+          padding: 8px;
+     }
+
+     .dl-btn {
+          font-size: 10px;
+          padding: 0px 20px;
+     }
+
+     .btn-blue {
+          font-size: 10px;
+          padding: 0px 20px;
+     }
+
+     .custom-spacing {
+          margin-left: 0% !important;
+          padding-right: 1rem !important;
+          padding-left: 1rem !important;
+     }
+
+     .iit-header,
+     .iit-subheader {
+          text-align: left !important;
+          margin-left: 5%
+     }
+
+     .college-content-div {
+          margin-right: 0px;
+          margin-left: 0px;
+     }
+
+     .custom-spacing {
+          width: 100% !important
+     }
+
+     .table {
+          width: 100%
+     }
+
+     .iit-subheader {
+          font-size: 18px !important;
+          margin-bottom: 0px;
+     }
+
+     .cust-padding {
+          padding: 5%;
+     }
+
+     .tab-text p {
+          font-size: 14px;
+     }
+
+     .flex-holder1 p {
+          margin-bottom: 5px;
+     }
+}
+
+.iit-header,
+.iit-subheader {
+     text-align: center;
+}
+
+.iit-subheader {
+     font-size: 26px;
+}
+
+.relative-row {
+     position: relative;
+}
+
+.shade {
+     height: 10vh;
+     width: 100%;
+     background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0.341176));
+     left: 0;
+     position: absolute;
+     top: 120px;
+}
+
+#college-content-tab .ui-tabview.ui-tabview-top>.ui-tabview-nav::-webkit-scrollbar {
+     width: 4px;
+     background-color: #fff;
+}
+
+#college-content-tab .ui-tabview.ui-tabview-top>.ui-tabview-nav::-webkit-scrollbar-thumb {
+     background: orangered;
+     border-radius: 5px;
+     width: 5px;
+}
+
+@media only screen and (max-width:1024px) and (min-width:768px) {
+     .stickyDiv {
+          position: relative !important;
+          z-index: 1 !important;
+          top: 0 !important;
+     }
+
+     .tabcontent {
+          margin-right: 0px !important;
+     }
+
+     .custom-padding-right {
+          padding-right: 12px !important
+     }
+
+     .custom-padding-left {
+          padding-left: 12px !important;
+     }
+
+     .iit-header,
+     .iit-subheader {
+          text-align: left;
+          margin-left: 5%
+     }
+
+     .iit-subheader {
+          font-size: 20px;
+     }
+
+     .cust-padding {
+          padding: 3%;
+     }
+
+     .img img {
+          width: 80%
+     }
+
+     .flex-holder1 img {
+          height: 50%;
+     }
+
+     .flex-holder1 {
+          margin-top: 2%;
+     }
+
+     .btn-blue img,
+     .dl-btn img {
+          padding: 3px;
+     }
+
+     .btn-blue {
+          padding: 0px 30px
+     }
+
+     .flex-holder3 {
+          padding-left: 8%
+     }
+
+     .flex-holder3 img.rating-img {
+          height: 50%;
+     }
+
+     .dl-btn {
+          padding: 0px 0px;
+     }
+
+     .dl-btn span {
+          padding: 5px;
+     }
+
+     .info-div {
+          margin-left: 12%;
+          margin-top: 0px !important;
+     }
+
+     .flex-holder3 .img-div img {
+          width: 70%
+     }
+
+     .college-content-div {
+          margin-left: 0px !important;
+          margin-right: 0px;
+     }
+
+     .college-content-banner {
+          margin-left: 0px
+     }
+
+     #college-content-tab {
+          margin-right: 0px;
+          padding: 0px
+     }
+
+     .flex-holder4 img {
+          width: 60%;
+     }
+}
+
+.custom-spacing {
+     margin-left: 4%;
+     padding-right: 3rem;
+     padding-left: 3rem;
+     margin-top: 0.5rem;
+     width: 70%;
+}
+
+.tab-text p {
+     text-align: justify;
+     font-size: 1rem;
+     line-height: 1.6;
+
+}
+
+.table {
+     width: 100%;
+     font-size: 16px !important;
+     border: none !important;
+     margin-bottom: 1rem;
+     color: rgb(51, 51, 51);
+     border-collapse: collapse;
+}
+
+.table td,
+.table th {
+     padding: 8px;
+     text-align: center;
+     font-size: 16px;
+     vertical-align: baseline;
+     border: 1px solid #595b5c;
+}
+
+.table-responsive {
+     display: table;
+}
+
+.table>:not(caption)>*>* {
+     padding: 5px !important
+}
+
+.answer {
+     margin-bottom: 3%;
+     font-size: 16px;
+}
+
+.que {
+     font-weight: 800;
+     font-size: 18px;
+}
+
+.shade {
+     height: 10vh;
+     width: 100%;
+     background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0.341176));
+     left: 0;
+     position: absolute;
+     bottom: 60px;
+}
+
+.p-relative {
+     position: relative;
+}
+
+.table-content ol li a {
+     color: rgb(79, 184, 221);
+     text-decoration: none;
+}
+
+#college-content-tab h2 {
+     margin-top: 20px;
+     margin-bottom: 10px;
+     font-size: 18px !important;
+     line-height: 1.3;
+     color: rgb(54, 54, 54);
+     font-weight: 700;
+}
+
+#college-content-tab p,
+#college-content-tab ul>li {
+     font-size: 16px;
+     line-height: 25px;
+}
+
+#college-content-tab p {
+     word-break: break-word;
+}
+
+.cust-padding {
+     padding-left: 1.6rem;
+}
+
+.other-courses .card-header h5 {
+     margin-bottom: 0px;
+}
+
+@media only screen and (min-width:1200px) and (max-width:1400px) {
+     .btn-orange {
+          padding: 5px 10px !important;
+     }
+
+     .other-courses .card-header {
+          padding: 5px;
+     }
+}
+
+.custom-padding-right {
+     padding-right: 5px
+}
+
+.custom-padding-left {
+     padding-left: 5px;
+}
+
+.tabcontent {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     //     margin-right: 15px;
+     border-radius: 10px;
+     background-color: #fff !important;
+     padding: 2% !important;
+}
+
+.stickyNav {
+     position: sticky !important;
+     top: 11%;
+     overflow: hidden;
+     z-index: 11;
+     height: auto;
+     width: 100%;
+}
+
+.stickyDiv {
+     position: sticky;
+     top: 17%;
+     overflow: hidden;
+     z-index: 10;
+     height: auto;
+     width: 100%;
+}
+
+.full-width-tabs {
+     padding-top: 4px;
+     padding-bottom: 4px;
+
+}
+
+#navbar {
+     white-space: nowrap;
+     overflow-x: auto;
+     overflow-y: hidden;
+     border-radius: 10px;
+}
+
+.nav-tabs .nav-link.active {
+     color: #0097db;
+     background-color: #fff;
+     border-right: none;
+     border-top: none;
+     border-left: none;
+     border-bottom: 5px solid #0097db;
+}
+
+.nav-tabs .nav-link.active:hover {
+     color: #0097db;
+}
+
+.nav-tabs .nav-link {
+     border: none;
+     color: #000;
+}
+
+.nav-tabs-ul .nav-item a:hover {
+     color: #000;
+}
+
+.bg-white {
+     background-color: #fff !important;
+}
+
+#navbar .nav-item {
+     background-color: #fff;
+     cursor: pointer;
+     padding: 0px;
+}
+
+@media only screen and (max-width:767px) {
+
+     .btn-blue {
+          padding: 0px 40px;
+     }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+     .btn-blue {
+          padding: 3px 30px;
+          font-size: 13px;
+     }
+
+     .dl-btn {
+          font-size: 13px;
+          padding: 3px 6px;
+     }
+
+//      @media only screen and (min-width:768px) and (max-width:991px) {
+
+//           .flex-holder1 img {
+//                // height: 60%;
+//                width: 3%;
+//           }
+
+//           .flex-holder1 img {
+//                height: 56%;
+//           }
+
+//           //  .flex-holder1{
+//           //      display: flex;
+//           //      align-items: center;
+//           //  }
+//      }
+
+//      @media only screen and (min-width:450px) and (max-width:767px) {
+
+//           .flex-holder1 img {
+//                // height: 60%;
+//                width: 3%;
+//           }
+
+//           .flex-holder1 img {
+//                height: 56%;
+//           }
+
+//           .flex-holder1 {
+//                display: flex;
+//                align-items: center;
+//           }
+//      }
+
+//      @media only screen and (max-width:449px) {
+
+//           .flex-holder1 img {
+//                // height: 60%;
+//                width: 5%;
+//           }
+
+//           .flex-holder1 img {
+//                height: 56%;
+//           }
+
+//           .flex-holder1 {
+//                display: flex;
+//                align-items: center;
+//           }
+//      }
+// }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+     .btn-blue{
+          padding: 3px 30px;
+          font-size: 13px;
+      }
+     .dl-btn{
+         font-size: 13px;
+          padding: 3px 6px;
+      }
+}
+
+@media only screen and (max-width:380px){
+     .btn-blue {
+          padding: 0px 40px;
+          display: flex;
+          align-items: center;
+}
+.dl-btn {
+     font-size: 9px;
+     padding: 5px 20px;
+     display: flex;
+     align-items: center;
+ }
+ 
+}
+@media only screen and (min-width:300px) and (max-width:370px){
+     .btn-blue img, .dl-btn img {
+          padding: 0px;
+          margin-left: 5px;
+      }
+}
+@media only screen and (max-width:345px){
+     .dl-btn {
+          font-size: 9px;
+          padding: 5px 10px;
+          display: flex;
+          align-items: center;
+      }
+      .btn-blue[_ngcontent-qew-c2] {
+          padding: 0px 20px;
+          display: flex;
+          align-items: center;
+      }
+}
+
+@media only screen and (max-width:322px){
+
+     .dl-btn {
+          font-size: 9px;
+          padding: 5px 5px;
+          display: flex;
+          align-items: center;
+      }
+      .btn-blue {
+          padding: 0px 20px
+      }
+}
+@media only screen and (max-width: 767px){
+.flex-holder1 img{
+     //  width: 3%; 
+     height: 50%;
+ }
+
+}
+@media only screen and (min-width:560px) and (max-width:992px){
+     .flex-holder1 img{
+          //  width: 3%; 
+          height: 50%;
+      }
+}

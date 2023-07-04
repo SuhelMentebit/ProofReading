@@ -1,0 +1,1792 @@
+<div (scroll)="onscroll" [ngClass]="navbarfixed?'fixed':'nofixed'">
+
+  <div class="container-fluid navigation">
+    <ul class="nav1">
+      <li><a routerLink="/home/." href="/home/." (click)="getclass('home')" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/course/." href="/course/." (click)="getclass('topcourses')" routerLinkActive="active">Top
+          Courses</a></li>
+      <li><a routerLink="/university/." href="/university/.">Top Universities</a></li>
+      <li><a routerLink="/college/." href="/college/.">Top Colleges</a></li>
+      <li><a routerLink="/exams/." (click)="getclass('exam')" routerLinkActive="active">Exams</a></li>
+      <!--li><a routerLink="/about-us" href="/about-us" (click)="getclass('aboutus')"  routerLinkActive="active" >About Us</a></li>
+		<li><a routerLink="/services" href="services" (click)="getclass('services')"  routerLinkActive="active" >Services</a></li-->
+      <li><a routerLink="/news/." href="/news/." (click)="getclass('news')" routerLinkActive="active">News</a></li>
+      <li><a routerLink="/blog/." href="/blog/." (click)="getclass('blogs')" routerLinkActive="active">Blogs</a></li>
+      <li class="gallery"><a routerLinkActive="active">Gallery <i class=" fa fa-angle-down"></i></a>
+        <ul class="gallery-ul">
+          <li> <a routerLink="/image-gallery/." (click)="getclass('imagegallery')" routerLinkActive="active"> Image
+              Gallery</a></li>
+          <li> <a routerLink="/video-gallery/." (click)="getclass('videogallery')" routerLinkActive="active"> Video
+            Gallery</a></li>
+        </ul>
+
+      </li>
+      <li><a routerLink="/faq/." (click)="getclass('faq')" routerLinkActive="active">FAQ</a></li>
+
+      <!--li><a routerLink="/contactus" (click)="getclass('contactus')" routerLinkActive="active">Contact Us</a></li-->
+
+      <li class="navLogin">
+        <a class="nav1DownloadBtn" href="#">Download</a>
+      </li>
+      <li class="navLogin">
+        <a href="#">Login</a>
+      </li>
+      <li class="navLogin">
+        <a href=""><i class="fa fa-phone-square" aria-hidden="true"></i> 180030700033</a>
+      </li>
+
+    </ul>
+
+
+  </div>
+  <!-- <hr>    -->
+
+
+
+  <nav [ngClass]="bgClass">
+    <div [ngClass]="navbarlogo?'logofixed':'logo'">
+      <a routerLink="/home">
+        <img src="../../assets/img/new_logo_color.png" width="220px" height="auto" class="syuLogo college-page-logo">
+        <img src="../../assets/img/Home Page/7. Footer/SYU-Logo.png" width="220px" height="auto" class="syuLogo">
+
+      </a>
+    </div>
+    <div class="wrapper">
+
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
+        <!--li><a routerLink="/courses"  href="Courses.html">Courses</a></li-->
+        <li>
+          <a routerLink="/colleges" (mouseleave)="mouseLeave()" class="desktop-item">Engineering <i
+              class=" fa fa-angle-down"></i></a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Colleges <i class="fa fa-angle-down"></i></label>
+
+          <div class="mega-box">
+
+            <div class="col-lg-12 row scroll">
+
+              <div class="col-lg-3 col-md-3 content">
+                <div id="menubox" class="menu">
+                  <div class="col-lg-12 col-sm-12">
+                    <!--header>TOP MBA COLLEGES IN INDIA</header-->
+                    <!--<img src="images/img.jpg" alt="">-->
+                    <ul class="mega-links">
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter()" class="First" target="1">Courses<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter2()" class="First" target="2">India Colleges<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter3()" class="First" target="3">Abroad Colleges<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <!--<li><a id="menuboxli" (mouseenter)="mouseEnter4()" class="First" target="4">College by State <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>-->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-9 col-md-9 anim">
+                <div class="row">
+                  <div *ngIf="showdiv1==true" class=" col-lg-3 col-sm- 12 tar target active1" id="div1">
+                    <!-- <header>TOP MBA COLLEGES IN INDIA</header> -->
+                    <!-- <header>TOP COLLEGE BY COURSE</header> -->
+                    <ul class="mega-links UL1">
+                      <li><a href="#" id="menuboxli" (mouseenter)="mouseEnter5()" class="second" target="1">India<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli" (mouseenter)="mouseEnter6()" class="second" target="2">Abroad<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+
+                      <!-- <li><a routerLink="/mpcollege" routerLinkActive="active">Top MBA Colleges in MP</a></li>
+                                <li><a routerLink="/sukhsagarcollege" routerLinkActive="active">Top MBA Colleges in Jabalpur</a></li>
+                                <li><a href="#">Top MBA Colleges in Chennai</a></li>
+                                <li><a href="#">Top MBA Colleges in Pune</a></li>
+                                <li><a href="#">Top MBA Colleges in Bhopal</a></li>
+                                <li><a href="#">Top MBA Colleges in Jaipur</a></li> -->
+                    </ul>
+                  </div>
+                  <div *ngIf="showdiv2==true" class=" col-lg-3 col-sm- 12 tar target active1" id="div2">
+                    <!-- <header>TOP MBA COLLEGES IN INDIA</header> -->
+                    <!-- <header>TOP COLLEGE BY COURSE</header> -->
+                    <ul class="mega-links UL1" >
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter7()" class="second" target="1">Pune<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter8()" class="second" target="2">Solapur<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter9()" class="second" target="3">Kerala<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter10()" class="second" target="4">Rajasthan<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter11()" class="second" target="5">Banglore<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+
+
+                    </ul>
+                  </div>
+                  <div *ngIf="showdiv3==true" class="col-lg-3 col-sm- 12 tar target" id="div3">
+                    <!-- <header>TOP COLLEGE BY CITY</header> -->
+                    <ul class="mega-links UL1">
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter12()" class="third" target="1">Poland<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter13()" class="third" target="2">Ukraine<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli2" (mouseenter)="mouseEnter14()" class="third" target="3">Russia<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                    </ul>
+                  </div> 
+
+                   <div *ngIf="showdiv5==true" class=" col-lg-3 col-sm- 12 tar target active1" id="div5">
+                    <ul class="mega-links UL1">
+                      <li><a href="/course/bachelor-of-technology-btech/." id="menuboxli1" class="second" target="1">B. Tech</a></li>
+                      <!--<li><a href="#" id="menuboxli1" class="second" target="2">M. Tech</a></li>
+                      <li><a href="#" id="menuboxli1" class="second" target="3">BE</a></li>
+                      <li><a href="#" id="menuboxli1" class="second" target="4">ME</a></li>-->
+                    </ul>
+                  </div>
+
+                   <div *ngIf="showdiv6==true" class=" col-lg-3 col-sm- 12 tar target active1" id="div6"> 
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="course/engineering-in-poland/." id="menuboxli1" class="second" target="1">Engineering in Poland</a></li>
+                      <li><a routerLink="course/engineering-in-ukraine/." id="menuboxli1" class="second" target="2">Engineering in Ukraine</a></li>
+                      <li><a routerLink="course/engineering-in-russia/." id="menuboxli1" class="second" target="3">Engineering in Russia </a></li>
+                      <li><a routerLink="course/engineering-in-ireland/." id="menuboxli1" class="second" target="5">Engineering in Ireland</a></li>
+                      <li><a routerLink="course/engineering-in-germany/." id="menuboxli1" class="second" target="6">Engineering in Germany</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv7==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div7">
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="/college/pune-institute-of-computer-technology-pict-pune/." id="menuboxli1" class="second" target="1">Pune Institute of Computer Technology</a></li>
+                      <li><a routerLink="/college/mit-college-of-engineering-pune/." id="menuboxli1" class="second" target="2">MIT College of Engineering</a></li>
+                      <li><a routerLink="/college/vishwakarma-institute-of-technology-vit-pune/." id="menuboxli1" class="second" target="3">Vishwakarma Institute of Technology</a></li>
+                      <li><a routerLink="/college/dr-dy-patil-institute-of-technology-dypit-pimpri-pune/." id="menuboxli1" class="second" target="4">Dr. D. Y Patil Institute of Technology</a></li>
+                      <li><a routerLink="/college/sinhgad-college-of-engineering-scoe-vadgaon-pune/." id="menuboxli1" class="second" target="5">Sinhgad College of Engineering</a></li>
+                      <li><a routerLink="/college/bharati-vidyapeeth-college-of-engineering-bvcoe-pune/." id="menuboxli1" class="second" target="6">Bharati Vidyapeeth College of Engineering, Pune</a></li>
+                      <li><a routerLink="/college/symbiosis-institute-of-technology-sit-pune/." id="menuboxli1" class="second" target="7">Symbiosis Institute of Technology</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv8==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div8">
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="/college/walchand-institute-of-technology-solapur/." id="menuboxli1" class="second" target="1">Walchand Institute of Technology</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv9==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div9">
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="/college/scms-school-of-engineering-and-technology-kerala/." id="menuboxli1" class="second" target="1">SCMS School of Engineering</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv10==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div10">
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="/college/birla-institute-of-technology-and-science-bits-pilani/." id="menuboxli1" class="second" target="1">Birla Institute of Technology</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv11==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div11">
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="/college/mvj-college-of-engineering-bangalore" id="menuboxli1" class="second" target="1">MVJ College of Engineering</a></li>
+                      <li><a routerLink="/college/ramaiah-institute-of-technology-rit-bangalore" id="menuboxli1" class="second" target="2">Ramaiah Institute of Technology</a></li>
+                      <li><a routerLink="/college/bms-college-of-engineering-bangalore" id="menuboxli1" class="second" target="3">BMS College of Engineering</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv12==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div12">
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="/university/poznan-university-of-technology" id="menuboxli1" class="second" target="1">Poznan University of Technology</a></li>
+                      <li><a routerLink="/university/gdansk-university-of-technology" id="menuboxli1" class="second" target="2">Gdansk University of Technology</a></li>
+                      <li><a routerLink="/university/agh-university-of-science-and-technology" id="menuboxli1" class="second" target="3">AGH University of Science & Technology</a></li>
+                      <li><a routerLink="/university/warsaw-university-of-technology" id="menuboxli1" class="second" target="1">Warsaw University of Technology</a></li>
+                      <li><a routerLink="/university/silesian-university-of-technology" id="menuboxli1" class="second" target="2">Silesian University of Technology</a></li>
+                      <li><a routerLink="/university/cracow-university-of-technology" id="menuboxli1" class="second" target="3">Cracow University of Technology</a></li>
+                      <li><a routerLink="/university/lodz-university-of-technology" id="menuboxli1" class="second" target="2">Lodz University of Technology</a></li>
+                      <li><a routerLink="/university/wroclaw-university-of-technology" id="menuboxli1" class="second" target="3">Wroclaw University of Technology</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv13==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div13">
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="/university/kyiv-polytechnic-institute" id="menuboxli1" class="second" target="1">Kyiv Polytechnic Institute</a></li>
+                      <li><a routerLink="/university/kharkiv-national-university-of-radio-electronics" id="menuboxli1" class="second" target="2">Kharkiv National University of Radio Electronics</a></li>
+                      <li><a routerLink="/university/cherkasy-state-technological-university" id="menuboxli1" class="second" target="3">Cherkasy State Technological University</a></li>
+                      <li><a routerLink="/university/national-metallurgical-academy-of-ukraine" id="menuboxli1" class="second" target="1">National Metallurgical Academy of Ukraine</a></li>
+                      <li><a routerLink="/university/ukrainian-state-chemical-technology-university" id="menuboxli1" class="second" target="2">Ukrainian State Chemical Technology University</a></li>
+                      <li><a routerLink="/university/ivano-frankivsk-national-university-of-oil-and-gas" id="menuboxli1" class="second" target="3">Ivano-Frankivsk National University of Oil & Gas</a></li>
+                      <li><a routerLink="/university/donbass-state-engineering-academy" id="menuboxli1" class="second" target="2">Donbass State Engineering Academy</a></li>
+                      <li><a routerLink="/university/ternopil-national-technical-university" id="menuboxli1" class="second" target="3">Ternopil National Technical University</a></li>
+                      <li><a routerLink="/university/zaporizhzhia-state-engineering-academy" id="menuboxli1" class="second" target="1">Zaporizhzhia State Engineering Academy</a></li>
+                      <li><a routerLink="/university/kremenchuk-state-technical-university" id="menuboxli1" class="second" target="2">Kremenchuk State Technical University</a></li>
+                      <li><a routerLink="/university/kherson-national-technical-university" id="menuboxli1" class="second" target="3">Kherson National Technical University</a></li>
+                      <li><a routerLink="/university/vinnytsia-national-technical-university" id="menuboxli1" class="second" target="2">Vinnytsia National Technical University</a></li>
+                      <li><a routerLink="/university/lviv-polytechnic-national-university" id="menuboxli1" class="second" target="3">Lviv Polytechnic National University</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv14==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="/university/kalmyk-state-university" id="menuboxli1" class="second" target="1">Kalmyk State University</a></li>
+                      <li><a routerLink="/university/north-caucasus-federal-university" id="menuboxli1" class="second" target="2">North-Caucasus Federal University</a></li>
+                      <li><a routerLink="/university/pskov-state-polytechnic-institute" id="menuboxli1" class="second" target="3">Pskov State Polytechnic Institute</a></li>
+                      <li><a routerLink="/university/moscow-institute-of-physics-and-technology" id="menuboxli1" class="second" target="1">Moscow Institute of Physics and Technology</a></li>
+                      <li><a routerLink="/university/perm-state-agro-technological-university" id="menuboxli1" class="second" target="2">Perm State Agro - Technological University</a></li>
+                      <li><a routerLink="/university/bauman-moscow-state-technical-university" id="menuboxli1" class="second" target="3">Bauman Moscow State Technical University</a></li>
+                      <li><a routerLink="/university/moscow-state-university-of-fine-chemical-technologies" id="menuboxli1" class="second" target="2">Moscow State University of Fine Chemical Technologies</a></li>
+                      <li><a routerLink="/university/national-university-of-science-and-technology-misis" id="menuboxli1" class="second" target="3">National University of Science and Technology MISIS</a></li>
+                      <li><a routerLink="/university/south-ural-state-university" id="menuboxli1" class="second" target="1">South Ural State University</a></li>
+                      <li><a routerLink="/university/irkutsk-national-research-technical-university" id="menuboxli1" class="second" target="2">Irkutsk National Research Technical University</a></li>
+                      <li><a routerLink="/university/itmo-university" id="menuboxli1" class="second" target="3">ITMO University</a></li>
+                      <li><a routerLink="/university/novosibirsk-state-university" id="menuboxli1" class="second" target="2">Novosibirsk State Technical University</a></li>
+                      <li><a routerLink="/university/moscow-power-engineering-institute" id="menuboxli1" class="second" target="3">Moscow Power Engineering Institute</a></li>
+                      <li><a routerLink="/university/tomsk-polytechnic-university" id="menuboxli1" class="second" target="3">Tomsk Polytechnic University</a></li>
+                      <li><a routerLink="/university/moscow-state-university-of-civil-engineering" id="menuboxli1" class="second" target="3">Moscow State University of Civil Engineering</a></li>
+                      <li><a routerLink="/university/nizhny-novgorod-state-technical-university" id="menuboxli1" class="second" target="3">Nizhny Novgorod State Technical University</a></li>
+                      <li><a routerLink="/university/saint-petersburg-state-institute-of-technology" id="menuboxli1" class="second" target="3">Saint Petersburg State Institute of Technology</a></li>
+                      <li><a routerLink="/university/peter-great-st-petersburg-polytechnic-university" id="menuboxli1" class="second" target="3">Peter the Great St. Petersburg Polytechnic University</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+
+
+              </div> <!-- End anim -->
+
+            </div><!-- MegaRow1 -->
+
+            <div class="clearfix"></div>
+
+            <div class="col-lg-12 row featureSection">
+              <div class="col-lg-12 col-md-12" style="max-height: 40px;">
+                <p class="featureHeading">TOP ENGINEERING COLLEGES IN INDIA</p>
+              </div>
+              <div class="col-lg-12 featureCardBoxPadding">
+                <div class="row">
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/col30730.png?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/col30730.png?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a routerLink="/college/dr-dy-patil-institute-of-technology-dypit-pimpri-pune"> Dr. D. Y. Patil Institute of Technology</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a routerLink="/college/dr-dy-patil-institute-of-technology-dypit-pimpri-pune">Pune, Maharashtra</a></p>
+                      </div>
+                      <!-- <div>
+                              <p>IIM Bangalore - Indian Institute of Management</p>
+                              <p class="cd-bottom-card-subhead">Bangalore ,  Karnataka</p>
+                            </div> -->
+                    </div>
+                  </div>
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/1501584806Capture1.jpg?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/1501584806Capture1.jpg?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a routerLink="/college/bharati-vidyapeeth-college-of-engineering-bvcoe-pune">Bharati Vidyapeeth College of Engineering</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a routerLink="/college/bharati-vidyapeeth-college-of-engineering-bvcoe-pune">PUNE , Maharastra</a></p>
+                      </div>
+                      <!-- <div>
+                                <p>MIT WORLD PEACE UNIVERSITY - [MITWPU]</p>
+                                <p class="cd-bottom-card-subhead">PUNE ,  Maharastra</p>
+                              </div> -->
+                    </div>
+                  </div>
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/1408968357iiml.jpg?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/1408968357iiml.jpg?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a routerLink="/college/walchand-institute-of-technology-solapur">Walchand Institute of Technology</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a routerLink="/college/walchand-institute-of-technology-solapur">Solapur, Maharashtra</a></p>
+                      </div>
+
+                      <!-- <div>
+                                <p>Indian Institute of Management - [IIM]</p>
+                                <p class="cd-bottom-card-subhead">Lucknow ,  Uttar Pradesh</p>
+                              </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- mega-box -->
+        </li>
+
+
+
+        <!-- MBA New menu -->
+        <li>
+          <a routerLink="/colleges" (mouseleave)="mouseLeave()" class="desktop-item">Medical <i
+              class=" fa fa-angle-down"></i></a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Colleges <i class="fa fa-angle-down"></i></label>
+
+          <div class="mega-box">
+            <div class="col-lg-12 row scroll">
+              <div class="col-lg-3 col-md-3 content">
+                <div id="menubox" class="menu">
+                  <div class="col-lg-12 col-sm-12">
+                    <ul class="mega-links">
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter()" class="First" target="1">Courses <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter2()" class="First" target="2">India <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter3()" class="First" target="3">Abroad<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-9 col-md-9 anim">
+
+                <div class="row">
+                  <div *ngIf="showdiv1==true" class=" col-lg-3 col-sm- 12 tar target active1" id="div1">
+                    <!-- <header>TOP COLLEGE BY COURSE</header> -->
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="course/mbbs-in-ukraine/.">MBBS in Ukraine</a></li>
+                      <li><a routerLink="course/mbbs-in-belarus/.">MBBS in Belarus</a></li>
+                      <li><a routerLink="course/mbbs-in-usa/.">MBBS in USA</a></li>
+                      <li><a routerLink="course/mbbs-in-uk/.">MBBS in UK</a></li>
+                      <li><a routerLink="course/mbbs-in-china/.">MBBS in China</a></li>
+                      <li><a routerLink="course/mbbs-in-new-zealand/.">MBBS in New Zealand</a></li>
+                      <li><a routerLink="course/mbbs-in-australia/.">MBBS in Australia</a></li>
+                      <li><a routerLink="course/mbbs-in-bulgaria/.">MBBS in Bulgaria</a></li>
+                      <li><a routerLink="course/mbbs-in-romania/.">MBBS in Romania</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv1==true" class=" col-lg-3 col-sm- 12 tar target active1" id="div1">
+                    <!-- <header>TOP COLLEGE BY COURSE</header> -->
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="course/mbbs-in-germany">MBBS in Germany</a></li>
+                      <li><a routerLink="course/mbbs-in-philippines">MBBS in Philippines</a></li>
+                      <li><a routerLink="course/mbbs-in-ireland">MBBS in Ireland</a></li>
+                      <li><a routerLink="course/mbbs">MBBS in India</a></li>
+                      <li><a routerLink="course/mbbs-abroad">MBBS in Abroad</a></li>
+                      <li><a routerLink="course/mbbs-in-malta">MBBS in Malta</a></li>
+                      <li><a routerLink="course/mbbs-in-italy">MBBS in Italy</a></li>
+                      <li><a routerLink="course/mbbs-in-czech-republic">MBBS in Czech Republic</a></li>
+                      <li><a routerLink="course/mbbs-in-hungary">MBBS in Hungary</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv1==true" class=" col-lg-3 col-sm- 12 tar target active1" id="div1">
+                    <!-- <header>TOP COLLEGE BY COURSE</header> -->
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="course/mbbs-in-russia">MBBS in Russia</a></li>
+                      <li><a routerLink="course/mbbs-in-georgia">MBBS in Georgia</a></li>
+                      <li><a routerLink="course/mbbs-in-nepal">MBBS in Nepal</a></li>
+                      <li><a routerLink="course/mbbs-in-poland">MBBS in Poland</a></li>
+                      <li><a routerLink="course/mbbs-in-europe">MBBS in Europe</a></li>
+                      <li><a routerLink="course/mbbs-in-lithuania">MBBS in Lithuania</a></li>
+                      <li><a routerLink="course/mbbs-in-france">MBBS in France</a></li>
+                      <li><a routerLink="course/mbbs-in-austria">MBBS in Austria</a></li>
+                    </ul>
+                  </div>
+                  <div *ngIf="showdiv1==true" class=" col-lg-3 col-sm- 12 tar target active1" id="div1">
+                    <!-- <header>TOP COLLEGE BY COURSE</header> -->
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="course/mbbs-in-bangladesh">MBBS in Bangladesh</a></li>
+                      <li><a routerLink="course/mbbs-in-kazakhstan">MBBS in Kazakhstan</a></li>
+                      <li><a routerLink="course/mbbs-in-kyrgyzstan">MBBS in Kyrgyzstan</a></li>
+                      <li><a routerLink="course/mbbs-in-armenia">MBBS in Armenia</a></li>
+                      <li><a routerLink="course/mbbs-in-uzbekistan">MBBS in Uzbekistan</a></li>
+                      <li><a routerLink="course/mbbs-in-latvia">MBBS in Latvia</a></li>
+                      <li><a routerLink="course/mbbs-in-malaysia">MBBS in Malaysia</a></li>
+                      <li><a routerLink="course/mbbs-in-canada">MBBS in Canada</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv2==true" class=" col-lg-6 col-sm- 12 tar target" id="div2">
+                    <!-- <header>TOP COURSE</header> -->
+                    <ul class="mega-links">
+                      <li><a href="/college/all-india-institute-of-medical-sciences-aiims-new-delhi">All India Institute of Medical Science</a></li>
+                      <li><a href="/college/armed-forces-medical-college-afmc-pune">Armed Forces Medical College</a></li>
+                      <li><a href="/university/bharati-vidyapeeth-deemed-university-pune">Bharati Vidyapeeth Deemed University</a></li>
+                      <li><a href="/college/dr-dy-patil-medical-college-kolhapur">D.Y. Patil Medical College, Kolhapur</a></li>
+                      <li><a href="/college/bharati-vidyapeeth-medical-college-pune">Bharati Vidyapeeth Medical College, Pune</a></li>
+                      <li><a href="/college/indian-institute-of-medical-science-and-research-iimsr-jalna">Indian Institute of Medical Science and Research</a></li>
+                    </ul>
+                  </div>
+                  <div *ngIf="showdiv2==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                    <!-- <header>TOP COURSE</header> -->
+                    <ul class="mega-links">
+                      <li><a href="/college/dr-dy-patil-medical-college-pune">DY Patil Medical College Pune</a></li>
+                      <li><a href="/college/terna-medical-college-navi-mumbai">Terna Medical College</a></li>
+                      <li><a href="/college/krishna-institute-of-medical-sciences-kims-karad">Krishna Institute of Medical Sciences</a></li>
+                      <li><a href="/college/kj-somaiya-medical-college-research-centre-kjsmc-mumbai">KJ Somaiya Medical College & Research Center</a></li>
+                      <li><a href="/college/dr-dy-patil-medical-college-hospital-navi-mumbai">D.Y. Patil Medical College, Navi Mumbai</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv3==true" class="col-lg-3 col-sm- 12 tar target" id="div3">
+                    <!-- <header>TOP COLLEGE BY CITY</header> -->
+                    <ul class="mega-links UL1">
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter12()" class="First" target="1">Ukraine<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter13()" class="First" target="2">Poland<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter14()" class="First" target="3">Georgia<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter15()" class="First" target="4">Kyrgyzstan <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter16()" class="First" target="5">Russia <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter17()" class="First" target="6">Nepal <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter18()" class="First" target="7">Bangladesh <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter19()" class="First" target="8">Philippines <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter20()" class="First" target="9">China <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter21()" class="First" target="10">Belarus <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter22()" class="First" target="11">Kazakhstan <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter23()" class="First" target="12">Armenia <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter24()" class="First" target="13">Uzbekistan <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter29()" class="First" target="14">Bulgaria <i
+                              class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv12==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div12">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/bogomolets-national-medical-university" id="menuboxli1" class="second" target="1">Bogomolets National Medical University</a></li>
+                      <li><a href="/university/bukovinian-state-medical-university" id="menuboxli1" class="second" target="2">Bukovinian State Medical University</a></li>
+                      <li><a href="/university/danylo-halytsky-lviv-state-medical-university" id="menuboxli1" class="second" target="3">Danylo Halytsky Lviv National Medical University</a></li>
+                      <li><a href="/university/kharkiv-international-medical-university" id="menuboxli1" class="second" target="4">Kharkiv International Medical University</a></li>
+                      <li><a href="/university/dnipropetrovsk-state-medical-academy" id="menuboxli1" class="second" target="1">Dnipropetrovsk State Medical Academy</a></li>
+                      <li><a href="/university/ivano-frankivsk-national-medical-university" id="menuboxli1" class="second" target="2">Ivano Frankivsk National Medical University</a></li>
+                      <li><a href="/university/taras-shevchenko-national-university-of-kyiv" id="menuboxli1" class="second" target="3">Taras Shevchenko National University</a></li>
+                      <li><a href="/university/lugansk-state-medical-university" id="menuboxli1" class="second" target="4">Lugansk State Medical University</a></li>
+                      <li><a href="/university/odessa-national-medical-university" id="menuboxli1" class="second" target="1">Odessa National Medical University</a></li>
+                      <li><a href="/university/ternopil-national-medical-university" id="menuboxli1" class="second" target="2">Ternopil National Medical University</a></li>
+                      <li><a href="/university/uzhhorod-national-medical-university" id="menuboxli1" class="second" target="3">Uzhhorod National Medical University</a></li>
+                      <li><a href="/university/zaporozhye-state-medical-university" id="menuboxli1" class="second" target="4">Zaporozhye State Medical University</a></li>
+                      <li><a href="/university/vinnitsa-national-medical-university" id="menuboxli1" class="second" target="1">Vinnitsa National Medical University</a></li>
+                      <li><a href="/university/donetsk-national-medical-university" id="menuboxli1" class="second" target="2">Donetsk National Medical University</a></li>
+                      <li><a href="/university/kharkiv-national-medical-university" id="menuboxli1" class="second" target="3">Kharkiv National Medical University</a></li>
+                      <li><a href="/university/kyiv-medical-university-of-uafm-kiev" id="menuboxli1" class="second" target="4">Kyiv Medical University of uafm kiev</a></li>
+                      <li><a href="/university/petro-mohyla-black-sea-national-university" id="menuboxli1" class="second" target="1">Petro Mohyla Black Sea National University</a></li>
+                      <li><a href="/university/sumy-state-university" id="menuboxli1" class="second" target="2">Sumy State University</a></li>
+                      <li><a href="/university/poltava-state-medical-and-dental-university" id="menuboxli1" class="second" target="3">Poltava State Medical & Dental University</a></li>
+                      <li><a href="/university/v-n-karazin-kharkiv-national-university" id="menuboxli1" class="second" target="4">V.N.Karazin Kharkiv National University</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv13==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div13">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/poznan-university-of-medical-science" id="menuboxli1" class="second" target="1">Poznan University of Medical Science</a></li>
+                      <li><a href="/university/gdansk-medical-university" id="menuboxli1" class="second" target="2">Gdansk Medical University</a></li>
+                      <li><a href="/university/jagiellonian-university-medical-college" id="menuboxli1" class="second" target="3">Jagiellonian University Medical College</a></li>
+                      <li><a href="/university/medical-university-of-bialystok" id="menuboxli1" class="second" target="4">Medical University of Bialystok</a></li>
+                      <li><a href="/university/medical-university-of-silesia" id="menuboxli1" class="second" target="1">Medical University of Silesia</a></li>
+                      <li><a href="/university/medical-university-of-warsaw" id="menuboxli1" class="second" target="2">Medical University of Warsaw</a></li>
+                      <li><a href="/university/nicolaus-copernicus-university" id="menuboxli1" class="second" target="3">Nicolaus Copernicus University</a></li>
+                      <li><a href="/university/university-of-warmia-and-mazury" id="menuboxli1" class="second" target="4">Warmia And Mazury University</a></li>
+                      <li><a href="/university/medical-university-of-lodz" id="menuboxli1" class="second" target="1">Medical university of Lodz</a></li>
+                      <li><a href="/university/medical-university-of-lublin" id="menuboxli1" class="second" target="2">Medical University of Lublin</a></li>
+                      <li><a href="/university/wroclaw-medical-university" id="menuboxli1" class="second" target="3">Wroclaw Medical University</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv14==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/university-of-georgia-tbilisi" id="menuboxli1" class="second" target="1">University of Georgia</a></li>
+                      <li><a href="/university/akaki-tsereteli-state-university" id="menuboxli1" class="second" target="2">Akaki Tsereteli State University</a></li>
+                      <li><a href="/university/caucasus-international-university" id="menuboxli1" class="second" target="3">Caucasus International University</a></li>
+                      <li><a href="/university/david-tvildiani-medical-university" id="menuboxli1" class="second" target="4">David Tvildiani Medical University</a></li>
+                      <li><a href="/university/geomedi-state-university" id="menuboxli1" class="second" target="1">Geomedi State University</a></li>
+                      <li><a href="/university/tbilisi-state-medical-university" id="menuboxli1" class="second" target="2">Tbilisi State Medical University</a></li>
+                      <li><a href="/university/david-agmashenebeli-university-of-georgia" id="menuboxli1" class="second" target="3">David Agmashenebeli University of Georgia</a></li>
+                      <li><a href="/university/tbilisi-open-teaching-university" id="menuboxli1" class="second" target="4">Tbilisi Open Teaching university</a></li>
+                      <li><a href="/university/georgian-american-university" id="menuboxli1" class="second" target="1">Georgian American University</a></li>
+                      <li><a href="/university/east-european-university" id="menuboxli1" class="second" target="2">East European University</a></li>
+                      <li><a href="/university/batumi-shota-rustaveli-state-university" id="menuboxli1" class="second" target="3">Batumi Shota Rustaveli State University</a></li>
+                      <li><a href="/university/new-vision-university" id="menuboxli1" class="second" target="1">New Vision University</a></li>
+                      <li><a href="/university/european-university-georgia" id="menuboxli1" class="second" target="2">European University Georgia</a></li>
+                      <li><a href="/university/ivane-javakhishvili-tbilisi-state-university" id="menuboxli1" class="second" target="3">Ivane Javakhishvili Tbilisi State University</a></li>
+                      <li><a href="/university/tbilisi-medical-university-hippocrates" id="menuboxli1" class="second" target="4">Tbilisi Medical University 'Hippocrates'</a></li>
+                      <li><a href="/university/georgian-national-university-seu" id="menuboxli1" class="second" target="1">Georgian National University SEU</a></li>
+                      <li><a href="/university/petre-shotadze-tbilisi-medical-academy" id="menuboxli1" class="second" target="2">Petre Shotadze Tbilisi Medical Academy</a></li>
+                      <li><a href="/university/tbilisi-public-university-metekhi" id="menuboxli1" class="second" target="3">Tbilisi Public University Metekhi</a></li>
+                      <li><a href="/university/ilia-state-university" id="menuboxli1" class="second" target="1">Ilia State University</a></li>
+                      <li><a href="/university/bau-international-university-batumi" id="menuboxli1" class="second" target="2">BAU International University, Batumi</a></li>
+                      <li><a href="" id="menuboxli1" class="second" target="3">Grigol Robakidze University</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv15==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/international-higher-school-of-medicine" id="menuboxli1" class="second" target="1">International School of Medicine</a></li>
+                      <li><a href="/university/kyrgyz-russian-slavic-university" id="menuboxli1" class="second" target="2">Kyrgyz Russian Slavic University</a></li>
+                      <li><a href="/university/jalalabad-state-university" id="menuboxli1" class="second" target="3">Jalalabad State University</a></li>
+                      <li><a href="/university/asian-medical-institute" id="menuboxli1" class="second" target="4">Asian Medical Institute</a></li>
+                      <li><a href="/university/kyrgyz-state-medical-academy" id="menuboxli1" class="second" target="1">Kyrgyz State Medical Academy</a></li>
+                      <li><a href="/university/kyrgyz-national-university" id="menuboxli1" class="second" target="2">Kyrgyz National University</a></li>
+                      <li><a href="/university/osh-state-university" id="menuboxli1" class="second" target="3">Osh State University</a></li>
+                      <li><a href="/university/avicenna-international-medical-university" id="menuboxli1" class="second" target="4">Avicenna International Medical University</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv16==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/altai-state-medical-university" id="menuboxli1" class="second" target="1">Altai State Medical University</a></li>
+                      <li><a href="/university/smolensk-state-medical-university" id="menuboxli1" class="second" target="2">Smolensk State Medical University</a></li>
+                      <li><a href="/university/crimean-federal-university" id="menuboxli1" class="second" target="3">Crimean Federal University</a></li>
+                      <li><a href="/university/lomonosov-moscow-state-university" id="menuboxli1" class="second" target="4">Lomonosov Moscow State University</a></li>
+                      <li><a href="/university/kazan-state-medical-university" id="menuboxli1" class="second" target="1">Kazan State Medical University</a></li>
+                      <li><a href="/university/perm-state-medical-university" id="menuboxli1" class="second" target="2">Perm State Medical University</a></li>
+                      <li><a href="/university/pskov-state-university" id="menuboxli1" class="second" target="3">Pskov State University</a></li>
+                      <li><a href="/university/penza-state-medical-university" id="menuboxli1" class="second" target="4">Penza State Medical University</a></li>
+                      <li><a href="/university/kuban-state-medical-university" id="menuboxli1" class="second" target="1">Kuban State Medical University</a></li>
+                      <li><a href="/university/ivanovo-state-medical-academy" id="menuboxli1" class="second" target="2">Ivanovo State Medical Academy</a></li>
+                      <li><a href="/university/kemerovo-state-medical-university" id="menuboxli1" class="second" target="3">Kemerovo State Medical University</a></li>
+                      <li><a href="/university/volgograd-state-medical-university" id="menuboxli1" class="second" target="4">Volgograd State Medical University</a></li>
+                      <li><a href="/university/dagestan-state-medical-university" id="menuboxli1" class="second" target="1">Dagestan State Medical University</a></li>
+                      <li><a href="/university/bashkir-state-medical-university" id="menuboxli1" class="second" target="2">Bashkir State Medical University</a></li>
+                      <li><a href="/university/tambov-state-university" id="menuboxli1" class="second" target="3">Tambov State University</a></li>
+                      <li><a href="/university/kursk-state-medical-university" id="menuboxli1" class="second" target="4">Kursk State Medical University</a></li>
+                      <li><a href="/university/irkutsk-state-medical-university" id="menuboxli1" class="second" target="1">Irkutsk State Medical University</a></li>
+                      <li><a href="/university/yaroslavl-state-medical-university" id="menuboxli1" class="second" target="2">Yaroslavl State Medical University</a></li>
+                      <li><a href="/university/north-ossetian-state-medical-academy" id="menuboxli1" class="second" target="3">North Ossetian State Medical Academy</a></li>
+                      <li><a href="/university/siberian-state-medical-university" id="menuboxli1" class="second" target="4">Siberian State Medical University</a></li>
+                      <li><a href="/university/pavlov-first-saint-petersburg-state-medical-university" id="menuboxli1" class="second" target="1">Pavlov First Saint Petersburg State Medical University</a></li>
+                      <li><a href="/university/ryazan-state-medical-university" id="menuboxli1" class="second" target="2">Ryazan State Medical University</a></li>
+                      <li><a href="/university/privolzhsky-research-medical-university" id="menuboxli1" class="second" target="3">Privolzhsky Research Medical University</a></li>
+                      <li><a href="/university/rostov-state-medical-university" id="menuboxli1" class="second" target="4">Rostov State Medical University</a></li>
+                      <li><a href="/university/pacific-state-medical-university" id="menuboxli1" class="second" target="1">Pacific State Medical University</a></li>
+                      <li><a href="/university/belgorod-state-university" id="menuboxli1" class="second" target="2">Belgorod State University</a></li>
+                      
+                      <li><a href="/university/izhevsk-state-medical-academy" id="menuboxli1" class="second" target="3">Izhevsk State Medical Academy</a></li>
+                      <li><a href="/university/chuvash-state-university" id="menuboxli1" class="second" target="4">Chuvash State University</a></li>
+                      <li><a href="/university/novosibirsk-state-university" id="menuboxli1" class="second" target="1">Novosibirsk National Research State University</a></li>
+                      <li><a href="/university/ogarev-mordovia-state-university" id="menuboxli1" class="second" target="2">Ogarev Mordovia State University</a></li>
+                      <li><a href="/university/ulyanovsk-state-university" id="menuboxli1" class="second" target="3">Ulyanovsk State University</a></li>
+                      <li><a href="/university/orel-state-university" id="menuboxli1" class="second" target="4">Orel State University</a></li>
+                      <li><a href="/university/astrakhan-state-medical-university" id="menuboxli1" class="second" target="1">Astrakhan State Medical University</a></li>
+                      <li><a href="/university/russian-national-research-medical-university" id="menuboxli1" class="second" target="2">Russian National Research Medical University</a></li>
+                      <li><a href="/university/saratov-state-medical-university" id="menuboxli1" class="second" target="3">Saratov State Medical University</a></li>
+                      <li><a href="/university/omsk-state-medical-university" id="menuboxli1" class="second" target="4">Omsk State Medical University</a></li>
+                      <li><a href="/university/far-eastern-federal-university" id="menuboxli1" class="second" target="1">Far Eastern Federal University</a></li>
+                      <li><a href="/university/orenburg-state-medical-university" id="menuboxli1" class="second" target="2">Orenburg State Medical University</a></li>
+                      <li><a href="/university/first-moscow-state-medical-university" id="menuboxli1" class="second" target="3">First Moscow State Medical University</a></li>
+                      <li><a href="/university/st-petersburg-state-pediatric-medical-university" id="menuboxli1" class="second" target="4">ST. Petersburg State Pediatric Medical University</a></li>
+                      <li><a href="/university/peoples-friendship-university" id="menuboxli1" class="second" target="1">Peoples' Friendship University</a></li>
+                      <li><a href="/university/stavropol-state-medical-university" id="menuboxli1" class="second" target="2">Stavropol State Medical University</a></li>
+                      <li><a href="/university/kazan-federal-university" id="menuboxli1" class="second" target="3">Kazan Federal University</a></li>
+                      <li><a href="/university/north-eastern-federal-university" id="menuboxli1" class="second" target="4">North-Eastern Federal University</a></li>
+                      <li><a href="/university/tver-state-medical-university" id="menuboxli1" class="second" target="1">Tver State Medical University</a></li>
+                      <li><a href="/university/voronezh-state-medical-university" id="menuboxli1" class="second" target="2">Voronezh State Medical University</a></li>
+                      <li><a href="/university/tyumen-state-medical-university" id="menuboxli1" class="second" target="3">Tyumen State Medical University</a></li>
+                      <li><a href="/university/tula-state-university" id="menuboxli1" class="second" target="4">Tula State University</a></li>
+                      <li><a href="/university/mari-state-university" id="menuboxli1" class="second" target="1">Mari State University</a></li>
+                      <li><a href="/university/kabardino-balkarian-state-university" id="menuboxli1" class="second" target="2">Kabardino Balkarian State University</a></li>
+                      <li><a href="/university/chechen-state-university" id="menuboxli1" class="second" target="3">Chechen State University</a></li>
+                      <li><a href="/university/ural-state-medical-university" id="menuboxli1" class="second" target="4">Ural State Medical University</a></li>
+                      <li><a href="/university/northern-state-medical-university" id="menuboxli1" class="second" target="1">Northern State Medical University</a></li>
+                      <li><a href="/university/immanuel-kant-baltic-federal-university" id="menuboxli1" class="second" target="2">Immanuel Kant Baltic Federal University</a></li>
+                      <li><a href="/university/samara-state-medical-university" id="menuboxli1" class="second" target="3">Samara State Medical University</a></li>
+                    </ul>
+                  </div>
+
+                  
+                  <div *ngIf="showdiv17==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/kathmandu-medical-college" id="menuboxli1" class="second" target="1">Kathmandu Medical College</a></li>
+                      <li><a href="/university/patan-academy-of-health-sciences" id="menuboxli1" class="second" target="2">Patan Academy of Health Science</a></li>
+                      <li><a href="/university/tribhuvan-university" id="menuboxli1" class="second" target="3">Tribhuvan University</a></li>
+                      <li><a href="/university/birat-medical-college" id="menuboxli1" class="second" target="4">Birat Medical College</a></li>
+                      <li><a href="/university/manipal-college-of-medical-sciences" id="menuboxli1" class="second" target="1">Manipal College of Medical Sciences</a></li>
+                      <li><a href="/university/b-p-koirala-institute-of-health-sciences" id="menuboxli1" class="second" target="2">B.P. Koirala Institute of Health Sciences</a></li>
+                      <li><a href="/university/devdaha-medical-college-and-research-institute" id="menuboxli1" class="second" target="3">Devdaha Medical College & Research Institute</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv18==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/bangladesh-university-of-professionals" id="menuboxli1" class="second" target="1">Bangladesh University of Professionals</a></li>
+                      <li><a href="/university/shahjalal-university-of-science-and-technology" id="menuboxli1" class="second" target="2">Shahjalal University of Science and Technology</a></li>
+                      <li><a href="/university/gonoshasthaya-samaj-vittik-medical-college" id="menuboxli1" class="second" target="3">Gonoshasthaya Samaj Vittik Medical College</a></li>
+                      <li><a href="/university/university-of-rajshahi" id="menuboxli1" class="second" target="4">University of Rajshahi</a></li>
+                      <li><a href="/university/university-of-chittagong" id="menuboxli1" class="second" target="1">University of Chittagong</a></li>
+                      <li><a href="/university/mainamoti-medical-college" id="menuboxli1" class="second" target="2">Mainamoti Medical College</a></li>
+                      <li><a href="/university/dr-sirajul-islam-medical-college" id="menuboxli1" class="second" target="3">Dr. Sirajul Islam Medical College</a></li>
+                      <li><a href="/university/jahurul-islam-medical-college" id="menuboxli1" class="second" target="4">Jahurul Islam Medical College</a></li>
+                      <li><a href="/university/university-of-dhaka" id="menuboxli1" class="second" target="2">University of Dhaka</a></li>
+                      <li><a href="/university/anwer-khan-modern-medical-college" id="menuboxli1" class="second" target="3">Anwer Khan Modern Medical College</a></li>
+                      <li><a href="/university/president-abdul-hamid-medical-college" id="menuboxli1" class="second" target="1">President Abdul Hamid Medical College</a></li>
+                      <li><a href="/university/dhaka-community-medical-college" id="menuboxli1" class="second" target="2">Dhaka Community Medical College</a></li>
+                      <li><a href="/university/jalalabad-ragib-rabeya-medical-college" id="menuboxli1" class="second" target="3">Jalalabad Ragib-Rabeya Medical College</a></li>
+                      <li><a href="/university/rangpur-community-medical-college" id="menuboxli1" class="second" target="4">Rangpur Community Medical College</a></li>
+                      <li><a href="/university/shahabuddin-medical-college" id="menuboxli1" class="second" target="1">Shahabuddin Medical College</a></li>
+                      <li><a href="/university/kumudini-womens-medical-college" id="menuboxli1" class="second" target="2">Kumudini Women's Medical College</a></li>
+                      <li><a href="/university/prime-medical-college" id="menuboxli1" class="second" target="3">Prime Medical College</a></li>
+                      <li><a href="/university/dhaka-national-medical-college" id="menuboxli1" class="second" target="1">Dhaka National Medical College</a></li>
+                      <li><a href="/university/parkview-medical-college" id="menuboxli1" class="second" target="2">Parkview Medical College</a></li>
+                      <li><a href="/university/us-bangla-medical-college" id="menuboxli1" class="second" target="3">US-Bangla Medical College</a></li>
+                      <li><a href="/university/dhaka-central-international-medical-college" id="menuboxli1" class="second" target="1">Dhaka Central International Medical College</a></li>
+                      <li><a href="/university/enam-medical-college-and-hospital" id="menuboxli1" class="second" target="2">Enam Medical College and Hospital</a></li>
+                      <li><a href="/university/monno-medical-college-and-hospital" id="menuboxli1" class="second" target="3">Monno Medical College & Hospital</a></li>
+                      <li><a href="/university/ad-din-womens-medical-college" id="menuboxli1" class="second" target="1">Ad-Din Women's Medical College</a></li>
+                      <li><a href="/university/khwaja-yunus-ali-medical-college" id="menuboxli1" class="second" target="2">Khwaja Yunus Ali Medical College</a></li>
+                      <li><a href="/university/tairunnessa-memorial-medical-college" id="menuboxli1" class="second" target="3">Tairunnessa Memorial Medical College</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv19==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/ama-school-of-medicine" id="menuboxli1" class="second" target="1">AMA School of Medicine</a></li>
+                      <li><a href="/university/emilio-aguinaldo-college-manila" id="menuboxli1" class="second" target="2">Emilio Aguinaldo College</a></li>
+                      <li><a href="/university/lyceum-northwestern-university" id="menuboxli1" class="second" target="3">Lyceum Northwestern University</a></li>
+                      <li><a href="/university/uv-gullas-college-of-medicine" id="menuboxli1" class="second" target="4">UV Gullas College of Medicine</a></li>
+                      <li><a href="/university/angeles-university-foundation" id="menuboxli1" class="second" target="1">Angeles University Foundation</a></li>
+                      <li><a href="/university/manila-central-university" id="menuboxli1" class="second" target="2">Manila Central University</a></li>
+                      <li><a href="/university/southwestern-university-phinma" id="menuboxli1" class="second" target="3">Southwestern University PHINMA</a></li>
+                      <li><a href="/university/st-paul-university-philippines" id="menuboxli1" class="second" target="4">St. Paul University Philippines</a></li>
+                      <li><a href="/university/liceo-college-of-medicine" id="menuboxli1" class="second" target="1">Liceo College of Medicine</a></li>
+                      <li><a href="/university/amec-bicol-christian-college-of-medicine" id="menuboxli1" class="second" target="2">AMEC Bicol Christian College of Medicine </a></li>
+                      <li><a href="/university/davao-medical-school-foundation" id="menuboxli1" class="second" target="3">Davao Medical School Foundation</a></li>
+                      <li><a href="/university/our-lady-of-fatima-university" id="menuboxli1" class="second" target="1">Our Lady Of Fatima University</a></li>
+                      <li><a href="/university/university-of-perpetual-help" id="menuboxli1" class="second" target="2">University of Perpetual Help</a></li>
+                      <li><a href="/university/cebu-institute-of-medicine" id="menuboxli1" class="second" target="3">Cebu Institute of Medicine</a></li>
+                      <li><a href="/university/university-of-santo-tomas" id="menuboxli1" class="second" target="4">University of Santo Tomas</a></li>
+                      <li><a href="/university/university-of-northern-philippines" id="menuboxli1" class="second" target="1">University of Northern Philippines</a></li>
+                      <li><a href="/university/central-philippine-university" id="menuboxli1" class="second" target="2">Central Philippine University</a></li>
+                      <li><a href="/university/brokenshire-college-school-of-medicine" id="menuboxli1" class="second" target="3">Brokenshire College School of Medicine</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv20==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/qiqihar-medical-university" id="menuboxli1" class="second" target="1">Qiqihar Medical University</a></li>
+                      <li><a href="/university/yangzhou-university" id="menuboxli1" class="second" target="2">Yangzhou University</a></li>
+                      <li><a href="/university/xinjiang-university" id="menuboxli1" class="second" target="3">Xinjiang University</a></li>
+                      <li><a href="/university/ningxia-university" id="menuboxli1" class="second" target="4">Ningxia University</a></li>
+                      <li><a href="/university/xian-jiaotong-university" id="menuboxli1" class="second" target="1">Xi'an Jiaotong University</a></li>
+                      <li><a href="/university/jilin-university" id="menuboxli1" class="second" target="2">Jilin Medical University</a></li>
+                      <li><a href="/university/dalian-medical-university" id="menuboxli1" class="second" target="3">Dalian Medical University</a></li>
+                      <li><a href="/university/wenzhou-medical-university" id="menuboxli1" class="second" target="4">Wenzhou Medical University</a></li>
+                      <li><a href="/university/southern-medical-university" id="menuboxli1" class="second" target="1">Southern Medical University</a></li>
+                      <li><a href="/university/guangxi-medical-university" id="menuboxli1" class="second" target="2">Guangxi Medical University </a></li>
+                      <li><a href="/university/chongqing-medical-university" id="menuboxli1" class="second" target="3">Chongqing Medical University</a></li>
+                      <li><a href="/university/tianjin-medical-university" id="menuboxli1" class="second" target="1">Tianjin Medical University</a></li>
+                      <li><a href="/university/capital-medical-university" id="menuboxli1" class="second" target="2">Capital Medical University</a></li>
+                      <li><a href="/university/zhejiang-medical-university" id="menuboxli1" class="second" target="3">Zhejiang Medical University</a></li>
+                      <li><a href="/university/shandong-university" id="menuboxli1" class="second" target="4">Shandong University</a></li>
+                      <li><a href="/university/fudan-university" id="menuboxli1" class="second" target="1">Fudan University</a></li>
+                      <li><a href="/university/nanjing-medical-university" id="menuboxli1" class="second" target="2">Nanjing Medical University</a></li>
+                      <li><a href="/university/jiangsu-university" id="menuboxli1" class="second" target="3">Jiangsu University</a></li>
+                      <li><a href="/university/wuhan-university" id="menuboxli1" class="second" target="1">Wuhan University</a></li>
+                      <li><a href="/university/jinan-university" id="menuboxli1" class="second" target="2">Jinan University</a></li>
+                      <li><a href="/university/sichuan-university" id="menuboxli1" class="second" target="3">Sichuan University</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv21==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/belarusian-state-medical-university" id="menuboxli1" class="second" target="1">Belarusian State Medical University</a></li>
+                      <li><a href="/university/gomel-state-medical-university" id="menuboxli1" class="second" target="2">Gomel State Medical University</a></li>
+                      <li><a href="/university/grodno-state-medical-university" id="menuboxli1" class="second" target="3">Grodno State Medical University</a></li>
+                      <li><a href="/university/vitebsk-state-medical-university" id="menuboxli1" class="second" target="4">Vitebsk State Medical University</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv22==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/karaganda-state-medical-university" id="menuboxli1" class="second" target="1">Karaganda State Medical University</a></li>
+                      <li><a href="/university/kazakh-national-medical-university" id="menuboxli1" class="second" target="2">Kazakh National Medical University</a></li>
+                      <li><a href="/university/semey-state-medical-university" id="menuboxli1" class="second" target="3">Semey State Medical University</a></li>
+                      <li><a href="/university/south-kazakhstan-medical-academy" id="menuboxli1" class="second" target="4">South Kazakhstan State Medical Academy</a></li>
+                      <li><a href="/university/west-kazakhstan-marat-ospanov-state-medical-university" id="menuboxli1" class="second" target="1">West Kazakhstan Marat Ospanov State Medical University</a></li>
+                      <li><a href="/university/kazakh-medical-university-of-continuing-education" id="menuboxli1" class="second" target="2">Kazakh Medical University of Continuing Education</a></li>
+                      <li><a href="/university/astana-medical-university" id="menuboxli1" class="second" target="3">Astana Medical University</a></li>
+                      <li><a href="/university/kazakh-russian-medical-university" id="menuboxli1" class="second" target="4">Kazakh Russian Medical University</a></li>
+                      <li><a href="/university/kokshetau-state-university" id="menuboxli1" class="second" target="1">Kokshetau State University</a></li>
+                      <li><a href="/university/north-kazakhstan-state-university" id="menuboxli1" class="second" target="2">North Kazakhstan State University</a></li>
+                      <li><a href="/university/al-farabi-kazakh-national-university" id="menuboxli1" class="second" target="3">Al-Farabi Kazakh National University</a></li>
+                      <li><a href="/university/uib-international-medical-school" id="menuboxli1" class="second" target="1">UIB International Medical School</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv23==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/armenian-medical-institute" id="menuboxli1" class="second" target="1">Armenian Medical Institute</a></li>
+                      <li><a href="/university/st-tereza-medical-university" id="menuboxli1" class="second" target="2">St. Tereza Medical University</a></li>
+                      <li><a href="/university/yerevan-state-medical-university" id="menuboxli1" class="second" target="3">Yerevan State Medical University</a></li>
+                      <li><a href="/university/university-of-traditional-medicine" id="menuboxli1" class="second" target="4">University of Traditional Medicine</a></li>
+                      <li><a href="/university/yerevan-haybusak-university" id="menuboxli1" class="second" target="1">Yerevan Haybusak University</a></li>
+                      <li><a href="/university/mkhitar-gosh-armenian-russian-international-university" id="menuboxli1" class="second" target="2">Mkhitar Gosh Armenian-Russian International University</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv24==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/andijan-state-medical-institute" id="menuboxli1" class="second" target="1">Andijan State Medical Institute</a></li>
+                      <li><a href="/university/bukhara-state-medical-institute" id="menuboxli1" class="second" target="2">Bukhara State Medical Institute</a></li>
+                      <li><a href="/university/samarkand-state-medical-institute" id="menuboxli1" class="second" target="3">Samarkand State Medical Institute</a></li>
+                      <li><a href="/university/tashkent-medical-academy" id="menuboxli1" class="second" target="4">Tashkent Medical Academy</a></li>
+                      <li><a href="/university/tashkent-state-dental-institute" id="menuboxli1" class="second" target="1">Tashkent State Dental Institute</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv29==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div14">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/medical-university-of-verna" id="menuboxli1" class="second" target="1">Medical University of Verna</a></li>
+                      <li><a href="/university/sofia-medical-university" id="menuboxli1" class="second" target="2">Sofia Medical University</a></li>
+                      <li><a href="/university/plovdiv-medical-university" id="menuboxli1" class="second" target="3">Plovdiv Medical University</a></li>
+                      <li><a href="/university/trakia-university" id="menuboxli1" class="second" target="4">Trakia University</a></li>
+                      <li><a href="/university/medical-university-of-pleven" id="menuboxli1" class="second" target="1">Medical University of Pleven</a></li>
+                    </ul>
+                  </div>
+
+                  <!-- Universities  -->
+                </div>
+
+              </div> <!-- End anim -->
+
+            </div><!-- MegaRow1 -->
+
+            <div class="clearfix"></div>
+
+            <div class="col-lg-12 row featureSection">
+              <div class="col-lg-12 col-md-12" style="max-height: 40px;">
+                <p class="featureHeading">TOP MEDICAL COLLEGES IN INDIA</p>
+              </div>
+              <div class="col-lg-12 featureCardBoxPadding">
+                <div class="row">
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/col30730.png?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/col30730.png?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a href="/college/bharati-vidyapeeth-medical-college-pune"> Bharati Vidyapeeth's Medical College</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a href="/college/bharati-vidyapeeth-medical-college-pune">Pune, Maharashtra</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/1501584806Capture1.jpg?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/1501584806Capture1.jpg?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a href="/college/all-india-institute-of-medical-sciences-aiims-new-delhi">All India Institute Of Medical Sciences</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a href="/college/all-india-institute-of-medical-sciences-aiims-new-delhi">New Delhi, Delhi</a></p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/1408968357iiml.jpg?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/1408968357iiml.jpg?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a href="/college/kj-somaiya-medical-college-research-centre-kjsmc-mumbai">K J Somaiya Medical College Research Center</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a href="/college/kj-somaiya-medical-college-research-centre-kjsmc-mumbai">Mumbai, Maharashtra</a></p>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- mega-box -->
+
+
+        </li>
+        <!-- End Here -->
+
+
+        <!-- MBBS New menu -->
+        <li>
+          <a routerLink="/colleges" (mouseleave)="mouseLeave()" class="desktop-item">Management <i
+              class=" fa fa-angle-down"></i></a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Colleges <i class="fa fa-angle-down"></i></label>
+
+          <div class="mega-box">
+            <div class="col-lg-12 row scroll">
+              <div class="col-lg-3 col-md-3 content">
+                <div id="menubox" class="menu">
+                  <div class="col-lg-12 col-sm-12">
+                    <ul class="mega-links">
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter()" class="First" target="1">Courses <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter2()" class="First" target="2">India <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                            <li><a id="menuboxli" (mouseenter)="mouseEnter3()" class="First" target="2">Abroad <i
+                              class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-9 col-md-9 anim">
+
+                <div class="row">
+                  <div *ngIf="showdiv1==true" class=" col-lg-3 col-sm- 12 tar target active1" id="div1">
+                    <!-- <header>TOP COLLEGE BY COURSE</header> -->
+                    <ul class="mega-links UL1">
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter5()" class="First" target="1">MBA<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli1" (mouseenter)="mouseEnter6()" class="First" target="2">BBA<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv5==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a routerLink="course/master-of-business-administration-mba">MBA in India</a></li>
+                      <li><a routerLink="course/mba-in-ukraine">MBA in Ukraine</a></li>
+                      <li><a routerLink="course/mba-in-poland">MBA in Poland</a></li>
+                      <li><a routerLink="course/mba-in-ireland">MBA in Ireland</a></li>
+                      <li><a routerLink="course/mba-in-canada">MBA in Canada</a></li>
+                      <li><a routerLink="course/mba-in-malta">MBA in Malta</a></li>
+                      <li><a routerLink="course/mba-in-uk">MBA in UK</a></li>
+                      <li><a routerLink="course/mba-in-russia">MBA in Russia</a></li>
+                      <li><a routerLink="course/mba-in-germany">MBA in Germany</a></li>
+                      <li><a routerLink="course/mba-in-new-zealand">MBA in New Zealand</a></li>
+                      <li><a routerLink="course/mba-in-australia">MBA in Australia</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv6==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a routerLink="course/bachelor-of-business-administration-bba">BBA in India</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv2==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                    <!-- <header>TOP COURSE</header> -->
+                    <ul class="mega-links UL1" >
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter7()" class="second" target="1">Mumbai<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter8()" class="second" target="2">Pune<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter9()" class="second" target="3">Delhi<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter10()" class="second" target="4">Banglore<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter11()" class="second" target="5">Chennai<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter11a()" class="second" target="5">Kolhapur<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                    </ul>
+                  </div>
+                  
+                  <div *ngIf="showdiv7==true" class=" col-lg-7 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a routerLink="course/master-of-business-administration-mba">MBA in India</a></li>
+                      <li><a href="/college/nl-dalmia-institute-of-management-studies-and-research-mumbai/.">NL Dalmia Institute of Management Studies and Research</a></li>
+                      <li><a href="/college/kj-somaiya-institute-of-management-mumbai">K.J. Somaiya Institute of Management Studies and Research</a></li>
+                      <li><a href="/college/guru-nanak-institute-of-management-studies-gnims-mumbai">Guru Nanak Institute of Management Studies</a></li>
+                      <li><a href="/university/narsee-monjee-institute-of-management-studies-nmims-mumbai">Narsee Monjee Institute of Management Studies</a></li>
+                      <li><a href="/college/shailesh-j-mehta-school-of-management-iit-bombay-mumbai">Shailesh J Mehta School of Management</a></li>
+                      <li><a href="/college/athena-school-of-management-mumbai">Athena School of Management</a></li>
+                      <li><a href="/college/dy-patil-university-school-of-management-dypusm-navi-mumbai">Dr. D.Y. Patil University school of management, Navi mumbai</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv8==true" class=" col-lg-7 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a href="/college/balaji-institute-of-modern-management-bimm-pune">Balaji Institute of Modern Management</a></li>
+                      <li><a href="/college/symbiosis-institute-of-business-management-sibm-pune">Symbiosis Institute of Business Management</a></li>
+                      <li><a href="/college/institute-of-management-and-entrepreneurship-development-imed-pune">IMED'S Bharati Vidyapeeth Deemed University</a></li>
+                      <li><a href="/college/amity-global-business-school-agbs-pune">Amity Global Business School, Pune</a></li>
+                      <li><a href="/college/kirloskar-institute-of-advanced-management-studies-kiams-pune">Kirloskar Institute of Advanced Management Studies, Pune</a></li>
+                      <li><a href="/college/sdm-institute-for-management-development-mysore">SDM Institute of Management Development</a></li>
+                      <li><a href="/college/sinhgad-institute-of-business-administration-and-research-sibar-kondhwa-pune">Sinhgad Institute of Business Administration and Research</a></li>
+                      <li><a href="/college/suryadatta-institute-of-business-management-and-technology-sibmt-pune">Suryadatta Institute of Business Management and Technology</a></li>
+                      <li><a href="/university/symbiosis-international-university-siu-pune">Symbiosis International University</a></li>
+                      <li><a href="/university/flame-university-pune">FLAME University</a></li>
+                      <li><a href="/university/mit-world-peace-university">MIT World Peace University, Pune</a></li>
+                    </ul>
+                  </div>
+
+
+                  <div *ngIf="showdiv9==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a href="/university/guru-gobind-singh-indraprastha-university-delhi">Guru Gobind Singh Indraprastha University</a></li>
+                      <li><a href="/university/jamia-millia-islamia-delhi">Jamaia Millia Islamia</a></li>
+                      <li><a href="/college/lal-bahadur-shastri-institute-of-management-lbsim-new-delhi">Lal Bahadur Shastri Institute of Management</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv10==true" class=" col-lg-7 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a href="/college/xavier-institute-of-management-and-entrepreneurship-bangalore">Xavier Institute of Management and Entrepreneurship</a></li>
+                      <li><a href="/college/st-josephs-institute-of-management-bangalore">St. Josephs Institute of Management</a></li>
+                      <li><a href="/university/christ-university-bangalore">Christ University, Banglore</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv11==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a href="/college/ifmr-graduate-school-of-business-chennai">IFMR Graduate School of Business</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv11a==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a href="/university/shivaji-university-kolhapur">Shivaji University</a></li>
+                    </ul>
+                  </div>
+
+
+                  <div *ngIf="showdiv3==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                    <!-- <header>TOP COURSE</header> -->
+                    <ul class="mega-links UL1" >
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter12()" class="second" target="1">UK<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter13()" class="second" target="2">Ukraine<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter14()" class="second" target="3">Russia<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter15()" class="second" target="4">Poland<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv12==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a href="/university/university-of-oxford">University of Oxford</a></li>
+                      <li><a href="/university/university-of-cambridge">University of Cambridge</a></li>
+                      <li><a href="/university/university-of-bristol">University of Bristol</a></li>
+                      <li><a href="/university/durham-university">Durham University</a></li>
+                      <li><a href="/university/university-of-warwick">University of Warwick</a></li>
+                      <li><a href="/university/university-college-london">University College London</a></li>
+                      <li><a href="/university/lancaster-university">Lancaster University</a></li>
+                      <li><a href="/university/london-school-of-economics-and-political-science-london">London School of Economics & Political Science</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv13==true" class=" col-lg-6 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a href="/university/kyiv-school-of-economics">Kyiv School of Economics</a></li>
+                      <li><a href="/university/lviv-business-school-of-ukrainian-catholic-university">Lviv Business School of Ukrainian Catholic University</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv14==true" class=" col-lg-7 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a href="/university/moscow-school-of-management-skolkovo">Moscow School of Management SKOLKOVO</a></li>
+                      <li><a href="/university/moscow-university-touro">Moscow University Touro</a></li>
+                      <li><a href="/university/lomonosov-moscow-state-university-business-school">Lomonosov Moscow State University Business School</a></li>
+                      <li><a href="/university/russian-presidential-academy-of-national-economy-and-public-administration">Russian Presidential Academy of National Economy and Public Administration</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv15==true" class=" col-lg-6 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a href="/university/warsaw-school-of-economics-sgh">Warsaw School of Economics SGH</a></li>
+                      <li><a href="/university/collegium-da-vinci">Collegium Da Vinci</a></li>
+                      <li><a href="/university/warsaw-university-of-technology-business-school">Warsaw University of Technology Business School</a></li>
+                      <li><a href="/university/polonia-university">Polonia University</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv28==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                    <ul class="mega-links">
+                      <li><a routerLink="course/mba-in-germany">MBA in Germany</a></li>
+                      <li><a routerLink="course/mba-in-ireland">MBA in Ireland</a></li>
+                      <li><a routerLink="course/mba-in-canada">MBA in Canada</a></li>
+                      <li><a routerLink="course/mba-in-new-zealand">MBA in New Zealand</a></li>
+                      <li><a routerLink="course/mba-in-australia">MBA in Australia</a></li>
+                      <li><a routerLink="course/mba-in-malta">MBA in Malta</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div> <!-- End anim -->
+
+            </div><!-- MegaRow1 -->
+
+            <div class="clearfix"></div>
+            <div class="col-lg-12 row featureSection">
+              <div class="col-lg-12 col-md-12" style="max-height: 40px;">
+                <p class="featureHeading">TOP MANAGEMENT COLLEGES IN INDIA</p>
+              </div>
+              <div class="col-lg-12 featureCardBoxPadding">
+                <div class="row">
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/col30730.png?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/col30730.png?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a href="/university/christ-university-bangalore">Christ University, Banglore</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a href="/university/christ-university-bangalore">Christ University, Banglore</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/1501584806Capture1.jpg?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/1501584806Capture1.jpg?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a href="/university/jamia-millia-islamia-delhi">Jamaia Millia Islamia</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a href="/university/jamia-millia-islamia-delhi">New Delhi, Delhi</a></p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/1408968357iiml.jpg?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/1408968357iiml.jpg?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a href="/college/symbiosis-institute-of-business-management-sibm-pune">Symbiosis Institute of Business Management</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a href="/college/symbiosis-institute-of-business-management-sibm-pune">Pune, Maharashtra</a></p>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- mega-box -->
+        </li>
+        <!-- End Here -->
+
+        <!-- Science New menu -->
+        <li>
+          <a routerLink="/colleges" (mouseleave)="mouseLeave()" class="desktop-item">Computer Application <i
+              class=" fa fa-angle-down"></i></a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Colleges <i class="fa fa-angle-down"></i></label>
+
+          <div class="mega-box">
+            <div class="col-lg-12 row scroll">
+              <div class="col-lg-3 col-md-3 content">
+                <div id="menubox" class="menu">
+                  <div class="col-lg-12 col-sm-12">
+                    <ul class="mega-links">
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter()" class="First" target="1">Courses<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter2()" class="First" target="2">India <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-9 col-md-9 anim">
+
+                <div class="row">
+                  <div *ngIf="showdiv1==true" class=" col-lg-5 col-sm- 12 tar target active1" id="div1">
+                    <ul class="mega-links UL1">
+                      <li><a href="#" id="menuboxli" (mouseenter)="mouseEnter5()" class="second" target="1">BCA<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli" (mouseenter)="mouseEnter6()" class="second" target="2">MCA<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                    </ul>
+                  </div>
+                  
+                  <div *ngIf="showdiv5==true" class=" col-lg-3 col-sm- 12 tar target active1" id="div5">
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="course/bachelor-of-computer-application-bca" id="menuboxli1" class="second" target="1">BCA in India</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv6==true" class=" col-lg-3 col-sm- 12 tar target active1" id="div5">
+                    <ul class="mega-links UL1">
+                      <li><a routerLink="course/master-of-computer-application-mca" id="menuboxli1" class="second" target="1">MCA in India</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv2==true" class=" col-lg-3 col-sm- 12 tar target active1" id="div2">
+                    <ul class="mega-links UL1" >
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter7()" class="second" target="1">Pune<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter8()" class="second" target="2">Banglore<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter9()" class="second" target="3">Mumbai<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter10()" class="second" target="4">Delhi<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter11()" class="second" target="5">Chennai<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter11a()" class="second" target="5">Haryana<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a href="#" id="menuboxli1" (mouseenter)="mouseEnter11b()" class="second" target="5">Ghaziabad<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                    </ul>
+                  </div>
+                  
+                  <div *ngIf="showdiv7==true" class=" col-lg-8 col-sm- 12 tar target active1" id="div7">
+                    <ul class="mega-links UL1">
+                      <li><a href="/college/brihan-maharashtra-college-of-commerce-bmcc-pune" id="menuboxli1" class="second" target="1">Brihan Maharashtra College Of Commerce</a></li>
+                      <li><a href="/college/symbiosis-institute-of-computer-studies-and-research-sicsr-pune" id="menuboxli1" class="second" target="2">Symbiosis Institute of Computer Studies & Research, Pune</a></li>
+                      <li><a href="/college/modern-college-of-arts-science-and-commerce-pune" id="menuboxli1" class="second" target="3">Modern College of Arts Science And Commerce, Pune</a></li>
+                      <li><a href="/college/bharati-vidyapeeth-institute-of-management-entrepreneurship-development" id="menuboxli1" class="second" target="4">Bharati Vidyapeeth Institute of Management</a></li>
+                      <li><a href="/college/dr-dy-patil-institute-of-management-and-research-dypimr-pune" id="menuboxli1" class="second" target="5">Dy Patil Arts, Commerce & Science College Pune</a></li>
+                      <li><a href="/college/modern-college-of-arts-science-and-commerce-pune" id="menuboxli1" class="second" target="6">Modern College of Pune</a></li>
+                      <li><a href="/college/mes-garware-college-of-commerce-pune" id="menuboxli1" class="second" target="7">Garware College of Commerce Pune</a></li>
+                      <li><a href="/college/bharati-vidyapeeth-institute-of-management-entrepreneurship-development" id="menuboxli1" class="second" target="7">Bharati Vidyapeeth Institute of Management Entrepreneurship Development</a></li>
+                      <li><a href="/college/dr-dy-patil-institute-of-management-and-research-dypimr-pune" id="menuboxli1" class="second" target="7">D. Y. Patil Institute of Management and Research,Pimpri, Pune</a></li>
+                      <li><a href="/college/mit-school-of-management-pune" id="menuboxli1" class="second" target="7">MIT School of Mangagement, Pune</a></li>
+                      <li><a href="/college/sinhgad-institute-of-management-and-computer-application-simca-narhe-pune" id="menuboxli1" class="second" target="7">Sinhgad Institute of Management & Computer Apllication</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv8==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div7">
+                    <ul class="mega-links UL1">
+                      <li><a href="/college/presidency-college-bangalore" id="menuboxli1" class="second" target="1">Presidency College, Bangalore</a></li>
+                      <li><a href="/college/kristu-jayanti-college-kjc-bangalore" id="menuboxli1" class="second" target="2">Kristu Jayanti College, Bangalore</a></li>
+                      <li><a href="/college/the-oxford-college-of-science-bangalore" id="menuboxli1" class="second" target="3">Oxford College of Science</a></li>
+                      <li><a href="/college/acharya-institute-of-technology-ait-bangalore" id="menuboxli1" class="second" target="4">Acharya Institute of Technology</a></li>
+                      <li><a href="/college/cambridge-institute-of-technology-cit-bangalore" id="menuboxli1" class="second" target="5">Cambridge Institute of Technology</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv9==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div7">
+                    <ul class="mega-links UL1">
+                      <li><a href="/college/met-institute-of-computer-science-mumbai" id="menuboxli1" class="second" target="1">MET institute of computer Science</a></li>
+                      <li><a href="/college/amity-institute-of-information-technology-aiit-mumbai" id="menuboxli1" class="second" target="2">Amity institute of Information Technology</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv10==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div7">
+                    <ul class="mega-links UL1">
+                      <!--<li><a routerLink="course/bachelor-of-computer-application-bca">BCA in India</a></li>
+                      <li><a href="/college/ganga-institute-of-technology-and-management-jhajjar">Ganga Institute of Technology and Management</a></li>
+                      <li><a href="/college/brihan-maharashtra-college-of-commerce-bmcc-pune">Brihan Maharashtra College Of Commerce</a></li>
+                      <li><a href="/college/symbiosis-institute-of-computer-studies-and-research-sicsr-pune">Symbiosis Institute of Computer Studies & Research, Pune</a></li>
+                      <li><a href="/college/modern-college-of-arts-science-and-commerce-pune">Modern College of Arts Science And Commerce, Pune</a></li>-->
+                      <li><a href="/college/indraprastha-institute-of-technology-and-management-iitm-new-delhi">Indraprastha Institute of Tesechnology and Management</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv11==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div7">
+                    <ul class="mega-links UL1">
+                      <li><a href="/university/vellore-institute-of-technology">Vellore Institute Of Technology</a></li>
+                    </ul>
+                  </div>
+
+                  <div *ngIf="showdiv11a==true" class=" col-lg-6 col-sm- 12 tar target active1" id="div7">
+                    <ul class="mega-links UL1">
+                      <li><a href="/college/ganga-institute-of-technology-and-management-jhajjar" id="menuboxli1" class="second" target="1">Ganga Institute of Technology and Management</a></li>
+                    </ul>
+                  </div>
+                  <div *ngIf="showdiv11b==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                    <!-- <header>TOP COURSE</header> -->
+                    
+                    <ul class="mega-links">
+                      <li><a href="/college/institute-of-management-studies-ims-ghaziabad">IMS, Ghaziabad</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div> <!-- End anim -->
+
+            </div><!-- MegaRow1 -->
+
+            <div class="clearfix"></div>
+            <div class="col-lg-12 row featureSection">
+              <div class="col-lg-12 col-md-12" style="max-height: 40px;">
+                <p class="featureHeading">TOP COMPUTER APPLICATION COLLEGES IN INDIA</p>
+              </div>
+              <div class="col-lg-12 featureCardBoxPadding">
+                <div class="row">
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/col30730.png?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/col30730.png?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a href="/college/modern-college-of-arts-science-and-commerce-pune"> Modern College of Arts Science And Commerce</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a href="/college/modern-college-of-arts-science-and-commerce-pune">Pune, Maharashtra</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/1501584806Capture1.jpg?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/1501584806Capture1.jpg?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a href="/college/brihan-maharashtra-college-of-commerce-bmcc-pune">Brihan Maharashtra College Of Commerce</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a href="/college/brihan-maharashtra-college-of-commerce-bmcc-pune">PUNE , Maharastra</a></p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/1408968357iiml.jpg?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/1408968357iiml.jpg?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a href="/college/mes-garware-college-of-commerce-pune">Garware College of Commerce</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a href="/college/mes-garware-college-of-commerce-pune">Pune, Maharashtra</a></p>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- mega-box -->
+        </li>
+        <!-- End Here -->
+
+        <!-- Study Abroad Menu -->
+        <!-- <li>
+          <a routerLink="/study_abroad" class="desktop-item">Other <i class=" fa fa-angle-down"></i></a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Study Abroad <i class=" fa fa-angle-down"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#">Study in Canada</a></li>
+            <li><a href="#">Study in Uk</a></li>
+            <li><a href="#">Study in Ukraine</a></li>
+            <li><a href="#">Study in Germany</a></li>
+            <li><a href="#">Study in USA</a></li>
+          </ul>
+        </li>-->
+        <!-- End Here -->
+
+        <!-- All Courses New menu -->
+        <li>
+          <a routerLink="/colleges" (mouseleave)="mouseLeave()" class="desktop-item">Other Courses <i
+              class=" fa fa-angle-down"></i></a>
+
+          <label for="showMega" class="mobile-item">Colleges <i class="fa fa-angle-down"></i></label>
+
+          <div class="mega-box">
+            <div class="col-lg-12 row scroll">
+              <div class="col-lg-3 col-md-3 content">
+                <div id="menubox" class="menu">
+                  <div class="col-lg-12 col-sm-12">
+                    <ul class="mega-links">
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter()" class="First" target="1">Aviation <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter2()" class="First" target="2">Arts <i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                      <li><a id="menuboxli" (mouseenter)="mouseEnter3()" class="First" target="3">Other Universities<i
+                            class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-9 col-md-9 anim">
+
+                <div class="row">
+                  <div *ngIf="showdiv1==true" class=" col-lg-12 col-sm- 12 tar target active1" id="div1">
+                    <!-- <header>TOP COLLEGE BY COURSE</header> -->
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <ul class="mega-links UL1">
+                          <li><a routerLink="course/aviation-in-ukraine">Aviation in Ukraine</a></li>
+                          <li><a href="/university/national-aviation-university">National Aviation University</a></li>
+                          <li><a href="/university/national-aerospace-university">National Aerospace University</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-5">
+                        <ul class="mega-links">
+                          <li><a href="/university/ufa-state-aviation-technical-university">Ufa State Aviation Technical University</a></li>
+                          <li><a href="/university/moscow-aviation-institute">Moscow Aviation Institute</a></li>
+                          <li><a href="/university/samara-state-aerospace-university">Samara State Aerospace University</a></li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                  <div *ngIf="showdiv2==true" class=" col-lg-12 col-sm- 12 tar target" id="div2">
+                    <!-- <header>TOP COURSE</header> -->
+                    <div class="row">
+                      <div class="col-lg-5">
+
+                        <ul class="mega-links UL1">
+                          <li><a href="/university/kharkiv-national-university-of-arts">Kharkiv National University of Arts</a></li>
+                          <li><a href="/university/lviv-national-academy-of-arts">Lviv National Academy of Arts</a></li>
+                          <li><a href="/university/kyiv-national-university-of-culture-and-arts">Kyiv National University of Culture and Arts</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-5">
+                        <ul class="mega-links">
+                          <li><a href="/university/kharkiv-state-academy-of-design-and-arts">Kharkiv State Academy of Design and Arts</a></li>
+                          <li><a href="/university/kharkiv-state-academy-of-culture">Kharkiv State Academy of Culture</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div *ngIf="showdiv3==true" class="col-lg-12 col-sm- 12 tar target" id="div3">
+                    <!-- <header>TOP COLLEGE BY CITY</header> -->
+                    <div class="row">
+                      <div class="col-lg-3">
+
+                        <ul class="mega-links">
+                          <li><a id="menuboxli" (mouseenter)="mouseEnter12()" class="First" target="1">Hungary <i
+                                class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                          <li><a id="menuboxli" (mouseenter)="mouseEnter13()" class="First" target="2">Italy <i
+                                class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                          <li><a id="menuboxli" (mouseenter)="mouseEnter14()" class="First" target="2">Estonia <i
+                                class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                          <li><a id="menuboxli" (mouseenter)="mouseEnter15()" class="First" target="2">Germany <i
+                                class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                          <li><a id="menuboxli" (mouseenter)="mouseEnter16()" class="First" target="2">Poland <i
+                                class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                          <li><a id="menuboxli" (mouseenter)="mouseEnter17()" class="First" target="2">UK <i
+                                class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                          <li><a id="menuboxli" (mouseenter)="mouseEnter18()" class="First" target="2">Canada <i
+                                class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                          <li><a id="menuboxli" (mouseenter)="mouseEnter19()" class="First" target="2">Latvia <i
+                                class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                          <li><a id="menuboxli" (mouseenter)="mouseEnter20()" class="First" target="2">Lithuania <i
+                                class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                          <li><a id="menuboxli" (mouseenter)="mouseEnter21()" class="First" target="2">Phillippines <i
+                                class="fa fa-angle-right fa-1x menuFaFaAngle"></i></a></li>
+                        </ul>
+                      </div>
+
+                      <div *ngIf="showdiv12==true" class=" col-lg-6 col-sm- 12 tar target" id="div2">
+                        <!-- <header>TOP COURSE</header> -->
+                        <ul class="mega-links">
+                          <li><a href="/university/budapest-metropolitan-university">Budapest Metropolitan University</a></li>
+                          <li><a href="/university/university-of-debrecen">University of Debrecen</a></li>
+                          <li><a href="/university/university-of-miskolc">University of Miskolc</a></li>
+                          <li><a href="/university/szent-istvan-university">Szent Istvan University</a></li>
+                          <li><a href="/university/eotvos-lorand-university">Eotvos Lorand University</a></li>
+                          <li><a href="/university/budapest-university-of-technology-and-economics">Budapest University of Technology and Economics</a></li>
+                          <li><a href="/university/corvinus-university-of-budapest">Corvinus University of Budapest</a></li>
+                        </ul>
+                      </div>
+
+                      <div *ngIf="showdiv13==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                        <!-- <header>TOP COURSE</header> -->
+                        <ul class="mega-links">
+                          <li><a href="/university/bocconi-university">Bocconi University</a></li>
+                          <li><a href="/university/university-of-trento">University of Trento</a></li>
+                          <li><a href="/university/rome-business-school">Rome Business School</a></li>
+                          <li><a href="/university/university-of-padua">University of Padua</a></li>
+                          <li><a href="/university/university-of-pavia">University of Pavia</a></li>
+                          <li><a href="/university/university-of-bologna">University of Bologna</a></li>
+                          <li><a href="/university/university-of-pisa">University of Pisa</a></li>
+                        </ul>
+                      </div>
+
+                      <div *ngIf="showdiv14==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                        <!-- <header>TOP COURSE</header> -->
+                        <ul class="mega-links">
+                          <li><a href="/university/estonian-academy-of-arts">Estonian Academy of Arts</a></li>
+                          <li><a href="/university/tallinn-university-of-technology">Tallinn University of Technology</a></li>
+                          <li><a href="/university/tallinn-health-care-college">Tallinn Health Care College</a></li>
+                        </ul>
+                      </div>
+
+                      <div *ngIf="showdiv15==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                        <!-- <header>TOP COURSE</header> -->
+                        <ul class="mega-links">
+                          <li><a href="/university/frankfurt-school-of-finance-and-management">Frankfurt School of Finance & Management</a></li>
+                          <li><a href="/university/university-of-bonn">University of Bonn</a></li>
+                          <li><a href="/university/humboldt-university-of-berlin">Humboldt University of Berlin</a></li>
+                          <li><a href="/university/international-school-of-management-dortmund">International School of Management</a></li>
+                          <li><a href="/university/munich-business-school">Munich Business School</a></li>
+                          <li><a href="/university/esslingen-university-of-applied-sciences">Esslingen University of Applied Sciences</a></li>
+                          <li><a href="/university/eu-business-school-munich">EU Business School Munich</a></li>
+                          <li><a href="/university/technische-hochschule-ingolstadt">Technische Hochschule Ingolstadt</a></li>
+                          <li><a href="/university/reutlingen-university">Reutlingen University</a></li>
+                          <li><a href="/university/university-of-mannheim">University of Mannheim</a></li>
+                          <li><a href="/university/gisma-business-school">GISMA Business School</a></li>
+                          <li><a href="/university/berlin-school-of-business-and-innovation">Berlin School of Business & Innovation</a></li>
+                          <li><a href="/university/university-of-ulm">University of Ulm</a></li>
+                          <li><a href="/university/rwth-aachen-university">RWTH Aachen University</a></li>
+                          <li><a href="/university/karlsruhe-institute-of-technology">Karlsruhe Institute of Technology</a></li>
+                          <li><a href="/university/university-of-stuttgart">University of Stuttgart</a></li>
+                          <li><a href="/university/heidelberg-university">Heidelberg University </a></li>
+                          <li><a href="/university/university-of-cologne">University of Cologne</a></li>
+                          <li><a href="/university/carl-benz-school-of-engineering">Carl Benz School of Engineering</a></li>
+                          <li><a href="/university/iu-international-university-of-applied-sciences">IU International University of Applied Sciences</a></li>
+                          <li><a href="/university/johannes-gutenberg-university-mainz">Johannes Gutenberg University of Mainz</a></li>
+                        </ul>
+                      </div>
+
+                      <div *ngIf="showdiv16==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                        <!-- <header>TOP COURSE</header> -->
+                        <ul class="mega-links">
+                          <li><a href="/university/lazarski-university">Lazarski University</a></li>
+                          <li><a href="/university/university-of-economics-in-katowice">University of Economics in Katowice</a></li>
+                          <li><a href="/university/vistula-university">Vistula University</a></li>
+                        </ul>
+                      </div>
+
+                      <div *ngIf="showdiv17==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                        <!-- <header>TOP COURSE</header> -->
+                        <ul class="mega-links">
+                          <li><a href="/university/university-of-bedfordshire">University of Bedfordshire</a></li>
+                          <li><a href="/university/aberystwyth-university">Aberystwyth University</a></li>
+                          <li><a href="/university/kingston-university-london">Kingston University London</a></li>
+                          <li><a href="/university/leeds-beckett-university">Leeds Beckett University</a></li>
+                          <li><a href="/university/new-college-durham">New College Durham</a></li>
+                          <li><a href="/university/the-university-of-law">The University of Law</a></li>
+                          <li><a href="/university/university-of-sussex">University of Sussex</a></li>
+                          <li><a href="/university/bpp-university">BPP University</a></li>
+                          <li><a href="/university/university-of-strathclyde">University of Strathclyde</a></li>
+                          <li><a href="/university/keele-university">Keele University</a></li>
+                          <li><a href="/university/bath-spa-university">Bath Spa University</a></li>
+                          <li><a href="/university/university-of-surrey">University of Surrey</a></li>
+                          <li><a href="/university/london-metropolitan-university">London Metropolitan University</a></li>
+                          <li><a href="/university/glasgow-caledonian-university">Glasgow Caledonian University</a></li>
+                          <li><a href="/university/university-of-suffolk">University of Suffolk</a></li>
+                          <li><a href="/university/university-of-south-wales">University of South Wales</a></li>
+                          <li><a href="/university/henley-business-school">Henley Business School</a></li>
+                          <li><a href="/university/heriot-watt-university">Heriot Watt University</a></li>
+                          <li><a href="/university/university-of-lincoln">University of Lincoln</a></li>
+                          <li><a href="/university/university-of-exeter">University of Exeter</a></li>
+                          <li><a href="/university/belfast-metropolitan-college">Belfast Metropolitan College</a></li>
+                          <li><a href="/university/university-of-wolverhampton">University of Wolverhampton</a></li>
+                          <li><a href="/university/royal-college-of-art">Royal College of Art</a></li>
+                          <li><a href="/university/university-of-st-andrews">University of St Andrews</a></li>
+                          <li><a href="/university/brunel-university-london">Brunel University London</a></li>
+                          <li><a href="/university/loughborough-university">Loughborough University</a></li>
+                          <li><a href="/university/university-of-bradford">University of Bradford</a></li>
+                          <li><a href="/university/kings-college-london">Kings College London</a></li>
+                          <li><a href="/university/university-of-gloucestershire">University of Gloucestershire</a></li>
+                          <li><a href="/university/liverpool-hope-university">Liverpool Hope University</a></li>
+                          <li><a href="/university/cardiff-metropolitan-university">Cardiff Metropolitan University</a></li>
+                          <li><a href="/university/city-university-of-london">City University of London</a></li>
+                          <li><a href="/university/university-for-the-creative-arts">University for the Creative Arts</a></li>
+                          <li><a href="/university/university-of-edinburgh">The University of Edinburgh</a></li>
+                          <li><a href="/university/university-of-manchester">University of Manchester</a></li>
+                          <li><a href="/university/university-of-salford">University of Salford</a></li>
+                          <li><a href="/university/york-st-john-university">York St John University</a></li>
+                          <li><a href="/university/canterbury-christ-church-university">Canterbury Christ Church University</a></li>
+                          <li><a href="/university/middlesex-university-london">Middlesex University</a></li>
+                        </ul>
+                      </div>
+
+                      <div *ngIf="showdiv18==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                        <!-- <header>TOP COURSE</header> -->
+                        <ul class="mega-links">
+                          <li><a href="/university/university-of-alberta">University of Alberta</a></li>
+                          <li><a href="/university/university-canada-west">University Canada West</a></li>
+                          <li><a href="/university/university-of-windsor">University Of Windsor</a></li>
+                          <li><a href="/university/university-of-saskatchewan">University Of Saskatchewan</a></li>
+                          <li><a href="/university/university-of-ottawa">University Of Ottawa</a></li>
+                          <li><a href="/university/simon-fraser-university">Simon Fraser University</a></li>
+                          <li><a href="/university/camosun-college">Camosun College</a></li>
+                          <li><a href="/university/carleton-university">Carleton University</a></li>
+                          <li><a href="/university/mcmaster-university">McMaster University</a></li>
+                          <li><a href="/university/sheridan-college">Sheridan College</a></li>
+                          <li><a href="/university/university-of-regina">University of Regina</a></li>
+                          <li><a href="/university/ryerson-university">Ryerson University</a></li>
+                          <li><a href="/university/fanshawe-college">Fanshawe College</a></li>
+                          <li><a href="/university/lambton-college">Lambton College</a></li>
+                          <li><a href="/university/dalhousie-university">Dalhousie University</a></li>
+                          <li><a href="/university/queens-university">Queens University</a></li>
+                        </ul>
+                      </div>
+
+                      <div *ngIf="showdiv19==true" class=" col-lg-6 col-sm- 12 tar target" id="div2">
+                        <!-- <header>TOP COURSE</header> -->
+                        <ul class="mega-links">
+                          <li><a href="/university/riseba-university-of-business-arts-and-technology">RISEBA University of Business, Arts and Technology</a></li>
+                          <li><a href="/university/daugavpils-university">Daugavpils University</a></li>
+                          <li><a href="/university/transport-and-telecommunication-institute">Transport and Telecommunication Institute</a></li>
+                          <li><a href="/university/university-of-latvia">University of Latvia</a></li>
+                          <li><a href="/university/baltic-international-academy">Baltic International Academy</a></li>
+                        </ul>
+                      </div>
+
+                      <div *ngIf="showdiv20==true" class=" col-lg-6 col-sm- 12 tar target" id="div2">
+                        <!-- <header>TOP COURSE</header> -->
+                        <ul class="mega-links">
+                          <li><a href="/university/klaipeda-university">Klaipeda University</a></li>
+                          <li><a href="">ISM University of Management and Economics</a></li>
+                          <li><a href="/university/vilniaus-kolegija-university-of-applied-sciences">Vilniaus Kolegija University of Applied Sciences</a></li>
+                        </ul>
+                      </div>
+
+                      <div *ngIf="showdiv21==true" class=" col-lg-5 col-sm- 12 tar target" id="div2">
+                        <!-- <header>TOP COURSE</header> -->
+                        <ul class="mega-links">
+                          <li><a href="/university/asian-institute-management-philippines">Asian Institute Management</a></li>
+                          <li><a href="/university/washington-sycip-graduate-school-of-business">Washington SyCip Graduate School of Business</a></li>
+                          <li><a href="/university/ramon-v-del-rosario-college-of-business">Ramon V. del Rosario College of Business</a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <!-- Universities  -->
+                  <!--<div *ngIf="showdiv4==true" class="col-lg-12 col-sm- 12 tar target" id="div4">-->
+                  <!-- <header>TOP COLLEGE BY STATE</header> -->
+                  <!--<div class="row">
+                      <div class="col-lg-3">
+                        <span class="allCourseHeader">College By Courses</span>
+                        <ul class="mega-links UL1">
+                          <li><a href="#">B.tech Courses</a></li>
+                          <li><a href="#">M.tech Courses</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3">
+                        <span class="allCourseHeader">Top Courses</span>
+                        <ul class="mega-links">
+                          <li><a href="#">B.E</a></li>
+                          <li><a href="#">M.E</a></li>
+                          <li><a href="#">B.Tech</a></li>
+                          <li><a href="#">M.Tech</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3">
+                        <span class="allCourseHeader">College By City</span>
+                        <ul class="mega-links">
+                          <li><a href="#">Pune</a></li>
+                          <li><a href="#">Mumbai</a></li>
+                          <li><a href="#">Bangalore</a></li>
+                          <li><a href="#" class="menuMoreLink">More >></a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3">
+                        <span class="allCourseHeader">College By State</span>
+                        <ul class="mega-links">
+                          <li><a href="#">Karnataka</a></li>
+                          <li><a href="#">Maharashtra</a></li>
+                          <li><a href="#" class="menuMoreLink">More >></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>-->
+                </div>
+
+              </div> <!-- End anim -->
+
+            </div><!-- MegaRow1 -->
+
+            <div class="clearfix"></div>
+            <div class="col-lg-12 row featureSection">
+              <div class="col-lg-12 col-md-12" style="max-height: 40px;">
+                <p class="featureHeading">TOP COLLEGES IN INDIA</p>
+              </div>
+              <div class="col-lg-12 featureCardBoxPadding">
+                <div class="row">
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/col30730.png?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/col30730.png?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a href="/college/vishwakarma-institute-of-technology-vit-pune"> Vishwakarma Institute of Technology </a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a href="/college/vishwakarma-institute-of-technology-vit-pune">Pune, Maharashtra </a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/1501584806Capture1.jpg?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/1501584806Capture1.jpg?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a href="/college/mit-college-of-engineering-pune"> MIT College of Engineering</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a href="/college/mit-college-of-engineering-pune"> PUNE , Maharastra</a></p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-lg-4 featureCardBox">
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img
+                          data-src="https://images.collegedunia.com/public/college_data/images/logos/1408968357iiml.jpg?tr=w-35,h-35,c-force"
+                          alt="" class="cd-bottom-img lazyloaded"
+                          src="https://images.collegedunia.com/public/college_data/images/logos/1408968357iiml.jpg?tr=w-35,h-35,c-force">
+                      </div>
+                      <div class="col-lg-10">
+                        <p class="featureParentHead"><a href="/university/symbiosis-international-university-siu-pune">Symbiosis International University</a></p>
+                      </div>
+                      <div class="col-lg-12 featureSubHeadBox">
+                        <p class="featureSubHead"><a href="/university/symbiosis-international-university-siu-pune">Pune, Maharashtra</a></p>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- mega-box -->
+        </li>
+        <!-- End Here -->
+
+
+        <!--li>
+              <a routerLink="/exams" class="desktop-item">Exams <i class=" fa fa-angle-down"></i></a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Exams <i class=" fa fa-angle-down"></i></label>
+              <ul class="drop-menu">
+                <li><a href="#">GRE</a></li>
+                <li><a href="#">SAT</a></li>
+                <li><a href="#">NEET</a></li>
+                <li><a href="#">JEE</a></li>
+              </ul>
+            </li-->
+
+
+        <!--li><a href="#">Reviews</a></li>
+            <li><a routerLink="/news" href="#">News</a></li>
+            <li><a href="#">Admission</a></li-->
+        <!--li><a href="#" class="active"><i class="fa fa-sign-in">&nbsp;Login</i></a></li>
+            <li><a href="#" class="active"><i class="fa fa-download">&nbsp; Download</i></a></li-->
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fa fa-bars"></i></label>
+    </div>
+  </nav>
+
+</div> <!-- Scroll Nav -->
+
+<div class="clearfix"></div>
+
+
+
+<div class="clearfix"></div>
+
+<main> <img routerLink="/home" class="mobilelogo" src="./../assets/img/Home Page/7. Footer/SYU-Logo.png" width="160px"
+    height="auto">
+  <button id="togglebtn" (click)="open()" type="button" class="btn-open first"><i class="fa fa-bars"
+      style="color:#fff;"></i></button>
+</main>
+
+<div class="clearfix"></div>
+
+<!-- <div *ngIf="checkoverlay==true" (click)="close()" class="zeynep-overlay"></div> -->
+
+
+
+
+<!-- Apply Now Btn -->
+<!--div class="outer">
+      <h4 class="appplybtn"><i class="fa fa-envelope"></i> APPLY NOW</h4>
+    </div-->
+
+<!-- Social Btn  -->
+
+<!-- <div class="social-buttons">
+  <a href="https://www.instagram.com/selectyouruniversity/" target="_blank"><img src="./../assets/images/social_icon/instagram.png" alt="" ></a>
+  <a href="https://www.youtube.com/channel/UCPpj1BPjtpsJjs9g6_imOpQ" target="_blank"><img src="./../assets/images/social_icon/youtube.png" alt="" > </a>
+  <a href="https://api.whatsapp.com/send?phone=+919555120101 &text=Hello" target="_blank"><img src="./../assets/images/social_icon/whatsapp.png" alt="" ></a>
+  <a href="https://www.facebook.com/Selectyouruniversity-354272278407900/" target="_blank"><img src="./../assets/images/social_icon/facebook.png" alt="" ></a>
+  <a href="https://in.pinterest.com/selectyouruniversity/pins/" target="_blank"><img src="./../assets/images/social_icon/p.png" alt="" ></a>
+  <a href="https://t.me/selectyouruniversity1" target="_blank"><img src="./../assets/images/social_icon/telegram.png" alt="" ></a>
+</div> -->
+
+
+
+<!--div class="sticky-container">
+  <ul class="sticky">
+      <li>
+          <img src="./../assets/images/social_icon/instagram.png" width="30" height="auto">
+          <p><a href="https://www.instagram.com/selectyouruniversity/?hl=en" target="_blank">Instagram</a></p>
+      </li>
+      <li>
+          <img src="./../assets/images/social_icon/youtube.png" width="30" height="auto">
+          <p><a href="https://www.youtube.com/channel/UCPpj1BPjtpsJjs9g6_imOpQ/videos" target="_blank">Youtube</a></p>
+      </li>
+      <li>
+          <img src="./../assets/images/social_icon/whatsapp.png" width="30" height="auto">
+          <p><a href="https://api.whatsapp.com/send?phone=+919555120101%20&text=I%20want%20to%20apply%20for%20the%20current%20intake%20of%20UG/PG%20courses%20in%20India%20or%20Abroad" target="_blank">Whats's app </a></p>
+      </li>
+      <li>
+          <img src="./../assets/images/social_icon/facebook.png" width="30" height="auto">
+          <p><a href="https://www.facebook.com/SelectyouruniversityIndia/" target="_blank">Facebook</a></p>
+      </li>
+      <li>
+          <img src="./../assets/images/social_icon/telegram.png" width="30" height="auto">
+          <p><a href="https://t.me/selectyouruniversity1" target="_blank">Telegram</a></p>
+      </li>
+      <li>
+          <img src="./../assets/images/social_icon/p.png" width="30" height="auto">
+          <p><a href="https://in.pinterest.com/selectyouruniversity/pins/" target="_blank">Pinterest</a></p>
+      </li>
+  </ul>
+</div-->

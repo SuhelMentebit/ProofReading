@@ -1,0 +1,76 @@
+.predictor {
+  background-color: #d7d4d4;
+  padding-bottom: 1px;
+}
+.neet-rank-predictor {
+  box-shadow: inset 0 0 0 2000px rgb(88 147 235 / 6%);
+  background-size: 100% 100%;
+  background-image: url("../../assets/img/College_Filter_Icons/1.Header/header-banner.png");
+  background-repeat: no-repeat;
+  padding: 5% 0%;
+  margin-top: -1px;
+}
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+p {
+  font-size: large;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  color: #4d92e6;
+  padding-top: 2%;
+  margin-bottom: -1%;
+  font-size: 34px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.form {
+  padding: 3%;
+}
+.form-control {
+  display: block;
+  font-weight: 500;
+  border: 1px solid #016ae9;
+  -moz-appearance: none;
+  border-radius: 4px;
+}
+input {
+  margin-bottom: 2%;
+}
+select {
+  margin-bottom: 2%;
+}
+.submit {
+  width: 90%;
+  background-image: linear-gradient(to right, #306098, #2f6ba6, #4290cc);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+button:hover {
+  color: white !important;
+}
+.note {
+  color: #ec6880;
+  margin-top: 9px;
+  text-align: center;
+  line-height: 110%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.pay {
+  width: 50%;
+  background-image: linear-gradient(to right, #306098, #2f6ba6, #4290cc);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+.txt {
+  margin: 8px;
+}

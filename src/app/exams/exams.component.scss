@@ -1,0 +1,1902 @@
+.pill-div-exam {
+    background-color: #1f3778;
+    /* border: 2px solid lightblue; */
+    color: #fff;
+    padding: 5px 14px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 22px;
+    font-size: 9px;
+    font-weight: 900;
+}
+
+.list-text {
+    background: url('../../assets/img/Course_Icons/Explore_By_Category/Bullet-pt.png') no-repeat left;
+    padding: 3px;
+    list-style: none;
+    margin: 0px;
+    background-size: 7%;
+    padding-left: 12%;
+    margin-left: 5%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: -15px;
+}
+
+.scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 218px;
+}
+
+.orange-text {
+    color: orangered;
+    font-size: 20px;
+    border-right: 1px solid #fff;
+    padding: 0px;
+    margin-top: 10px;
+    line-height: 30px;
+    font-weight: 900;
+}
+
+.exam-title {
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 8px;
+    color: #fff;
+    text-align: left;
+}
+
+.timeline {
+    height: 15vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+    width: 40%;
+}
+
+.timeline::-webkit-scrollbar {
+    width: 4px;
+    background-color: #fff;
+}
+
+.timeline::-webkit-scrollbar-thumb {
+    background: orangered;
+    border-radius: 5px;
+    width: 5px;
+}
+
+.ornage-btn {
+    background-color: #ff7500;
+    color: #fff !important;
+    border-radius: 20px;
+    padding: 3px 15px;
+    margin-top: 14px;
+}
+
+form.exam-page-form {
+    width: 50%
+}
+
+form.exam-page-form input[type=text] {
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid transparent;
+    float: left;
+    width: 92%;
+    background: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+form.exam-page-form button {
+    float: left;
+    width: 8%;
+    padding: 5px;
+    background: #1c4dc3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid transparent;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.fa-phone-square {
+    transform: rotate(90deg);
+}
+
+.pill-div-exam {
+    background-color: #1f3778;
+    /* border: 2px solid lightblue; */
+    color: #fff;
+    padding: 5px 14px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 22px;
+    font-size: 8px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: flex-end
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.icon-clr {
+    filter: brightness(0) invert(1);
+}
+
+.img-bottom {
+    margin-bottom: 15px;
+}
+
+.h2-margin {
+    margin-bottom: 8px;
+}
+
+.img-margin {
+    margin-bottom: 8px;
+}
+
+@media only screen and (max-width:991px) and (min-width:767px) {
+    .card {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pill-div-exam {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // height: 23px;
+    }
+    .flex-div {
+        display: flex;
+        justify-content: flex-end;
+        // align-items: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pill-div-exam {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 23px;
+    }
+    .flex-div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:1199px) and (min-width:992px) {
+    .pill-div-exam {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // height: 23px;
+        padding: 0px 4px;
+        height: 27px;
+    }
+    .flex-div {
+        display: flex;
+        justify-content: flex-end;
+        // align-items: center;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .contact-card {
+        margin: 0 -15px;
+    }
+}
+
+//form css starts here
+.form2 {
+    background-color: #d7d4d4;
+    padding-bottom: 10px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  #thankyouform2 {
+    margin-left: 0%;
+    padding: 50px;
+    margin-top: 1.5%;
+    --border-size: 3px;
+    --border-angle: 0turn;
+  
+    background-image: conic-gradient(from var(--border-angle),
+        rgb(238, 233, 243),
+        rgb(232, 232, 240) 50%,
+        rgb(243, 241, 245)),
+      conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+    background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
+      cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    animation: bg-spin 3s linear infinite;
+  
+    @keyframes bg-spin {
+      to {
+        --border-angle: 1turn;
+      }
+    }
+  
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+  
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  
+  }
+  
+  svg {
+    color: green;
+  }
+  
+ 
+  
+  .flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+  .form-check-inline {
+    margin-top: -16px;
+  }
+  
+  label {
+    margin-bottom: 0rem;
+  }
+  
+  .form-input {
+    font-size: 12px;
+  }
+  
+  .modal-title {
+    color: #0b4292;
+    font-weight: 700;
+  }
+  
+  .left-txt {
+    margin-bottom: 0.4rem;
+  }
+  
+  .form-card2 {
+    background-color: white;
+    padding: 20px;
+    line-height: 97%;
+    width: 155%;
+    margin-top: 1.5%;
+    --border-size: 3px;
+    --border-angle: 0turn;
+  
+    background-image: conic-gradient(from var(--border-angle),
+        rgb(238, 233, 243),
+        rgb(232, 232, 240) 50%,
+        rgb(243, 241, 245)),
+      conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+    background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
+      cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    animation: bg-spin 3s linear infinite;
+  
+    @keyframes bg-spin {
+      to {
+        --border-angle: 1turn;
+      }
+    }
+  
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+  
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  }
+  
+  .form-head {
+    color: #0b4292;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .card-left-text {
+    margin-bottom: 0.8rem !important;
+    font-size: 12px;
+  }
+  
+  .sub-title {
+    font-weight: 400;
+  }
+  
+  .form-div2 {
+    margin-top: 15px;
+  }
+  
+  .form-input {
+    border-left: none !important;
+    border-right: 1px solid #8c8d91 !important;
+    border-top: 1px solid #8c8d91 !important;
+    border-bottom: 1px solid #8c8d91 !important;
+    border-radius: 0% !important;
+  }
+  
+  input.form-control:focus {
+    box-shadow: inset 0 -1px 0 #ddd;
+  }
+  
+  .icon {
+    border-right: none !important;
+    border-top: 1px solid #8c8d91 !important;
+    border-left: 1px solid #8c8d91 !important;
+    border-bottom: 1px solid #8c8d91 !important;
+    border-radius: 0% !important;
+  }
+  
+  .close {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 28px;
+    height: 22px;
+    margin-top: 5px;
+    margin-right: 12px;
+  }
+  
+  .terms {
+    font-size: 10px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .submit2 {
+    //margin-top: 40px;
+    background: #ffae47;
+    color: white;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .submit2:hover {
+    //margin-top: -5px;
+    background: #ffae47;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .login-block {
+    font-size: 12px;
+  }
+  
+  .img-size {
+    height: 50px;
+    width: 45px;
+  }
+  
+  .validation {
+    color: red;
+    font-size: 10px;
+  }
+  
+  @media all and (max-width: 600px) {
+    .submit {
+      margin-top: 9px;
+    }
+  
+    .container #thankyouform2 {
+      align-items: center;
+      margin-left: 0%;
+    }
+  
+    .form2 {
+      margin-top: 0%;
+    }
+
+    .form-card2{
+         //margin-left: -27%;
+    }
+  
+  
+  
+  }
+  
+  @media all and (min-width: 700px) and (max-width: 992px) {
+    .submit2 {
+      font-size: 10px;
+    }
+    
+  }
+  
+  .form2 {
+    background-color: #d7d4d4;
+    padding-bottom: 10px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  .flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+  .modal-title {
+    color: #0b4292;
+    font-weight: 700;
+  }
+  
+  .left-txt {
+    margin-bottom: 0.4rem;
+  }
+  
+  .form-card2 {
+    background-color: white;
+    padding: 20px;
+    line-height: 97%;
+  }
+  
+  .form-head2 {
+    color: #0b4292;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .card-left-text {
+    margin-bottom: 0.8rem !important;
+    font-size: 12px;
+  }
+  
+  .sub-title {
+    font-weight: 400;
+  }
+  
+  .edu-title {
+    font-weight: 600;
+  }
+  
+  .form-div2 {
+    margin-top: 8px;
+  }
+  
+  
+  
+  .form-input1 {
+    border: 1px solid #8c8d91 !important;
+    border-radius: 4px !important;
+    height: 30px;
+  }
+  
+  .score-input {
+    border: 1px solid 8c8d91 !important;
+    height: 30px;
+  }
+  
+  input.form-control:focus {
+    box-shadow: inset 0 -1px 0 #ddd;
+  }
+  
+  .icon {
+    border-right: none !important;
+    border-top: 1px solid 8c8d91 !important;
+    border-left: 1px solid 8c8d91 !important;
+    border-bottom: 1px solid 8c8d91 !important;
+    border-radius: 0% !important;
+  }
+  
+  .close {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 28px;
+    height: 22px;
+    margin-top: 5px;
+    margin-right: 12px;
+  }
+  
+  .terms {
+    font-size: 11px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    display: inline-flex;
+  }
+  
+  .submit2 {
+    //margin-top: 40px;
+    background: #ffae47;
+    color: white;
+    // font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .back {
+    margin-top: -5px;
+    background: white;
+    color: #ffae47;
+    border: 1px solid #ffae47;
+    // font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .back:hover {
+    color: #ffae47;
+    border: 1px solid #ffae47;
+  }
+  
+  .submit2:hover {
+    //margin-top: -5px;
+    background: #ffae47;
+    color: white;
+    // font-weight: bold;
+  }
+  
+  .login-block {
+    font-size: 12px;
+  }
+  
+  .exam {
+    margin-right: 27px;
+  }
+  
+  .twelve {
+    padding-top: 15px;
+    font-weight: 400;
+  }
+  
+  .tenth {
+    padding-top: 0;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  
+  .img-size {
+    height: 50px;
+    width: 45px;
+  }
+  
+  @media all and (max-width: 600px) {
+    .submit2{
+      margin-top: 9px;
+    }
+    .form-card2{
+         width: 100%;
+    }
+  }
+  
+  @media all and (min-width: 700px) and (max-width: 992px) {
+    .submit2 {
+      font-size: 10px;
+    }
+  }
+  @media all and (min-width: 600px) and (max-width: 767px) {
+    .form-card2{
+         width: 100%;
+    }
+  }
+  
+  .form2 {
+    background-color: #d7d4d4;
+    padding-bottom: 10px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  .flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+  .modal-title {
+    color: #0b4292;
+    font-weight: 700;
+  }
+  
+  .left-txt {
+    margin-bottom: 0.4rem;
+  }
+  
+  .form-card2 {
+    background-color: white;
+    padding: 20px;
+    line-height: 97%;
+  }
+  
+  .form-head2 {
+    color: #0b4292;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .card-left-text {
+    margin-bottom: 0.8rem !important;
+    font-size: 12px;
+  }
+  
+  .sub-title {
+    font-weight: 400;
+  }
+  
+  .edu-title {
+    font-weight: 600;
+  }
+  
+  .form-div2 {
+    margin-top: 15px;
+  }
+  
+  .form-input {
+    border-left: none !important;
+    border-right: 1px solid #8c8d91 !important;
+    border-top: 1px solid #8c8d91 !important;
+    border-bottom: 1px solid #8c8d91 !important;
+    border-radius: 0% !important;
+    height: 30px;
+  }
+  
+  .score-input {
+    border: 1px solid #8c8d91 !important;
+    height: 30px;
+  }
+  
+  input.form-control:focus {
+    box-shadow: inset 0 -1px 0 #ddd;
+  }
+  
+  .icon {
+    border-right: none !important;
+    border-top: 1px solid #8c8d91 !important;
+    border-left: 1px solid #8c8d91 !important;
+    border-bottom: 1px solid #8c8d91 !important;
+    border-radius: 0% !important;
+  }
+  
+  .close {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 28px;
+    height: 22px;
+    margin-top: 5px;
+    margin-right: 12px;
+  }
+  
+  .terms {
+    font-size: 11px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    display: inline-flex;
+  }
+  
+  .submit2 {
+    //margin-top: 40px;
+    background: #ffae47;
+    color: white;
+    // font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .back {
+    margin-top: -5px;
+    background: white;
+    color: #ffae47;
+    border: 1px solid #ffae47;
+    // font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .back:hover {
+    color: #ffae47;
+    border: 1px solid #ffae47;
+  }
+  
+  .submit2:hover {
+    //margin-top: -5px;
+    background: #ffae47;
+    color: white;
+    // font-weight: bold;
+  }
+  
+  .login-block {
+    font-size: 12px;
+  }
+  
+  .exam {
+    margin-right: 27px;
+  }
+  
+  .img-size {
+    height: 50px;
+    width: 45px;
+  }
+  
+  .validation {
+    color: red;
+    font-size: 10px;
+  }
+  
+  @media all and (max-width: 600px) {
+    .submit2 {
+      margin-top: 9px;
+    }
+  
+    .modal-header {
+      flex-direction: column;
+    }
+  
+    .modal-title {
+      padding-left: 40px;
+    }
+   
+    .container #hide {
+      display: none;
+    }
+  
+   #row{
+    margin-left: 10px;
+    margin-right: 10px;
+   }
+  
+    #phone {
+      margin-bottom: 15px;
+    }
+  
+  
+    .modal-title {
+      display: none;
+    }
+  
+    .sub-title {
+      font-size: 10px;
+    }
+  
+  }
+  
+  
+  @media all and (min-width: 700px) and (max-width: 992px) {
+    .submit2 {
+      font-size: 10px;
+    }
+  }
+  
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  //form css ends here
+
+ 
+ 
+ 
+  /*popup form css*/
+  #thankyouform {
+    margin-left: 16%;
+}
+.shortlist-txt {
+  font-size: 9px;
+}
+
+.shortlist-card {
+  border-radius: 3px;
+  height: 80px;
+  padding: 3px;
+}
+.form {
+  background-color: #d7d4d4;
+  padding-bottom: 10px;
+  width: 60%;
+  margin-left: 10%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.modal-title {
+  color: #0b4292;
+  font-weight: 700;
+}
+
+.left-txt {
+  margin-bottom: 0.4rem;
+}
+
+.form-card {
+  background-color: white;
+  padding: 20px;
+  line-height: 97%;
+}
+
+.form-head {
+  color: #0b4292;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.card-left-text {
+  margin-bottom: 0.8rem !important;
+  font-size: 12px;
+}
+
+.sub-title {
+  font-weight: 400;
+}
+
+.form-div {
+  margin-top: 15px;
+}
+
+// .shortlist-txt {
+//   font-size: 9px;
+// }
+
+// .shortlist-card {
+//   border-radius: 3px;
+//   height: 68px;
+//   padding: 3px;
+// }
+
+.form-input {
+  border-left: none !important;
+  border-right: 1px solid #8c8d91 !important;
+  border-top: 1px solid #8c8d91 !important;
+  border-bottom: 1px solid #8c8d91 !important;
+  border-radius: 0% !important;
+}
+
+input.form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.icon {
+  border-right: none !important;
+  border-top: 1px solid #8c8d91 !important;
+  border-left: 1px solid #8c8d91 !important;
+  border-bottom: 1px solid #8c8d91 !important;
+  border-radius: 0% !important;
+}
+
+.close {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 28px;
+  height: 22px;
+  margin-top: 5px;
+  margin-right: 12px;
+}
+
+.terms {
+  font-size: 10px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.submit {
+  margin-top: 40px;
+  background: #ffae47;
+  color: white;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.submit:hover {
+  //margin-top: -5px;
+  background: #ffae47;
+  color: white;
+  font-weight: bold;
+}
+
+.login-block {
+  font-size: 12px;
+}
+
+.img-size {
+  height: 50px;
+  width: 45px;
+}
+
+.validation {
+  color: red;
+  font-size: 10px;
+}
+
+@media all and (max-width: 600px) {
+  .submit {
+      margin-top: 9px;
+  }
+}
+
+@media all and (min-width: 700px) and (max-width: 992px) {
+  .submit {
+      font-size: 10px;
+  }
+}
+
+.form {
+  background-color: #d7d4d4;
+  padding-bottom: 10px;
+  width: 60%;
+  margin-left: 10%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.modal-title {
+  color: #0b4292;
+  font-weight: 700;
+}
+
+.left-txt {
+  margin-bottom: 0.4rem;
+}
+
+.form-card {
+  background-color: white;
+  padding: 20px;
+  line-height: 97%;
+}
+
+.form-head {
+  color: #0b4292;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.card-left-text {
+  margin-bottom: 0.8rem !important;
+  font-size: 12px;
+}
+
+.sub-title {
+  font-weight: 400;
+}
+
+.edu-title {
+  font-weight: 600;
+}
+
+.form-div {
+  margin-top: 8px;
+}
+
+// .shortlist-txt {
+//   font-size: 9px;
+// }
+
+// .shortlist-card {
+//   border-radius: 3px;
+//   height: 68px;
+//   padding: 3px;
+// }
+
+.form-input1 {
+  border: 1px solid #8c8d91 !important;
+  border-radius: 4px !important;
+  height: 30px;
+}
+
+.score-input {
+  border: 1px solid 8c8d91 !important;
+  height: 30px;
+}
+
+input.form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.icon {
+  border-right: none !important;
+  border-top: 1px solid 8c8d91 !important;
+  border-left: 1px solid 8c8d91 !important;
+  border-bottom: 1px solid 8c8d91 !important;
+  border-radius: 0% !important;
+}
+
+.close {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 28px;
+  height: 22px;
+  margin-top: 5px;
+  margin-right: 12px;
+}
+
+.terms {
+  font-size: 11px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  display: inline-flex;
+}
+
+.submit {
+  margin-top: 40px;
+  background: #ffae47;
+  color: white;
+  // font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.back {
+  margin-top: -5px;
+  background: white;
+  color: #ffae47;
+  border: 1px solid #ffae47;
+  // font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.back:hover {
+  color: #ffae47;
+  border: 1px solid #ffae47;
+}
+
+.submit:hover {
+  //margin-top: -5px;
+  background: #ffae47;
+  color: white;
+  // font-weight: bold;
+}
+
+.login-block {
+  font-size: 12px;
+}
+
+.exam {
+  margin-right: 27px;
+}
+
+.twelve {
+  padding-top: 15px;
+  font-weight: 400;
+}
+
+.tenth {
+  padding-top: 0;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.img-size {
+  height: 50px;
+  width: 45px;
+}
+
+@media all and (max-width: 600px) {
+  .submit {
+      margin-top: 9px;
+  }
+}
+
+@media all and (min-width: 700px) and (max-width: 992px) {
+  .submit {
+      font-size: 10px;
+  }
+}
+
+.form {
+  background-color: #d7d4d4;
+  padding-bottom: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.modal-title {
+  color: #0b4292;
+  font-weight: 700;
+}
+
+.left-txt {
+  margin-bottom: 0.4rem;
+}
+
+.form-card {
+  background-color: white;
+  padding: 20px;
+  line-height: 97%;
+}
+
+.form-head {
+  color: #0b4292;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.card-left-text {
+  margin-bottom: 0.8rem !important;
+  font-size: 12px;
+}
+
+.sub-title {
+  font-weight: 400;
+}
+
+.edu-title {
+  font-weight: 600;
+}
+
+.form-div {
+  margin-top: 15px;
+}
+
+// .shortlist-txt {
+//   font-size: 9px;
+// }
+
+// .shortlist-card {
+//   border-radius: 3px;
+//   height: 68px;
+//   padding: 3px;
+// }
+
+.form-input {
+  border-left: none !important;
+  border-right: 1px solid #8c8d91 !important;
+  border-top: 1px solid #8c8d91 !important;
+  border-bottom: 1px solid #8c8d91 !important;
+  border-radius: 0% !important;
+  height: 30px;
+}
+
+.score-input {
+  border: 1px solid #8c8d91 !important;
+  height: 30px;
+}
+
+input.form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.icon {
+  border-right: none !important;
+  border-top: 1px solid #8c8d91 !important;
+  border-left: 1px solid #8c8d91 !important;
+  border-bottom: 1px solid #8c8d91 !important;
+  border-radius: 0% !important;
+}
+
+.close {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 28px;
+  height: 22px;
+  margin-top: 5px;
+  margin-right: 12px;
+}
+
+.terms {
+  font-size: 11px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  display: inline-flex;
+}
+
+.submit {
+  margin-top: 40px;
+  background: #ffae47;
+  color: white;
+  // font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.back {
+  margin-top: -5px;
+  background: white;
+  color: #ffae47;
+  border: 1px solid #ffae47;
+  // font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.back:hover {
+  color: #ffae47;
+  border: 1px solid #ffae47;
+}
+
+.submit:hover {
+  //margin-top: -5px;
+  background: #ffae47;
+  color: white;
+  // font-weight: bold;
+}
+
+.login-block {
+  font-size: 12px;
+}
+
+.exam {
+  margin-right: 27px;
+}
+
+.img-size {
+  height: 50px;
+  width: 45px;
+}
+
+.validation {
+  color: red;
+  font-size: 10px;
+}
+
+@media all and (max-width: 600px) {
+  .submit {
+      margin-top: 9px;
+  }
+
+  .modal-header {
+      flex-direction: column;
+  }
+
+  .modal-title {
+      padding-left: 40px;
+  }
+}
+
+@media all and (min-width: 700px) and (max-width: 992px) {
+  .submit {
+      font-size: 10px;
+  }
+
+  .form {
+      width: 93%;
+      margin-left: 4%;
+      margin-top: 20%;
+  }
+}
+
+.form {
+  background-color: #d7d4d4;
+  padding-bottom: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.form-check-inline {
+  margin-top: -16px;
+}
+
+label {
+  margin-bottom: 0rem;
+}
+
+.form-input {
+  font-size: 12px;
+}
+
+.modal-title {
+  color: #0b4292;
+  font-weight: 700;
+}
+
+.left-txt {
+  margin-bottom: 0.4rem;
+}
+
+.form-card {
+  background-color: white;
+  padding: 20px;
+  line-height: 97%;
+}
+
+.form-head {
+  color: #0b4292;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.card-left-text {
+  margin-bottom: 0.8rem !important;
+  font-size: 12px;
+}
+
+.sub-title {
+  font-weight: 400;
+}
+
+.form-div {
+  margin-top: 15px;
+}
+
+
+
+.form-input {
+  border-left: none !important;
+  border-right: 1px solid #8c8d91 !important;
+  border-top: 1px solid #8c8d91 !important;
+  border-bottom: 1px solid #8c8d91 !important;
+  border-radius: 0% !important;
+}
+
+input.form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.icon {
+  border-right: none !important;
+  border-top: 1px solid #8c8d91 !important;
+  border-left: 1px solid #8c8d91 !important;
+  border-bottom: 1px solid #8c8d91 !important;
+  border-radius: 0% !important;
+}
+
+.close {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 28px;
+  height: 22px;
+  margin-top: 5px;
+  margin-right: 12px;
+}
+
+.terms {
+  font-size: 10px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.submit {
+  margin-top: 40px;
+  background: #ffae47;
+  color: white;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.submit:hover {
+  //margin-top: -5px;
+  background: #ffae47;
+  color: white;
+  font-weight: bold;
+}
+
+.login-block {
+  font-size: 12px;
+}
+
+.img-size {
+  height: 50px;
+  width: 45px;
+}
+
+.validation {
+  color: red;
+  font-size: 10px;
+}
+
+@media all and (max-width: 600px) {
+  .submit {
+      margin-top: 9px;
+  }
+
+  .form {
+      width: 95%;
+      margin-left: 3%;
+      margin-top: 11%;
+  }
+}
+
+@media all and (min-width: 700px) and (max-width: 992px) {
+  .submit {
+      font-size: 10px;
+  }
+}
+
+.form {
+  background-color: #d7d4d4;
+  padding-bottom: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.modal-title {
+  color: #0b4292;
+  font-weight: 700;
+}
+
+.left-txt {
+  margin-bottom: 0.4rem;
+}
+
+.form-card {
+  background-color: white;
+  padding: 20px;
+  line-height: 97%;
+}
+
+.form-head {
+  color: #0b4292;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.card-left-text {
+  margin-bottom: 0.8rem !important;
+  font-size: 12px;
+}
+
+.sub-title {
+  font-weight: 400;
+}
+
+.edu-title {
+  font-weight: 600;
+}
+
+.form-div {
+  margin-top: 8px;
+}
+
+
+
+.form-input1 {
+  border: 1px solid #8c8d91 !important;
+  border-radius: 4px !important;
+  height: 30px;
+}
+
+.score-input {
+  border: 1px solid 8c8d91 !important;
+  height: 30px;
+}
+
+input.form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.icon {
+  border-right: none !important;
+  border-top: 1px solid 8c8d91 !important;
+  border-left: 1px solid 8c8d91 !important;
+  border-bottom: 1px solid 8c8d91 !important;
+  border-radius: 0% !important;
+}
+
+.close {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 28px;
+  height: 22px;
+  margin-top: 5px;
+  margin-right: 12px;
+}
+
+.terms {
+  font-size: 11px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  display: inline-flex;
+}
+
+.submit {
+  margin-top: 40px;
+  background: #ffae47;
+  color: white;
+  // font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.back {
+  margin-top: -5px;
+  background: white;
+  color: #ffae47;
+  border: 1px solid #ffae47;
+  // font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.back:hover {
+  color: #ffae47;
+  border: 1px solid #ffae47;
+}
+
+.submit:hover {
+  //margin-top: -5px;
+  background: #ffae47;
+  color: white;
+  // font-weight: bold;
+}
+
+.login-block {
+  font-size: 12px;
+}
+
+.exam {
+  margin-right: 27px;
+}
+
+.twelve {
+  padding-top: 15px;
+  font-weight: 400;
+}
+
+.tenth {
+  padding-top: 0;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.img-size {
+  height: 50px;
+  width: 45px;
+}
+
+@media all and (max-width: 600px) {
+  .submit {
+      margin-top: 9px;
+  }
+  .container #thankyouform{
+      align-items: center;
+      margin-left: 0%;
+  }
+}
+
+@media all and (min-width: 700px) and (max-width: 992px) {
+  .submit {
+      font-size: 10px;
+  }
+}
+
+.form {
+  background-color: #d7d4d4;
+  padding-bottom: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.modal-title {
+  color: #0b4292;
+  font-weight: 700;
+}
+
+.left-txt {
+  margin-bottom: 0.4rem;
+}
+
+.form-card {
+  background-color: white;
+  padding: 20px;
+  line-height: 97%;
+}
+
+.form-head {
+  color: #0b4292;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.card-left-text {
+  margin-bottom: 0.8rem !important;
+  font-size: 12px;
+}
+
+.sub-title {
+  font-weight: 400;
+}
+
+.edu-title {
+  font-weight: 600;
+}
+
+.form-div {
+  margin-top: 15px;
+}
+
+#course{
+  padding-left: 2%;
+  cursor: pointer;
+}
+
+.form-input {
+  border-left: none !important;
+  border-right: 1px solid #8c8d91 !important;
+  border-top: 1px solid #8c8d91 !important;
+  border-bottom: 1px solid #8c8d91 !important;
+  border-radius: 0% !important;
+  height: 30px;
+}
+
+.score-input {
+  border: 1px solid #8c8d91 !important;
+  height: 30px;
+}
+
+input.form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.icon {
+  border-right: none !important;
+  border-top: 1px solid #8c8d91 !important;
+  border-left: 1px solid #8c8d91 !important;
+  border-bottom: 1px solid #8c8d91 !important;
+  border-radius: 0% !important;
+}
+
+.close {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 28px;
+  height: 22px;
+  margin-top: 5px;
+  margin-right: 12px;
+}
+
+.terms {
+  font-size: 11px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  display: inline-flex;
+}
+
+.submit {
+  margin-top: 40px;
+  background: #ffae47;
+  color: white;
+  // font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.back {
+  margin-top: -5px;
+  background: white;
+  color: #ffae47;
+  border: 1px solid #ffae47;
+  // font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.back:hover {
+  color: #ffae47;
+  border: 1px solid #ffae47;
+}
+
+.submit:hover {
+  //margin-top: -5px;
+  background: #ffae47;
+  color: white;
+  // font-weight: bold;
+}
+
+.login-block {
+  font-size: 12px;
+}
+
+.exam {
+  margin-right: 27px;
+}
+
+.img-size {
+  height: 50px;
+  width: 45px;
+}
+
+.validation {
+  color: red;
+  font-size: 10px;
+}
+
+@media all and (max-width: 600px) {
+  .submit {
+      margin-top: 9px;
+  }
+
+  .modal-header {
+      flex-direction: column;
+  }
+
+  .modal-title {
+      padding-left: 40px;
+  }
+
+  .container {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      /* optional */
+      -webkit-box-align: start;
+      -moz-box-align: start;
+      -ms-flex-align: start;
+      -webkit-align-items: flex-start;
+      align-items: center;
+  }
+
+  .container #hide {
+      display: none;
+  }
+
+  .container .col-lg-8 {
+      -webkit-box-ordinal-group: 1;
+      -moz-box-ordinal-group: 1;
+      -ms-flex-order: 1;
+      -webkit-order: 1;
+      order: 1;
+  }
+
+  #phone {
+      margin-bottom: 15px;
+  }
+
+
+  .modal-title {
+      display: none;
+  }
+
+  .sub-title {
+      font-size: 10px;
+  }
+  .form{
+      margin-top: 25%;
+  }
+
+}
+
+@media all and (min-width: 700px) and (max-width: 992px) {
+  .submit {
+      font-size: 10px;
+  }
+}
+
+
+h3 {
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+  font-size: 18px !important;
+  line-height: 1.3 !important;
+  color: rgb(54, 54, 54);
+  font-weight: 700 !important;
+}
+
+@media only screen and (min-width:450px) and (max-width:600px) {
+   h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 18px !important;
+      line-height: 1.3;
+      color: rgb(54, 54, 54);
+      font-weight: 700;
+  }
+  }
+
+  // h3 {
+  //     font-size: 20px;
+  //     font-weight: 600;
+  // }
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+  

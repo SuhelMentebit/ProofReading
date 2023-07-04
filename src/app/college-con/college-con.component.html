@@ -1,0 +1,2590 @@
+<!--  -->
+<!-- <app-nav></app-nav> -->
+
+<section class="college-content" id="college-html">
+  <div class="col-lg-12">
+    <div class="college-content-div">
+      <div class="college-content-banner">
+        <div class="row row-without-gutter">
+          <div class="col-lg-5 col-12 col-sm-12">
+            <div class="row row-without-gutter college-name">
+              <div class="col-2 img text-lg-right">
+                <img src='{{ "https://www.selectyouruniversity.com/logo/" + collegeData.url + ".png" }}' />
+              </div>
+
+
+              <!-- <h2 class="iit-header">{{collegeData.shortTitle}}</h2> -->
+              <div class="col-10" *ngIf="isActive('info')">
+                <h1 class="iit-subheader cust-font-size">
+                  {{ collegeData.Title }}
+                </h1>
+              </div>
+
+
+              <div class="col-10" *ngIf="isActive('courses-and-fees')">
+                <div *ngFor="let item of collegeData.coursesandfees" class="col-10">
+                  <!-- <h2 class="iit-header">{{collegeData.shortTitle}}</h2> -->
+                  <h1 *ngIf="item.type == 'title'" class="iit-subheader cust-font-size">
+                    {{ item.title }}
+                  </h1>
+
+                </div>
+              </div>
+              <div class="col-10" *ngIf="isActive('admission')">
+                <div *ngFor="let item of collegeData.admission" class="col-10">
+                  <!-- <h2 class="iit-header">{{collegeData.shortTitle}}</h2> -->
+                  <h1 *ngIf="item.type == 'title'" class="iit-subheader cust-font-size">
+                    {{ item.title }}
+                  </h1>
+
+                </div>
+              </div>
+              <div class="col-10" *ngIf="isActive('review')">
+                <div *ngFor="let item of collegeData.review" class="col-10">
+                  <!-- <h2 class="iit-header">{{collegeData.shortTitle}}</h2> -->
+                  <h1 *ngIf="item.type == 'title'" class="iit-subheader cust-font-size">
+                    {{ item.title }}
+                  </h1>
+
+                </div>
+              </div>
+              <div class="col-10" *ngIf="isActive('placement')">
+                <div *ngFor="let item of collegeData.placement" class="col-10">
+                  <!-- <h2 class="iit-header">{{collegeData.shortTitle}}</h2> -->
+                  <h1 *ngIf="item.type == 'title'" class="iit-subheader cust-font-size">
+                    {{ item.title }}
+                  </h1>
+
+                </div>
+              </div>
+              <div class="col-10" *ngIf="isActive('gallery')">
+                <div *ngFor="let item of collegeData.gallery" class="col-10">
+                  <!-- <h2 class="iit-header">{{collegeData.shortTitle}}</h2> -->
+                  <h1 *ngIf="item.type == 'title'" class="iit-subheader cust-font-size">
+                    {{ item.title }}
+                  </h1>
+
+                </div>
+              </div>
+              <div class="col-10" *ngIf="isActive('scholarship')">
+                <div *ngFor="let item of collegeData.scholarship" class="col-10">
+                  <!-- <h2 class="iit-header">{{collegeData.shortTitle}}</h2> -->
+                  <h1 *ngIf="item.type == 'title'" class="iit-subheader cust-font-size">
+                    {{ item.title }}
+                  </h1>
+
+                </div>
+              </div>
+              <div class="col-10" *ngIf="isActive('faculty')">
+                <div *ngFor="let item of collegeData.faculty" class="col-10">
+                  <!-- <h2 class="iit-header">{{collegeData.shortTitle}}</h2> -->
+                  <h1 *ngIf="item.type == 'title'" class="iit-subheader cust-font-size">
+                    {{ item.title }}
+                  </h1>
+
+                </div>
+              </div>
+              <div class="col-10" *ngIf="isActive('news')">
+                <div *ngFor="let item of collegeData.news" class="col-10">
+                  <!-- <h2 class="iit-header">{{collegeData.shortTitle}}</h2> -->
+                  <h1 *ngIf="item.type == 'title'" class="iit-subheader cust-font-size">
+                    {{ item.title }}
+                  </h1>
+
+                </div>
+              </div>
+              <div class="col-10" *ngIf="isActive('hostel')">
+                <div *ngFor="let item of collegeData.hostel" class="col-10">
+                  <!-- <h2 class="iit-header">{{collegeData.shortTitle}}</h2> -->
+                  <h1 *ngIf="item.type == 'title'" class="iit-subheader cust-font-size">
+                    {{ item.title }}
+                  </h1>
+
+                </div>
+              </div>
+              <div class="col-10" *ngIf="isActive('faq')">
+                <div *ngFor="let item of collegeData.faq" class="col-10">
+                  <!-- <h2 class="iit-header">{{collegeData.shortTitle}}</h2> -->
+                  <h1 *ngIf="item.type == 'title'" class="iit-subheader cust-font-size">
+                    {{ item.title }}
+                  </h1>
+
+                </div>
+              </div>
+            </div>
+            <div class="row row-without-gutter info-div">
+              <div class="col-sm-10 offset-sm-2 col-12 d-flex d-sm-block">
+                <div class="flex-holder1">
+                  <img src="../../assets/img/College_Icons/2.IIT_Delhi/location.png" alt="" />
+                  <p>{{posts?.cCity}} , {{posts?.cCountry}}</p>
+                </div>
+                <div class="flex-holder1">
+                  <img src="../../assets/img/College_Icons/2.IIT_Delhi/pinned2.png" alt="" />
+                  <p>{{posts?.cYearEstablished}}</p>
+                </div>
+                <div class="flex-holder1">
+                  <img src="../../assets/img/College_Icons/2.IIT_Delhi/auto.png" alt="" />
+                  <p>{{posts?.cCollegeCategory}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="row row-without-gutter btns text-center">
+              <div class="flex-holder2">
+                <button class="btn btn-blue white-text-2" (click)="openModalWithClass(template)">
+                  Apply Now<img alt="" src="../../assets/img/College_Icons/2.IIT_Delhi/apply.png" />
+                </button>
+                <button class="btn dl-btn ml-3" (click)="generateReport()">
+                  Download Brochure<img alt="" src="../../assets/img/College_Icons/2.IIT_Delhi/download.png" />
+                </button>
+              </div>
+            </div>
+
+            <ng-template #template>
+              <section class="form">
+                <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-header">
+                  <img src="../../assets/img/new_logo_color.png" width="220px" height="auto"
+                    class="syuLogo college-page-logo" />
+                  <h4 class="modal-title text-center">A Place Where Your Career Matters</h4>
+                </div>
+                <div class="container">
+                  <!-- Left Card -->
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4" id="hide">
+                      <div class="card form-card">
+                        <h5 class="form-head">Why register with us?</h5>
+                        <div class="card-left-text">
+                          <p class="left-txt">
+                            With totally online Admission Process we help you get college
+                            admission without having to step out
+                          </p>
+                          <p class="left-txt">Upto 50% discount on application forms</p>
+                          <p class="left-txt">
+                            Upload your admission documents and get paytm rewards
+                          </p>
+                          <p class="left-txt">
+                            You won’t get unwanted calls from third parties
+                          </p>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="card shortlist-card text-center">
+                              <img src="../../assets/img/Application-Deadlines.png" class="center img-size" />
+                              <div class="shortlist-txt">Application Deadlines</div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="card shortlist-card">
+                              <img src="../../assets/img/Brochure Details.png" class="center img-size" />
+                              <div class="shortlist-txt text-center">Brochure Details</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row form-div">
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="card shortlist-card">
+                              <img src="../../assets/img/Councelling.png" class="center img-size" />
+                              <div class="shortlist-txt text-center">Councelling</div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="card shortlist-card">
+                              <img src="../../assets/img/Check-detalied-fees.png" class="center img-size" />
+                              <div class="shortlist-txt text-center">Check Detalied Fees</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Right Card Form 1-->
+                    <div class="col-lg-8 col-md-8" *ngIf="form1 === true">
+                      <div class="card form-card">
+                        <h5 class="form-head text-center">Register Now To Apply</h5>
+                        <div>
+                          <h6 class="sub-title text-center">
+                            Please leave your information to get the best suggested colleges
+                            and free counseling.
+                          </h6>
+                        </div>
+                        <form [formGroup]="RegistrationFrom1">
+                          <div class="form-div">
+                            <div class="row">
+                              <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                                <div class="input-group">
+                                  <div class="input-group-text bg-transparent icon">
+                                    <i class="fa fa-user"></i>
+                                  </div>
+                                  <input class="form-control py-2 border-right-0 border form-input" type="text"
+                                    placeholder="Full Name*" id="name" formControlName="cCandidateName" />
+                                </div>
+                                <div *ngIf="m['cCandidateName'].touched && m['cCandidateName'].invalid"
+                                  class="validation">
+                                  <div *ngIf="m['cCandidateName'].errors['required']">Please Enter Full Name</div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="input-group">
+                                  <div class="input-group-text bg-transparent icon">
+                                    <i class="fa fa-envelope"></i>
+                                  </div>
+                                  <input class="form-control py-2 border-right-0 border form-input" type="text"
+                                    placeholder="Email Address*" id="email" formControlName="cEmail" />
+                                </div>
+                                <div *ngIf="m['cEmail'].touched && m['cEmail'].invalid" class="validation">
+                                  <div *ngIf="m['cEmail'].errors['required']">Please enter email address</div>
+                                  <div *ngIf="m['cEmail'].errors['pattern']">Please enter valid email address</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-div">
+                            <div class="row">
+                              <div class="form-group col-lg-6 col-md-6 col-sm-6" id="phone">
+                                <div class="input-group">
+                                  <div class="input-group-text bg-transparent icon">
+                                    <i class="fa fa-phone flip"></i>
+                                  </div>
+                                  <input class="form-control py-2 border-right-0 border form-input" type="number"
+                                    placeholder="Mobile Number*" id="number" formControlName="cMobile" />
+                                </div>
+                                <div *ngIf="m['cMobile'].touched && m['cMobile'].invalid" class="validation">
+                                  <div *ngIf="m['cMobile'].errors['required']">Please enter mobile number</div>
+                                  <div *ngIf="m['cMobile'].errors['pattern']">Mobile number is not 10 digit</div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6" id="desktop">
+                                <div class="input-group">
+                                  <div class="input-group-text bg-transparent icon">
+                                    <i class="fa fa-map-marker"></i>
+                                  </div>
+                                  <input class="form-control py-2 border-right-0 border form-input" type="text"
+                                    placeholder="City You Live In" id="city" formControlName="cCity" />
+                                </div>
+                                <div *ngIf="m['cCity'].touched && m['cCity'].invalid" class="validation">
+                                  <!-- <div *ngIf="m['cCity'].errors['required']">Please enter city</div> -->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-div">
+                            <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                                <div class="input-group">
+                                  <div class="input-group-text bg-transparent icon">
+                                    <i class="fa fa-graduation-cap"></i>
+                                  </div>
+                                  <select 
+                                  class="form-control py-1 border-right-0 border form-input"
+                                  placeholder="Course Interested In*" 
+                                  id="course" 
+                                  (change)="changeCourse($event)"
+                                  formControlName="cCourse">
+                                    <option value="" id="course" class="form-control py-1 border-right-0  form-input">
+                                      Course Interested In*</option>
+                                    <option *ngFor="let course of Course" [ngValue]="course">
+                                      {{ course }}
+                                    </option>
+                                  </select>
+                                </div>
+                                <div *ngIf="m['cCourse'].touched && m['cCourse'].invalid" class="validation">
+                                  <div *ngIf="m['cCourse'].errors['required']">Please enter Course</div>
+                                </div>
+                              </div>
+                              <!-- <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="input-group">
+                                  <div class="input-group-text bg-transparent icon">
+                                    <i class="fa fa-graduation-cap"></i>
+                                  </div>
+                                  <input class="form-control py-2 border-right-0 border form-input" type="text"
+                                    placeholder="Select Highest Education*" id="education"
+                                    formControlName="qeducation" />
+                                </div>
+                                <div *ngIf="m['qeducation'].touched && m['qeducation'].invalid" class="validation">
+                                  <div *ngIf="m['qeducation'].errors['required']">Please enter Education</div>
+                                </div>
+                              </div> -->
+                              <div class="terms">
+                                <p>
+                                  By submitting this form, you accept and agree to our<span
+                                    style="color: cornflowerblue">
+                                    Terms of use
+                                  </span>
+                                </p>
+                              </div>
+                              <div class="row">
+                                <!-- <div class="col-lg-10 col-md-10 col-sm-10 login-block">
+                                  Already Registered? Click Here To Login.
+                                </div> -->
+                                <div class="col-lg-2 col-md-2 col-sm-2">
+                                  <button type="button" class="btn submit" [disabled]="!RegistrationFrom1.valid"
+                                    (click)="submitForm1()">
+                                    SUBMIT
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+
+                    <!--thank you message div-->
+                    <div class="vh-50 d-flex justify-content-center align-items-center" *ngIf="form2 === true"
+                      id="thankyouform">
+                      <div>
+                        <div class="mb-4 text-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="75" height="75"
+                            fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                          </svg>
+                        </div>
+                        <div class="text-center">
+                          <h1>Thank You !</h1>
+                          <p>Your submission has bees sent. </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Right Card Form 2-->
+                    <!-- <div class="col-lg-8 col-md-8" *ngIf="form2 === true">
+                      <div class="card form-card">
+                        <h5 class="form-head text-center">Register Now To Apply</h5>
+                        <div> -->
+
+                    <!-- <p class="sub-title text-center">
+                            IIT Gandhinagar - Indian Institute of Technology -[IITG]
+                          </p> -->
+
+                    <!-- </div>
+                        <div>
+                          <h5 class="edu-title text-center">Current Education Details</h5>
+                        </div>
+                        <form [formGroup]="RegistrationFrom2">
+                          <div class="form-div">
+                            <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                                <div class="input-group"> -->
+
+                    <!-- <div class="input-group-text bg-transparent icon"> -->
+                    <!-- <i class="fa fa-user"></i> -->
+                    <!-- </div> -->
+
+                    <!-- <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                                    placeholder="Select Graduation College/Institue*" id="graduation"
+                                    formControlName="qgraduation" />
+                                </div>
+                                <div class="validation" *ngIf="
+                                    RegistrationFrom2.get('qgraduation').invalid &&
+                                    (RegistrationFrom2.get('qgraduation').dirty ||
+                                      RegistrationFrom2.get('qgraduation').touched)
+                                  ">
+                                  Enter graduation.
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="input-group"> -->
+
+                    <!-- <div class="input-group-text bg-transparent icon"> -->
+                    <!-- <i class="fa fa-envelope"></i> -->
+                    <!-- </div> -->
+
+                    <!-- <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                                    placeholder="Which Course Did You Do?*" id="course" formControlName="qcourse" />
+                                </div>
+                                <div class="validation" *ngIf="
+                                    RegistrationFrom2.get('qcourse').invalid &&
+                                    (RegistrationFrom2.get('qcourse').dirty ||
+                                      RegistrationFrom2.get('qcourse').touched)
+                                  ">
+                                  Enter course.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-div">
+                            <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                                <div class="input-group"> -->
+
+                    <!-- <div class="input-group-text bg-transparent icon"> -->
+                    <!-- <i class="fa fa-phone flip"></i> -->
+                    <!-- </div> -->
+
+                    <!-- <input class="form-control py-2 border-right-0 border form-input1" type="number"
+                                    placeholder="Graduation Percentage* " id="gradper" formControlName="qgradper" />
+                                </div>
+                                <div class="validation" *ngIf="
+                                    RegistrationFrom2.get('qgradper').invalid &&
+                                    (RegistrationFrom2.get('qgradper').dirty ||
+                                      RegistrationFrom2.get('qgradper').touched)
+                                  ">
+                                  Enter gradper.
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="input-group"> -->
+                    <!-- <div class="input-group-text bg-transparent icon"> -->
+                    <!-- <i class="fa fa-map-marker"></i> -->
+                    <!-- </div> -->
+                    <!-- <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                                    placeholder="Work Experience (in years)*" id="experience"
+                                    formControlName="qexperience" />
+                                </div>
+                                <div class="validation" *ngIf="
+                                    RegistrationFrom2.get('qexperience').invalid &&
+                                    (RegistrationFrom2.get('qexperience').dirty ||
+                                      RegistrationFrom2.get('qexperience').touched)
+                                  ">
+                                  Enter experience.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-div">
+                            <div class="terms">
+                              <p class="exam">
+                                Have you appeared or scheduled for any Entrance Exam?
+                              </p>
+                              <div class="form-check-inline">
+                                  <input type="radio" id="html" name="fav_language" value="Yes"
+                                  formControlName='qextraExam'>
+                                  <label for="html">Yes</label><br>
+                              </div>
+                              <div class="form-check-inline">
+                                  <input type="radio" id="css" name="fav_language" value="No"
+                                  formControlName='qextraExam'>
+                                  <label for="css">No</label><br>
+
+                              </div>
+                              <div class="form-check-inline">
+                                  <input type="radio" id="javascript" name="fav_language" value="Booked"
+                                  formControlName='qextraExam'>
+                                  <label for="javascript">Booked</label>
+                              </div>
+                            </div>
+                            <div>
+                              <h5 class="edu-title text-center">Please Enter Your Score</h5>
+                            </div>
+                            <div class="row">
+                              <div class="col-lg-2"></div>
+                              <div class="col-lg-4" id="phone">
+                                <div class="input-group">
+                                  <input class="form-control py-2 border-right-0 border score-input" type="text"
+                                    placeholder="GATE(Optional)" id="name" formControlName="qgate" />
+                                </div> -->
+
+                    <!-- <div
+                                  class="validation"
+                                  *ngIf="
+                                    RegistrationFrom2.get('qgate').invalid &&
+                                    (RegistrationFrom2.get('qgate').dirty ||
+                                      RegistrationFrom2.get('qgate').touched)
+                                  "
+                                >
+                                  Enter GATE Score.
+                                </div> -->
+
+                    <!-- </div>
+                              <div class="col-lg-4">
+                                <div class="input-group">
+                                  <input class="form-control py-2 border-right-0 border score-input" type="text"
+                                    placeholder="GRE(Optional)" id="name" formControlName="qgre" />
+                                </div> -->
+
+                    <!-- <div
+                                  class="validation"
+                                  *ngIf="
+                                    RegistrationFrom2.get('qgre').invalid &&
+                                    (RegistrationFrom2.get('qgre').dirty ||
+                                      RegistrationFrom2.get('qgre').touched)
+                                  "
+                                >
+                                  Enter GRE Score.
+                                </div> -->
+
+                    <!-- </div>
+                              <div class="col-lg-2"></div>
+                            </div>
+                            <div class="row" style="margin-top: 12px">
+                              <div class="col-lg-3">
+                                <button class="btn back" type="button" (click)="back1()">
+                                  BACK
+                                </button>
+                              </div>
+                              <div class="col-lg-6"></div>
+                              <div class="col-lg-3">
+                                <button class="btn submit" type="button" [disabled]="!RegistrationFrom2.valid"
+                                  (click)="submitForm2()">
+                                  SUBMIT
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div> -->
+                    <!-- Right Card Form 3-->
+                    <!-- <div class="col-lg-8 col-md-8" *ngIf="form3 === true">
+                      <div class="card form-card">
+                        <h5 class="form-head text-center">Register Now To Apply</h5>
+                        <div> -->
+
+                    <!-- <p class="sub-title text-center">
+                            IIT Gandhinagar - Indian Institute of Technology -[IITG]
+                          </p> -->
+
+                    <!-- </div>
+                        <div>
+                          <h5 class="edu-title text-center">Past Education Details</h5>
+                        </div>
+                        <p class="tenth text-center">10th Standard Details</p>
+                        <form [formGroup]="RegistrationFrom3">
+                          <div class="form-div">
+                            <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                                <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                                  placeholder="Select 10th Board*" id="tenthBoard" formControlName="qtenthBoard" />
+                              </div>
+                              <div class="validation" *ngIf="
+                                  RegistrationFrom3.get('qtenthBoard').invalid &&
+                                  (RegistrationFrom3.get('qtenthBoard').dirty ||
+                                    RegistrationFrom3.get('qtenthBoard').touched)
+                                ">
+                                Enter 10th Board.
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                                  placeholder="Select 10th Passing Year*" id="tenthPassing"
+                                  formControlName="qtenthPassing" />
+                              </div>
+                              <div class="validation" *ngIf="
+                                  RegistrationFrom3.get('qtenthPassing').invalid &&
+                                  (RegistrationFrom3.get('qtenthPassing').dirty ||
+                                    RegistrationFrom3.get('qtenthPassing').touched)
+                                ">
+                                Enter 10th Passing.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-div">
+                            <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                                <input class="form-control py-2 border-right-0 border form-input1" type="number"
+                                  placeholder="10th Percentage*" id="tenthPercentage"
+                                  formControlName="qtenthPercentage" />
+                              </div>
+                              <div class="validation" *ngIf="
+                                  RegistrationFrom3.get('qtenthPercentage').invalid &&
+                                  (RegistrationFrom3.get('qtenthPercentage').dirty ||
+                                    RegistrationFrom3.get('qtenthPercentage').touched)
+                                ">
+                                Enter 10th Percentage.
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                                  placeholder="10th School Name*" id="school" formControlName="qschool" />
+                              </div>
+                              <div class="validation" *ngIf="
+                                  RegistrationFrom3.get('qschool').invalid &&
+                                  (RegistrationFrom3.get('qschool').dirty ||
+                                    RegistrationFrom3.get('qschool').touched)
+                                ">
+                                Enter 10th School.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row" style="margin-top: 12px">
+                            <div class="col-lg-3">
+                              <button class="btn back" type="button" (click)="back2()">
+                                BACK
+                              </button>
+                            </div>
+                            <div class="col-lg-6"></div>
+                            <div class="col-lg-3">
+                              <button class="btn submit" type="button" (click)="submitForm3()">
+                                SUBMIT
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8" *ngIf="form4 === true">
+                      <div class="card form-card">
+                        <h5 class="form-head text-center">Register Now To Apply</h5>
+                        <div> -->
+
+                    <!-- <p class="sub-title text-center">
+                            IIT Gandhinagar - Indian Institute of Technology -[IITG]
+                          </p> -->
+
+                    <!-- </div>
+                        <div>
+                          <h5 class="edu-title text-center">Past Education Details</h5>
+                        </div>
+                        <p class="twelve text-center">12th Standard Details</p>
+                        <form [formGroup]="RegistrationFrom4">
+                          <div class="form-div">
+                            <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                                <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                                  placeholder="Select 12th Board* " id="twelvethBoard" formControlName="fldValue1" />
+                              </div>
+                              <div class="validation" *ngIf="
+                                  RegistrationFrom4.get('fldValue1').invalid &&
+                                  (RegistrationFrom4.get('fldValue1').dirty ||
+                                    RegistrationFrom4.get('fldValue1').touched)
+                                ">
+                                Enter Twelveth Board.
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                                  placeholder="Select 12th Passing Year*" id="twelvethPassing"
+                                  formControlName="fldValue2" />
+                              </div>
+                              <div class="validation" *ngIf="
+                                  RegistrationFrom4.get('fldValue2').invalid &&
+                                  (RegistrationFrom4.get('fldValue2').dirty ||
+                                    RegistrationFrom4.get('fldValue2').touched)
+                                ">
+                                Enter Twelveth Passing.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-div">
+                            <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                                <input class="form-control py-2 border-right-0 border form-input1" type="number"
+                                  placeholder="12th percentage*" id="twelvethPer" formControlName="fldValue3" />
+                              </div>
+                              <div class="validation" *ngIf="
+                                  RegistrationFrom4.get('fldValue3').invalid &&
+                                  (RegistrationFrom4.get('fldValue3').dirty ||
+                                    RegistrationFrom4.get('fldValue3').touched)
+                                ">
+                                Enter Twelveth Percentage.
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                                  placeholder="12th School Name*" id="twelvethSchool" formControlName="fldValue4" />
+                              </div>
+                              <div class="validation" *ngIf="
+                                  RegistrationFrom4.get('fldValue4').invalid &&
+                                  (RegistrationFrom4.get('fldValue4').dirty ||
+                                    RegistrationFrom4.get('fldValue4').touched)
+                                ">
+                                Enter Twelveth School.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-div">
+                            <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                                  placeholder="Select 12th Specialization*" id="name" id="twelvethSpec"
+                                  formControlName="fldValue5" />
+                              </div>
+                              <div class="validation" *ngIf="
+                                  RegistrationFrom4.get('fldValue5').invalid &&
+                                  (RegistrationFrom4.get('fldValue5').dirty ||
+                                    RegistrationFrom4.get('fldValue5').touched)
+                                ">
+                                Enter Twelveth Specialization.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row" style="margin-top: 12px">
+                            <div class="col-lg-3">
+                              <button class="btn back" type="button" (click)="back2()">
+                                BACK
+                              </button>
+                            </div>
+                            <div class="col-lg-6"></div>
+                            <div class="col-lg-3">
+                              <button class="btn submit" type="button" (click)="submitFrom4()">
+                                SUBMIT
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+              </section>
+
+            </ng-template>
+
+            <div class="row row-without-gutter add-info">
+              <div class="flex-holder3">
+                <img src="../../assets/img/College_Icons/2.IIT_Delhi/rating2.png" alt="" class="rating-img" />
+                <p class="mb-0">Rating 4.6/5</p>
+                <img src="../../assets/img/College_Icons/2.IIT_Delhi/share.png" alt=""
+                  class="share-img cursor-pointer" />
+                <p class="mb-0 cursor-pointer" (click)="showBasicDialog()">
+                  Share
+                </p>
+                <p-dialog header="Share" [(visible)]="displayBasic" [baseZIndex]="10000" id="social-share-dialog"
+                  [responsive]="true" [transitionOptions]="'0ms'" [modal]="true" [dismissableMask]="true">
+                  <!--[style]="{ width: '20vw' }" -->
+                  <a href="https://api.whatsapp.com/send?text={{ 'https://www.selectyouruniversity.com/college/'+collegeData.url+'/' }}"
+                    target="_blank">
+                    <img src="../../assets/img/whatsapp.png" alt="" class="social-icon" />
+                  </a>
+                  <a href="https://www.facebook.com/sharer.php?u={{ 'https://www.selectyouruniversity.com/college/'+collegeData.url+'/'  }}"
+                    target="_blank">
+                    <img src="../../assets/img/facebook1.png" alt="" class="social-icon" />
+                  </a>
+                  <a href="https://pinterest.com/pin/create/bookmarklet/?media=[post-img]&url={{
+                      'https://www.selectyouruniversity.com/college/'+collegeData.url+'/' 
+                    }}&is_video=[is_video]&description=[post-title]" target="_blank">
+                    <img src="../../assets/img/interest.png" alt="" class="social-icon" />
+                  </a>
+                  <a href="https://twitter.com/share?url={{
+                      'https://www.selectyouruniversity.com/college/'+collegeData.url+'/' 
+                    }}&text=[post-title]&via=[via]&hashtags=[hashtags]" target="_blank">
+                    <img src="../../assets/img/tw.png" alt="" class="social-icon" />
+                  </a>
+                  <a href="https://www.linkedin.com/shareArticle?url={{
+                      'https://www.selectyouruniversity.com/college/'+collegeData.url+'/' 
+                    }}" target="_blank">
+                    <img src="../../assets/img/linked.png" alt="" class="social-icon" />
+                  </a>
+                  <!-- <share-buttons theme="circles-dark"
+                                       [include]="['copy', 'facebook', 'email', 'messenger', 'mix', 'line', 'linkedin', 'pinterest', 'print', 'reddit', 'sms', 'telegram', 'tumblr', 'twitter', 'viber', 'vk', 'xing', 'whatsapp']"
+                                       [showIcon]="true"
+                                       [showText]="false"
+                                       url="https://rodrigo.kamada.com.br/"
+                                       description="Angular Share Buttons"
+                                       twitterAccount="rodrigokamada"
+                                       class="pt-5">
+                                     </share-buttons> -->
+                </p-dialog>
+                <img src="../../assets/img/College_Icons/2.IIT_Delhi/review.png" alt="" class="review-img" />
+                <a id="checkrev" href='{{ "college/" + collegeData.url + "/review/." }}'>
+                  <p>Check review</p>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-7 col-12 col-sm-12" id="slider-div">
+            <ngx-gallery [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery"></ngx-gallery>
+            <!-- <p-galleria [value]="galleriaImages">
+                             <ng-template pTemplate="item" let-item>
+                                 <img [src]="item.previewImageSrc" [alt]="item.alt" />
+                             </ng-template>
+                         </p-galleria> -->
+            <!-- <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+                             <div class="item blog-inner-div" *ngFor="let image of images;let i= index">
+                                  <img class="slide-image" src="{{image.image}}" >
+                             </div>
+
+                           </owl-carousel> -->
+            <!-- <gallery [items]="images2" thumbPosition="left"></gallery> -->
+
+            <!-- <div *ngFor="let itemtype of collegeData.gallery" id="slider">
+                  <figure>
+                  <ng-container *ngFor="let item of itemtype.image">
+                    <div *ngIf="item.type=='image'">
+                      <div>
+                        <img src={{item.data}} />
+                      </div>
+                    </div>
+                  </ng-container>
+                </figure>
+                </div> -->
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- <p-tabView [(activeIndex)]="activeIndex2" [scrollable]="true">
+                        <p-tabPanel *ngFor="let tab of scrollableTabs" [header]="tab.title">
+                          <p>{{ tab.content }}</p>
+                        </p-tabPanel>
+                      </p-tabView> -->
+        <!-- #sticky [class.sticky] = "sticky" -->
+        <nav class="navbar navbar-light full-width-tabs" #stickyNav [class.stickyNav]="stickyNav">
+          <div class="collapse navbar-collapse bg-white" id="navbar">
+            <ul class="nav nav-tabs nav-tabs-ul">
+              <li class="nav-item">
+                <a class="active" [ngClass]="{ 'nav-link': true, active: isActive('info') }"
+                  (click)="makeActive('info')">Info</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="{
+                    'nav-link': true,
+                    active: isActive('courses-and-fees')
+                  }" (click)="makeActive('courses-and-fees')">Courses & Fees</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="{
+                    'nav-link': true,
+                    active: isActive('admission')
+                  }" (click)="makeActive('admission')">Admission 2023</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="{ 'nav-link': true, active: isActive('review') }"
+                  (click)="makeActive('review')">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="{
+                    'nav-link': true,
+                    active: isActive('placement')
+                  }" (click)="makeActive('placement')">Placement</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="{ 'nav-link': true, active: isActive('gallery') }"
+                  (click)="makeActive('gallery')">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="{
+                    'nav-link': true,
+                    active: isActive('scholarship')
+                  }" (click)="makeActive('scholarship')">Scholarship</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="{ 'nav-link': true, active: isActive('faculty') }"
+                  (click)="makeActive('faculty')">Faculty</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="{ 'nav-link': true, active: isActive('news') }" (click)="makeActive('news')">News &
+                  Articles</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="{ 'nav-link': true, active: isActive('hostel') }"
+                  (click)="makeActive('hostel')">Hostel</a>
+              </li>
+              <li class="nav-item">
+                <a [ngClass]="{ 'nav-link': true, active: isActive('faq') }" (click)="makeActive('faq')">Q & A</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="col-lg-9 col-12">
+          <div id="college-content-tab">
+            <div class="tabcontent">
+              <div *ngIf="isActive('info')">
+                <div class="row row-without-gutter relative-row" *ngFor="let item of collegeData.info">
+                  <!-- {{item.title}} -->
+                  <div class="col-12" *ngIf="item.type == 'text'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <div class="tab-text">
+                      <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                      <p [innerHTML]="item.data"></p>
+                    </div>
+
+                    <!-- <div class="shade"
+                    *ngIf="isShade && item.seeMoreBtn"></div> -->
+                    <div class="row text-center p-relative">
+                      <!-- <button
+                        type="button"
+                        (click)="showText()"
+                        class="read-more-btn btn"
+                      >
+                        {{ isReadMore ? "See More" : "See Less" }}
+                      </button> -->
+                    </div>
+                  </div>
+
+                  <div class="row row-without-gutter" *ngIf="item.type === 'faq-list'">
+                    <p-accordion [multiple]="false" id="faq-collapse" expandIcon="pi pi-plus"
+                      collapseIcon="pi pi-minus">
+                      <div class="col-lg-12 text-center">
+                        <h2 class="light-blue-text">{{ item.title }}</h2>
+                      </div>
+                      <p *ngFor="let qna of item.data">
+                        <p-accordionTab header="{{ qna.ques }}" [selected]="false" class="accordionTab">
+                          <p>{{ qna.ans }}</p>
+                          <ul class="cust-padding">
+                            <li *ngFor="let checklists of qna.checklist" checklist>{{ checklists }}</li>
+                          </ul>
+                        </p-accordionTab>
+                      </p>
+                    </p-accordion>
+                  </div>
+                  <div id="quick" #quick></div>
+                  <div class="col-12" *ngIf="item.type == 'table'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <div [ngClass]="item.col != undefined && item.col.length > 3 ? 'overflow-x-auto': ' '">
+                      <table [ngClass]="item.col != undefined && item.col.length > 3 ? 'width-500': 'width-auto'"
+                        class="table text-center table-hover  w-100 d-md-table" id="quick-table1">
+                        <thead>
+                          <tr>
+                            <th *ngFor="let TableItems of item.col">
+                              {{ TableItems }}
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr *ngFor="let Tableitem of item.row">
+                            <td *ngFor="let TableItems of item.col">
+                              <p [innerHTML]="Tableitem[TableItems]"></p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p [innerHTML]="item.heading"></p>
+                    </div>
+                  </div>
+                  <div class="col-12" *ngIf="item.type == 'table-title'">
+                    <h2 class="size" [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <div class="row" *ngIf="item.colTitle">
+                      <div class="col-lg-12">
+                        <div class="text-center light-bg-blue">
+                          <h6 class="white-text py-2 mb-0">
+                            {{ item.colTitle }}
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <table class="table text-center table-hover table-responsive w-100 d-md-table" id="quick-table">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let Tableitems of Tableitem">
+                            <p [innerHTML]="Tableitems"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'list-bollet'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <ul class="cust-padding">
+                      <li *ngFor="let Listitem of item.data">
+                        <p [innerHTML]="Listitem"></p>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="col-12" id="number" *ngIf="item.type == 'number-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1">
+                      <li *ngFor="let numbetList of item.data">
+                        <p [innerHTML]="numbetList"></p>
+                      </li>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'step-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1" *ngFor="let numbetList of item.data">
+                      <p [innerHTML]="numbetList"></p>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+                  <div class="col-12" *ngIf="item.type == 'img'">
+                    <img [src]="item.data" alt="" class="review-img custome-img" />
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="isActive('courses-and-fees')">
+                <div class="row row-without-gutter relative-row" *ngFor="let item of collegeData?.coursesandfees">
+                  <div class="col-12" *ngIf="item.type == 'text'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <div class="tab-text" [ngClass]="{ limitTextHeight: isReadMore }">
+                      <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                      <p [innerHTML]="item.data"></p>
+                    </div>
+
+                    <!--<div class="shade" *ngIf="isShade && item.seeMoreBtn"></div>
+                    <div
+                      class="row text-center p-relative"
+                      *ngIf="item.seeMoreBtn"
+                    >
+                      <button
+                        type="button"
+                        (click)="showText()"
+                        class="read-more-btn btn"
+                      >
+                        {{ isReadMore ? "See More" : "See Less" }}
+                      </button>
+                    </div>-->
+                  </div>
+
+                  <div class="row row-without-gutter" *ngIf="item.type === 'faq-list'">
+                    <p-accordion [multiple]="false" id="faq-collapse" expandIcon="pi pi-plus"
+                      collapseIcon="pi pi-minus">
+                      <div class="col-lg-12 text-center">
+                        <h2 class="light-blue-text">{{ item.title }}</h2>
+                      </div>
+                      <p *ngFor="let qna of item.data">
+                        <p-accordionTab header="{{ qna.ques }}" [selected]="false" class="accordionTab">
+                          <p>{{ qna.ans }}</p>
+                        </p-accordionTab>
+                      </p>
+                    </p-accordion>
+                  </div>
+                  <div id="quick" #quick></div>
+                  <div class="col-12" *ngIf="item.type == 'table'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <table class="table text-center table-hover  w-100 d-md-table" id="quick-table">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let TableItems of item.col">
+                            <p [innerHTML]="Tableitem[TableItems]"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'table-title'">
+                    <h2 class="size" [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <div class="row" *ngIf="item.colTitle">
+                      <div class="col-lg-12">
+                        <div class="text-center light-bg-blue">
+                          <h6 class="white-text py-2 mb-0">
+                            {{ item.colTitle }}
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <table class="table text-center table-hover table-responsive w-100 d-md-table" id="quick-table">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let Tableitems of Tableitem">
+                            <p [innerHTML]="Tableitems"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'list-bollet'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <ul class="cust-padding">
+                      <li *ngFor="let Listitem of item.data">
+                        <p [innerHTML]="Listitem"></p>
+                      </li>
+                    </ul>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" id="number" *ngIf="item.type == 'number-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1">
+                      <li *ngFor="let numbetList of item.data">
+                        <a>
+                          <p [innerHTML]="numbetList"></p>
+                        </a>
+                      </li>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'step-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1" *ngFor="let numbetList of item.data">
+                      <a>
+                        <p [innerHTML]="numbetList"></p>
+                      </a>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+                  <div class="col-12" *ngIf="item.type == 'img'">
+                    <img [src]="item.data" alt="" class="review-img custome-img" />
+                  </div>
+                  <div id="quick" #quick></div>
+                  <div *ngIf="item.type == 'api-table'">
+                    <table *ngFor="let data of CoursesFees; let i = index"
+                      class="table text-center table-hover  w-100 d-md-table" id="quick-table2">
+                      <h2 [innerHTML]="CoursesFees[i][0]?.cCourse" style="display: flex"></h2>
+                      <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Annual Fees</th>
+                        <th>Program Type</th>
+                        <th>Seat Intake</th>
+                        <th>Action</th>
+                      </tr>
+                      <tr *ngFor="let item of data">
+                        <td>{{ item.cSpecialzation }}</td>
+                        <td>{{ item.cDuration }}</td>
+                        <td>{{ item.cFees }}</td>
+                        <td>{{ item.cCourse }}</td>
+                        <td>{{ item.cProgrammeType }}</td>
+                        <td>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="isActive('admission')">
+                <div class="row row-without-gutter relative-row" *ngFor="let item of collegeData.admission">
+                  <!-- {{item.title}} -->
+
+                  <div id="quick" #quick></div>
+
+                  <div *ngIf="item.type == 'api-table' && item.useOf == 'Event'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <table class="table text-center table-hover  w-100 d-md-table" id="quick-table3">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of eventaddmission">
+                          <td *ngFor="let TableItems of item.col">
+                            <p [innerHTML]="Tableitem[TableItems]"></p>
+
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div *ngIf="item.type == 'api-table' && item.useOf == 'Course'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <table class="table text-center table-hover  w-100 d-md-table" id="quick-table4">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of courseaddmission">
+                          <td *ngFor="let TableItems of item.col">
+                            <p [innerHTML]="Tableitem[TableItems]"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'text'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <div class="tab-text" [ngClass]="{ limitTextHeight: isReadMore }">
+                      <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                      <p [innerHTML]="item.data"></p>
+                    </div>
+
+                    <!--<div class="shade" *ngIf="isShade && item.seeMoreBtn"></div>
+                    <div
+                      class="row text-center p-relative"
+                      *ngIf="item.seeMoreBtn"
+                    >
+                      <button
+                        type="button"
+                        (click)="showText()"
+                        class="read-more-btn btn"
+                      >
+                        {{ isReadMore ? "See More" : "See Less" }}
+                      </button>
+                    </div>-->
+                  </div>
+
+                  <div class="row row-without-gutter" *ngIf="item.type === 'faq-list'">
+                    <p-accordion [multiple]="false" id="faq-collapse" expandIcon="pi pi-plus"
+                      collapseIcon="pi pi-minus">
+                      <div class="col-lg-12 text-center">
+                        <h2 class="light-blue-text">{{ item.title }}</h2>
+                      </div>
+                      <p *ngFor="let qna of item.data">
+                        <p-accordionTab header="{{ qna.ques }}" [selected]="false" class="accordionTab">
+                          <p>{{ qna.ans }}</p>
+                        </p-accordionTab>
+                      </p>
+                    </p-accordion>
+                  </div>
+                  <div id="quick" #quick></div>
+                  <div class="col-12" *ngIf="item.type == 'table'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <table class="table text-center table-hover  w-100 d-md-table" id="quick-table5">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let TableItems of item.col">
+                            <p [innerHTML]="Tableitem[TableItems]"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'table-title'">
+                    <h2 class="size" [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <div class="row" *ngIf="item.colTitle">
+                      <div class="col-lg-12">
+                        <div class="text-center light-bg-blue">
+                          <h6 class="white-text py-2 mb-0">
+                            {{ item.colTitle }}
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <table class="table text-center table-hover table-responsive w-100 d-md-table" id="quick-table">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let Tableitems of Tableitem">
+                            <p [innerHTML]="Tableitems"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'list-bollet'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <ul class="cust-padding">
+                      <li *ngFor="let Listitem of item.data">
+                        <p [innerHTML]="Listitem"></p>
+                      </li>
+                    </ul>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" id="number" *ngIf="item.type == 'number-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1">
+                      <li *ngFor="let numbetList of item.data">
+                        <a>
+                          <p [innerHTML]="numbetList"></p>
+                        </a>
+                      </li>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'step-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1" *ngFor="let numbetList of item.data">
+                      <a>
+                        <p [innerHTML]="numbetList"></p>
+                      </a>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+                  <div *ngIf="item.type == 'img'">
+                    <img [src]="item.data" alt="" class="review-img custome-img" />
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="isActive('review')">
+                <div class="row row-without-gutter relative-row" *ngFor="let item of collegeData.review">
+                  <title>Select your university</title>
+                  <!-- {{item.title}} -->
+                  <div class="col-12" *ngIf="item.type == 'text'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <div class="tab-text" [ngClass]="{ limitTextHeight: isReadMore }">
+                      <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                      <p [innerHTML]="item.data"></p>
+                    </div>
+
+                    <!--<div class="shade" *ngIf="isShade && item.seeMoreBtn"></div>
+                    <div
+                      class="row text-center p-relative"
+                      *ngIf="item.seeMoreBtn"
+                    >
+                      <button
+                        type="button"
+                        (click)="showText()"
+                        class="read-more-btn btn"
+                      >
+                        {{ isReadMore ? "See More" : "See Less" }}
+                      </button>
+                    </div>-->
+                  </div>
+
+                  <div class="row row-without-gutter" *ngIf="item.type === 'faq-list'">
+                    <p-accordion [multiple]="false" id="faq-collapse" expandIcon="pi pi-plus"
+                      collapseIcon="pi pi-minus">
+                      <div class="col-lg-12 text-center">
+                        <h2 class="light-blue-text">{{ item.title }}</h2>
+                      </div>
+                      <p *ngFor="let qna of item.data">
+                        <p-accordionTab header="{{ qna.ques }}" [selected]="false" class="accordionTab">
+                          <p>{{ qna.ans }}</p>
+                        </p-accordionTab>
+                      </p>
+                    </p-accordion>
+                  </div>
+                  <div id="quick" #quick></div>
+                  <div class="col-12" *ngIf="item.type == 'table'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <table class="table text-center table-hover  w-100 d-md-table" id="quick-table6">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let TableItems of item.col">
+                            <p [innerHTML]="Tableitem[TableItems]"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'table-title'">
+                    <h2 class="size" [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <div class="row" *ngIf="item.colTitle">
+                      <div class="col-lg-12">
+                        <div class="text-center light-bg-blue">
+                          <h6 class="white-text py-2 mb-0">
+                            {{ item.colTitle }}
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <table class="table text-center table-hover table-responsive w-100 d-md-table" id="quick-table">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let Tableitems of Tableitem">
+                            <p [innerHTML]="Tableitems"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'list-bollet'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <ul class="cust-padding">
+                      <li *ngFor="let Listitem of item.data">{{ Listitem }}<p [innerHTML]="Listitem"></p>
+                      </li>
+                    </ul>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" id="number" *ngIf="item.type == 'number-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1">
+                      <li *ngFor="let numbetList of item.data">
+                        <a>
+                          <p [innerHTML]="numbetList"></p>
+                        </a>
+                      </li>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'step-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1" *ngFor="let numbetList of item.data">
+                      <a>
+                        <p [innerHTML]="numbetList"></p>
+                      </a>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+                  <div *ngIf="item.type == 'img'">
+                    <img [src]="item.data" alt="" class="review-img custome-img" />
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="isActive('placement')">
+                <div class="row row-without-gutter relative-row" *ngFor="let item of collegeData.placement">
+                  <div *ngIf="item.type == 'api-table'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <table class="table text-center table-hover  w-100 d-md-table" id="quick-table7">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of placement">
+                          <td>
+                            {{ Tableitem.cCollegeName }}
+                          </td>
+                          <td>
+                            {{ Tableitem.cCourse }}
+                          </td>
+                          <td>
+                            {{ Tableitem.cCompanyName }}
+                          </td>
+                          <td>
+                            {{ Tableitem.cHighestPackage }}
+                          </td>
+                          <td>
+                            {{ Tableitem.cAveragePackage }}
+                          </td>
+                          <td>
+                            {{ Tableitem.cLowestPackage }}
+                          </td>
+                          <td>
+                            {{ Tableitem.cPackageInInr }}
+                          </td>
+                          <td>
+                            {{ Tableitem.cLowecYearstPackage }}
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+                  <!-- {{item.title}} -->
+                  <div class="col-12" *ngIf="item.type == 'text'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <div class="tab-text" [ngClass]="{ limitTextHeight: isReadMore }">
+                      <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                      <p [innerHTML]="item.data"></p>
+                    </div>
+
+                    <!--<div class="shade" *ngIf="isShade && item.seeMoreBtn"></div>
+                    <div
+                      class="row text-center p-relative"
+                      *ngIf="item.seeMoreBtn"
+                    >
+                      <button
+                        type="button"
+                        (click)="showText()"
+                        class="read-more-btn btn"
+                      >
+                        {{ isReadMore ? "See More" : "See Less" }}
+                      </button>
+                    </div>-->
+                  </div>
+
+                  <div class="row row-without-gutter" *ngIf="item.type === 'faq-list'">
+                    <p-accordion [multiple]="false" id="faq-collapse" expandIcon="pi pi-plus"
+                      collapseIcon="pi pi-minus">
+                      <div class="col-lg-12 text-center">
+                        <h2 class="light-blue-text">{{ item.title }}</h2>
+                      </div>
+                      <p *ngFor="let qna of item.data">
+                        <p-accordionTab header="{{ qna.ques }}" [selected]="false" class="accordionTab">
+                          <p>{{ qna.ans }}</p>
+                        </p-accordionTab>
+                      </p>
+                    </p-accordion>
+                  </div>
+                  <div id="quick" #quick></div>
+                  <div class="col-12" *ngIf="item.type == 'table'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <table class="table text-center table-hover  w-100 d-md-table" id="quick-table8">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let TableItems of item.col">
+                            <p [innerHTML]="Tableitem[TableItems]"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'table-title'">
+                    <h2 class="size" [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <div class="row" *ngIf="item.colTitle">
+                      <div class="col-lg-12">
+                        <div class="text-center light-bg-blue">
+                          <h6 class="white-text py-2 mb-0">
+                            {{ item.colTitle }}
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <table class="table text-center table-hover table-responsive w-100 d-md-table" id="quick-table">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let Tableitems of Tableitem">
+                            <p [innerHTML]="Tableitems"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'list-bollet'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <ul class="cust-padding">
+                      <li *ngFor="let Listitem of item.data">
+                        <p [innerHTML]="Listitem"></p>
+                      </li>
+                    </ul>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" id="number" *ngIf="item.type == 'number-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1">
+                      <li *ngFor="let numbetList of item.data">
+                        <a>
+                          <p [innerHTML]="numbetList"></p>
+                        </a>
+                      </li>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'step-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1" *ngFor="let numbetList of item.data">
+                      <a>
+                        <p [innerHTML]="numbetList"></p>
+                      </a>
+                    </ol>
+                  </div>
+                  <div class="col-12" *ngIf="item.type == 'img'">
+                    <img [src]="item.data" alt="" class="review-img custome-img" />
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="isActive('gallery')">
+                <div style="display: grid" class="row row-without-gutter relative-row test">
+                  <nav class="navbar navbar-light full-width-tabs" #stickyNav [class.stickyNav]="stickyNav">
+                    <div class="collapse navbar-collapse bg-white" id="navbar">
+                      <ul class="nav nav-tabs nav-tabs-ul" style="display: block">
+                        <li>
+                          <a [ngClass]="{'nav-link': true,active: isActiveSubTab('images')}"
+                            (click)="makeActiveSubTab('images')">Images</a>
+                        </li>
+                        <li class="nav-item">
+                          <a [ngClass]="{'nav-link': true,active: isActiveSubTab('videos')}"
+                            (click)="makeActiveSubTab('videos')">Video</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                  <div *ngIf="isActiveSubTab('images')">
+                    <!-- <div *ngFor="let item of gallery"  >
+                    <div *ngFor="let items of item , let i = index">
+                      <h2 *ngIf="i === 0">{{items.cCategory}}</h2>
+                      <img  src={{items.cImageUrl}} alt="" />
+                      <iframe  width="100%" height="315"
+                                            src="https://youtube.be/embed/JK_5V_yhVV8" title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                    </div>
+                  </div> -->
+                    <!-- <div *ngFor="let itemtype of galleryType">
+
+                      <div class="collapse navbar-collapse bg-white" id="navbar">
+                        <h2>{{itemtype}}</h2>
+                      </div>
+                      <div class="container-box">
+                        <ng-container *ngFor="let item of gallery.image">
+                          <div *ngIf="item.cCategory === itemtype">
+                            <div>
+                              <img src={{item.cImageUrl}} alt={{item.cCategory}} />
+                            </div>
+                          </div>
+                        </ng-container>
+
+                      </div>
+                    </div> -->
+
+                    <div class="container-box" *ngFor="let itemtype of collegeData.gallery">
+                      <ng-container *ngFor="let item of itemtype.image">
+                        <div *ngIf="item.type=='image'">
+                          <div>
+                            <img src={{item.data}} alt={{item.alt}} />
+                          </div>
+                        </div>
+                      </ng-container>
+                    </div>
+
+                  </div>
+                  <div *ngIf="isActiveSubTab('videos')">
+                    <!-- <div *ngFor="let item of gallery"  >
+                    <div *ngFor="let items of item , let i = index">
+                      <h2 *ngIf="i === 0">{{items.cCategory}}</h2>
+                      <img  src={{items.cImageUrl}} alt="" />
+                      <iframe  width="100%" height="315"
+                                            src="https://youtube.be/embed/JK_5V_yhVV8" title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                    </div>
+                  </div> -->
+                    <!-- <div *ngFor="let itemtype of galleryType">
+
+                      <div class="collapse navbar-collapse bg-white" id="navbar">
+                        <h2>{{itemtype}}</h2>
+                      </div>
+                      <div class="container-box">
+                        <ng-container *ngFor="let item of gallery.image">
+                          <div *ngIf="item.cCategory === itemtype">
+                            <div>
+                              <iframe width="100%" height="315" src={{item.cImageUrl}} title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            </div>
+                          </div>
+                        </ng-container>
+
+                      </div>
+                    </div> -->
+
+                    <div class="container-box" *ngFor="let itemtype of collegeData.gallery">
+                      <ng-container *ngFor="let item of itemtype.video">
+                        <div *ngIf="item.type=='video'">
+                          <div>
+
+                            <video width="100%" height="160" controls="controls">
+
+                              <source src={{item.data}} type="video/mp4">
+                            </video>
+                          </div>
+                        </div>
+                      </ng-container>
+                    </div>
+
+                  </div>
+                  <!-- <div class="faq-div">
+                  <div class="row row-without-gutter">
+                      <div id="college-content-tab">
+                        <div class="tabcontent">
+                          <div class="row row-without-gutter relative-row">
+                            <div class="container gallery">
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div> -->
+                </div>
+              </div>
+
+              <div *ngIf="isActive('scholarship')">
+                <div class="row row-without-gutter relative-row" *ngFor="let item of collegeData.Scholarship">
+                  <!-- {{item.title}} -->
+                  <div class="col-12" *ngIf="item.type == 'text'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <div class="tab-text" [ngClass]="{ limitTextHeight: isReadMore }">
+                      <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                      <p [innerHTML]="item.data"></p>
+                    </div>
+
+                    <!--<div class="shade" *ngIf="isShade && item.seeMoreBtn"></div>
+                    <div
+                      class="row text-center p-relative"
+                      *ngIf="item.seeMoreBtn"
+                    >
+                      <button
+                        type="button"
+                        (click)="showText()"
+                        class="read-more-btn btn"
+                      >
+                        {{ isReadMore ? "See More" : "See Less" }}
+                      </button>
+                    </div>-->
+                  </div>
+
+                  <div class="row row-without-gutter" *ngIf="item.type === 'faq-list'">
+                    <p-accordion [multiple]="false" id="faq-collapse" expandIcon="pi pi-plus"
+                      collapseIcon="pi pi-minus">
+                      <div class="col-lg-12 text-center">
+                        <h2 class="light-blue-text">{{ item.title }}</h2>
+                      </div>
+                      <p *ngFor="let qna of item.data">
+                        <p-accordionTab header="{{ qna.ques }}" [selected]="false" class="accordionTab">
+                          <p>{{ qna.ans }}</p>
+                        </p-accordionTab>
+                      </p>
+                    </p-accordion>
+                  </div>
+                  <div id="quick" #quick></div>
+                  <div class="col-12" *ngIf="item.type == 'table'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <div [ngClass]="item.col != undefined && item.col.length > 3 ? 'overflow-x-auto': ' '">
+                      <table [ngClass]="item.col != undefined && item.col.length > 3 ? 'width-500': 'width-auto'"
+                        class="table text-center table-hover table-responsive w-100 d-md-table" id="quick-table1">
+                        <thead>
+                          <tr>
+                            <th *ngFor="let TableItems of item.col">
+                              {{ TableItems }}
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr *ngFor="let Tableitem of item.row">
+                            <td *ngFor="let TableItems of item.col">
+                              <p [innerHTML]="Tableitem[TableItems]"></p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p [innerHTML]="item.heading"></p>
+                    </div>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'table-title'">
+                    <h2 class="size" [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <div class="row" *ngIf="item.colTitle">
+                      <div class="col-lg-12">
+                        <div class="text-center light-bg-blue">
+                          <h6 class="white-text py-2 mb-0">
+                            {{ item.colTitle }}
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+
+                    <table class="table text-center table-hover  w-100 d-md-table" id="quick-table">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let TableItems of item.col">
+                            <p [innerHTML]="Tableitem[TableItems]"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'list-bollet'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <ul class="cust-padding">
+                      <li *ngFor="let Listitem of item.data">
+                        <p [innerHTML]="Listitem">
+                      </li>
+                    </ul>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" id="number" *ngIf="item.type == 'number-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1">
+                      <li *ngFor="let numbetList of item.data">
+                        <a>
+                          <p [innerHTML]="numbetList"></p>
+                        </a>
+                      </li>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'step-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1" *ngFor="let numbetList of item.data">
+                      <a>
+                        <p [innerHTML]="numbetList"></p>
+                      </a>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+                  <div class="col-12" *ngIf="item.type == 'img'">
+                    <img [src]="item.data" alt="" class="review-img custome-img" />
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="isActive('faculty')">
+                <div class="row row-without-gutter relative-row" *ngFor="let item of collegeData.Faculty">
+                  <!-- {{item.title}} -->
+                  <div class="col-12" *ngIf="item.type == 'text'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <div class="tab-text" [ngClass]="{ limitTextHeight: isReadMore }">
+                      <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                      <p [innerHTML]="item.data"></p>
+                    </div>
+
+                    <!--<div class="shade" *ngIf="isShade && item.seeMoreBtn"></div>-->
+                    <!--<div
+                      class="row text-center p-relative"
+                      *ngIf="item.seeMoreBtn"
+                    >
+                      <button
+                        type="button"
+                        (click)="showText()"
+                        class="read-more-btn btn"
+                      >
+                        {{ isReadMore ? "See More" : "See Less" }}
+                      </button>
+                    </div>-->
+                  </div>
+
+                  <div class="row row-without-gutter" *ngIf="item.type === 'faq-list'">
+                    <p-accordion [multiple]="false" id="faq-collapse" expandIcon="pi pi-plus"
+                      collapseIcon="pi pi-minus">
+                      <div class="col-lg-12 text-center">
+                        <h2 class="light-blue-text">{{ item.title }}</h2>
+                      </div>
+                      <p *ngFor="let qna of item.data">
+                        <p-accordionTab header="{{ qna.ques }}" [selected]="false" class="accordionTab">
+                          <p>{{ qna.ans }}</p>
+                        </p-accordionTab>
+                      </p>
+                    </p-accordion>
+                  </div>
+                  <div id="quick" #quick></div>
+                  <div class="col-12" *ngIf="item.type == 'table'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <table class="table text-center table-hover  w-100 d-md-table" id="quick-table9">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let TableItems of item.col">
+                            <p [innerHTML]="Tableitem[TableItems]"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'table-title'">
+                    <h2 class="size" [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <div class="row" *ngIf="item.colTitle">
+                      <div class="col-lg-12">
+                        <div class="text-center light-bg-blue">
+                          <h6 class="white-text py-2 mb-0">
+                            {{ item.colTitle }}
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <table class="table text-center table-hover table-responsive w-100 d-md-table" id="quick-table">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let Tableitems of Tableitem">
+                            <p [innerHTML]="Tableitems"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+                  <div class="col-12" *ngIf="item.type == 'list-bollet'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <ul class="cust-padding">
+                      <li *ngFor="let Listitem of item.data">
+                        <p [innerHTML]="Listitem"></p>
+                      </li>
+                    </ul>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" id="number" *ngIf="item.type == 'number-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1">
+                      <li *ngFor="let numbetList of item.data">
+                        <a>
+                          <p [innerHTML]="numbetList"></p>
+                        </a>
+                      </li>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'step-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1" *ngFor="let numbetList of item.data">
+                      <a>
+                        <p [innerHTML]="numbetList"></p>
+                      </a>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+                  <div class="col-12" *ngIf="item.type == 'img'">
+                    <img [src]="item.data" alt="" class="review-img custome-img" />
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="isActive('news')">
+                <div class="row">
+                  <div class="col-lg-3" *ngFor="let item of collegeData.News">
+                    <div class="discover">
+                      <!-- <div class="col-lg-12 border-bottom mb-4">
+                    </div> -->
+                      <div class="container">
+                        <div class="item service-div">
+                          <div class="mr-3 card blog-card">
+                            <img src="{{ item.cImageURL }}" alt="" />
+                          </div>
+                          <p class="service-card-text">
+                            {{ item.cTitle | titlecase }}
+                          </p>
+                          <div class="flex-holder">
+                            <img src="../../assets/img/Blog_Main_Icons/2. Time/Timer-Blue.png" alt=""
+                              class="timer-img" />
+                            <p class="light-blue-text pl-2 mb-0">
+                              {{ item.cReadTimInMin }} Minute Read
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="isActive('hostel')">
+                <div class="row row-without-gutter relative-row" *ngFor="let item of collegeData.hostel">
+                  <!-- {{item.title}} -->
+                  <div class="col-12" *ngIf="item.type == 'text'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <div class="tab-text" [ngClass]="{ limitTextHeight: isReadMore }">
+                      <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                      <p [innerHTML]="item.data"></p>
+                    </div>
+
+                    <!--<div class="shade" *ngIf="isShade && item.seeMoreBtn"></div>
+                    <div
+                      class="row text-center p-relative"
+                      *ngIf="item.seeMoreBtn"
+                    >
+                      <button
+                        type="button"
+                        (click)="showText()"
+                        class="read-more-btn btn"
+                      >
+                        {{ isReadMore ? "See More" : "See Less" }}
+                      </button>
+                    </div>-->
+                  </div>
+
+                  <div class="row row-without-gutter" *ngIf="item.type === 'faq-list'">
+                    <p-accordion [multiple]="false" id="faq-collapse" expandIcon="pi pi-plus"
+                      collapseIcon="pi pi-minus">
+                      <div class="col-lg-12 text-center">
+                        <h2 class="light-blue-text">{{ item.title }}</h2>
+                      </div>
+                      <p *ngFor="let qna of item.data">
+                        <p-accordionTab header="{{ qna.ques }}" [selected]="false" class="accordionTab">
+                          <p>{{ qna.ans }}</p>
+                        </p-accordionTab>
+                      </p>
+                    </p-accordion>
+                  </div>
+                  <div id="quick" #quick></div>
+                  <div class="col-12" *ngIf="item.type == 'table'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <table class="table text-center table-hover  w-100 d-md-table" id="quick-table10">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let TableItems of item.col">
+                            <p [innerHTML]="Tableitem[TableItems]"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+
+                  <div class="col-12" *ngIf="item.type == 'table-title'">
+                    <h2 class="size" [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <div class="row" *ngIf="item.colTitle">
+                      <div class="col-lg-12">
+                        <div class="text-center light-bg-blue">
+                          <h6 class="white-text py-2 mb-0">
+                            {{ item.colTitle }}
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <table class="table text-center table-hover table-responsive w-100 d-md-table" id="quick-table">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let Tableitems of Tableitem">
+                            <p [innerHTML]="Tableitems"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'list-bollet'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <ul class="cust-padding">
+                      <li *ngFor="let Listitem of item.data">
+                        <p [innerHTML]="Listitem"></p>
+                      </li>
+                    </ul>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" id="number" *ngIf="item.type == 'number-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1">
+                      <li *ngFor="let numbetList of item.data">
+                        <a>
+                          <p [innerHTML]="numbetList"></p>
+                        </a>
+                      </li>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" *ngIf="item.type == 'step-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1" *ngFor="let numbetList of item.data">
+                      <a>
+                        <p [innerHTML]="numbetList"></p>
+                      </a>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+                  <div class="col-12" *ngIf="item.type == 'img'">
+                    <img [src]="item.data" alt="" class="review-img custome-img" />
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="isActive('faq')">
+                <div id="faq" class="row row-without-gutter relative-row" *ngFor="let item of collegeData.faq">
+                  <!-- {{item.type}} -->
+                  <div *ngIf="item.type == 'text'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <div class="tab-text" [ngClass]="{ limitTextHeight: isReadMore }">
+                      <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                      <p [innerHTML]="item.data"></p>
+                    </div>
+
+                    <!--<div class="shade" *ngIf="isShade && item.seeMoreBtn"></div>
+                    <div
+                      class="row text-center p-relative"
+                      *ngIf="item.seeMoreBtn"
+                    >
+                      <button
+                        type="button"
+                        (click)="showText()"
+                        class="read-more-btn btn"
+                      >
+                        {{ isReadMore ? "See More" : "See Less" }}
+                      </button>
+                    </div>-->
+                  </div>
+                  <div class="row row-without-gutter" *ngIf="item.type === 'question-list'">
+                    <p-accordion [multiple]="false" id="faq-collapse" expandIcon="pi pi-plus"
+                      collapseIcon="pi pi-minus">
+                      <div class="col-lg-12 text-center">
+                        <h2 class="light-blue-text">{{ item.title }}</h2>
+                      </div>
+                      <p *ngFor="let qna of item.data">
+                        <p-accordionTab itemprop='text' header="{{ qna.ques }}" [selected]="false" class="accordionTab">
+                          <div>
+                            <p itemprop='text'>{{ qna.ans }}</p>
+                          </div>
+                        </p-accordionTab>
+                      </p>
+                    </p-accordion>
+                  </div>
+                  <div id="quick" #quick></div>
+                  <div *ngIf="item.type == 'table'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <table class="table text-center table-hover  w-100 d-md-table" id="quick-table11">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let TableItems of item.col">
+                            <p [innerHTML]="Tableitem[TableItems]"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div *ngIf="item.type == 'table-title'">
+                    <h2 class="size" [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <div class="row" *ngIf="item.colTitle">
+                      <div class="col-lg-12">
+                        <div class="text-center light-bg-blue">
+                          <h6 class="white-text py-2 mb-0">
+                            {{ item.colTitle }}
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <table class="table text-center table-hover  w-100 d-md-table" id="quick-table12">
+                      <thead>
+                        <tr>
+                          <th *ngFor="let TableItems of item.col">
+                            {{ TableItems }}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let Tableitem of item.row">
+                          <td *ngFor="let Tableitems of Tableitem">
+                            {{ Tableitems }}
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div *ngIf="item.type == 'list-bollet'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+                    <ul class="cust-padding">
+                      <li *ngFor="let Listitem of item.data">
+                        <p [innerHTML]="Listitem"></p>
+                      </li>
+                    </ul>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div class="col-12" id="number" *ngIf="item.type == 'number-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1">
+                      <li *ngFor="let numbetList of item.data">
+                        <a>
+                          <p [innerHTML]="numbetList"></p>
+                        </a>
+                      </li>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+
+                  <div *ngIf="item.type == 'step-list'">
+                    <h2 [innerHTML]="item.title"></h2>
+                    <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+                    <p [innerHTML]="item.textBelowInfo"></p>
+
+                    <ol style="margin-bottom: 0px" type="1" *ngFor="let numbetList of item.data">
+                      <a>
+                        <p [innerHTML]="numbetList"></p>
+                      </a>
+                    </ol>
+                    <p [innerHTML]="item.heading"></p>
+                  </div>
+                  <div *ngIf="item.type == 'img'">
+                    <img [src]="item.data" alt="" class="review-img custome-img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12">
+          <!-- comment line is use to make this section sticky -->
+          <div class="row row-without-gutter ">
+            <div class="col-12">
+              <div class="row row-without-gutter">
+                <div class="card talk-to-expert text-center">
+                  <div class="card-body">
+                    <img src="../../assets/img/Course_Content_Icons/4.Talk to expert/talk-to-expert.png" alt=""
+                      width="30" />
+                    <h6>Are you Interested?</h6>
+
+                    <button class="btn btn-orange white-text-2 btn-lg" (click)="openModalWithClass(template)">
+                      Talk to Expert
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="row row-without-gutter">
+                <div class="card other-courses">
+                  <div class="card-header text-center">
+                    <h5>{{studuentAlsoVisit.length > 0 ? studuentAlsoVisit[0]['Right Side Subject']:''}}</h5>
+                  </div>
+                  <div class="card-body" *ngFor="let visit of studuentAlsoVisit">
+                    <div class="row border-bottom mb-2 pb-2 cursor-pointer"
+                      [routerLink]="['/'+visit['Url redirection']]">
+                      <div class="flex-holder4">
+                        <div class="col-lg-2 img-div col-sm-2 col-2">
+                          <img [src]="visit.logo" alt="" />
+                        </div>
+                        <div class="col-lg-10">
+                          <p class="mb-0">{{visit.heading}}</p>
+                          <p class="mb-0">{{visit.Description}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+          <!-- <div class="row row-without-gutter">
+                <div class="card other-courses">
+                  <div class="card-header text-center">
+                    <h5>Students also Visited1</h5>
+                  </div>
+                  <div class="card-body" *ngFor="let visit of studuentAlsoVisit">
+                    <div class="row border-bottom mb-2 pb-2">
+                      <div class="flex-holder4">
+                        <div class="col-lg-2 img-div col-sm-2 col-2">
+                          <img [src]="visit.logo" alt="" />
+                        </div>
+                        <div class="col-lg-10">
+                          <p class="mb-0">Alliance University</p>
+                          <p class="mb-0">Bangalore</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+          <!-- <div class="row row-without-gutter">
+                <div class="card other-courses">
+                  <div class="card-header text-center">
+                    <h5>Students also Visited2</h5>
+                  </div>
+                  <div class="card-body" *ngFor="let visit of studuentAlsoVisit">
+                    <div class="row border-bottom mb-2 pb-2">
+                      <div class="flex-holder4">
+                        <div class="col-lg-2 img-div col-sm-2 col-2">
+                          <img [src]="visit.logo" alt="" />
+                        </div>
+                        <div class="col-lg-10">
+                          <p class="mb-0">Alliance University</p>
+                          <p class="mb-0">Bangalore</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+          <!--form starts here-->
+          <div #stickyDiv [class.stickyDiv]="stickyDiv">
+            <div class="form2">
+
+              <div class="container">
+                <!-- Left Card -->
+                <div class="row" id="row">
+
+
+                  <!-- Right Card Form 1-->
+                  <div class="col-lg-12 col-md-12" *ngIf="form5 === true">
+                    <div class="card form-card2">
+                      <h5 class="form-head2 text-center">Register Now To Apply</h5>
+
+                      <form [formGroup]="RegistrationForm1">
+                        <div class="form-div2">
+                          <div class="row">
+                            <div class="form-group col-lg-12 col-md-12 col-sm-6">
+                              <div class="input-group">
+                                <div class="input-group-text bg-transparent icon2">
+                                  <i class="fa fa-user"></i>
+                                </div>
+                                <input class="form-control py-2 border-right-0 border form-input2" type="text"
+                                  placeholder="Full Name*" id="name" formControlName="cCandidateName" />
+                              </div>
+                              <div *ngIf="m2['cCandidateName'].touched && m2['cCandidateName'].invalid"
+                                class="validation2">
+                                <div *ngIf="m2['cCandidateName'].errors['required']">Please Enter Full Name</div>
+                              </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-6">
+                              <div class="input-group">
+                                <div class="input-group-text bg-transparent icon2">
+                                  <i class="fa fa-envelope"></i>
+                                </div>
+                                <input class="form-control py-2 border-right-0 border form-input2" type="text"
+                                  placeholder="Email Address*" id="email" formControlName="cEmail" />
+                              </div>
+                              <div *ngIf="m2['cEmail'].touched && m2['cEmail'].invalid" class="validation2">
+                                <div *ngIf="m2['cEmail'].errors['required']">Please enter email address</div>
+                                <div *ngIf="m2['cEmail'].errors['pattern']">Please enter valid email address</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-div2">
+                          <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-6" id="phone">
+                              <div class="input-group">
+                                <div class="input-group-text bg-transparent icon2">
+                                  <i class="fa fa-phone flip2"></i>
+                                </div>
+                                <input class="form-control py-2 border-right-0 border form-input2" type="number"
+                                  step="0.01" placeholder="Mobile Number*" id="number" formControlName="cMobile" />
+                              </div>
+                              <div *ngIf="m2['cMobile'].touched && m2['cMobile'].invalid" class="validation2">
+                                <div *ngIf="m2['cMobile'].errors['required']">Please enter mobile number</div>
+                                <div *ngIf="m2['cMobile'].errors['pattern']">Mobile number is not 10 digit</div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <div class="form-div2" id="form-div2">
+                          <div class="row">
+
+
+                            <div class="terms2">
+                              <p>
+                                By submitting this form, you accept and agree to our<span style="color: cornflowerblue">
+                                  Terms of use
+                                </span>
+                              </p>
+                            </div>
+                            <div class="row">
+                              <!-- <div class="col-lg-10 col-md-10 col-sm-10 login-block">
+                                  Already Registered? Click Here To Login.
+                                </div> -->
+                              <div class="col-lg-2 col-md-2 col-sm-2">
+                                <button type="button" class="btn submit2" [disabled]="!RegistrationForm1.valid"
+                                  (click)="submitFormS()">
+                                  SUBMIT
+                                </button>
+
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+                  <div class="col-12 vh-50 d-flex justify-content-center align-items-center" *ngIf="form6 === true"
+                    id="thankyouform2">
+                    <div>
+                      <div class="mb-4 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="75" height="75"
+                          fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                        </svg>
+                      </div>
+                      <div class="text-center">
+                        <h1>Thank You !</h1>
+                        <p>Your submission has bees sent. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<app-chat></app-chat>
+<app-footer></app-footer>

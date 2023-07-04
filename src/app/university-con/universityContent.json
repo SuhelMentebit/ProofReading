@@ -1,0 +1,125 @@
+{
+    "MIT": {
+        "Title": "The Marathwada Mitra Mandal's Institute of Technology, Lohegaon,",
+        "shortTitle": "MIT-Lohegaon",
+        "location": "aa",
+        "type": "bb",
+        "rating": "vv",
+        "shareLink": "www.google.com",
+        "info": [
+            {
+                "type": "img",
+                "title": "Short Image",
+                "info":"",
+                "data": "../../assets/img/College.jpg"
+            },
+            {
+                "type": "text",
+                "title": "MIT",
+                "data": "<b> The Marathwada Mitra Mandal's Institute of Technology, Lohegaon,</b> often known as MMIT Pune, was founded in 2008. The institution is associated with Savitribai Phule Pune University, Pune, and is authorized by AICTE, New Delhi, as well as recognized by the Directorate of Technical Education (DTE), Government of Maharashtra. NAAC has awarded the institute an A grade. MMIT Lohgaon is well-known for its undergraduate programme in Mechanical Engineering, Civil Engineering, Computer Engineering, Mechatronics Engineering and Artificial Intelligence & Data Science Engineering.MMIT Lohgaon provides scholarships to students who are financially weak and to pursue higher education. Families whose average annual income is less than or equal to INR 2.5 Lacs and belong to SC or Nav Bouddha category are eligible for the Government of India Post-Matric Scholarship and many more.MMIT Lohgaon has a dynamic campus life, which includes sports and extracurricular activities, among other things. Civil Engineering, Computer Science, Engineering Science, Mechanical Engineering, Mechatronics Engineering, and Artificial Intelligence are among the departments of MMIT Lohegaon.MMIT Lohgaon features well-equipped labs with modern technology and highly skilled professors in all departments. The facilities that MMIT Lohgaon provides are Auditorium, Library, Hostel, etc."
+            },
+            {
+                "type": "table",
+                "title": "The Marathwada Mitra Mandal's Institute of Technology, Lohegaon, - Quick Highlights",
+                "info": "Before applying, the candidate must know the following information to gain a better understanding of the Institute:",
+                "col": [
+                    "Particulars",
+                    "Statistics"
+                ],
+                "row": [
+                    {
+                        "Particulars": "Established Year",
+                        "Statistics": 2008
+                    },
+                    {
+                        "Particulars": "Institute Type",
+                        "Statistics": "Private"
+                    },
+                    {
+                        "Particulars": "Location",
+                        "Statistics": "Pune, Maharashtra"
+                    },
+                    {
+                        "Particulars": "Affiliation",
+                        "Statistics": "Savitribai Phule Pune University, Pune"
+                    },
+                    {
+                        "Particulars": "Approval",
+                        "Statistics": "All India Council for Technical Education (AICTE)"
+                    },
+                    {
+                        "Particulars": "Accredited",
+                        "Statistics": "National Assessment and Accreditation Council (NAAC) with ‘A’ Grade"
+                    },
+                    {
+                        "Particulars": "Application Mode",
+                        "Statistics": "Online"
+                    },
+                    {
+                        "Particulars": "Entrance exam accepted",
+                        "Statistics": "JEE Mains, MHT CET"
+                    },
+                    {
+                        "Particulars": "Mode of Education",
+                        "Statistics": "Full-time"
+                    },
+                    {
+                        "Particulars": "Courses Offered",
+                        "Statistics": "UG"
+                    },
+                    {
+                        "Particulars": "Top Recruiters",
+                        "Statistics": "Zensar, Tata Motors Ltd, Volkswagen, TCS, Syntel, Infosys, Go Speedy Go, Amazon, Capgemini, Bitwise, Birlasoft, HUDL, White Snow Software, Notamedia Pvt. Ltd, A.R. Power Equipments, etc."
+                    },
+                    {
+                        "Particulars": "Hostel facility",
+                        "Statistics": "Yes"
+                    },
+                    {
+                        "Particulars": "Official Website",
+                        "Statistics": "https://www.mmit.edu.in/ "
+                    }
+                ]
+            },
+            {
+                "type": "list-bollet",
+                "title": " Benefits of joining The Marathwada Mitra Mandal's Institute of Technology, Lohegaon,",
+                "data": [
+                    "The administration of MMIT Lohgaon is excellent. Seminars, conferences, and industry visits are often organized.",
+                    "Wi-Fi is available throughout the campus.",
+                    "The teaching and non-teaching faculties are all very helpful, and knowledgeable.",
+                    "The infrastructure is good and clean.",
+                    "Medical, library, auditorium, AC classrooms, sports, hostel, cafeteria, and other services are available to students at the institute.",
+                    "MMIT Lohgaon has a good placement rate.",
+                    "The institute has signed lots of MOUs with many industries.",
+                    "MMIT Lohgaon provides special Efforts for Advanced and Slow Learners."
+                ]
+            },
+            {
+                "type":"number-list",
+                "title":"Departments",
+                "info": "The departments at MMIT Lohegaon are listed below",
+                "data": [
+                    "Department of Mechanical Engineering",
+                    "Department of Civil Engineering",
+                    "Department of Computer Engineering",
+                    "Department of Engineering Sciences",
+                    "Department of Mechatronics Engineering",
+                    "Department of Artificial Intelligence & Data Science"
+                ]
+            },
+            {
+                "type": "img",
+                "title": "Short Image",
+                "data": "../../assets/img/College.jpg"
+            }
+            
+        ],
+        "Gallery": {},
+        "Scholarship": {},
+        "Faculty": {},
+        "News & Articles": {},
+        "Hostel": {},
+        "Q & A": {}
+    }
+}

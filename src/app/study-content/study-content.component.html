@@ -1,0 +1,1277 @@
+<section class="study-abroad">
+     <div class="study-abroad-banner">
+          
+       <div class="col-lg-12">
+         <div class="study-abroad-header text-center">
+           <h1 class="white-text-2 mb-0" [innerHTML]="h1Title"></h1>
+           <div class="title">
+             <h6
+               class="title-text white-text-2"
+               [innerHTML]="displayData.info"
+             ></h6>
+           </div>
+           <!-- <div class="col-lg-12">
+             <div class="row row-without-gutter">
+               <form class="exam-page-form d-block mx-auto" action="">
+                 <input
+                   type="text"
+                   placeholder="Enter Course, College or Exam"
+                   name="search2"
+                 />
+                 <button type="submit"><i class="fa fa-search"></i></button>
+               </form>
+             </div>
+           </div> -->
+           <!-- <div class="col-lg-12">
+             <div class="row row-without-gutter" id="flex">
+               <div class="flex-div">
+                 <p class="d-inline white-text-2 cust-padding mb-0">
+                   Top Courses:
+                 </p>
+                 <div class="pill-div-course">MBBS</div>
+                 <div class="pill-div-course">MBA</div>
+                 <div class="pill-div-course">Engineering</div>
+                 <div class="pill-div-course">Designing</div>
+                 <div class="pill-div-course">B.Com/CA</div>
+               </div>
+             </div>
+           </div> -->
+           <div class="col-lg-12">
+             <div class="row row-without-gutter" id="flex">
+               <div class="flex-div">
+                 <!-- <button class="btn btn-orange white-text-2">Read More<img src="../../assets/img/Study_Abroad_Icons/1.Header/Raed More.png" width="20" alt="" class="pl-3"></button> -->
+                 <button class="btn btn-orange white-text-2"(click)="openModalWithClass(template)">Apply Now</button>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <ng-template #template>
+      <section class="form">
+        <button
+          type="button"
+          class="close pull-right"
+          aria-label="Close"
+          (click)="modalRef.hide()"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-header">
+          <img
+            src="../../assets/img/new_logo_color.png"
+            width="220px"
+            height="auto"
+            class="syuLogo college-page-logo"
+          />
+          <h4 class="modal-title text-center">A Place Where Your Career Matters</h4>
+        </div>
+        <div class="container">
+          <!-- Left Card -->
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4" id="hide">
+              <div class="card form-card">
+                <h5 class="form-head">Why register with us?</h5>
+                <div class="card-left-text">
+                  <p class="left-txt">
+                    With totally online Admission Process we help you get college
+                    admission without having to step out
+                  </p>
+                  <p class="left-txt">Upto 50% discount on application forms</p>
+                  <p class="left-txt">
+                    Upload your admission documents and get paytm rewards
+                  </p>
+                  <p class="left-txt">
+                    You won’t get unwanted calls from third parties
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card shortlist-card text-center">
+                      <img
+                        src="../../assets/img/Application-Deadlines.png"
+                        class="center img-size"
+                      />
+                      <div class="shortlist-txt">Application Deadlines</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card shortlist-card">
+                      <img
+                        src="../../assets/img/Brochure Details.png"
+                        class="center img-size"
+                      />
+                      <div class="shortlist-txt text-center">Brochure Details</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row form-div">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card shortlist-card">
+                      <img
+                        src="../../assets/img/Councelling.png"
+                        class="center img-size"
+                      />
+                      <div class="shortlist-txt text-center">Councelling</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card shortlist-card">
+                      <img
+                        src="../../assets/img/Check-detalied-fees.png"
+                        class="center img-size"
+                      />
+                      <div class="shortlist-txt text-center">Check Detalied Fees</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Right Card Form 1-->
+            <div class="col-lg-8 col-md-8" *ngIf="form1 === true">
+              <div class="card form-card">
+                <h5 class="form-head text-center">Register Now To Apply</h5>
+                <div>
+                  <h6 class="sub-title text-center">
+                    Please leave your information to get the best suggested colleges
+                    and free counseling.
+                  </h6>
+                </div>
+                <form [formGroup]="RegistrationFrom1">
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-user"></i>
+                          </div>
+                          <input
+                            class="form-control py-2 border-right-0 border form-input"
+                            type="text"
+                            placeholder="Full Name*"
+                            id="name"
+                            formControlName="cCandidateName"
+                          />
+                        </div>
+                        <div *ngIf="m['cCandidateName'].touched && m['cCandidateName'].invalid" class="validation">
+                          <div *ngIf="m['cCandidateName'].errors['required']">Please Enter Full Name</div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-envelope"></i>
+                          </div>
+                          <input
+                            class="form-control py-2 border-right-0 border form-input"
+                            type="text"
+                            placeholder="Email Address*"
+                            id="email"
+                            formControlName="cEmail"
+                          />
+                        </div>
+                        <div *ngIf="m['cEmail'].touched && m['cEmail'].invalid" class="validation">
+                          <div *ngIf="m['cEmail'].errors['required']">Please enter email address</div>
+                          <div *ngIf="m['cEmail'].errors['pattern']">Please enter valid email address</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="form-group col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-phone flip"></i>
+                          </div>
+                          <input
+                            class="form-control py-2 border-right-0 border form-input"
+                            type="number"
+                            placeholder="Mobile Number*"
+                            id="number"
+                            formControlName="cMobile"
+                          />
+                        </div>
+                        <div *ngIf="m['cMobile'].touched && m['cMobile'].invalid" class="validation">
+                          <div *ngIf="m['cMobile'].errors['required']">Please enter mobile number</div>
+                          <div *ngIf="m['cMobile'].errors['pattern']">Mobile number is not 10 digit</div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="desktop">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-map-marker"></i>
+                          </div>
+                          <input
+                            class="form-control py-2 border-right-0 border form-input"
+                            type="text"
+                            placeholder="City You Live In"
+                            id="city"
+                            formControlName="cCity"
+                          />
+                        </div>
+                        <div *ngIf="m['cCity'].touched && m['cCity'].invalid" class="validation">
+                          <!-- <div *ngIf="m['cCity'].errors['required']">Please enter city</div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-graduation-cap"></i>
+                          </div>
+                          <!-- <input
+                            class="form-control py-2 border-right-0 border form-input"
+                            type="text"
+                            placeholder="Course Interested In*"
+                            id="course"
+                            formControlName="cCourse"
+                          /> -->
+                          <select
+                          class="form-control py-1 border-right-0 border form-input"
+                          placeholder="Course Interested In*"
+                          id="course"
+                          (change)="changeCourse($event)"
+                          formControlName="cCourse"
+                        >
+                          <option value=""  id="course" class="form-control py-1 border-right-0  form-input">Course Interested In*</option>
+                          <option *ngFor="let course of Course" [ngValue]="course">
+                            {{ course }}
+                          </option>
+                        </select>
+                        </div>
+                        <div *ngIf="m['cCourse'].touched && m['cCourse'].invalid" class="validation">
+                          <div *ngIf="m['cCourse'].errors['required']">Please enter Course</div>
+                        </div>
+                      </div>
+                      <!-- <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-graduation-cap"></i>
+                          </div>
+                          <input
+                            class="form-control py-2 border-right-0 border form-input"
+                            type="text"
+                            placeholder="Select Highest Education*"
+                            id="education"
+                            formControlName="qeducation"
+                          />
+                        </div>
+                        <div *ngIf="m['qeducation'].touched && m['qeducation'].invalid" class="validation">
+                          <div *ngIf="m['qeducation'].errors['required']">Please enter Education</div>
+                        </div>
+                      </div> -->
+                      <div class="terms">
+                        <p>
+                          By submitting this form, you accept and agree to our<span
+                            style="color: cornflowerblue"
+                          >
+                            Terms of use
+                          </span>
+                        </p>
+                      </div>
+                      <div class="row">
+                        <!-- <div class="col-lg-10 col-md-10 col-sm-10 login-block">
+                          Already Registered? Click Here To Login.
+                        </div> -->
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                          <button
+                            type="button"
+                            class="btn submit"
+                            [disabled]="!RegistrationFrom1.valid"
+                            (click)="submitForm1()"
+                          >
+                            SUBMIT
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+  
+             <!--thank you message div-->
+             <div class="vh-50 d-flex justify-content-center align-items-center" *ngIf="form2 === true" id="thankyouform">
+              <div>
+                  <div class="mb-4 text-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="75" height="75"
+                          fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                          <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                      </svg>
+                  </div>
+                  <div class="text-center">
+                      <h1>Thank You !</h1>
+                      <p>Your submission has bees sent. </p>
+                  </div>
+              </div>
+            </div>
+      
+            <!-- Right Card Form 2-->
+            <!-- <div class="col-lg-8 col-md-8" *ngIf="form2 === true">
+              <div class="card form-card">
+                <h5 class="form-head text-center">Register Now To Apply</h5>
+                <div> -->
+  
+                  <!-- <p class="sub-title text-center">
+                    IIT Gandhinagar - Indian Institute of Technology -[IITG]
+                  </p> -->
+  
+                <!-- </div>
+                <div>
+                  <h5 class="edu-title text-center">Current Education Details</h5>
+                </div>
+                <form [formGroup]="RegistrationFrom2">
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <div class="input-group"> -->
+  
+                          <!-- <div class="input-group-text bg-transparent icon"> -->
+                          <!-- <i class="fa fa-user"></i> -->
+                          <!-- </div> -->
+  
+                          <!-- <input
+                            class="form-control py-2 border-right-0 border form-input1"
+                            type="text"
+                            placeholder="Select Graduation College/Institue*"
+                            id="graduation"
+                            formControlName="qgraduation"
+                          />
+                        </div>
+                        <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qgraduation').invalid &&
+                            (RegistrationFrom2.get('qgraduation').dirty ||
+                              RegistrationFrom2.get('qgraduation').touched)
+                          "
+                        >
+                          Enter graduation.
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group"> -->
+  
+                          <!-- <div class="input-group-text bg-transparent icon"> -->
+                          <!-- <i class="fa fa-envelope"></i> -->
+                          <!-- </div> -->
+  
+                          <!-- <input
+                            class="form-control py-2 border-right-0 border form-input1"
+                            type="text"
+                            placeholder="Which Course Did You Do?*"
+                            id="course"
+                            formControlName="qcourse"
+                          />
+                        </div>
+                        <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qcourse').invalid &&
+                            (RegistrationFrom2.get('qcourse').dirty ||
+                              RegistrationFrom2.get('qcourse').touched)
+                          "
+                        >
+                          Enter course.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <div class="input-group"> -->
+  
+                          <!-- <div class="input-group-text bg-transparent icon"> -->
+                          <!-- <i class="fa fa-phone flip"></i> -->
+                          <!-- </div> -->
+  
+                          <!-- <input
+                            class="form-control py-2 border-right-0 border form-input1"
+                            type="number"
+                            placeholder="Graduation Percentage* "
+                            id="gradper"
+                            formControlName="qgradper"
+                          />
+                        </div>
+                        <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qgradper').invalid &&
+                            (RegistrationFrom2.get('qgradper').dirty ||
+                              RegistrationFrom2.get('qgradper').touched)
+                          "
+                        >
+                          Enter gradper.
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group"> -->
+  
+                          <!-- <div class="input-group-text bg-transparent icon"> -->
+                          <!-- <i class="fa fa-map-marker"></i> -->
+                          <!-- </div> -->
+                          <!-- <input
+                            class="form-control py-2 border-right-0 border form-input1"
+                            type="text"
+                            placeholder="Work Experience (in years)*"
+                            id="experience"
+                            formControlName="qexperience"
+                          />
+                        </div>
+                        <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qexperience').invalid &&
+                            (RegistrationFrom2.get('qexperience').dirty ||
+                              RegistrationFrom2.get('qexperience').touched)
+                          "
+                        >
+                          Enter experience.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="terms">
+                      <p class="exam">
+                        Have you appeared or scheduled for any Entrance Exam?
+                      </p>
+                      <div class="form-check-inline">
+                          <input type="radio" id="html" name="fav_language" value="Yes" formControlName='qextraExam'>
+                          <label for="html">Yes</label><br>
+                      </div>
+                      <div class="form-check-inline">
+                          <input type="radio" id="css" name="fav_language" value="No"formControlName='qextraExam'>
+                          <label for="css">No</label><br>
+         
+                      </div>
+                      <div class="form-check-inline">
+                          <input type="radio" id="javascript" name="fav_language" value="Booked"formControlName='qextraExam'>
+                          <label for="javascript">Booked</label>
+                      </div>
+                    </div>
+                    <div>
+                      <h5 class="edu-title text-center">Please Enter Your Score</h5>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-2"></div>
+                      <div class="col-lg-4" id="phone">
+                        <div class="input-group">
+                          <input
+                            class="form-control py-2 border-right-0 border score-input"
+                            type="text"
+                            placeholder="GATE(Optional)"
+                            id="name"
+                            formControlName="qgate"
+                          />
+                        </div> -->
+  
+                        <!-- <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qgate').invalid &&
+                            (RegistrationFrom2.get('qgate').dirty ||
+                              RegistrationFrom2.get('qgate').touched)
+                          "
+                        >
+                          Enter GATE Score.
+                        </div> -->
+  
+                      <!-- </div>
+                      <div class="col-lg-4">
+                        <div class="input-group">
+                          <input
+                            class="form-control py-2 border-right-0 border score-input"
+                            type="text"
+                            placeholder="GRE(Optional)"
+                            id="name"
+                            formControlName="qgre"
+                          />
+                        </div> -->
+  
+                        <!-- <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qgre').invalid &&
+                            (RegistrationFrom2.get('qgre').dirty ||
+                              RegistrationFrom2.get('qgre').touched)
+                          "
+                        >
+                          Enter GRE Score.
+                        </div> -->
+  
+                      <!-- </div>
+                      <div class="col-lg-2"></div>
+                    </div>
+                    <div class="row" style="margin-top: 12px">
+                      <div class="col-lg-3">
+                        <button class="btn back" type="button" (click)="back1()">
+                          BACK
+                        </button>
+                      </div>
+                      <div class="col-lg-6"></div>
+                      <div class="col-lg-3">
+                        <button
+                          class="btn submit"
+                          type="button"
+                          [disabled]="!RegistrationFrom2.valid"
+                          (click)="submitForm2()"
+                        >
+                          SUBMIT
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div> -->
+            <!-- Right Card Form 3-->
+            <!-- <div class="col-lg-8 col-md-8" *ngIf="form3 === true">
+              <div class="card form-card">
+                <h5 class="form-head text-center">Register Now To Apply</h5>
+                <div> -->
+  
+                  <!-- <p class="sub-title text-center">
+                    IIT Gandhinagar - Indian Institute of Technology -[IITG]
+                  </p> -->
+  
+                <!-- </div>
+                <div>
+                  <h5 class="edu-title text-center">Past Education Details</h5>
+                </div>
+                <p class="tenth text-center">10th Standard Details</p>
+                <form [formGroup]="RegistrationFrom3">
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="Select 10th Board*"
+                          id="tenthBoard"
+                          formControlName="qtenthBoard"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom3.get('qtenthBoard').invalid &&
+                          (RegistrationFrom3.get('qtenthBoard').dirty ||
+                            RegistrationFrom3.get('qtenthBoard').touched)
+                        "
+                      >
+                        Enter 10th Board.
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="Select 10th Passing Year*"
+                          id="tenthPassing"
+                          formControlName="qtenthPassing"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom3.get('qtenthPassing').invalid &&
+                          (RegistrationFrom3.get('qtenthPassing').dirty ||
+                            RegistrationFrom3.get('qtenthPassing').touched)
+                        "
+                      >
+                        Enter 10th Passing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="number"
+                          placeholder="10th Percentage*"
+                          id="tenthPercentage"
+                          formControlName="qtenthPercentage"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom3.get('qtenthPercentage').invalid &&
+                          (RegistrationFrom3.get('qtenthPercentage').dirty ||
+                            RegistrationFrom3.get('qtenthPercentage').touched)
+                        "
+                      >
+                        Enter 10th Percentage.
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="10th School Name*"
+                          id="school"
+                          formControlName="qschool"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom3.get('qschool').invalid &&
+                          (RegistrationFrom3.get('qschool').dirty ||
+                            RegistrationFrom3.get('qschool').touched)
+                        "
+                      >
+                        Enter 10th School.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 12px">
+                    <div class="col-lg-3">
+                      <button class="btn back" type="button" (click)="back2()">
+                        BACK
+                      </button>
+                    </div>
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-3">
+                      <button
+                        class="btn submit"
+                        type="button"
+                        (click)="submitForm3()"
+                      >
+                        SUBMIT
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-8" *ngIf="form4 === true">
+              <div class="card form-card">
+                <h5 class="form-head text-center">Register Now To Apply</h5>
+                <div> -->
+  
+                  <!-- <p class="sub-title text-center">
+                    IIT Gandhinagar - Indian Institute of Technology -[IITG]
+                  </p> -->
+  
+                <!-- </div>
+                <div>
+                  <h5 class="edu-title text-center">Past Education Details</h5>
+                </div>
+                <p class="twelve text-center">12th Standard Details</p>
+                <form [formGroup]="RegistrationFrom4">
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="Select 12th Board* "
+                          id="twelvethBoard"
+                          formControlName="fldValue1"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom4.get('fldValue1').invalid &&
+                          (RegistrationFrom4.get('fldValue1').dirty ||
+                            RegistrationFrom4.get('fldValue1').touched)
+                        "
+                      >
+                        Enter Twelveth Board.
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="Select 12th Passing Year*"
+                          id="twelvethPassing"
+                          formControlName="fldValue2"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom4.get('fldValue2').invalid &&
+                          (RegistrationFrom4.get('fldValue2').dirty ||
+                            RegistrationFrom4.get('fldValue2').touched)
+                        "
+                      >
+                        Enter Twelveth Passing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="number"
+                          placeholder="12th percentage*"
+                          id="twelvethPer"
+                          formControlName="fldValue3"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom4.get('fldValue3').invalid &&
+                          (RegistrationFrom4.get('fldValue3').dirty ||
+                            RegistrationFrom4.get('fldValue3').touched)
+                        "
+                      >
+                        Enter Twelveth Percentage.
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="12th School Name*"
+                          id="twelvethSchool"
+                          formControlName="fldValue4"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom4.get('fldValue4').invalid &&
+                          (RegistrationFrom4.get('fldValue4').dirty ||
+                            RegistrationFrom4.get('fldValue4').touched)
+                        "
+                      >
+                        Enter Twelveth School.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="Select 12th Specialization*"
+                          id="name"
+                          id="twelvethSpec"
+                          formControlName="fldValue5"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom4.get('fldValue5').invalid &&
+                          (RegistrationFrom4.get('fldValue5').dirty ||
+                            RegistrationFrom4.get('fldValue5').touched)
+                        "
+                      >
+                        Enter Twelveth Specialization.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 12px">
+                    <div class="col-lg-3">
+                      <button class="btn back" type="button" (click)="back2()">
+                        BACK
+                      </button>
+                    </div>
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-3">
+                      <button
+                        class="btn submit"
+                        type="button"
+                        (click)="submitFrom4()"
+                      >
+                        SUBMIT
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      
+    </ng-template>
+     <div class="container-fluid">
+     <div class="col-lg-12 below-banner">
+       <div class="row row-without-gutter">
+         <div class="col-lg-4 col-4 col-sm-4 right-white-border p-4">
+           <h2 class="text-orange text-center mob-height">
+             {{ displayData.courseOffer }}
+           </h2>
+           <h5 class="py-3 text-center f-12">
+             Courses Offered in {{ displayData.title }}
+           </h5>
+         </div>
+         <div class="col-lg-4 col-4 col-sm-4 right-white-border p-4">
+           <h2 class="text-blue text-center mob-height">
+             {{ displayData.internationalStudent }}%
+           </h2>
+           <h5 class="py-3 text-center f-12">International Student</h5>
+         </div>
+         <div class="col-lg-4 col-4 col-sm-4 p-4">
+           <h2 class="light-blue-text text-center mob-height">
+             {{ displayData.averageCost }}
+           </h2>
+           <h5 class="py-3 text-center f-12">Average Cost Of Study</h5>
+         </div>
+       </div>
+     </div>
+     <div class="row row-without-gutter bg-white my-2 border-radius">
+     <div class="col-lg-12" *ngFor="let item of displayData.data">
+       
+         <div class="content" *ngIf="item.type === 'table'">
+           <table
+             class="table text-center table-hover table-responsive w-100 d-md-table"
+             id="quick-table"
+           >
+             <thead>
+               <tr>
+                 <th *ngFor="let TableItems of item.col">
+                   {{ TableItems }}
+                 </th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr *ngFor="let Tableitem of item.row">
+                 <td *ngFor="let TableItems of item.col">
+                   <p [innerHTML]="Tableitem[TableItems]"></p>
+                 </td>
+               </tr>
+             </tbody>
+           </table>
+         </div>
+        
+        
+          <div class="content"  *ngIf="item.type == 'img'">
+           <img [src]="item.data" alt="" class="review-img custome-img" />
+         </div>
+        
+        
+         <div class="content" *ngIf="item.type == 'list-bollet'">
+           <h2 class="light-blue-text" [innerHTML]="item.title"></h2>
+           <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+           <p [innerHTML]="item.textBelowInfo"></p>
+           <ul class="cust-padding">
+             <li *ngFor="let Listitem of item.data" [innerHtml]="Listitem" ></li>
+           </ul>
+           <p [innerHTML]="item.heading"></p>
+         </div>
+        
+        
+         <div class="content" *ngIf="item.type == 'number-list'">
+           <h2 class="light-blue-text" [innerHTML]="item.title"></h2>
+           <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+   
+           <ol style="margin-bottom: 0px" type="1">
+             <li *ngFor="let numbetList of item.data">
+               <a>{{ numbetList }}</a>
+             </li>
+           </ol>
+         </div>
+       
+       <div
+       
+       *ngIf="item.type === 'text'">
+       
+         <div class="row row-without-gutter text-center mt-3">
+          <h3 class="light-blue-text" id="title" [innerHTML]="item.title"></h3>
+           <h3 class="light-blue-text" id="title" [innerHtml]="item.info"></h3>
+         </div>
+         <div class="row row-without-gutter">
+           <div class="text p-4" [innerHtml]="item.data"></div>
+         </div>
+       </div>
+      
+       <div
+       id="title"
+         *ngIf="item.type === 'sm-card'"
+       >
+         <div class="row row-without-gutter text-center" id="itemT">
+           <h3  class="light-blue-text" [innerHTML]="item.title"></h3>
+           <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+         </div>
+         <div class="row row-without-gutter">
+           <div class="col-lg-4 blue-border" *ngFor="let sm of item.data">
+             <div class="row row-without-gutter">
+               <div class="col-lg-3 col-sm-3 border-right-blue">
+                 <img
+                   src="../../assets/img/Study_Content_Icons/2.Study_Destination/Capital.png"
+                   alt=""
+                   class="capital-img"
+                 />
+               </div>
+               <div class="col-lg-9 col-sm-9 text-center pt-3">
+                 <h5 class="light-blue-text" [innerHtml]="sm.title"></h5>
+                 <h6 [innerHtml]="sm.info"></h6>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div
+       
+         *ngIf="item.type === 'icon-img'"
+       >
+         <div class="">
+           <div class="container">
+             <h2
+               class="light-blue-text text-center py-3"
+               [innerHtml]="item.title"
+             ></h2>
+             <div class="col-lg-12">
+               <div class="row course-inner-div">
+                 <div class="col-lg-2 col-sm-4 col-6" *ngFor="let ii of item.data">
+                   <div class="part">
+                     <img src="{{ ii.img }}" />
+                     <h3 [innerHtml]="ii.title"></h3>
+                     <p [innerHtml]="ii.info"></p>
+                   </div>
+                 </div>
+                 <div class="col-lg-2 col-sm-4 col-6">
+                   <div class="part">
+                     <br /><br />
+                     <h3>
+                       <b>Discover<br />More</b>
+                     </h3>
+                     <!-- <p>3945 Colleges</p> -->
+                     <!--  -->
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     
+       <div
+        
+         *ngIf="item.type === 'bg-card'"
+       >
+         <div class="row row-without-gutter" id="itemT">
+           <h4
+             class="text-center light-blue-text my-3"
+             [innerHtml]="item.title"
+           ></h4>
+           <p style="font-weight:bold;" [innerHTML]="item.info"></p>
+         </div>
+         <div class="row row-without-gutter">
+           <div class="col-lg-3 col-sm-6" *ngFor="let bg of item.data">
+             <div class="card">
+               <img [src]="bg.backimg" alt="" class="like-img" />
+               <div class="back-img"></div>
+               <div class="middle-img">
+                 <img [src]="bg.clgimg" alt="" />
+               </div>
+               <div class="">
+                 <h2 class="light-blue-text colg-name" [innerHtml]="bg.title"></h2>
+                 <h5 class="colg-place" [innerHtml]="bg.subtitle"></h5>
+               </div>
+               <div class="col-lg-12">
+                 <div class="row row-without-gutter border-bottom">
+                   <div class="col-lg-6 col-sm-6 col-6 border-right text-center">
+                     <div class="f-text" [innerHtml]="bg.leftval"></div>
+                     <div class="sec-text" [innerHtml]="bg.leftvalinfo"></div>
+                   </div>
+                   <div class="col-lg-6 col-sm-6 col-6 text-center">
+                     <div class="f-text" [innerHtml]="bg.rightval"></div>
+                     <div class="sec-text" [innerHtml]="bg.rightvalinfo"></div>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-lg-12">
+                 <div class="row py-3">
+                   <div class="col-lg-3 col-3" *ngFor="let inn of bg.innerIcon">
+                     <div class="small-img">
+                       <img [src]="inn.img" width="30" alt="" />
+                     </div>
+                     <div class="small-img-text" [innerHtml]="inn.title"></div>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-lg-12">
+                 <div class="row row-custom-gutter">
+                   <div
+                     class="col-lg-6 col-6 bg-light-blue white-text-2 text-center"
+                   >
+                     <h5 class="app-now-text">APPLY NOW</h5>
+                   </div>
+                   <div class="col-lg-6 col-6 text-center">
+                     <h5 class="brochure-text">BROCHURE</h5>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="row row-without-gutter" id="itemT">
+           <p class="text-center light-blue-text my-3">
+             See All Colleges In Canada
+           </p>
+         </div>
+       </div>
+       <div
+        
+         *ngIf="item.type === 'exam-card'"
+       >
+         <h2
+           class="light-blue-text text-center py-3"
+           [innerHtml]="item.title"
+         ></h2>
+         <p class="text-center" [innerHtml]="item.info"></p>
+         <div class="col-lg-12">
+           <div class="row-without-gutter row">
+             <div class="col-lg-4 col-sm-6 col-12" *ngFor="let ex of item.data">
+               <div class="card contact-card">
+                 <div class="row m-0">
+                   <div class="col-lg-12 text-center card-header p-0 cust-border">
+                     <div class="row row-without-gutter">
+                       <div class="col-lg-2 col-sm-2 col-2">
+                         <img
+                           src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"
+                           alt=""
+                           class="p-1 logo-img"
+                         />
+                       </div>
+                       <div class="col-lg-10 col-sm-10 col-10 text-center pt-2">
+                         <h5
+                           class="white-text-2 mt-0 bold mb-0"
+                           [innerHtml]="ex.title"
+                         ></h5>
+                         <p class="mb-0 white-text-2" [innerHtml]="ex.info"></p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="row p-3">
+                   <p [innerHtml]="ex.text"></p>
+                 </div>
+                 <div class="row m-0">
+                   <div class="card-footer cust-border-2">
+                     <div class="row row-without-gutter mt-0">
+                       <div class="col-lg-6 col-sm-6 col-6 text-center">
+                         <button class="btn btn-blue w-100 white-text-2">
+                           Apply Now
+                         </button>
+                       </div>
+                       <div
+                         class="col-lg-6 col-sm-6 col-6 text-center bg-white border-rad"
+                       >
+                         <button class="btn w-100">Registration</button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div
+        
+         *ngIf="item.type === 'question-list'"
+       >
+         <div id="faq-tab" class="px-4">
+           <p-accordion
+             [multiple]="false"
+             id="faq-collapse"
+             expandIcon="pi pi-plus"
+             collapseIcon="pi pi-minus"
+           >
+             <div class="col-lg-12 text-center">
+               <h2 class="light-blue-text pt-3" [innerHtml]="item.title"></h2>
+               <h6 [innerHtml]="item.info"></h6>
+             </div>
+             <p *ngFor="let ques of item.data">
+               <p-accordionTab
+                 [header]="ques.ques"
+                 [selected]="false"
+                 class="accordionTab"
+               >
+                 <ul>
+                   <li>
+                     <p style="font-weight: bold" [innerHtml]="ques.ans"></p>
+                   </li>
+                 </ul>
+               </p-accordionTab>
+             </p>
+           </p-accordion>
+         </div>
+       </div>
+
+       <div
+         
+         *ngIf="item.type === 'img-card'"
+       >
+
+
+       <div class="text-center mt-4 ">
+        <div class="container">
+          <div class="row-without-gutter row" id="flex">
+            <h2
+              class="light-blue-text text-center py-3"
+              [innerHtml]="item.title"
+            ></h2>
+            <h6 [innerHtml]="item.info"></h6>
+          </div>
+          <owl-carousel-o [options]="carouselOptions2">
+            <ng-template carouselSlide *ngFor="let image of item.data; let i = index">
+              <div
+              class="item study-div"
+            >
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                <div class="text-center">
+                  <img src="{{ image.img }}" class="pt-3 mx-auto d-block" />
+                  <div class="img-text">
+                    <h6 [innerHtml]="image.title"></h6>
+                    <p class="light-blue-text">Explore More</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            </ng-template>
+          </owl-carousel-o>
+        </div>
+      </div>
+       </div>
+       <div
+         class="row row-without-gutter my-2 blue-bg border-radius" id="flex"
+         *ngIf="item.type === 'session-type'"
+       >
+         <div class="row row-without-gutter text-center p-4"  id="flex">
+           <h5  id="flex" [innerHtml]="item.title"></h5>
+           <p  id="flex" class="light-blue-text" [innerHtml]="item.info"></p>
+         </div>
+         <div  id="button" >
+          <button class="btn btn-orange2 mx-auto d-block">
+            Book Your FREE 30 Mins Session Now
+          </button>
+         </div>
+       </div>
+     </div>
+     </div>
+</div>
+
+<div class="form2 col-12">
+    
+  <div class="container">
+    <!-- Left Card -->
+    <div class="row" id="row">
+      
+
+      <!-- Right Card Form 1-->
+      <div class="col-lg-8 col-md-8" *ngIf="form5 === true">
+        <div class="card form-card2">
+          <h5 class="form-head2 text-center">Register Now To Apply</h5>
+         
+          <form [formGroup]="RegistrationForm1">
+            <div class="form-div2">
+              <div class="row">
+                <div class="form-group col-lg-3 col-md-3 col-sm-6">
+                  <div class="input-group">
+                    <div class="input-group-text bg-transparent icon">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <input
+                      class="form-control py-2 border-right-0 border form-input"
+                      type="text"
+                      placeholder="Full Name*"
+                      id="name"
+                      formControlName="cCandidateName"
+                    />
+                  </div>
+                  <div *ngIf="m2['cCandidateName'].touched && m2['cCandidateName'].invalid" class="validation2">
+                    <div *ngIf="m2['cCandidateName'].errors['required']">Please Enter Full Name</div>
+                  </div>
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-sm-6">
+                  <div class="input-group">
+                    <div class="input-group-text bg-transparent icon">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                    <input
+                      class="form-control py-2 border-right-0 border form-input"
+                      type="text"
+                      placeholder="Email Address*"
+                      id="email"
+                      formControlName="cEmail"
+                    />
+                  </div>
+                  <div *ngIf="m2['cEmail'].touched && m2['cEmail'].invalid" class="validation2">
+                    <div *ngIf="m2['cEmail'].errors['required']">Please enter email address</div>
+                    <div *ngIf="m2['cEmail'].errors['pattern']">Please enter valid email address</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6" id="phone">
+                  <div class="input-group">
+                    <div class="input-group-text bg-transparent icon">
+                      <i class="fa fa-phone flip"></i>
+                    </div>
+                    <input
+                      class="form-control py-2 border-right-0 border form-input"
+                      type="number"
+                      step="0.01"
+                      placeholder="Mobile Number*"
+                      id="number"
+                      formControlName="cMobile"
+                    />
+                  </div>
+                  <div *ngIf="m2['cMobile'].touched && m2['cMobile'].invalid" class="validation2">
+                    <div *ngIf="m2['cMobile'].errors['required']">Please enter mobile number</div>
+                    <div *ngIf="m2['cMobile'].errors['pattern']">Mobile number is not 10 digit</div>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                  <button
+                    type="button"
+                    class="btn submit2"
+                    [disabled]="!RegistrationForm1.valid"
+                    (click)="submitFormS()"
+                  >
+                    SUBMIT
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+            
+            
+                
+          </form>
+        </div>
+      </div>
+
+      <div class="col-12 vh-50 d-flex justify-content-center align-items-center" *ngIf="form6 === true" id="thankyouform2">
+        <div>
+            <div class="mb-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="75" height="75"
+                    fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                </svg>
+            </div>
+            <div class="text-center">
+                <h1>Thank You !</h1>
+                <p>Your submission has bees sent. </p>
+            </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      </div>
+   </section>
+   <app-chat></app-chat>
+   <app-footer></app-footer>
+   

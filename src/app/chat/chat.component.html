@@ -1,0 +1,599 @@
+
+<section class="mobile_ftr">
+    <div class="container as">
+    <div class="row">
+      <div class="col-md-12 mobile_inner_footer">
+    <div class="col-md-4 footer_mob_box1">
+    <a href="https://api.whatsapp.com/send?phone=+919555120101 &amp;text=I want to apply for the current intake of UG/PG courses in India or Abroad" target="_blank" class="ftr_mb_href_clr"><i class="fa fa-whatsapp ftr_mb_href_clr" ></i> Whats App</a>
+    </div>
+    
+    <div class="col-md-4 footer_mob_box2">
+    <a class="ftr_mb_href_clr" (click)="openModalWithClass(template)">Apply Now</a>
+    </div>
+    <!-- <div class="col-md-4 footer_mob_box3">
+    <a href="tel:180030700033" target="_blank" class="ftr_mb_href_clr"><i class="fa fa-phone ftr_mb_href_clr"></i> Call </a>
+    </div> -->
+    </div>
+    </div>
+    </div>
+    
+    </section>
+    <ng-template #template>
+      <section class="form">
+        <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-header">
+          <img src="../../assets/img/new_logo_color.png" width="220px" height="auto" style="margin-top: 12%;"
+            class="syuLogo college-page-logo" />
+        </div>
+        <div class="container">
+          <!-- Left Card -->
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4" id="hide">
+              <div class="card form-card">
+                <h5 class="form-head">Why register with us?</h5>
+                <div class="card-left-text">
+                  <p class="left-txt">
+                    With totally online Admission Process we help you get college
+                    admission without having to step out
+                  </p>
+                  <p class="left-txt">Upto 50% discount on application forms</p>
+                  <p class="left-txt">
+                    Upload your admission documents and get paytm rewards
+                  </p>
+                  <p class="left-txt">
+                    You won’t get unwanted calls from third parties
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card shortlist-card text-center">
+                      <img src="../../assets/img/Application-Deadlines.png" class="center img-size" />
+                      <div class="shortlist-txt">Application Deadlines</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card shortlist-card">
+                      <img src="../../assets/img/Brochure Details.png" class="center img-size" />
+                      <div class="shortlist-txt text-center">Brochure Details</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row form-div">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card shortlist-card">
+                      <img src="../../assets/img/Councelling.png" class="center img-size" />
+                      <div class="shortlist-txt text-center">Councelling</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card shortlist-card">
+                      <img src="../../assets/img/Check-detalied-fees.png" class="center img-size" />
+                      <div class="shortlist-txt text-center">Check Detalied Fees</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Card Form 1-->
+            <div class="col-lg-8 col-md-8" *ngIf="form1 === true">
+              <div class="card form-card">
+                <h5 class="form-head text-center">Register Now To Apply</h5>
+                <div>
+                  <h6 class="sub-title text-center">
+                    Please leave your information to get the best suggested colleges
+                    and free counseling.
+                  </h6>
+                </div>
+                <form [formGroup]="RegistrationFrom1">
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-user"></i>
+                          </div>
+                          <input class="form-control py-2 border-right-0 border form-input" type="text"
+                            placeholder="Full Name*" id="name" formControlName="cCandidateName" />
+                        </div>
+                        <div *ngIf="m['cCandidateName'].touched && m['cCandidateName'].invalid"
+                          class="validation">
+                          <div *ngIf="m['cCandidateName'].errors['required']">Please Enter Full Name</div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-envelope"></i>
+                          </div>
+                          <input class="form-control py-2 border-right-0 border form-input" type="text"
+                            placeholder="Email Address*" id="email" formControlName="cEmail" />
+                        </div>
+                        <div *ngIf="m['cEmail'].touched && m['cEmail'].invalid" class="validation">
+                          <div *ngIf="m['cEmail'].errors['required']">Please enter email address</div>
+                          <div *ngIf="m['cEmail'].errors['pattern']">Please enter valid email address</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="form-group col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-phone flip"></i>
+                          </div>
+                          <input class="form-control py-2 border-right-0 border form-input" type="number"
+                            placeholder="Mobile Number*" id="number" formControlName="cMobile" />
+                        </div>
+                        <div *ngIf="m['cMobile'].touched && m['cMobile'].invalid" class="validation">
+                          <div *ngIf="m['cMobile'].errors['required']">Please enter mobile number</div>
+                          <div *ngIf="m['cMobile'].errors['pattern']">Mobile number is not 10 digit</div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="desktop">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-map-marker"></i>
+                          </div>
+                          <input class="form-control py-2 border-right-0 border form-input" type="text"
+                            placeholder="City You Live In" id="city" formControlName="cCity" />
+                        </div>
+                        <div *ngIf="m['cCity'].touched && m['cCity'].invalid" class="validation">
+                          <!-- <div *ngIf="m['cCity'].errors['required']">Please enter city</div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-graduation-cap"></i>
+                          </div>
+                          <select 
+                          class="form-control py-1 border-right-0 border form-input"
+                          placeholder="Course Interested In*" 
+                          id="course" 
+                          (change)="changeCourse($event)"
+                          formControlName="cCourse">
+                            <option value="" id="course" class="form-control py-1 border-right-0  form-input">
+                              Course Interested In*</option>
+                            <option *ngFor="let course of Course" [ngValue]="course">
+                              {{ course }}
+                            </option>
+                          </select>
+                        </div>
+                        <div *ngIf="m['cCourse'].touched && m['cCourse'].invalid" class="validation">
+                          <div *ngIf="m['cCourse'].errors['required']">Please enter Course</div>
+                        </div>
+                      </div>
+                      <!-- <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-graduation-cap"></i>
+                          </div>
+                          <input class="form-control py-2 border-right-0 border form-input" type="text"
+                            placeholder="Select Highest Education*" id="education"
+                            formControlName="qeducation" />
+                        </div>
+                        <div *ngIf="m['qeducation'].touched && m['qeducation'].invalid" class="validation">
+                          <div *ngIf="m['qeducation'].errors['required']">Please enter Education</div>
+                        </div>
+                      </div> -->
+                      <div class="terms">
+                        <p>
+                          By submitting this form, you accept and agree to our<span
+                            style="color: cornflowerblue">
+                            Terms of use
+                          </span>
+                        </p>
+                      </div>
+                      <div class="row">
+                        <!-- <div class="col-lg-10 col-md-10 col-sm-10 login-block">
+                          Already Registered? Click Here To Login.
+                        </div> -->
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                          <button type="button" class="btn submit" [disabled]="!RegistrationFrom1.valid"
+                            (click)="submitForm1()">
+                            SUBMIT
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <!--thank you message div-->
+            <div class="vh-50 d-flex justify-content-center align-items-center" *ngIf="form2 === true"
+              id="thankyouform">
+              <div>
+                <div class="mb-4 text-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="75" height="75"
+                    fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                  </svg>
+                </div>
+                <div class="text-center">
+                  <h1>Thank You !</h1>
+                  <p>Your submission has bees sent. </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Card Form 2-->
+            <!-- <div class="col-lg-8 col-md-8" *ngIf="form2 === true">
+              <div class="card form-card">
+                <h5 class="form-head text-center">Register Now To Apply</h5>
+                <div> -->
+
+            <!-- <p class="sub-title text-center">
+                    IIT Gandhinagar - Indian Institute of Technology -[IITG]
+                  </p> -->
+
+            <!-- </div>
+                <div>
+                  <h5 class="edu-title text-center">Current Education Details</h5>
+                </div>
+                <form [formGroup]="RegistrationFrom2">
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <div class="input-group"> -->
+
+            <!-- <div class="input-group-text bg-transparent icon"> -->
+            <!-- <i class="fa fa-user"></i> -->
+            <!-- </div> -->
+
+            <!-- <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                            placeholder="Select Graduation College/Institue*" id="graduation"
+                            formControlName="qgraduation" />
+                        </div>
+                        <div class="validation" *ngIf="
+                            RegistrationFrom2.get('qgraduation').invalid &&
+                            (RegistrationFrom2.get('qgraduation').dirty ||
+                              RegistrationFrom2.get('qgraduation').touched)
+                          ">
+                          Enter graduation.
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group"> -->
+
+            <!-- <div class="input-group-text bg-transparent icon"> -->
+            <!-- <i class="fa fa-envelope"></i> -->
+            <!-- </div> -->
+
+            <!-- <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                            placeholder="Which Course Did You Do?*" id="course" formControlName="qcourse" />
+                        </div>
+                        <div class="validation" *ngIf="
+                            RegistrationFrom2.get('qcourse').invalid &&
+                            (RegistrationFrom2.get('qcourse').dirty ||
+                              RegistrationFrom2.get('qcourse').touched)
+                          ">
+                          Enter course.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <div class="input-group"> -->
+
+            <!-- <div class="input-group-text bg-transparent icon"> -->
+            <!-- <i class="fa fa-phone flip"></i> -->
+            <!-- </div> -->
+
+            <!-- <input class="form-control py-2 border-right-0 border form-input1" type="number"
+                            placeholder="Graduation Percentage* " id="gradper" formControlName="qgradper" />
+                        </div>
+                        <div class="validation" *ngIf="
+                            RegistrationFrom2.get('qgradper').invalid &&
+                            (RegistrationFrom2.get('qgradper').dirty ||
+                              RegistrationFrom2.get('qgradper').touched)
+                          ">
+                          Enter gradper.
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group"> -->
+            <!-- <div class="input-group-text bg-transparent icon"> -->
+            <!-- <i class="fa fa-map-marker"></i> -->
+            <!-- </div> -->
+            <!-- <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                            placeholder="Work Experience (in years)*" id="experience"
+                            formControlName="qexperience" />
+                        </div>
+                        <div class="validation" *ngIf="
+                            RegistrationFrom2.get('qexperience').invalid &&
+                            (RegistrationFrom2.get('qexperience').dirty ||
+                              RegistrationFrom2.get('qexperience').touched)
+                          ">
+                          Enter experience.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="terms">
+                      <p class="exam">
+                        Have you appeared or scheduled for any Entrance Exam?
+                      </p>
+                      <div class="form-check-inline">
+                          <input type="radio" id="html" name="fav_language" value="Yes"
+                          formControlName='qextraExam'>
+                          <label for="html">Yes</label><br>
+                      </div>
+                      <div class="form-check-inline">
+                          <input type="radio" id="css" name="fav_language" value="No"
+                          formControlName='qextraExam'>
+                          <label for="css">No</label><br>
+
+                      </div>
+                      <div class="form-check-inline">
+                          <input type="radio" id="javascript" name="fav_language" value="Booked"
+                          formControlName='qextraExam'>
+                          <label for="javascript">Booked</label>
+                      </div>
+                    </div>
+                    <div>
+                      <h5 class="edu-title text-center">Please Enter Your Score</h5>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-2"></div>
+                      <div class="col-lg-4" id="phone">
+                        <div class="input-group">
+                          <input class="form-control py-2 border-right-0 border score-input" type="text"
+                            placeholder="GATE(Optional)" id="name" formControlName="qgate" />
+                        </div> -->
+
+            <!-- <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qgate').invalid &&
+                            (RegistrationFrom2.get('qgate').dirty ||
+                              RegistrationFrom2.get('qgate').touched)
+                          "
+                        >
+                          Enter GATE Score.
+                        </div> -->
+
+            <!-- </div>
+                      <div class="col-lg-4">
+                        <div class="input-group">
+                          <input class="form-control py-2 border-right-0 border score-input" type="text"
+                            placeholder="GRE(Optional)" id="name" formControlName="qgre" />
+                        </div> -->
+
+            <!-- <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qgre').invalid &&
+                            (RegistrationFrom2.get('qgre').dirty ||
+                              RegistrationFrom2.get('qgre').touched)
+                          "
+                        >
+                          Enter GRE Score.
+                        </div> -->
+
+            <!-- </div>
+                      <div class="col-lg-2"></div>
+                    </div>
+                    <div class="row" style="margin-top: 12px">
+                      <div class="col-lg-3">
+                        <button class="btn back" type="button" (click)="back1()">
+                          BACK
+                        </button>
+                      </div>
+                      <div class="col-lg-6"></div>
+                      <div class="col-lg-3">
+                        <button class="btn submit" type="button" [disabled]="!RegistrationFrom2.valid"
+                          (click)="submitForm2()">
+                          SUBMIT
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div> -->
+            <!-- Right Card Form 3-->
+            <!-- <div class="col-lg-8 col-md-8" *ngIf="form3 === true">
+              <div class="card form-card">
+                <h5 class="form-head text-center">Register Now To Apply</h5>
+                <div> -->
+
+            <!-- <p class="sub-title text-center">
+                    IIT Gandhinagar - Indian Institute of Technology -[IITG]
+                  </p> -->
+
+            <!-- </div>
+                <div>
+                  <h5 class="edu-title text-center">Past Education Details</h5>
+                </div>
+                <p class="tenth text-center">10th Standard Details</p>
+                <form [formGroup]="RegistrationFrom3">
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                          placeholder="Select 10th Board*" id="tenthBoard" formControlName="qtenthBoard" />
+                      </div>
+                      <div class="validation" *ngIf="
+                          RegistrationFrom3.get('qtenthBoard').invalid &&
+                          (RegistrationFrom3.get('qtenthBoard').dirty ||
+                            RegistrationFrom3.get('qtenthBoard').touched)
+                        ">
+                        Enter 10th Board.
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                          placeholder="Select 10th Passing Year*" id="tenthPassing"
+                          formControlName="qtenthPassing" />
+                      </div>
+                      <div class="validation" *ngIf="
+                          RegistrationFrom3.get('qtenthPassing').invalid &&
+                          (RegistrationFrom3.get('qtenthPassing').dirty ||
+                            RegistrationFrom3.get('qtenthPassing').touched)
+                        ">
+                        Enter 10th Passing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <input class="form-control py-2 border-right-0 border form-input1" type="number"
+                          placeholder="10th Percentage*" id="tenthPercentage"
+                          formControlName="qtenthPercentage" />
+                      </div>
+                      <div class="validation" *ngIf="
+                          RegistrationFrom3.get('qtenthPercentage').invalid &&
+                          (RegistrationFrom3.get('qtenthPercentage').dirty ||
+                            RegistrationFrom3.get('qtenthPercentage').touched)
+                        ">
+                        Enter 10th Percentage.
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                          placeholder="10th School Name*" id="school" formControlName="qschool" />
+                      </div>
+                      <div class="validation" *ngIf="
+                          RegistrationFrom3.get('qschool').invalid &&
+                          (RegistrationFrom3.get('qschool').dirty ||
+                            RegistrationFrom3.get('qschool').touched)
+                        ">
+                        Enter 10th School.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 12px">
+                    <div class="col-lg-3">
+                      <button class="btn back" type="button" (click)="back2()">
+                        BACK
+                      </button>
+                    </div>
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-3">
+                      <button class="btn submit" type="button" (click)="submitForm3()">
+                        SUBMIT
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-8" *ngIf="form4 === true">
+              <div class="card form-card">
+                <h5 class="form-head text-center">Register Now To Apply</h5>
+                <div> -->
+
+            <!-- <p class="sub-title text-center">
+                    IIT Gandhinagar - Indian Institute of Technology -[IITG]
+                  </p> -->
+
+            <!-- </div>
+                <div>
+                  <h5 class="edu-title text-center">Past Education Details</h5>
+                </div>
+                <p class="twelve text-center">12th Standard Details</p>
+                <form [formGroup]="RegistrationFrom4">
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                          placeholder="Select 12th Board* " id="twelvethBoard" formControlName="fldValue1" />
+                      </div>
+                      <div class="validation" *ngIf="
+                          RegistrationFrom4.get('fldValue1').invalid &&
+                          (RegistrationFrom4.get('fldValue1').dirty ||
+                            RegistrationFrom4.get('fldValue1').touched)
+                        ">
+                        Enter Twelveth Board.
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                          placeholder="Select 12th Passing Year*" id="twelvethPassing"
+                          formControlName="fldValue2" />
+                      </div>
+                      <div class="validation" *ngIf="
+                          RegistrationFrom4.get('fldValue2').invalid &&
+                          (RegistrationFrom4.get('fldValue2').dirty ||
+                            RegistrationFrom4.get('fldValue2').touched)
+                        ">
+                        Enter Twelveth Passing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <input class="form-control py-2 border-right-0 border form-input1" type="number"
+                          placeholder="12th percentage*" id="twelvethPer" formControlName="fldValue3" />
+                      </div>
+                      <div class="validation" *ngIf="
+                          RegistrationFrom4.get('fldValue3').invalid &&
+                          (RegistrationFrom4.get('fldValue3').dirty ||
+                            RegistrationFrom4.get('fldValue3').touched)
+                        ">
+                        Enter Twelveth Percentage.
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                          placeholder="12th School Name*" id="twelvethSchool" formControlName="fldValue4" />
+                      </div>
+                      <div class="validation" *ngIf="
+                          RegistrationFrom4.get('fldValue4').invalid &&
+                          (RegistrationFrom4.get('fldValue4').dirty ||
+                            RegistrationFrom4.get('fldValue4').touched)
+                        ">
+                        Enter Twelveth School.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input class="form-control py-2 border-right-0 border form-input1" type="text"
+                          placeholder="Select 12th Specialization*" id="name" id="twelvethSpec"
+                          formControlName="fldValue5" />
+                      </div>
+                      <div class="validation" *ngIf="
+                          RegistrationFrom4.get('fldValue5').invalid &&
+                          (RegistrationFrom4.get('fldValue5').dirty ||
+                            RegistrationFrom4.get('fldValue5').touched)
+                        ">
+                        Enter Twelveth Specialization.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 12px">
+                    <div class="col-lg-3">
+                      <button class="btn back" type="button" (click)="back2()">
+                        BACK
+                      </button>
+                    </div>
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-3">
+                      <button class="btn submit" type="button" (click)="submitFrom4()">
+                        SUBMIT
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+    </ng-template>
+    

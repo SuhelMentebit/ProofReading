@@ -1,0 +1,713 @@
+
+<!--<div class="college-filter-banner">
+     <div class="col-lg-12">
+          <div class="college-filter-header text-center">
+                    <h2 class="white-text-2 mb-0">List Of Courses In India</h2>
+                   
+          </div>
+     </div>
+    
+</div>
+<div class="gray-bg filter">
+     <div class="col-lg-12 col-sm-12">
+          <div class="row row-without-gutter">
+               <div class="col-lg-2 col-12 col-sm-3  left-sidebar">
+                    
+                    <p-accordion [multiple]="true" id="course-filter-tabs" expandIcon = "pi pi-plus" collapseIcon = "pi pi-minus">
+                         <p-accordionTab header="Filters" [selected]="accordionSelected" >
+                              <p class="d-inline result-count">Found 3924 Programs</p>
+                              <p class="text-right d-inline set-def-text"><a href="">Set Default</a> </p >
+                              <p>
+                                   
+                                   <p-accordionTab header="Course" [selected]="true" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of courses">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.course}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Stream">
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of courses">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.course}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Branch" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of courses">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.course}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Type" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of courses">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.course}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Course Level" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of courses">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.course}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Total Fees">
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of courses">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.course}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+
+                           </p>
+                         </p-accordionTab>
+                    </p-accordion>
+                   
+               </div>
+               <div class="col-lg-10 col-sm-9 col-12 p-custom right-div-content">
+                    <div class="row row-without-gutter">
+                              <div class="col-lg-12 bg-white text-right">
+                                   <div class="sort-div">
+                                        <label for="sorting">Sort By:</label>
+                                        <select name="demo" id="sorting">
+                                             <option selected="selected" value="one">Popularity</option>
+                                             <option value="two">Option 2</option>
+                                             <option value="three">Option 3</option>
+                                             </select>
+                                   </div>
+                              </div>
+                              <div class="col-lg-12">
+                                   <div class="colg-list">
+                                        <div class="row">
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                     <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <h5 class="mb-0">Bachelor of Arts [BA]</h5>
+                                                      </div>
+                                                       <div class="col-lg-12 my-3">
+                                                            <div class="row row-without-gutter">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">₹ 12,600</div>  
+                                                                      <div class="sec-text">Total Tution Fees</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             
+                                             
+                                        </div>
+                                   </div>       
+                              </div>
+                              
+                    </div>
+               </div>
+
+             
+          </div>
+     </div>
+    
+</div>
+<app-footer></app-footer>-->

@@ -1,0 +1,80 @@
+<section class="TopBar" #stickyMenu [class.stickytopmenu] = "stickytopmenu">
+      
+     <nav class="d-none d-sm-block nav2">
+       <ul>
+          <li [class.stickytopmenuLogo] = "stickytopmenuLogo"  *ngIf="stickytopmenuLogo">
+               <a href="" class="" routerLink="" >
+                 <img src="../../assets/img/Home Page/1. Header/SYU Logo/SYU-Logo.png" width="120" alt="pp">
+               </a>
+          </li>
+         <li><a href="" class="white-text-2" routerLink="">Home</a></li>
+         <li><a href="" class="white-text-2" routerLink="/about-us/.">About Us</a></li>
+         <li><a href="" class="white-text-2" routerLink="/services/." >Services</a></li>
+         <li><a href="" class="" routerLink="/news/." >News</a></li>
+         <li><a href="" class="" routerLink="/blog/." >Blog</a></li>
+         <li><a href="" class="" routerLink="/course/." >Top Courses</a></li>
+         <li><a href="" class="white-text-2" routerLink="/exams/.">Exams</a></li>
+         <li> <a href="" class="white-text-2" routerLink="/contact-us/.">Contact Us</a></li>
+       </ul>
+     </nav>
+
+     <section class="login">
+       <ul>
+         <li>
+          <img src="../../assets/img/Home Page/1. Header/Call/Call.png" alt="" width="20"> 180030700033
+         </li>
+         <li>Login</li>
+         <li><button class="dl-btn">Download</button></li>
+       </ul>
+     </section>
+
+   </section>
+   <section class="top-bar">
+          <section class="logo d-none d-sm-block " [class.mtCustom] = "mtCustom">
+               <a href="" class="" routerLink="" >
+                    <img src="../../assets/img/Home Page/1. Header/SYU Logo/SYU-Logo.png" width="60%" alt="pp">
+                  </a>
+          </section>  
+               <nav class="d-none d-sm-block inner-header-nav" [class.mtCustom] = "mtCustom">
+                    <ul>
+                      <li><a href="" class="" routerLink="">Home</a></li>
+                        <li><a href="" class="white-text-2" routerLink="/about-us/.">About Us</a></li>
+                        <li><a href="" class="" routerLink="/services/.">Services</a></li>
+                        <li><a href="" class="" routerLink="/news/." >News</a></li>
+                        <li><a href="" class="" routerLink="/blog/." >Blog</a></li>
+                        <li><a href="" class="" routerLink="/course/." >Top Courses</a></li>
+                        <li><a href="" class="" routerLink="/exams/.">Exams</a></li>
+                        <li> <a href="" class="" routerLink="/contact-us/.">Contact Us</a></li>
+               
+                    </ul>
+                  </nav>
+                  <nav class="navbar w-100 d-block d-sm-none"  #stickyMenu1 [class.stickytopmenu] = "stickytopmenu" 
+                  [ngClass]="{'customHeight': customHeight}">
+                    <div class="">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" (click)="toggleCollapsed()">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>                        
+                        </button>
+                        <a class="navbar-brand" href="" routerLink="">
+                             <img src="../../assets/img/Home Page/1. Header/SYU Logo/SYU-Logo.png" alt="pp">
+                         </a>
+                      </div>
+                      <div class="" id="myNavbar" [ngClass]="{'collapse': collapsed, 'navbar-collapse': true}">
+                        <ul class="nav navbar-nav mobile-nav">
+                          <li class="active"><a href="" class="nav-link" routerLink="">Home</a></li>
+                          <li><a href="#" class="nav-link" routerLink="/about-us/.">About Us</a></li>
+                          <li><a href="#" class="nav-link" routerLink="/services/.">Services</a></li>
+                          <li><a href="" class="nav-link" routerLink="/news/.">News</a></li>
+                          <li><a href="" class="nav-link" routerLink="/blog/.">Blog</a></li>
+                          <li><a href="#" class="nav-link" routerLink="/course/.">Top Courses</a></li>
+                          <li><a href="" class="nav-link" routerLink="/exams/.">Exams</a></li>
+                          <li><a href="" class="nav-link" routerLink="/contact-us/.">Contact Us</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+   </section>
+
+ 

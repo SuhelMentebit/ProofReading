@@ -1,0 +1,2100 @@
+<title>Exams</title>
+<header class="contact-header">
+
+
+    <section class="banner">
+        <h1>Entrance Exams In India</h1>
+        <div class="container-fluid">
+            <!-- <div class="col-lg-12">
+                <form class="example exam-page-form d-block mx-auto" action="">
+                    <input type="text" placeholder="Search Entrance Exam" name="search2">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div> -->
+            <div class="col-lg-12 ">
+
+                <div class="d-block mx-auto timeline mt-4">
+                    <div class="row">
+                        <div class="col-lg-3 col-xs-6 col-sm-3 col-3">
+                            <div class="orange-text date text-center">
+                                7th May
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-xs-6 col-sm-9 col-9">
+                            <div class="exam-title">
+                                NEET UG Exam 2023
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col-lg-3 col-xs-6 col-sm-3 col-3">
+                            <div class="orange-text date text-center">
+                                24th June
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-xs-6 col-sm-9 col-9">
+                            <div class="exam-title text-left">
+                                NEET PG Exam 2023
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="row">
+                        <div class="col-lg-3 col-xs-6 col-sm-3 col-3">
+                            <div class="orange-text date text-center">
+                                17th July
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-xs-6 col-sm-9 col-9">
+                            <div class="exam-title text-left">
+                                FMGE Exam 2023
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+
+            </div>
+            <div class="col-lg-12">
+                <button (click)="openModalWithClass(template)" class=" btn btn-lg ornage-btn">Get Exam Alert <i class="fas fa-bell"></i></button>
+            </div>
+        </div>
+    </section>
+    <div class="clr"></div>
+
+    <ng-template #template>
+      <section class="form">
+        <button
+          type="button"
+          class="close pull-right"
+          aria-label="Close"
+          (click)="modalRef.hide()"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-header">
+          <img
+            src="../../assets/img/new_logo_color.png"
+            width="220px"
+            height="auto"
+            class="syuLogo college-page-logo"
+          />
+          <h4 class="modal-title text-center">A Place Where Your Career Matters</h4>
+        </div>
+        <div class="container">
+          <!-- Left Card -->
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4" id="hide">
+              <div class="card form-card">
+                <h5 class="form-head">Why register with us?</h5>
+                <div class="card-left-text">
+                  <p class="left-txt">
+                    With totally online Admission Process we help you get college
+                    admission without having to step out
+                  </p>
+                  <p class="left-txt">Upto 50% discount on application forms</p>
+                  <p class="left-txt">
+                    Upload your admission documents and get paytm rewards
+                  </p>
+                  <p class="left-txt">
+                    You won’t get unwanted calls from third parties
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card shortlist-card text-center">
+                      <img
+                        src="../../assets/img/Application-Deadlines.png"
+                        class="center img-size"
+                      />
+                      <div class="shortlist-txt">Application Deadlines</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card shortlist-card">
+                      <img
+                        src="../../assets/img/Brochure Details.png"
+                        class="center img-size"
+                      />
+                      <div class="shortlist-txt text-center">Brochure Details</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row form-div">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card shortlist-card">
+                      <img
+                        src="../../assets/img/Councelling.png"
+                        class="center img-size"
+                      />
+                      <div class="shortlist-txt text-center">Councelling</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="card shortlist-card">
+                      <img
+                        src="../../assets/img/Check-detalied-fees.png"
+                        class="center img-size"
+                      />
+                      <div class="shortlist-txt text-center">Check Detalied Fees</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Right Card Form 1-->
+            <div class="col-lg-8 col-md-8" *ngIf="form1 === true">
+              <div class="card form-card">
+                <h5 class="form-head text-center">Register Now To Apply</h5>
+                <div>
+                  <h6 class="sub-title text-center">
+                    Please leave your information to get the best suggested colleges
+                    and free counseling.
+                  </h6>
+                </div>
+                <form [formGroup]="RegistrationFrom1">
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-user"></i>
+                          </div>
+                          <input
+                            class="form-control py-2 border-right-0 border form-input"
+                            type="text"
+                            placeholder="Full Name*"
+                            id="name"
+                            formControlName="cCandidateName"
+                          />
+                        </div>
+                        <div *ngIf="m['cCandidateName'].touched && m['cCandidateName'].invalid" class="validation">
+                          <div *ngIf="m['cCandidateName'].errors['required']">Please Enter Full Name</div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-envelope"></i>
+                          </div>
+                          <input
+                            class="form-control py-2 border-right-0 border form-input"
+                            type="text"
+                            placeholder="Email Address*"
+                            id="email"
+                            formControlName="cEmail"
+                          />
+                        </div>
+                        <div *ngIf="m['cEmail'].touched && m['cEmail'].invalid" class="validation">
+                          <div *ngIf="m['cEmail'].errors['required']">Please enter email address</div>
+                          <div *ngIf="m['cEmail'].errors['pattern']">Please enter valid email address</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="form-group col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-phone flip"></i>
+                          </div>
+                          <input
+                            class="form-control py-2 border-right-0 border form-input"
+                            type="number"
+                            placeholder="Mobile Number*"
+                            id="number"
+                            formControlName="cMobile"
+                          />
+                        </div>
+                        <div *ngIf="m['cMobile'].touched && m['cMobile'].invalid" class="validation">
+                          <div *ngIf="m['cMobile'].errors['required']">Please enter mobile number</div>
+                          <div *ngIf="m['cMobile'].errors['pattern']">Mobile number is not 10 digit</div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="desktop">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-map-marker"></i>
+                          </div>
+                          <input
+                            class="form-control py-2 border-right-0 border form-input"
+                            type="text"
+                            placeholder="City You Live In"
+                            id="city"
+                            formControlName="cCity"
+                          />
+                        </div>
+                        <div *ngIf="m['cCity'].touched && m['cCity'].invalid" class="validation">
+                          <!-- <div *ngIf="m['cCity'].errors['required']">Please enter city</div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-graduation-cap"></i>
+                          </div>
+                          <!-- <input
+                            class="form-control py-2 border-right-0 border form-input"
+                            type="text"
+                            placeholder="Course Interested In*"
+                            id="course"
+                            formControlName="cCourse"
+                          /> -->
+                          <select
+                          class="form-control py-1 border-right-0 border form-input"
+                          placeholder="Course Interested In*"
+                          id="course"
+                          (change)="changeCourse($event)"
+                          formControlName="cCourse"
+                        >
+                          <option value=""  id="course" class="form-control py-1 border-right-0  form-input">Course Interested In*</option>
+                          <option *ngFor="let course of Course" [ngValue]="course">
+                            {{ course }}
+                          </option>
+                        </select>
+                        </div>
+                        <div *ngIf="m['cCourse'].touched && m['cCourse'].invalid" class="validation">
+                          <div *ngIf="m['cCourse'].errors['required']">Please enter Course</div>
+                        </div>
+                      </div>
+                      <!-- <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group">
+                          <div class="input-group-text bg-transparent icon">
+                            <i class="fa fa-graduation-cap"></i>
+                          </div>
+                          <input
+                            class="form-control py-2 border-right-0 border form-input"
+                            type="text"
+                            placeholder="Select Highest Education*"
+                            id="education"
+                            formControlName="qeducation"
+                          />
+                        </div>
+                        <div *ngIf="m['qeducation'].touched && m['qeducation'].invalid" class="validation">
+                          <div *ngIf="m['qeducation'].errors['required']">Please enter Education</div>
+                        </div>
+                      </div> -->
+                      <div class="terms">
+                        <p>
+                          By submitting this form, you accept and agree to our<span
+                            style="color: cornflowerblue"
+                          >
+                            Terms of use
+                          </span>
+                        </p>
+                      </div>
+                      <div class="row">
+                        <!-- <div class="col-lg-10 col-md-10 col-sm-10 login-block">
+                          Already Registered? Click Here To Login.
+                        </div> -->
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                          <button
+                            type="button"
+                            class="btn submit"
+                            [disabled]="!RegistrationFrom1.valid"
+                            (click)="submitForm1()"
+                          >
+                            SUBMIT
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+             <!--thank you message div-->
+             <div class="vh-50 d-flex justify-content-center align-items-center" *ngIf="form2 === true" id="thankyouform">
+              <div>
+                  <div class="mb-4 text-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="75" height="75"
+                          fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                          <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                      </svg>
+                  </div>
+                  <div class="text-center">
+                      <h1>Thank You !</h1>
+                      <p>Your submission has bees sent. </p>
+                  </div>
+              </div>
+            </div>
+      
+            <!-- Right Card Form 2-->
+            <!-- <div class="col-lg-8 col-md-8" *ngIf="form2 === true">
+              <div class="card form-card">
+                <h5 class="form-head text-center">Register Now To Apply</h5>
+                <div> -->
+
+                  <!-- <p class="sub-title text-center">
+                    IIT Gandhinagar - Indian Institute of Technology -[IITG]
+                  </p> -->
+
+                <!-- </div>
+                <div>
+                  <h5 class="edu-title text-center">Current Education Details</h5>
+                </div>
+                <form [formGroup]="RegistrationFrom2">
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <div class="input-group"> -->
+
+                          <!-- <div class="input-group-text bg-transparent icon"> -->
+                          <!-- <i class="fa fa-user"></i> -->
+                          <!-- </div> -->
+
+                          <!-- <input
+                            class="form-control py-2 border-right-0 border form-input1"
+                            type="text"
+                            placeholder="Select Graduation College/Institue*"
+                            id="graduation"
+                            formControlName="qgraduation"
+                          />
+                        </div>
+                        <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qgraduation').invalid &&
+                            (RegistrationFrom2.get('qgraduation').dirty ||
+                              RegistrationFrom2.get('qgraduation').touched)
+                          "
+                        >
+                          Enter graduation.
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group"> -->
+
+                          <!-- <div class="input-group-text bg-transparent icon"> -->
+                          <!-- <i class="fa fa-envelope"></i> -->
+                          <!-- </div> -->
+
+                          <!-- <input
+                            class="form-control py-2 border-right-0 border form-input1"
+                            type="text"
+                            placeholder="Which Course Did You Do?*"
+                            id="course"
+                            formControlName="qcourse"
+                          />
+                        </div>
+                        <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qcourse').invalid &&
+                            (RegistrationFrom2.get('qcourse').dirty ||
+                              RegistrationFrom2.get('qcourse').touched)
+                          "
+                        >
+                          Enter course.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <div class="input-group"> -->
+
+                          <!-- <div class="input-group-text bg-transparent icon"> -->
+                          <!-- <i class="fa fa-phone flip"></i> -->
+                          <!-- </div> -->
+
+                          <!-- <input
+                            class="form-control py-2 border-right-0 border form-input1"
+                            type="number"
+                            placeholder="Graduation Percentage* "
+                            id="gradper"
+                            formControlName="qgradper"
+                          />
+                        </div>
+                        <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qgradper').invalid &&
+                            (RegistrationFrom2.get('qgradper').dirty ||
+                              RegistrationFrom2.get('qgradper').touched)
+                          "
+                        >
+                          Enter gradper.
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="input-group"> -->
+
+                          <!-- <div class="input-group-text bg-transparent icon"> -->
+                          <!-- <i class="fa fa-map-marker"></i> -->
+                          <!-- </div> -->
+                          <!-- <input
+                            class="form-control py-2 border-right-0 border form-input1"
+                            type="text"
+                            placeholder="Work Experience (in years)*"
+                            id="experience"
+                            formControlName="qexperience"
+                          />
+                        </div>
+                        <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qexperience').invalid &&
+                            (RegistrationFrom2.get('qexperience').dirty ||
+                              RegistrationFrom2.get('qexperience').touched)
+                          "
+                        >
+                          Enter experience.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="terms">
+                      <p class="exam">
+                        Have you appeared or scheduled for any Entrance Exam?
+                      </p>
+                      <div class="form-check-inline">
+                          <input type="radio" id="html" name="fav_language" value="Yes" formControlName='qextraExam'>
+                          <label for="html">Yes</label><br>
+                      </div>
+                      <div class="form-check-inline">
+                          <input type="radio" id="css" name="fav_language" value="No"formControlName='qextraExam'>
+                          <label for="css">No</label><br>
+         
+                      </div>
+                      <div class="form-check-inline">
+                          <input type="radio" id="javascript" name="fav_language" value="Booked"formControlName='qextraExam'>
+                          <label for="javascript">Booked</label>
+                      </div>
+                    </div>
+                    <div>
+                      <h5 class="edu-title text-center">Please Enter Your Score</h5>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-2"></div>
+                      <div class="col-lg-4" id="phone">
+                        <div class="input-group">
+                          <input
+                            class="form-control py-2 border-right-0 border score-input"
+                            type="text"
+                            placeholder="GATE(Optional)"
+                            id="name"
+                            formControlName="qgate"
+                          />
+                        </div> -->
+
+                        <!-- <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qgate').invalid &&
+                            (RegistrationFrom2.get('qgate').dirty ||
+                              RegistrationFrom2.get('qgate').touched)
+                          "
+                        >
+                          Enter GATE Score.
+                        </div> -->
+
+                      <!-- </div>
+                      <div class="col-lg-4">
+                        <div class="input-group">
+                          <input
+                            class="form-control py-2 border-right-0 border score-input"
+                            type="text"
+                            placeholder="GRE(Optional)"
+                            id="name"
+                            formControlName="qgre"
+                          />
+                        </div> -->
+
+                        <!-- <div
+                          class="validation"
+                          *ngIf="
+                            RegistrationFrom2.get('qgre').invalid &&
+                            (RegistrationFrom2.get('qgre').dirty ||
+                              RegistrationFrom2.get('qgre').touched)
+                          "
+                        >
+                          Enter GRE Score.
+                        </div> -->
+
+                      <!-- </div>
+                      <div class="col-lg-2"></div>
+                    </div>
+                    <div class="row" style="margin-top: 12px">
+                      <div class="col-lg-3">
+                        <button class="btn back" type="button" (click)="back1()">
+                          BACK
+                        </button>
+                      </div>
+                      <div class="col-lg-6"></div>
+                      <div class="col-lg-3">
+                        <button
+                          class="btn submit"
+                          type="button"
+                          [disabled]="!RegistrationFrom2.valid"
+                          (click)="submitForm2()"
+                        >
+                          SUBMIT
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div> -->
+            <!-- Right Card Form 3-->
+            <!-- <div class="col-lg-8 col-md-8" *ngIf="form3 === true">
+              <div class="card form-card">
+                <h5 class="form-head text-center">Register Now To Apply</h5>
+                <div> -->
+
+                  <!-- <p class="sub-title text-center">
+                    IIT Gandhinagar - Indian Institute of Technology -[IITG]
+                  </p> -->
+
+                <!-- </div>
+                <div>
+                  <h5 class="edu-title text-center">Past Education Details</h5>
+                </div>
+                <p class="tenth text-center">10th Standard Details</p>
+                <form [formGroup]="RegistrationFrom3">
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="Select 10th Board*"
+                          id="tenthBoard"
+                          formControlName="qtenthBoard"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom3.get('qtenthBoard').invalid &&
+                          (RegistrationFrom3.get('qtenthBoard').dirty ||
+                            RegistrationFrom3.get('qtenthBoard').touched)
+                        "
+                      >
+                        Enter 10th Board.
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="Select 10th Passing Year*"
+                          id="tenthPassing"
+                          formControlName="qtenthPassing"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom3.get('qtenthPassing').invalid &&
+                          (RegistrationFrom3.get('qtenthPassing').dirty ||
+                            RegistrationFrom3.get('qtenthPassing').touched)
+                        "
+                      >
+                        Enter 10th Passing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="number"
+                          placeholder="10th Percentage*"
+                          id="tenthPercentage"
+                          formControlName="qtenthPercentage"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom3.get('qtenthPercentage').invalid &&
+                          (RegistrationFrom3.get('qtenthPercentage').dirty ||
+                            RegistrationFrom3.get('qtenthPercentage').touched)
+                        "
+                      >
+                        Enter 10th Percentage.
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="10th School Name*"
+                          id="school"
+                          formControlName="qschool"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom3.get('qschool').invalid &&
+                          (RegistrationFrom3.get('qschool').dirty ||
+                            RegistrationFrom3.get('qschool').touched)
+                        "
+                      >
+                        Enter 10th School.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 12px">
+                    <div class="col-lg-3">
+                      <button class="btn back" type="button" (click)="back2()">
+                        BACK
+                      </button>
+                    </div>
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-3">
+                      <button
+                        class="btn submit"
+                        type="button"
+                        (click)="submitForm3()"
+                      >
+                        SUBMIT
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-8" *ngIf="form4 === true">
+              <div class="card form-card">
+                <h5 class="form-head text-center">Register Now To Apply</h5>
+                <div> -->
+
+                  <!-- <p class="sub-title text-center">
+                    IIT Gandhinagar - Indian Institute of Technology -[IITG]
+                  </p> -->
+
+                <!-- </div>
+                <div>
+                  <h5 class="edu-title text-center">Past Education Details</h5>
+                </div>
+                <p class="twelve text-center">12th Standard Details</p>
+                <form [formGroup]="RegistrationFrom4">
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="Select 12th Board* "
+                          id="twelvethBoard"
+                          formControlName="fldValue1"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom4.get('fldValue1').invalid &&
+                          (RegistrationFrom4.get('fldValue1').dirty ||
+                            RegistrationFrom4.get('fldValue1').touched)
+                        "
+                      >
+                        Enter Twelveth Board.
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="Select 12th Passing Year*"
+                          id="twelvethPassing"
+                          formControlName="fldValue2"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom4.get('fldValue2').invalid &&
+                          (RegistrationFrom4.get('fldValue2').dirty ||
+                            RegistrationFrom4.get('fldValue2').touched)
+                        "
+                      >
+                        Enter Twelveth Passing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6" id="phone">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="number"
+                          placeholder="12th percentage*"
+                          id="twelvethPer"
+                          formControlName="fldValue3"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom4.get('fldValue3').invalid &&
+                          (RegistrationFrom4.get('fldValue3').dirty ||
+                            RegistrationFrom4.get('fldValue3').touched)
+                        "
+                      >
+                        Enter Twelveth Percentage.
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="12th School Name*"
+                          id="twelvethSchool"
+                          formControlName="fldValue4"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom4.get('fldValue4').invalid &&
+                          (RegistrationFrom4.get('fldValue4').dirty ||
+                            RegistrationFrom4.get('fldValue4').touched)
+                        "
+                      >
+                        Enter Twelveth School.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input
+                          class="form-control py-2 border-right-0 border form-input1"
+                          type="text"
+                          placeholder="Select 12th Specialization*"
+                          id="name"
+                          id="twelvethSpec"
+                          formControlName="fldValue5"
+                        />
+                      </div>
+                      <div
+                        class="validation"
+                        *ngIf="
+                          RegistrationFrom4.get('fldValue5').invalid &&
+                          (RegistrationFrom4.get('fldValue5').dirty ||
+                            RegistrationFrom4.get('fldValue5').touched)
+                        "
+                      >
+                        Enter Twelveth Specialization.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 12px">
+                    <div class="col-lg-3">
+                      <button class="btn back" type="button" (click)="back2()">
+                        BACK
+                      </button>
+                    </div>
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-3">
+                      <button
+                        class="btn submit"
+                        type="button"
+                        (click)="submitFrom4()"
+                      >
+                        SUBMIT
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      
+    </ng-template>
+
+
+</header>
+<div class="reach">
+    <div class="container w-100">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <h2 class="light-blue-text pt-3">Explore By Category</h2>
+                <h5>Browse 100+ Entrance Exams</h5>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-12 mb-lg-5 mb-sm-0">
+                <div class="row">
+                    <div class="col-lg-4 contact-card-container">
+                        <div class="card contact-card">
+                            <div class="">
+                                <div class="row m-0">
+                                    <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                                        <img src="../../assets/img/Course_Icons/Explore_By_Category/Medical.png" width="60" alt="" class="pt-3 icon-clr">
+                                        <h2 class="white-text mt-0 bold">Medical</h2>
+                                    </div>
+                                </div>
+                                <p-scrollPanel [style]="{width: '100%', height: '200px'}">
+                                    <div class="row">
+                                        <div class="col-lg-12 py-3">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 ">
+                                                    <p class="list-text light-blue-text"><a href="/exams/neet-ug-exam"> NEET UG Exam</a></p>
+                                                </div>
+                                                <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 flex-div col-sm-6 col-xs-6">
+                                                    <div class="pill-div-exam">After 12<sup>th</sup></div>
+                                                    <div class="pill-div-exam">National</div>
+                                                </div>
+                                                <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                                                    <p class="list-text light-blue-text"><a href="/exams/neet-pg-exam">NEET PG Exam</a></p>
+                                                </div>
+                                                <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 flex-div col-sm-6 col-xs-6">
+                                                    <div class="pill-div-exam">During or After UG</div>
+                                                    <div class="pill-div-exam">National</div>
+                                                </div>
+                                                <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                                                    <p class="list-text light-blue-text"><a href="/exams/fmge-exam">FMGE Exam</a></p>
+                                                </div>
+                                                <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 flex-div col-sm-6 col-xs-6">
+                                                    <div class="pill-div-exam">After 12<sup>th</sup></div>
+                                                    <div class="pill-div-exam">National</div>
+                                                </div>
+                                                <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                                                    <p class="list-text light-blue-text"><a href="/exams/international-foundation-of-medicine-ifom">IFOM</a></p>
+                                                </div>
+                                                <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 flex-div col-sm-6 col-xs-6">
+                                                    <div class="pill-div-exam">During or After UG</div>
+                                                    <div class="pill-div-exam">National</div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </p-scrollPanel>
+                            </div>
+
+                            <div class="row m-0">
+                                <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                                    <div class="text-center white-text pt-3">
+                                        <p>View All</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="col-lg-4 contact-card-container">
+                   <div class="card contact-card">
+                     <div class="">
+                       <div class="row m-0">
+                         <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                           <img src="../../assets/img/Course_Icons/Explore_By_Category/animation.png" width="60" alt=""  class="pt-3 icon-clr">
+                           <h2 class="white-text mt-0 bold">Animation</h2>
+                         </div>
+                       </div>
+                       
+                       <div class="row">
+                         <div class="col-lg-12 py-3 scroll">
+                           <div class="row">
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">JEE Main</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">UPESEAT</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">TS EAMCET</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">JEE Advanced</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">AP EAMCET</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                          </div>
+                         </div>
+                       </div>
+                     </div>
+                      
+                       <div class="row m-0">
+                         <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                             <div class="text-center white-text pt-3">
+                               <p>View All</p>
+                             </div>
+                         </div>
+                       </div>
+                   </div>
+                 </div>
+                 <div class="col-lg-4 contact-card-container">
+                   <div class="card contact-card">
+                     <div class="">
+                       <div class="row m-0">
+                         <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                           <img src="../../assets/img/Course_Icons/Explore_By_Category/art.png" width="60" alt=""  class="pt-3 icon-clr">
+                           <h2 class="white-text mt-0 bold">Art</h2>
+                         </div>
+                       </div>
+                       
+                       <div class="row">
+                         <div class="col-lg-12 py-3 scroll">
+                           <div class="row">
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">JEE Main</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">UPESEAT</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">TS EAMCET</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">JEE Advanced</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">AP EAMCET</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                          </div>
+                         </div>
+                       </div>
+                     </div>
+                      
+                       <div class="row m-0">
+                         <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                             <div class="text-center white-text pt-3">
+                               <p>View All</p>
+                             </div>
+                         </div>
+                       </div>
+                   </div>
+                 </div>
+               </div>
+               
+             </div>
+             <div class="col-lg-12 mb-lg-5 mb-sm-0">
+               <div class="row">
+                 <div class="col-lg-4 contact-card-container">
+                   <div class="card contact-card">
+                     <div class="">
+                       <div class="row m-0">
+                         <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                           <img src="../../assets/img/Course_Icons/Explore_By_Category/Aviation.png" width="60" alt=""  class="pt-3 icon-clr">
+                           <h2 class="white-text mt-0 bold">Aviation</h2>
+                         </div>
+                       </div>
+                       
+                       <div class="row">
+                         <div class="col-lg-12 py-3 scroll">
+                          <div class="row">
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">Aviation in Ukraine</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-sm-6 col-xs-6 flex-div">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                      
+                       <div class="row m-0">
+                         <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                             <div class="text-center white-text pt-3">
+                               <p>View All</p>
+                             </div>
+                         </div>
+                       </div>
+                   </div>
+                 </div>
+                 <div class="col-lg-4 contact-card-container">
+                   <div class="card contact-card">
+                     <div class="">
+                       <div class="row m-0">
+                         <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                           <img src="../../assets/img/Course_Icons/Explore_By_Category/commerce.png" width="60" alt=""  class="pt-3 icon-clr">
+                           <h2 class="white-text mt-0 bold">Commerce</h2>
+                         </div>
+                       </div>
+                       
+                       <div class="row">
+                         <div class="col-lg-12 py-3 scroll">
+                          <div class="row">
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">JEE Main</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">UPESEAT</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">TS EAMCET</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">JEE Advanced</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">AP EAMCET</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                          </div>
+                         </div>
+                       </div>
+                     </div>
+                      
+                       <div class="row m-0">
+                         <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                             <div class="text-center white-text pt-3">
+                               <p>View All</p>
+                             </div>
+                         </div>
+                       </div>
+                   </div>
+                 </div>
+                 <div class="col-lg-4 contact-card-container">
+                   <div class="card contact-card">
+                     <div class="">
+                       <div class="row m-0">
+                         <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                           <img src="../../assets/img/Course_Icons/Explore_By_Category/computer application.png" width="60" alt=""  class="pt-3 icon-clr">
+                           <h2 class="white-text mt-0 bold">Computer Application</h2>
+                         </div>
+                       </div>
+                       
+                       <div class="row">
+                         <div class="col-lg-12 py-3 scroll">
+                          <div class="row">
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">BCA</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">MCA</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           </div> 
+                         </div>
+                       </div>
+                     </div>
+                      
+                       <div class="row m-0">
+                         <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                             <div class="text-center white-text pt-3">
+                               <p>View All</p>
+                             </div>
+                         </div>
+                       </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="col-lg-12 mb-lg-5 mb-sm-0">
+               <div class="row">
+                 <div class="col-lg-4 contact-card-container">
+                   <div class="card contact-card">
+                     <div class="">
+                       <div class="row m-0">
+                         <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                           <img src="../../assets/img/Course_Icons/Explore_By_Category/dental.png" width="60" alt=""  class="pt-3 icon-clr">
+                           <h2 class="white-text mt-0 bold">Dental</h2>
+                         </div>
+                       </div>
+                       
+                       <div class="row">
+                         <div class="col-lg-12 py-3 scroll">
+                          <div class="row">
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">JEE Main</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">UPESEAT</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">TS EAMCET</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text ">JEE Advanced</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">AP EAMCET</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                      
+                       <div class="row m-0">
+                         <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                             <div class="text-center white-text pt-3">
+                               <p>View All</p>
+                             </div>
+                         </div>
+                       </div>
+                   </div>
+                 </div>
+                 <div class="col-lg-4 contact-card-container">
+                   <div class="card contact-card">
+                     <div class="">
+                       <div class="row m-0">
+                         <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                           <img src="../../assets/img/Course_Icons/Explore_By_Category/Engineering.png" width="60" alt=""  class="pt-3 icon-clr">
+                           <h2 class="white-text mt-0 bold">Engineering</h2>
+                         </div>
+                       </div>
+                       
+                       <div class="row">
+                         <div class="col-lg-12 py-3 scroll">
+                          <div class="row">
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">B.Tech</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div ">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">Engineering in Poland</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">Engineering in Ukraine</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">Engineering in Ireland</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">Engineering in Russia</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">Engineering in Germany</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                      
+                       <div class="row m-0">
+                         <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                             <div class="text-center white-text pt-3">
+                               <p>View All</p>
+                             </div>
+                         </div>
+                       </div>
+                   </div>
+                 </div>
+                 <div class="col-lg-4 contact-card-container">
+                   <div class="card contact-card">
+                     <div class="">
+                       <div class="row m-0">
+                         <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                           <img src="../../assets/img/Course_Icons/Explore_By_Category/Hotel-Management.png" width="60" alt=""  class="pt-3 icon-clr img-bottom">
+                           <h2 class="white-text mt-0 bold">Hotel Management</h2>
+                         </div>
+                       </div>
+                       
+                       <div class="row">
+                         <div class="col-lg-12 py-3 scroll">
+                          <div class="row">
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">JEE Main</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">UPESEAT</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">TS EAMCET</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">JEE Advanced</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                             <p class="list-text light-blue-text">AP EAMCET</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                      
+                       <div class="row m-0">
+                         <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                             <div class="text-center white-text pt-3">
+                               <p>View All</p>
+                             </div>
+                         </div>
+                       </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           
+             <div class="col-lg-12 mb-lg-5 mb-sm-0">
+              <div class="row">
+                <div class="col-lg-4 contact-card-container">
+                  <div class="card contact-card">
+                    <div class="">
+                      <div class="row m-0">
+                        <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                          <img src="../../assets/img/Course_Icons/Explore_By_Category/law.png" width="60" alt=""  class="pt-3 icon-clr">
+                          <h2 class="white-text mt-0 bold">Law</h2>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-lg-12 py-3 scroll">
+                          <div class="row">
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 ">
+                             <p class="list-text light-blue-text">JEE Main</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                             <p class="list-text light-blue-text">UPESEAT</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                             <p class="list-text light-blue-text">TS EAMCET</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                             <p class="list-text light-blue-text">JEE Advanced</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                             <p class="list-text light-blue-text">AP EAMCET</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     
+                      <div class="row m-0">
+                        <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                            <div class="text-center white-text pt-3">
+                              <p>View All</p>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 contact-card-container">
+                  <div class="card contact-card">
+                    <div class="">
+                      <div class="row m-0">
+                        <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                          <img src="../../assets/img/Course_Icons/Explore_By_Category/management.png" width="60" alt=""  class="pt-3 icon-clr">
+                          <h2 class="white-text mt-0 bold">Management</h2>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-lg-12 py-3 scroll">
+                          <div class="row">
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">MBA</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">BBA</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">MBA in UK</div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">MBA in Ukraine</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">MBA in Russia</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">During or After UG</div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">MBA in Poland</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">MBA in Germany</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">MBA in Ireland</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">MBA in Canada</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">MBA in New Zealand</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">MBA in Australia</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">MBA in Malta</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                         </div>
+                        </div>
+                      </div>
+                    </div>
+                     
+                      <div class="row m-0">
+                        <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                            <div class="text-center white-text pt-3">
+                              <p>View All</p>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 contact-card-container">
+                  <div class="card contact-card">
+                    <div class="">
+                      <div class="row m-0">
+                        <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                          <img src="../../assets/img/Course_Icons/Explore_By_Category/Mass-Communication.png" width="60" alt=""  class="pt-3 icon-clr img-margin">
+                          <h2 class="white-text mt-0 bold h2-margin">Mass Communication</h2>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-lg-12 py-3 scroll">
+                          <div class="row">
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">JEE Main</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">UPESEAT</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">During or After UG</div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">TS EAMCET</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">JEE Advanced</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">During or After UG</div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">AP EAMCET</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                         </div>
+                        </div>
+                      </div>
+                    </div>
+                     
+                      <div class="row m-0">
+                        <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                            <div class="text-center white-text pt-3">
+                              <p>View All</p>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-12 mb-lg-5 mb-sm-0">
+              <div class="row">
+                <div class="col-lg-4 contact-card-container">
+                  <div class="card contact-card">
+                    <div class="">
+                      <div class="row m-0">
+                        <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                          <img src="../../assets/img/Course_Icons/Explore_By_Category/Medical.png" width="60" alt=""  class="pt-3 icon-clr">
+                          <h2 class="white-text mt-0 bold">Medical</h2>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-lg-12 py-3 scroll">
+                          <div class="row">
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 ">
+                             <p class="list-text light-blue-text">MBBS in Ukraine</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                             <p class="list-text light-blue-text">MBBS in Belarus</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                             <p class="list-text light-blue-text">MBBS in USA</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                             <p class="list-text light-blue-text">MBBS in UK</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 flex-div col-sm-6 col-xs-6">
+                             <div class="pill-div-exam">During or After UG</div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                             <p class="list-text light-blue-text">MBBS in China</p>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                             <div class="pill-div-exam">After 12<sup>th</sup></div>
+                             <div class="pill-div-exam">National</div>
+                           </div>
+                           <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in New Zealand</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Australia </p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Bulgaria</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Romania </p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Germany</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Phillipines</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Ireland</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in India</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Abroad</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Malta</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Italy</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Czech Republic</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Hungary</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Russia</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Georgia</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Nepal</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Poland</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Europe</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Lithunia</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in France</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Austria</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Bangladesh</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Kazakhastan</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Kyrgyzstan</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Armenia</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Uzbekistan</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Latvia</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Malaysia</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6">
+                            <p class="list-text light-blue-text">MBBS in Canada</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 col-6 col-sm-6 col-xs-6 flex-div">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                        
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     
+                      <div class="row m-0">
+                        <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                            <div class="text-center white-text pt-3">
+                              <p>View All</p>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 contact-card-container">
+                  <div class="card contact-card">
+                    <div class="">
+                      <div class="row m-0">
+                        <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                          <img src="../../assets/img/Course_Icons/Explore_By_Category/science.png" width="60" alt=""  class="pt-3 icon-clr">
+                          <h2 class="white-text mt-0 bold">Science</h2>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-lg-12 py-3 scroll">
+                          <div class="row">
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">JEE Main</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">UPESEAT</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">During or After UG</div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">TS EAMCET</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">JEE Advanced</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">During or After UG</div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">AP EAMCET</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                         </div>
+                        </div>
+                      </div>
+                    </div>
+                     
+                      <div class="row m-0">
+                        <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                            <div class="text-center white-text pt-3">
+                              <p>View All</p>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 contact-card-container">
+                  <div class="card contact-card">
+                    <div class="">
+                      <div class="row m-0">
+                        <div class="col-lg-12 text-center bg-blue-2 px-0 rounded-top">
+                          <img src="../../assets/img/Course_Icons/Explore_By_Category/veterinary.png" width="60" alt=""  class="pt-3 icon-clr">
+                          <h2 class="white-text mt-0 bold">Veterinary</h2>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-lg-12 py-3 scroll">
+                          <div class="row">
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">JEE Main</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">UPESEAT</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">During or After UG</div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">TS EAMCET</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">JEE Advanced</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">During or After UG</div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6">
+                            <p class="list-text light-blue-text">AP EAMCET</p>
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-xs-6 col-6 flex-div col-sm-6 col-xs-6">
+                            <div class="pill-div-exam">After 12<sup>th</sup></div>
+                            <div class="pill-div-exam">National</div>
+                          </div>
+                         </div>
+                        </div>
+                      </div>
+                    </div>
+                     
+                      <div class="row m-0">
+                        <div class="col-lg-12 bg-blue-2 rounded-bottom">
+                            <div class="text-center white-text pt-3">
+                              <p>View All</p>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>-->
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="form2">
+    
+  <div class="container">
+    <!-- Left Card -->
+    <div class="row">
+      
+
+      <!-- Right Card Form 1-->
+      <div class="col-lg-8 col-md-8" *ngIf="form5 === true">
+        <div class="card form-card2">
+          <h5 class="form-head2 text-center">Register Now To Apply</h5>
+         
+          <form [formGroup]="RegistrationForm1">
+            <div class="form-div2">
+              <div class="row">
+                <div class="form-group col-lg-3 col-md-3 col-sm-6">
+                  <div class="input-group">
+                    <div class="input-group-text bg-transparent icon">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <input
+                      class="form-control py-2 border-right-0 border form-input"
+                      type="text"
+                      placeholder="Full Name*"
+                      id="name"
+                      formControlName="cCandidateName"
+                    />
+                  </div>
+                  <div *ngIf="m2['cCandidateName'].touched && m2['cCandidateName'].invalid" class="validation">
+                    <div *ngIf="m2['cCandidateName'].errors['required']">Please Enter Full Name</div>
+                  </div>
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-sm-6">
+                  <div class="input-group">
+                    <div class="input-group-text bg-transparent icon">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                    <input
+                      class="form-control py-2 border-right-0 border form-input"
+                      type="text"
+                      placeholder="Email Address*"
+                      id="email"
+                      formControlName="cEmail"
+                    />
+                  </div>
+                  <div *ngIf="m2['cEmail'].touched && m2['cEmail'].invalid" class="validation">
+                    <div *ngIf="m2['cEmail'].errors['required']">Please enter email address</div>
+                    <div *ngIf="m2['cEmail'].errors['pattern']">Please enter valid email address</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6" id="phone">
+                  <div class="input-group">
+                    <div class="input-group-text bg-transparent icon">
+                      <i class="fa fa-phone flip"></i>
+                    </div>
+                    <input
+                      class="form-control py-2 border-right-0 border form-input"
+                      type="number"
+                      step="0.01"
+                      placeholder="Mobile Number*"
+                      id="number"
+                      formControlName="cMobile"
+                    />
+                  </div>
+                  <div *ngIf="m2['cMobile'].touched && m2['cMobile'].invalid" class="validation">
+                    <div *ngIf="m2['cMobile'].errors['required']">Please enter mobile number</div>
+                    <div *ngIf="m2['cMobile'].errors['pattern']">Mobile number is not 10 digit</div>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                  <button
+                    type="button"
+                    class="btn submit2"
+                    [disabled]="!RegistrationForm1.valid"
+                    (click)="submitFormS()"
+                  >
+                    SUBMIT
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+            
+            
+                
+          </form>
+        </div>
+      </div>
+
+      <div class="col-12 vh-50 d-flex justify-content-center align-items-center" *ngIf="form6 === true" id="thankyouform2">
+        <div>
+            <div class="mb-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="75" height="75"
+                    fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                </svg>
+            </div>
+            <div class="text-center">
+                <h1>Thank You !</h1>
+                <p>Your submission has bees sent. </p>
+            </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      </div>
+<app-chat></app-chat>
+<app-footer></app-footer>

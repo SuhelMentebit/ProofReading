@@ -1,0 +1,825 @@
+.course-banner {
+    height: 50vh;
+    box-shadow: inset 0 0 0 2000px rgb(88 147 235 / 6%);
+    background-size: 100% 100%;
+    // background-image:  url('../../assets/img/Course_Icons/Search_Form_Over/Image.png'); 
+    background-image: url('../../assets/img/Course_Icons/Search_Form_Over/course_banner.png');
+    background-repeat: no-repeat;
+}
+
+.course {
+    background-color: #d7d4d4;
+    padding-bottom: 10px;
+    // padding-top: 20px;
+}
+
+.course-header {
+    padding-top: 10%;
+}
+
+.list-text {
+    background: url('../../assets/img/Course_Icons/Explore_By_Category/Bullet-pt.png') no-repeat left;
+    padding: 3px;
+    list-style: none;
+    margin: 0px;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+.list-text-holder {
+    margin-left: 5%;
+}
+
+.cust-border {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cust-border-2 {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.contact-card {
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+.card-header,
+.card-footer {
+    background-color: #2d57a7;
+}
+
+.card-footer {
+    padding: 4%;
+}
+
+form.exam-page-form {
+    width: 50%;
+    margin-top: 10px;
+}
+
+form.exam-page-form input[type=text] {
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid transparent;
+    float: left;
+    width: 92%;
+    background: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+form.exam-page-form button {
+    float: left;
+    width: 8%;
+    padding: 5.5px;
+    background: #1c4dc3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid transparent;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pill-div-course {
+    background-color: transparent;
+    border: 1px solid orange;
+    color: orange;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 22px;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.flex-div {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cust-padding {
+    padding-right: 1%;
+    // padding-top: 5px !important;
+}
+
+.icon-clr {
+    filter: brightness(0) invert(1);
+}
+
+.course-list {
+    list-style: none;
+}
+
+@media only screen and (max-width:767px) {
+    form.exam-page-form {
+        width: 80%;
+    }
+    .flex-div {
+        display: block;
+    }
+    .pill-div-course {
+        width: 53%;
+        margin: 4px;
+        display: inline-block;
+    }
+    .course-banner {
+        height: auto;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width:1024px) and (min-width:768px) {
+    .course-banner {
+        height: auto;
+        padding: 5%
+    }
+    .contact-card-container {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:766px) {
+    .mb-5 {
+        margin-bottom: 0rem !important;
+    }
+    @media only screen and (max-width:430px) {
+        form.exam-page-form input[type=text] {
+            width: 85%;
+        }
+        form.exam-page-form button {
+            width: 12%;
+        }
+    }
+}
+
+@media only screen and (min-width:992px) {}
+
+.scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 185px;
+}
+
+.card-footer {
+    padding: 4%;
+    width: 100% !important;
+}
+
+.white-text-2 {
+    color: #fff !important;
+    font-size: 20px;
+}
+
+.icon-clr {
+    filter: brightness(0) invert(1);
+    margin-bottom: 10px;
+}
+
+.h5,
+h5 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+//form css starts here
+.form {
+    background-color: #d7d4d4;
+    padding-bottom: 10px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  #thankyouform {
+    margin-left: 0%;
+    padding: 50px;
+    margin-top: 1.5%;
+    --border-size: 3px;
+    --border-angle: 0turn;
+  
+    background-image: conic-gradient(from var(--border-angle),
+        rgb(238, 233, 243),
+        rgb(232, 232, 240) 50%,
+        rgb(243, 241, 245)),
+      conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+    background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
+      cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    animation: bg-spin 3s linear infinite;
+  
+    @keyframes bg-spin {
+      to {
+        --border-angle: 1turn;
+      }
+    }
+  
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+  
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  
+  }
+  
+  svg {
+    color: green;
+  }
+  
+ 
+  
+  .flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+  .form-check-inline {
+    margin-top: -16px;
+  }
+  
+  label {
+    margin-bottom: 0rem;
+  }
+  
+  .form-input {
+    font-size: 12px;
+  }
+  
+  .modal-title {
+    color: #0b4292;
+    font-weight: 700;
+  }
+  
+  .left-txt {
+    margin-bottom: 0.4rem;
+  }
+  
+  .form-card {
+    background-color: white;
+    padding: 20px;
+    line-height: 97%;
+    width: 155%;
+    margin-top: 1.5%;
+    --border-size: 3px;
+    --border-angle: 0turn;
+  
+    background-image: conic-gradient(from var(--border-angle),
+        rgb(238, 233, 243),
+        rgb(232, 232, 240) 50%,
+        rgb(243, 241, 245)),
+      conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+    background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
+      cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    animation: bg-spin 3s linear infinite;
+  
+    @keyframes bg-spin {
+      to {
+        --border-angle: 1turn;
+      }
+    }
+  
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+  
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  }
+  
+  .form-head {
+    color: #0b4292;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .card-left-text {
+    margin-bottom: 0.8rem !important;
+    font-size: 12px;
+  }
+  
+  .sub-title {
+    font-weight: 400;
+  }
+  
+  .form-div {
+    margin-top: 15px;
+  }
+  
+  .shortlist-txt {
+    font-size: 8px;
+  }
+  
+  .shortlist-card {
+    border-radius: 3px;
+    height: 68px;
+    padding: 3px;
+  }
+  
+  .form-input {
+    border-left: none !important;
+    border-right: 1px solid #8c8d91 !important;
+    border-top: 1px solid #8c8d91 !important;
+    border-bottom: 1px solid #8c8d91 !important;
+    border-radius: 0% !important;
+  }
+  
+  input.form-control:focus {
+    box-shadow: inset 0 -1px 0 #ddd;
+  }
+  
+  .icon {
+    border-right: none !important;
+    border-top: 1px solid #8c8d91 !important;
+    border-left: 1px solid #8c8d91 !important;
+    border-bottom: 1px solid #8c8d91 !important;
+    border-radius: 0% !important;
+  }
+  
+  .close {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 28px;
+    height: 22px;
+    margin-top: 5px;
+    margin-right: 12px;
+  }
+  
+  .terms {
+    font-size: 10px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .submit {
+    //margin-top: 40px;
+    background: #ffae47;
+    color: white;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .submit:hover {
+    //margin-top: -5px;
+    background: #ffae47;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .login-block {
+    font-size: 12px;
+  }
+  
+  .img-size {
+    height: 50px;
+    width: 45px;
+  }
+  
+  .validation {
+    color: red;
+    font-size: 10px;
+  }
+  
+  @media all and (max-width: 600px) {
+    .submit {
+      margin-top: 9px;
+    }
+  
+    .container #thankyouform {
+      align-items: center;
+      margin-left: 0%;
+    }
+  
+    .form {
+      margin-top: 0%;
+    }
+
+    .form-card{
+         //margin-left: -27%;
+    }
+  
+  
+  
+  }
+  
+  @media all and (min-width: 700px) and (max-width: 992px) {
+    .submit {
+      font-size: 10px;
+    }
+    
+  }
+  
+  .form {
+    background-color: #d7d4d4;
+    padding-bottom: 10px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  .flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+  .modal-title {
+    color: #0b4292;
+    font-weight: 700;
+  }
+  
+  .left-txt {
+    margin-bottom: 0.4rem;
+  }
+  
+  .form-card {
+    background-color: white;
+    padding: 20px;
+    line-height: 97%;
+  }
+  
+  .form-head {
+    color: #0b4292;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .card-left-text {
+    margin-bottom: 0.8rem !important;
+    font-size: 12px;
+  }
+  
+  .sub-title {
+    font-weight: 400;
+  }
+  
+  .edu-title {
+    font-weight: 600;
+  }
+  
+  .form-div {
+    margin-top: 8px;
+  }
+  
+  .shortlist-txt {
+    font-size: 8px;
+  }
+  
+  .shortlist-card {
+    border-radius: 3px;
+    height: 68px;
+    padding: 3px;
+  }
+  
+  .form-input1 {
+    border: 1px solid #8c8d91 !important;
+    border-radius: 4px !important;
+    height: 30px;
+  }
+  
+  .score-input {
+    border: 1px solid 8c8d91 !important;
+    height: 30px;
+  }
+  
+  input.form-control:focus {
+    box-shadow: inset 0 -1px 0 #ddd;
+  }
+  
+  .icon {
+    border-right: none !important;
+    border-top: 1px solid 8c8d91 !important;
+    border-left: 1px solid 8c8d91 !important;
+    border-bottom: 1px solid 8c8d91 !important;
+    border-radius: 0% !important;
+  }
+  
+  .close {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 28px;
+    height: 22px;
+    margin-top: 5px;
+    margin-right: 12px;
+  }
+  
+  .terms {
+    font-size: 11px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    display: inline-flex;
+  }
+  
+  .submit {
+    //margin-top: 40px;
+    background: #ffae47;
+    color: white;
+    // font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .back {
+    margin-top: -5px;
+    background: white;
+    color: #ffae47;
+    border: 1px solid #ffae47;
+    // font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .back:hover {
+    color: #ffae47;
+    border: 1px solid #ffae47;
+  }
+  
+  .submit:hover {
+    //margin-top: -5px;
+    background: #ffae47;
+    color: white;
+    // font-weight: bold;
+  }
+  
+  .login-block {
+    font-size: 12px;
+  }
+  
+  .exam {
+    margin-right: 27px;
+  }
+  
+  .twelve {
+    padding-top: 15px;
+    font-weight: 400;
+  }
+  
+  .tenth {
+    padding-top: 0;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  
+  .img-size {
+    height: 50px;
+    width: 45px;
+  }
+  
+  @media all and (max-width: 600px) {
+    .submit {
+      margin-top: 9px;
+    }
+    .form-card{
+         width: 100%;
+    }
+  }
+  
+  @media all and (min-width: 700px) and (max-width: 992px) {
+    .submit {
+      font-size: 10px;
+    }
+  }
+  @media all and (min-width: 600px) and (max-width: 767px) {
+    .form-card{
+         width: 100%;
+    }
+  }
+  
+  .form {
+    background-color: #d7d4d4;
+    padding-bottom: 10px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  .flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+  .modal-title {
+    color: #0b4292;
+    font-weight: 700;
+  }
+  
+  .left-txt {
+    margin-bottom: 0.4rem;
+  }
+  
+  .form-card {
+    background-color: white;
+    padding: 20px;
+    line-height: 97%;
+  }
+  
+  .form-head {
+    color: #0b4292;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .card-left-text {
+    margin-bottom: 0.8rem !important;
+    font-size: 12px;
+  }
+  
+  .sub-title {
+    font-weight: 400;
+  }
+  
+  .edu-title {
+    font-weight: 600;
+  }
+  
+  .form-div {
+    margin-top: 15px;
+  }
+  
+  .shortlist-txt {
+    font-size: 8px;
+  }
+  
+  .shortlist-card {
+    border-radius: 3px;
+    height: 68px;
+    padding: 3px;
+  }
+  
+  .form-input {
+    border-left: none !important;
+    border-right: 1px solid #8c8d91 !important;
+    border-top: 1px solid #8c8d91 !important;
+    border-bottom: 1px solid #8c8d91 !important;
+    border-radius: 0% !important;
+    height: 30px;
+  }
+  
+  .score-input {
+    border: 1px solid #8c8d91 !important;
+    height: 30px;
+  }
+  
+  input.form-control:focus {
+    box-shadow: inset 0 -1px 0 #ddd;
+  }
+  
+  .icon {
+    border-right: none !important;
+    border-top: 1px solid #8c8d91 !important;
+    border-left: 1px solid #8c8d91 !important;
+    border-bottom: 1px solid #8c8d91 !important;
+    border-radius: 0% !important;
+  }
+  
+  .close {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 28px;
+    height: 22px;
+    margin-top: 5px;
+    margin-right: 12px;
+  }
+  
+  .terms {
+    font-size: 11px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    display: inline-flex;
+  }
+  
+  .submit {
+    //margin-top: 40px;
+    background: #ffae47;
+    color: white;
+    // font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .back {
+    margin-top: -5px;
+    background: white;
+    color: #ffae47;
+    border: 1px solid #ffae47;
+    // font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .back:hover {
+    color: #ffae47;
+    border: 1px solid #ffae47;
+  }
+  
+  .submit:hover {
+    //margin-top: -5px;
+    background: #ffae47;
+    color: white;
+    // font-weight: bold;
+  }
+  
+  .login-block {
+    font-size: 12px;
+  }
+  
+  .exam {
+    margin-right: 27px;
+  }
+  
+  .img-size {
+    height: 50px;
+    width: 45px;
+  }
+  
+  .validation {
+    color: red;
+    font-size: 10px;
+  }
+  
+  @media all and (max-width: 600px) {
+    .submit {
+      margin-top: 9px;
+    }
+  
+    .modal-header {
+      flex-direction: column;
+    }
+  
+    .modal-title {
+      padding-left: 40px;
+    }
+   
+    .container #hide {
+      display: none;
+    }
+  
+   #row{
+    margin-left: 10px;
+    margin-right: 10px;
+   }
+  
+    #phone {
+      margin-bottom: 15px;
+    }
+  
+  
+    .modal-title {
+      display: none;
+    }
+  
+    .sub-title {
+      font-size: 10px;
+    }
+  
+  }
+  
+  
+  @media all and (min-width: 700px) and (max-width: 992px) {
+    .submit {
+      font-size: 10px;
+    }
+  }
+  
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  //form css ends here
+  

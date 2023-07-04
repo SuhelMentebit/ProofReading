@@ -1,0 +1,1060 @@
+
+<div class="gray-bg filter">
+     <div class="col-lg-12 col-sm-12">
+          <div class="row row-without-gutter">
+               <div class="col-lg-2 col-12 col-sm-3  left-sidebar">
+                    
+                    <p-accordion [multiple]="false" id="filter-tabs" expandIcon = "pi pi-plus" collapseIcon = "pi pi-minus">
+                         <p-accordionTab header="Filters" [selected]="accordionSelected" >
+                              <p class="d-inline result-count">Found 3924 colleges</p>
+                              <p class="text-right d-inline set-def-text"><a href="">Set Default</a> </p >
+                              <p>
+                                   
+                                   <p-accordionTab header="Stream" [selected]="true" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Sub Stream/Course">
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="State" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="City" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Program Type" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Entrance Exam">
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Course Type" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Course Duration">
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Total Fees">
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Affiliation" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+
+                           </p>
+                         </p-accordionTab>
+                         
+                         <p-accordionTab header="Notifications" [selected]="accordionSelected" class="bg-light-blue">
+                              <div class="col-lg-12">
+                                   <div class="row row-without-gutter">
+                                        <div class="card notification-div">
+                                            
+                                             <div class="card-body">
+                                                  <div class="row noti-row  row-without-gutter">
+                                                       <div class="col-lg-2 col-2 noti-img">
+                                                            <img src="../../assets/img/filter2.png" alt="" >
+                                                       </div>
+                                                       <div class="col-lg-10 col-10 noti-title">
+                                                            <h6 >ACET 2022 Registration Open</h6> 
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
+                                                       </div>
+                                                       
+                                                  </div>
+                                                  <div class="row noti-row  row-without-gutter">
+                                                       <div class="col-lg-2 col-2 noti-img">
+                                                            <img src="../../assets/img/filter2.png" alt="" >
+                                                       </div>
+                                                       <div class="col-lg-10 col-10 noti-title">
+                                                            <h6 >ACET 2022 Registration Open</h6> 
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
+                                                       </div>
+                                                       
+                                                  </div>
+                                                  <div class="row noti-row  row-without-gutter">
+                                                       <div class="col-lg-2 col-2 noti-img">
+                                                            <img src="../../assets/img/filter2.png" alt="" >
+                                                       </div>
+                                                       <div class="col-lg-10 col-10 noti-title">
+                                                            <h6 >ACET 2022 Registration Open</h6> 
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
+                                                       </div>
+                                                       
+                                                  </div>
+                                                  <div class="row noti-row  row-without-gutter">
+                                                       <div class="col-lg-2 col-2 noti-img">
+                                                            <img src="../../assets/img/filter2.png" alt="" >
+                                                       </div>
+                                                       <div class="col-lg-10 col-10 noti-title">
+                                                            <h6 >ACET 2022 Registration Open</h6> 
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
+                                                       </div>
+                                                       
+                                                  </div>
+                                             </div>
+                                             <div class="card-footer">
+                                                  <div class="show-more-div text-center mb-0 white-text-2">
+                                                       <h6>Show More</h6>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </p-accordionTab>
+                         
+                        
+                    </p-accordion>
+                   
+               </div>
+               <div class="col-lg-10 col-sm-9 col-12 p-custom right-div-content">
+                    <div class="row">
+                              <div class="col-lg-12 bg-white text-right">
+                                   <div class="sort-div">
+                                        <label for="sorting">Sort By:</label>
+                                        <select name="demo" id="sorting">
+                                             <option selected="selected" value="one">Popularity</option>
+                                             <option value="two">Option 2</option>
+                                             <option value="three">Option 3</option>
+                                             </select>
+                                   </div>
+                              </div>
+                              <div class="col-lg-12">
+                                   <div class="colg-list">
+                                        <div class="row">
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/filter.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>       
+                              </div>
+                              
+                    </div>
+               </div>
+
+             
+          </div>
+     </div>
+    
+</div>

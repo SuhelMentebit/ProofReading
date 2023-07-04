@@ -1,0 +1,689 @@
+
+
+<!--<div class="gray-bg filter">
+     <div class="col-lg-12 col-sm-12">
+          <div class="row row-without-gutter">
+               <div class="col-lg-2 col-12 col-sm-3  left-sidebar">
+                    
+                    <p-accordion [multiple]="true" id="exam-filter-tabs" expandIcon = "pi pi-plus" collapseIcon = "pi pi-minus">
+                         <p-accordionTab header="Filters" [selected]="accordionSelected" >
+                              <p class="d-inline result-count">Found 3924 Exam</p>
+                              <p class="text-right d-inline set-def-text"><a href="">Set Default</a> </p >
+                              <p>
+                                   
+                                   <p-accordionTab header="Type of Exam" [selected]="true" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of exams">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.exam}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Course">
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of exams">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.exam}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Exam Level" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of exams">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.exam}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Exam Mode" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of exams">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.exam}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                           </p>
+                         </p-accordionTab>
+                         
+                      
+                        
+                    </p-accordion>
+                   
+               </div>
+               <div class="col-lg-10 col-sm-9 col-12 p-custom right-div-content">
+                    <div class="row row-without-gutter">
+                              <div class=" bg-white text-right">
+                                   <div class="sort-div">
+                                        <label for="sorting">Sort By:</label>
+                                        <select name="demo" id="sorting">
+                                             <option selected="selected" value="one">Popularity</option>
+                                             <option value="two">Option 2</option>
+                                             <option value="three">Option 3</option>
+                                             </select>
+                                   </div>
+                              </div>
+                              <div class="col-lg-12">
+                                   <div class="colg-list">
+                                        <div class="row">
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <div class="row row-without-gutter"> 
+                                                                 <div class="col-lg-2 col-2">
+                                                                      <img src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"  alt="" class="p-1 logo-img">
+                                                                 </div>
+                                                                 <div class="col-lg-10 col-10 text-center">
+                                                                      <h5 class="white-text-2 mt-0 bold mb-0">JEE Main</h5>
+                                                                      <p class="mb-0 white-text-2">Written Test</p>
+                                                                 </div>
+                                                            </div>
+                                                      </div>
+                                                       <div class="col-lg-12 mb-2 mt-1 border-bottom">
+                                                            <div class="row row-without-gutter mb-2">   
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="flex-div mb-2">
+                                                                      <div class="pill-div-course">Cut Off</div>
+                                                                      <div class="pill-div-course">Exam Pattern</div>
+                                                                      <div class="pill-div-course">Eligibility</div>
+                                                                      <div class="pill-div-course">Result Date</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6 readMoreBg">
+                                                                      <h5 class="brochure-text light-blue-text"> READ MORE</h5>
+                                                                     </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <div class="row row-without-gutter"> 
+                                                                 <div class="col-lg-2 col-2">
+                                                                      <img src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"  alt="" class="p-1 logo-img">
+                                                                 </div>
+                                                                 <div class="col-lg-10 col-10 text-center">
+                                                                      <h5 class="white-text-2 mt-0 bold mb-0">JEE Main</h5>
+                                                                      <p class="mb-0 white-text-2">Written Test</p>
+                                                                 </div>
+                                                            </div>
+                                                      </div>
+                                                       <div class="col-lg-12 mb-2 mt-1 border-bottom">
+                                                            <div class="row row-without-gutter mb-2">   
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="flex-div mb-2">
+                                                                      <div class="pill-div-course">Cut Off</div>
+                                                                      <div class="pill-div-course">Exam Pattern</div>
+                                                                      <div class="pill-div-course">Eligibility</div>
+                                                                      <div class="pill-div-course">Result Date</div>
+                                                                 </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                       <div class="row row-without-gutter">
+                                                            <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                 <h5 class="app-now-text">APPLY NOW</h5>
+                                                                </div>
+                                                                <div class="col-lg-6 col-6 readMoreBg">
+                                                                 <h5 class="brochure-text light-blue-text"> READ MORE</h5>
+                                                                </div>
+                                                       </div>
+                                                  </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <div class="row row-without-gutter"> 
+                                                                 <div class="col-lg-2 col-2">
+                                                                      <img src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"  alt="" class="p-1 logo-img">
+                                                                 </div>
+                                                                 <div class="col-lg-10 col-10 text-center">
+                                                                      <h5 class="white-text-2 mt-0 bold mb-0">JEE Main</h5>
+                                                                      <p class="mb-0 white-text-2">Written Test</p>
+                                                                 </div>
+                                                            </div>
+                                                      </div>
+                                                       <div class="col-lg-12 mb-2 mt-1 border-bottom">
+                                                            <div class="row row-without-gutter mb-2">   
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="flex-div mb-2">
+                                                                      <div class="pill-div-course">Cut Off</div>
+                                                                      <div class="pill-div-course">Exam Pattern</div>
+                                                                      <div class="pill-div-course">Eligibility</div>
+                                                                      <div class="pill-div-course">Result Date</div>
+                                                                 </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                       <div class="row row-without-gutter">
+                                                            <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                 <h5 class="app-now-text">APPLY NOW</h5>
+                                                                </div>
+                                                                <div class="col-lg-6 col-6 readMoreBg">
+                                                                 <h5 class="brochure-text light-blue-text"> READ MORE</h5>
+                                                                </div>
+                                                       </div>
+                                                  </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <div class="row row-without-gutter"> 
+                                                                 <div class="col-lg-2 col-2">
+                                                                      <img src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"  alt="" class="p-1 logo-img">
+                                                                 </div>
+                                                                 <div class="col-lg-10 col-10 text-center">
+                                                                      <h5 class="white-text-2 mt-0 bold mb-0">JEE Main</h5>
+                                                                      <p class="mb-0 white-text-2">Written Test</p>
+                                                                 </div>
+                                                            </div>
+                                                      </div>
+                                                       <div class="col-lg-12 mb-2 mt-1 border-bottom">
+                                                            <div class="row row-without-gutter mb-2">   
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="flex-div mb-2">
+                                                                      <div class="pill-div-course">Cut Off</div>
+                                                                      <div class="pill-div-course">Exam Pattern</div>
+                                                                      <div class="pill-div-course">Eligibility</div>
+                                                                      <div class="pill-div-course">Result Date</div>
+                                                                 </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                       <div class="row row-without-gutter">
+                                                            <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                 <h5 class="app-now-text">APPLY NOW</h5>
+                                                                </div>
+                                                                <div class="col-lg-6 col-6 readMoreBg">
+                                                                 <h5 class="brochure-text light-blue-text"> READ MORE</h5>
+                                                                </div>
+                                                       </div>
+                                                  </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <div class="row row-without-gutter"> 
+                                                                 <div class="col-lg-2 col-2">
+                                                                      <img src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"  alt="" class="p-1 logo-img">
+                                                                 </div>
+                                                                 <div class="col-lg-10 col-10 text-center">
+                                                                      <h5 class="white-text-2 mt-0 bold mb-0">JEE Main</h5>
+                                                                      <p class="mb-0 white-text-2">Written Test</p>
+                                                                 </div>
+                                                            </div>
+                                                      </div>
+                                                       <div class="col-lg-12 mb-2 mt-1 border-bottom">
+                                                            <div class="row row-without-gutter mb-2">   
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="flex-div mb-2">
+                                                                      <div class="pill-div-course">Cut Off</div>
+                                                                      <div class="pill-div-course">Exam Pattern</div>
+                                                                      <div class="pill-div-course">Eligibility</div>
+                                                                      <div class="pill-div-course">Result Date</div>
+                                                                 </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                       <div class="row row-without-gutter">
+                                                            <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                 <h5 class="app-now-text">APPLY NOW</h5>
+                                                                </div>
+                                                                <div class="col-lg-6 col-6 readMoreBg">
+                                                                 <h5 class="brochure-text light-blue-text"> READ MORE</h5>
+                                                                </div>
+                                                       </div>
+                                                  </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <div class="row row-without-gutter"> 
+                                                                 <div class="col-lg-2 col-2">
+                                                                      <img src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"  alt="" class="p-1 logo-img">
+                                                                 </div>
+                                                                 <div class="col-lg-10 col-10 text-center">
+                                                                      <h5 class="white-text-2 mt-0 bold mb-0">JEE Main</h5>
+                                                                      <p class="mb-0 white-text-2">Written Test</p>
+                                                                 </div>
+                                                            </div>
+                                                      </div>
+                                                       <div class="col-lg-12 mb-2 mt-1 border-bottom">
+                                                            <div class="row row-without-gutter mb-2">   
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="flex-div mb-2">
+                                                                      <div class="pill-div-course">Cut Off</div>
+                                                                      <div class="pill-div-course">Exam Pattern</div>
+                                                                      <div class="pill-div-course">Eligibility</div>
+                                                                      <div class="pill-div-course">Result Date</div>
+                                                                 </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                       <div class="row row-without-gutter">
+                                                            <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                 <h5 class="app-now-text">APPLY NOW</h5>
+                                                                </div>
+                                                                <div class="col-lg-6 col-6 readMoreBg">
+                                                                 <h5 class="brochure-text light-blue-text"> READ MORE</h5>
+                                                                </div>
+                                                       </div>
+                                                  </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <div class="row row-without-gutter"> 
+                                                                 <div class="col-lg-2 col-2">
+                                                                      <img src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"  alt="" class="p-1 logo-img">
+                                                                 </div>
+                                                                 <div class="col-lg-10 col-10 text-center">
+                                                                      <h5 class="white-text-2 mt-0 bold mb-0">JEE Main</h5>
+                                                                      <p class="mb-0 white-text-2">Written Test</p>
+                                                                 </div>
+                                                            </div>
+                                                      </div>
+                                                       <div class="col-lg-12 mb-2 mt-1 border-bottom">
+                                                            <div class="row row-without-gutter mb-2">   
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="flex-div mb-2">
+                                                                      <div class="pill-div-course">Cut Off</div>
+                                                                      <div class="pill-div-course">Exam Pattern</div>
+                                                                      <div class="pill-div-course">Eligibility</div>
+                                                                      <div class="pill-div-course">Result Date</div>
+                                                                 </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                       <div class="row row-without-gutter">
+                                                            <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                 <h5 class="app-now-text">APPLY NOW</h5>
+                                                                </div>
+                                                                <div class="col-lg-6 col-6 readMoreBg">
+                                                                 <h5 class="brochure-text light-blue-text"> READ MORE</h5>
+                                                                </div>
+                                                       </div>
+                                                  </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <div class="row row-without-gutter"> 
+                                                                 <div class="col-lg-2 col-2">
+                                                                      <img src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"  alt="" class="p-1 logo-img">
+                                                                 </div>
+                                                                 <div class="col-lg-10 col-10 text-center">
+                                                                      <h5 class="white-text-2 mt-0 bold mb-0">JEE Main</h5>
+                                                                      <p class="mb-0 white-text-2">Written Test</p>
+                                                                 </div>
+                                                            </div>
+                                                      </div>
+                                                       <div class="col-lg-12 mb-2 mt-1 border-bottom">
+                                                            <div class="row row-without-gutter mb-2">   
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="flex-div mb-2">
+                                                                      <div class="pill-div-course">Cut Off</div>
+                                                                      <div class="pill-div-course">Exam Pattern</div>
+                                                                      <div class="pill-div-course">Eligibility</div>
+                                                                      <div class="pill-div-course">Result Date</div>
+                                                                 </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                       <div class="row row-without-gutter">
+                                                            <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                 <h5 class="app-now-text">APPLY NOW</h5>
+                                                                </div>
+                                                                <div class="col-lg-6 col-6 readMoreBg">
+                                                                 <h5 class="brochure-text light-blue-text"> READ MORE</h5>
+                                                                </div>
+                                                       </div>
+                                                  </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <div class="row row-without-gutter"> 
+                                                                 <div class="col-lg-2 col-2">
+                                                                      <img src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"  alt="" class="p-1 logo-img">
+                                                                 </div>
+                                                                 <div class="col-lg-10 col-10 text-center">
+                                                                      <h5 class="white-text-2 mt-0 bold mb-0">JEE Main</h5>
+                                                                      <p class="mb-0 white-text-2">Written Test</p>
+                                                                 </div>
+                                                            </div>
+                                                      </div>
+                                                       <div class="col-lg-12 mb-2 mt-1 border-bottom">
+                                                            <div class="row row-without-gutter mb-2">   
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="flex-div mb-2">
+                                                                      <div class="pill-div-course">Cut Off</div>
+                                                                      <div class="pill-div-course">Exam Pattern</div>
+                                                                      <div class="pill-div-course">Eligibility</div>
+                                                                      <div class="pill-div-course">Result Date</div>
+                                                                 </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                       <div class="row row-without-gutter">
+                                                            <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                 <h5 class="app-now-text">APPLY NOW</h5>
+                                                                </div>
+                                                                <div class="col-lg-6 col-6 readMoreBg">
+                                                                 <h5 class="brochure-text light-blue-text"> READ MORE</h5>
+                                                                </div>
+                                                       </div>
+                                                  </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <div class="row row-without-gutter"> 
+                                                                 <div class="col-lg-2 col-2">
+                                                                      <img src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"  alt="" class="p-1 logo-img">
+                                                                 </div>
+                                                                 <div class="col-lg-10 col-10 text-center">
+                                                                      <h5 class="white-text-2 mt-0 bold mb-0">JEE Main</h5>
+                                                                      <p class="mb-0 white-text-2">Written Test</p>
+                                                                 </div>
+                                                            </div>
+                                                      </div>
+                                                       <div class="col-lg-12 mb-2 mt-1 border-bottom">
+                                                            <div class="row row-without-gutter mb-2">   
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="flex-div mb-2">
+                                                                      <div class="pill-div-course">Cut Off</div>
+                                                                      <div class="pill-div-course">Exam Pattern</div>
+                                                                      <div class="pill-div-course">Eligibility</div>
+                                                                      <div class="pill-div-course">Result Date</div>
+                                                                 </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                       <div class="row row-without-gutter">
+                                                            <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                 <h5 class="app-now-text">APPLY NOW</h5>
+                                                                </div>
+                                                                <div class="col-lg-6 col-6 readMoreBg">
+                                                                 <h5 class="brochure-text light-blue-text"> READ MORE</h5>
+                                                                </div>
+                                                       </div>
+                                                  </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <div class="row row-without-gutter"> 
+                                                                 <div class="col-lg-2 col-2">
+                                                                      <img src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"  alt="" class="p-1 logo-img">
+                                                                 </div>
+                                                                 <div class="col-lg-10 col-10 text-center">
+                                                                      <h5 class="white-text-2 mt-0 bold mb-0">JEE Main</h5>
+                                                                      <p class="mb-0 white-text-2">Written Test</p>
+                                                                 </div>
+                                                            </div>
+                                                      </div>
+                                                       <div class="col-lg-12 mb-2 mt-1 border-bottom">
+                                                            <div class="row row-without-gutter mb-2">   
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="flex-div mb-2">
+                                                                      <div class="pill-div-course">Cut Off</div>
+                                                                      <div class="pill-div-course">Exam Pattern</div>
+                                                                      <div class="pill-div-course">Eligibility</div>
+                                                                      <div class="pill-div-course">Result Date</div>
+                                                                 </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                       <div class="row row-without-gutter">
+                                                            <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                 <h5 class="app-now-text">APPLY NOW</h5>
+                                                                </div>
+                                                                <div class="col-lg-6 col-6 readMoreBg">
+                                                                 <h5 class="brochure-text light-blue-text"> READ MORE</h5>
+                                                                </div>
+                                                       </div>
+                                                  </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                      <div class="col-lg-12 card-header text-center">
+                                                            <div class="row row-without-gutter"> 
+                                                                 <div class="col-lg-2 col-2">
+                                                                      <img src="../../assets/img/Study_Abroad_Icons/7.Study_Abroad_Exam/Logo.png"  alt="" class="p-1 logo-img">
+                                                                 </div>
+                                                                 <div class="col-lg-10 col-10 text-center">
+                                                                      <h5 class="white-text-2 mt-0 bold mb-0">JEE Main</h5>
+                                                                      <p class="mb-0 white-text-2">Written Test</p>
+                                                                 </div>
+                                                            </div>
+                                                      </div>
+                                                       <div class="col-lg-12 mb-2 mt-1 border-bottom">
+                                                            <div class="row row-without-gutter mb-2">   
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">Full Time</div>  
+                                                                      <div class="sec-text">Mode</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-sm-4 col-4 border-right text-center">
+                                                                      <div class="f-text light-blue-text">DU JAT</div>  
+                                                                      <div class="sec-text">Exams Accepted</div>
+                                                                 </div>
+                                                                 <div class="col-lg-4 col-3 text-center">
+                                                                      <div class="f-text light-blue-text">3 Years</div>  
+                                                                      <div class="sec-text">Duration</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter">
+                                                                 <div class="flex-div mb-2">
+                                                                      <div class="pill-div-course">Cut Off</div>
+                                                                      <div class="pill-div-course">Exam Pattern</div>
+                                                                      <div class="pill-div-course">Eligibility</div>
+                                                                      <div class="pill-div-course">Result Date</div>
+                                                                 </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                       <div class="row row-without-gutter">
+                                                            <div class="col-lg-6 col-6 blue-bg white-text-2">
+                                                                 <h5 class="app-now-text">APPLY NOW</h5>
+                                                                </div>
+                                                                <div class="col-lg-6 col-6 readMoreBg">
+                                                                 <h5 class="brochure-text light-blue-text"> READ MORE</h5>
+                                                                </div>
+                                                       </div>
+                                                  </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>       
+                              </div>
+                              
+                    </div>
+               </div>
+
+             
+          </div>
+     </div>
+    
+</div>
+<app-footer></app-footer>-->

@@ -1,0 +1,235 @@
+<div class="college-filter-banner">
+    <div class="col-lg-12">
+        <div class="college-filter-header text-center">
+            <h1 class="white-text-2 mb-0">List Of Universities In India</h1>
+        </div>
+    </div>
+</div>
+<div class="gray-bg filter">
+    <div class="col-lg-12 col-sm-12">
+        <div class="row row-without-gutter p-2">
+            <div class="col-lg-2 col-12 col-sm-3 left-sidebar mt-2">
+                <p-accordion [multiple]="true" id="college-filter-tabs" expandIcon="pi pi-plus" collapseIcon="pi pi-minus">
+                    <p-accordionTab header="Filters" [selected]="accordionSelected" class="filter-header">
+                        <div class="set-def-div">
+                            <span class="float-left result-count">Found 3924 colleges</span>
+                            <span class="float-right set-def-text">
+                            <a href="">Set Default</a>
+                        </span>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <div>
+                            <p-accordionTab header="Stream" [selected]="true">
+                                <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" />
+                                <form class="Course-list-form">
+                                    <div *ngFor="let data of streamList; let i = index" [ngClass]="{ isActive: data.isSelected }">
+                                        <input type="checkbox" name="sendemail"(click)="updateData($event, data.cStream, 'stream');streamList = this.updateList(this.streamList, $event, data.cStream, 'cStream')" [checked]="data.isSelected"/>
+                                        <p class="filter-couse-list pl-1">{{ data.cStream }}</p>
+                                        <br />
+                                    </div>
+                                </form>
+                            </p-accordionTab>
+                            <p-accordionTab header="State">
+                                <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" />
+                                <form class="Course-list-form">
+                                    <div *ngFor="let state of stateList" [ngClass]="{ isActive: state.isSelected }">
+                                        <input type="checkbox" name="sendemail1" (click)="updateData($event, state.cStateName, 'state'); stateList = this.updateList(stateList, $event, state.cStateName, 'cStateName')" [checked]="state.isSelected"/>
+                                        <p class="filter-couse-list pl-1">{{ state.cStateName }}</p>
+                                        <br />
+                                    </div>
+                                </form>
+                            </p-accordionTab>
+                            <p-accordionTab header="City">
+                                <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" />
+                                <form [formGroup]="myForm" class="Course-list-form">
+                                    <div *ngFor="let data of cityList" [ngClass]="{ isActive: data.isSelected }">
+                                        <input type="checkbox" (click)="updateData($event, data.cCityName, 'City');cityList = this.selectMultipleElem(cityList, $event, data.cCityName, 'cCityName')" [checked]="data.isSelected"/>
+                                        <p class="filter-couse-list pl-1">{{ data.cCityName }}</p>
+                                        <br />
+                                    </div>
+                                </form>
+                            </p-accordionTab>
+                            <p-accordionTab header="Course">
+                                <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" />
+                                <form [formGroup]="myForm" class="Course-list-form">
+                                    <div *ngFor="let data of courseList" [ngClass]="{ isActive: data.isSelected }">
+                                        <input type="checkbox" (click)="updateData($event, data.cCourse, 'Course'); courseList = this.updateList(courseList, $event, data.cCourse, 'cCourse')" [checked]="data.isSelected"/>
+                                        <p class="filter-couse-list pl-1">{{ data.cCourse }}</p>
+                                        <br />
+                                    </div>
+                                </form>
+                            </p-accordionTab>
+                            <p-accordionTab header="Program Type">
+                                <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" />
+                                <form [formGroup]="myForm" class="Course-list-form">
+                                    <div *ngFor="let data of programTypeList" [ngClass]="{ isActive: data.isSelected }">
+                                        <input type="checkbox" (click)="updateData($event, data.cProgrammeType, 'ProgramType');programTypeList = this.updateList(programTypeList, $event, data.cProgrammeType, 'cProgrammeType')" [checked]="data.isSelected"/>
+                                        <p class="filter-couse-list pl-1">{{ data.cProgrammeType }}</p>
+                                        <br />
+                                    </div>
+                                </form>
+                            </p-accordionTab>
+                            <p-accordionTab header="University Type">
+                                <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" />
+                                <form [formGroup]="myForm" class="Course-list-form">
+                                    <div *ngFor="let data of universityTypeList" [ngClass]="{ isActive: data.isSelected }">
+                                        <input type="checkbox"  (click)="updateData($event, data.email, 'universityTypeList');universityTypeList = this.selectMultipleElem(universityTypeList, $event, data.email, 'email')" [checked]="data.isSelected"/>
+                                        <p class="filter-couse-list pl-1">{{ data.email }}</p>
+                                        <br />
+                                    </div>
+                                </form>
+                            </p-accordionTab>
+                            <p-accordionTab header="Entrance/Exam Accepted">
+                                <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" />
+                                <form [formGroup]="myForm" class="Course-list-form">
+                                    <div *ngFor="let data of entranceExamList" [ngClass]="{ isActive: data.isSelected }">
+                                        <input type="checkbox" (click)="updateData($event, data.cExtraExamName, 'EntranceExamType');entranceExamList = this.selectMultipleElem(entranceExamList, $event, data.cExtraExamName, 'cExtraExamName')" [checked]="data.isSelected" />
+                                        <p class="filter-couse-list pl-1">{{ data.cExtraExamName }}</p>
+                                        <br />
+                                    </div>
+                                </form>
+                            </p-accordionTab>
+                            <p-accordionTab header="Average Fees">
+                                <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" />
+                                <form [formGroup]="myForm" class="Course-list-form">
+                                    <div *ngFor="let state of averageFeesList" [ngClass]="{ isActive: state.isSelected }">
+                                        <input type="checkbox"  (click)="updateData($event, state.email, 'averageFeesType'); averageFeesList = this.updateList(averageFeesList, $event, state.email, 'email')" [checked]="state.isSelected"/>
+                                        <p class="filter-couse-list pl-1">{{ state.email }}</p>
+                                        <br />
+                                    </div>
+                                </form>
+                            </p-accordionTab>
+                            <p-accordionTab header="Course Type">
+                                <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" />
+                                <form [formGroup]="myForm" class="Course-list-form">
+                                    <div *ngFor="let state of courseTypeList" [ngClass]="{ isActive: state.isSelected }">
+                                        <input type="checkbox" (click)="updateData($event, state.cCourseLevel, 'CourseType');courseTypeList = this.updateList(courseTypeList, $event, state.cCourseLevel, 'cCourseLevel')" [checked]="state.isSelected"/>
+                                        <p class="filter-couse-list pl-1">{{ state.cCourseLevel }}</p>
+                                        <br />
+                                    </div>
+                                </form>
+                            </p-accordionTab>
+                            <p-accordionTab header="Course Duration">
+                                <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" />
+                                <form [formGroup]="myForm" class="Course-list-form">
+                                    <div *ngFor="let data of courseDurationList" [ngClass]="{ isActive: data.isSelected }">
+                                        <input type="checkbox" (click)="updateData($event, data.cDuration, 'courseDuration');courseDurationList = this.updateList(courseDurationList, $event, data.cDuration, 'cDuration')" [checked]="data.isSelected"/>
+                                        <p class="filter-couse-list pl-1">{{ data.cDuration }}</p>
+                                        <br />
+                                    </div>
+                                </form>
+                            </p-accordionTab>
+                            <p-accordionTab header="Study Abroad" class="study_abroad">
+                                <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" />
+                                <form [formGroup]="myForm" class="Course-list-form">
+                                    <div *ngFor="let state of studyAbroadList" [ngClass]="{ isActive: state.isSelected }">
+                                        <input type="checkbox" (click)="updateData($event, state.email, 'studyAbroadType'); studyAbroadList = this.updateList(studyAbroadList, $event, state.email, 'email')" [checked]="state.isSelected"/>
+                                        <p class="filter-couse-list pl-1">{{ state.email }}</p>
+                                        <br />
+                                    </div>
+                                </form>
+                            </p-accordionTab>
+                        </div>
+                    </p-accordionTab>
+                </p-accordion>
+            </div>
+            <div class="col-lg-10 col-sm-9 col-12 p-custom right-div-content">
+                <div class="row sort-div-row row-without-gutter">
+                    <div class="col-lg-12 bg-white sort-div text-right mt-2">
+                        <div class="">
+                            <label for="sorting">Sort By:</label>
+                            <select name="demo" id="sorting">
+                <option selected="selected" value="one">Popularity</option>
+                <option value="two">Option 2</option>
+                <option value="three">Option 3</option>
+              </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="colg-list">
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-6" *ngFor="let college of collegesList; let i = index">
+                                    <div class="card">
+                                        <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Like.png" alt="" class="like-img" />
+                                        <div class="back-img">
+                                            <img src='{{ "assets/img/" + college.cCollegeName + ".png" }}'>
+                                        </div>
+                                        <div class="middle-img">
+                                            <img src="../../assets/img/filter2.png" alt="" />
+                                        </div>
+                                        <div class="">
+                                            <h2 class="light-blue-text colg-name">{{college.cCollegeName}}</h2>
+                                            <h5 class="colg-place">{{college.cCity
+                                            }}</h5>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="row row-without-gutter border-bottom">
+                                                <div class="col-lg-3 col-3 border-right text-center">
+                                                    <div class="f-text">{{college.cCountryRankingwithRef}}</div>
+                                                    <div class="sec-text">Country Ranking</div>
+                                                </div>
+                                                <div class="col-lg-3 col-3 border-right text-center">
+                                                    <div class="f-text">{{college.cAccrediation}}</div>
+                                                    <div class="sec-text">Accrediation</div>
+                                                </div>
+                                                <div class="col-lg-3 col-3 border-right text-center">
+                                                    <div class="f-text">{{college.cCollegeType}}</div>
+                                                    <div class="sec-text">College Type</div>
+                                                </div>
+                                                <!-- <div class="col-lg-3 col-3 text-center">
+                                                    <div class="f-text">15 LPA</div>
+                                                    <div class="sec-text">Highest Package</div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-3">
+                                                    <div class="small-img">
+                                                        <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Addmission.png" width="30" alt="" />
+                                                    </div>
+                                                    <div class="small-img-text">Admission</div>
+                                                </div>
+                                                <div class="col-lg-3 col-3">
+                                                    <div class="small-img">
+                                                        <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Course-&-Fee.png" width="30" alt="" />
+                                                    </div>
+                                                    <div class="small-img-text">Course & Fees</div>
+                                                </div>
+                                                <div class="col-lg-3 col-3">
+                                                    <div class="small-img">
+                                                        <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Placement.png" width="30" alt="" />
+                                                    </div>
+                                                    <div class="small-img-text">Placement</div>
+                                                </div>
+                                                <div class="col-lg-3 col-3">
+                                                    <div class="small-img">
+                                                        <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Review.png" width="30" alt="" />
+                                                    </div>
+                                                    <div class="small-img-text">Review</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <div class="row f-button-row border-bottom row-custom-gutter">
+                                                <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                    <h5 class="app-now-text">APPLY NOW</h5>
+                                                </div>
+                                                <div class="col-lg-6 col-6">
+                                                    <h5 class="brochure-text">BROCHURE</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-chat></app-chat>
+<app-footer></app-footer>

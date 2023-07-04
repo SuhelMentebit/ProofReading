@@ -1,0 +1,729 @@
+
+<div class="college-filter-banner">
+     <div class="col-lg-12">
+          <div class="college-filter-header text-center">
+                    <h1 class="white-text-2 mb-0">List Of Colleges In India</h1>
+                   
+          </div>
+     </div>
+    
+</div>
+<div class="gray-bg filter">
+     <div class="col-lg-12 col-sm-12">
+          <div class="row row-without-gutter p-2">
+               <div class="col-lg-2 col-12 col-sm-3  left-sidebar mt-2">
+                    
+                    <p-accordion [multiple]="true" id="college-filter-tabs" expandIcon = "pi pi-plus" collapseIcon = "pi pi-minus">
+                         <p-accordionTab header="Filters" [selected]="accordionSelected" >
+                              <p class="d-inline result-count">Found 3924 colleges</p>
+                              <p class="text-right d-inline set-def-text"><a href="">Set Default</a> </p >
+                              <p>
+                                   
+                                   <p-accordionTab header="Stream" [selected]="true" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Sub Stream/Course">
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="State" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="City" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Program Type" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Entrance Exam">
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Course Type" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Course Duration">
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Total Fees">
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+                                   <p-accordionTab header="Affiliation" >
+                                        <input type="text" placeholder="Find Course" class="d-inline findCourse-textbox bg-white w-100" >
+                                        <form [formGroup]="myForm" class="Course-list-form">
+                                             <div *ngFor="let data of emails">
+                                                  <input type="checkbox" > <p class="filter-couse-list pl-1">{{data.email}}</p><br>
+                                             </div>
+                                        </form>
+                                   </p-accordionTab>
+
+                           </p>
+                         </p-accordionTab>
+                         
+                      
+                        
+                    </p-accordion>
+                   
+               </div>
+               <div class="col-lg-10 col-sm-9 col-12 p-custom right-div-content">
+                    <div class="row row-without-gutter">
+                              <div class="col-lg-12 bg-white text-right ml-2 mt-2">
+                                   <div class="sort-div">
+                                        <label for="sorting">Sort By:</label>
+                                        <select name="demo" id="sorting">
+                                             <option selected="selected" value="one">Popularity</option>
+                                             <option value="two">Option 2</option>
+                                             <option value="three">Option 3</option>
+                                             </select>
+                                   </div>
+                              </div>
+                              <div class="col-lg-12">
+                                   <div class="colg-list">
+                                        <div class="row">
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Like.png" alt="" class="like-img">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Addmission.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Course-&-Fee.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Placement.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Review.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Featured-College.png" alt="" class="fc-img">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Addmission.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Course-&-Fee.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Placement.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Review.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Addmission.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Course-&-Fee.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Placement.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Review.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Featured-College.png" alt="" class="fc-img">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Addmission.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Course-&-Fee.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Placement.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Review.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Like.png" alt="" class="like-img">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Addmission.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Course-&-Fee.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Placement.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Review.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Addmission.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Course-&-Fee.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Placement.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Review.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Featured-College.png" alt="" class="fc-img">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Addmission.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Course-&-Fee.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Placement.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Review.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-6">
+                                                  <div class="card ">
+                                                       <div class="back-img">
+                                                       </div>
+                                                       <div class="middle-img">
+                                                            <img src="../../assets/img/filter2.png" alt="">
+                                                       </div>
+                                                       <div class="">
+                                                            <h2 class="light-blue-text colg-name">Monroe College</h2>
+                                                            <h5 class="colg-place">Callfornia</h5>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row row-without-gutter border-bottom">   
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">$800</div>  
+                                                                      <div class="sec-text">First Year Fee</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">IELTS 7.1</div>  
+                                                                      <div class="sec-text">Score Required</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 border-right text-center">
+                                                                      <div class="f-text">Rank 15</div>  
+                                                                      <div class="sec-text">In Times Ranking</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3 text-center">
+                                                                      <div class="f-text">15 LPA</div>  
+                                                                      <div class="sec-text">Highest Package</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="col-lg-12">
+                                                            <div class="row">
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Addmission.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Admission</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Course-&-Fee.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Course & Fees</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Placement.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Placement</div>
+                                                                 </div>
+                                                                 <div class="col-lg-3 col-3">
+                                                                      <div class="small-img">
+                                                                           <img src="../../assets/img/Study_Content_Icons/4.University_in_Canada/Review.png" width="30" alt="">
+                                                                      </div>  
+                                                                      <div class="small-img-text">Review</div>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       
+                                                       <div class="col-lg-12 ">
+                                                            <div class="row row-custom-gutter">
+                                                                 <div class="col-lg-6 col-6 bg-light-blue white-text-2">
+                                                                      <h5 class="app-now-text">APPLY NOW</h5>
+                                                                     </div>
+                                                                     <div class="col-lg-6 col-6">
+                                                                      <h5 class="brochure-text"> BROCHURE</h5>
+                                                                     </div>
+                                                            </div>
+                                                           
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             
+                                        </div>
+                                   </div>       
+                              </div>
+                              
+                    </div>
+               </div>
+
+             
+          </div>
+     </div>
+    
+</div>
+<app-chat></app-chat>
+<app-footer></app-footer>

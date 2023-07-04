@@ -1,0 +1,413 @@
+
+
+<section class="faq">
+     <div class="faq-banner">
+          <div class="col-lg-12">
+               <div class="faq-page-header text-center">
+                         <h1 class="white-text-2">FAQ</h1>
+               </div>
+          </div>
+          <div class="col-lg-12">
+               <div class="faq-page-breadcrumb text-center">
+                                   <a href="" routerLink="" class="home">
+                                        <img src="../../assets/img/services_page/Our_Services/Home.png" alt="" class="home-img">
+                                   </a>
+                                   <a href="" class="arrow">
+                                        <img src="../../assets/img/services_page/Our_Services/Arrow.png" alt="" class="arrow-img" >
+                                   </a>
+                                   <a href="" routerLink="/faq/." class="service-link">
+                                        <h5 class="white-text-2">FAQ</h5>
+                                   </a>
+               </div>
+          </div>
+     </div>
+          <div class="faq-div">
+               
+               <div class="row row-without-gutter" >
+                    <nav class="navbar navbar-expand-lg navbar-light full-width-tabs" #stickyNav  [class.stickyNav] = "stickyNav">
+                        
+                       
+                         <div class="collapse navbar-collapse bg-white" id="navbar">
+                              <ul class="nav nav-tabs nav-tabs-ul">
+                                   <li class="nav-item">
+                                     <a class="active" [ngClass]="{'nav-link': true, 'active':isActive('info')}" (click)="makeActive('info')">Study Abroad</a>
+                                   </li>
+                                   <li class="nav-item">
+                                     <a [ngClass]="{'nav-link': true, 'active':isActive('course')}" (click)="makeActive('course')">Study in India</a>
+                                   </li>
+                                   <li class="nav-item">
+                                     <a [ngClass]="{'nav-link': true, 'active':isActive('admission')}"  (click)="makeActive('admission')">Admission & Courses</a>
+                                   </li>
+                                   <li class="nav-item">
+                                     <a [ngClass]="{'nav-link': true, 'active':isActive('review')}"  (click)="makeActive('review')">VISA</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a [ngClass]="{'nav-link': true, 'active':isActive('placement')}" (click)="makeActive('placement')">General</a>
+                                   </li>
+                                   
+
+                                 </ul>
+                         </div>
+                    </nav>
+                       
+                    <div class="col-lg-9 col-12 custom-padding-right">
+                         <div id="college-content-tab">
+                              <div class="tabcontent">
+                                   <div  *ngIf="isActive('info')">
+                                        <div class="row row-without-gutter relative-row">
+                                             <p-accordion [multiple]="false" id="faq-collapse" expandIcon = "pi pi-plus" collapseIcon = "pi pi-minus">
+                                                  <div class="col-lg-12 text-center">
+                                                       <h2 class="light-blue-text">Study Abroad</h2>
+                                                  </div>
+                                                  <p>
+                                                       <p-accordionTab header="Q. What can I study abroad?" [selected]="true" class="accordionTab">
+                                                                 <p>First of all, you need to choose the course you are willing to study. There are two types of courses, short term courses, (language courses, preparatory courses, certification courses, foundation courses, etc) and long term courses (UG, PG, MBBS, MBA, Engineering, PhD. etc) you can choose from the available courses as per your qualification to study abroad.</p>
+                                                             
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. What are the requirements to study abroad? / I want to study abroad, what do I need to do that?" class="accordionTab">
+                                                            <p>You can start with the course qualification. You need the qualification of the course that you are seeking for. Apart from the educational qualification one may need following things as applicable:</p>
+                                                                <ul>
+                                                                 <li>A valid passport</li>
+                                                                 <li>A student visa </li>
+                                                                 <li> Medical insurance</li>
+                                                                 <li>Previous education qualification</li>
+                                                                 <li>A certain amount as savings in the bank account</li>
+                                                                 <li>Bank statement</li>
+                                                                </ul>
+                                                            
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Can I work while studying in foreign country?" class="accordionTab">
+                                                            <p>Some countries allow students part-time work while studying, while the regulations differ for some other countries. Normally, students are allowed to work 20 hours per week as per the visa type they are studying on.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. How much does it cost to study abroad?" class="accordionTab">
+                                                            <p>The cost of studying abroad depends on the country and the course you are choosing. On an average it costs around <b>Rs. 5 lakh to Rs. 20 lakh</b> per year in English countries and <b>Rs. 2 lakh to Rs. 8 lakh</b> in European countries.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Can I get a financial support to study abroad? / can I get any loan to study abroad?" class="accordionTab">
+                                                            <p>Yes, there are plenty of education loan options and scholarship options available for students that can help you to study abroad financially. You can apply for any education loan from the approved bank, or you can apply for the scholarship programs which help students to study abroad.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Are there any scholarships to study abroad? Which scholarship programs are helpful to study abroad?" class="accordionTab">
+                                                            <p>There are plenty of Indian Gov. as well as foreign country funded scholarship programs for students to study abroad. These programs may differ country wise or course wise or by the duration of courses. Some of them are.</p>
+                                                            <ul>
+                                                                 <li>Erasmus Mundus Joint Master Degrees</li>
+                                                                 <li>Fulbright-Nehru Master's Fellowships</li>
+                                                                 <li>Fulbright-Kalam Climate Fellowship</li>
+                                                                 <li>Fulbright-Nehru Doctoral Research Fellowships</li>
+                                                                 <li>Great Wall Program</li>
+                                                                 <li>Inlaks Scholarship</li>
+                                                                 <li>National Overseas Scholarship Scheme by the Indian Government</li>
+                                                                 <li>Orange Tulip Scholarship</li>
+                                                                 <li>GREAT Education Scholarships</li>
+                                                                 <li>Scotland’s Saltire Scholarships</li>
+                                                                 <li>The Heinrich Böll Foundation Scholarship</li>
+                                                                 <li>Narotam Sekhsaria Scholarship Program</li>
+                                                                 <li>The JN Tata Endowment for the Higher Education of Indians</li>
+                                                                 <li>Scholarships by The Lady Meherbai D Tata Education Trust</li>
+                                                                 <li>Aga Khan Foundation International Scholarship Programme</li>
+                                                                 <li>Global Study Awards</li>
+                                                                 <li>Microsoft Scholarships (Undergraduate)</li>
+                                                                 <li>Joint Japan/World Bank Graduate Scholarship Program</li>
+                                                                 <li>GyanDhan Scholarship for Postgraduate Studies Abroad</li>
+                                                            </ul>
+                                                       </p-accordionTab>
+                                                       
+                                               </p>
+                                             </p-accordion>
+                                        </div>
+                                   </div>
+                            
+                                    <div  *ngIf="isActive('course')">
+                                        <div class="row row-without-gutter relative-row">
+                                             <p-accordion [multiple]="false" id="faq-collapse" expandIcon = "pi pi-plus" collapseIcon = "pi pi-minus">
+                                                  <div class="col-lg-12 text-center">
+                                                       <h2 class="light-blue-text">Study in India</h2>
+                                                  </div>
+                                                  <p>
+                                                       <p-accordionTab header="Q. What can I study after 12th in India?" [selected]="true" class="accordionTab">
+                                                                 <p>Students can choose from the plenty of options to study in India after 12th. You can choose from BA, BBA, BCA, BE, BTech, B.Com, MBBS, BDS, BAMS, BHMS, Nursing, Architecture, BSc, BCS, Music, and many more creative and job oriented programs depending on your streams in 12th standard.</p>
+                                                             
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Is it compulsory to know the native language if I chose to study in other state?" class="accordionTab">
+                                                            <p>No, most of the courses are taught in English medium, so it is not compulsory to know the native language for such courses. Yet, it is no less than advantage for daily routine if you know the language.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Can I study for free in India?" class="accordionTab">
+                                                            <p>Depending on the course you are choosing, and the catagory you belong to, you can get free education, or fee concession and scholarship options to study in India.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Can I change my degree college once admission is done?" class="accordionTab">
+                                                            <p>For courses like BE, B.Tech, Medicine, under some clause, students can change the college after first year too provided that thy fulfill the required qualification of their targeted colleges.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Is Internship for MBBS in India compulsory?" class="accordionTab">
+                                                            <p><b>Yes,</b> internship is compulsory and it should be done from the same medical college/university as per the NMC regulations.</p>
+                                                       </p-accordionTab>
+                                                       
+                                               </p>
+                                             </p-accordion>
+                                        </div>
+                                   </div>
+                                            
+
+                                    <div  *ngIf="isActive('admission')">
+                                        <div class="row row-without-gutter relative-row">
+                                             <p-accordion [multiple]="false" id="faq-collapse" expandIcon = "pi pi-plus" collapseIcon = "pi pi-minus">
+                                                  <div class="col-lg-12 text-center">
+                                                       <h2 class="light-blue-text">Admission & Courses</h2>
+                                                  </div>
+                                                  <p>
+                                                       <p-accordionTab header="Q. What are the basic requirements for getting admission to study abroad?" [selected]="true" class="accordionTab">
+                                                                 <p>Students need a valid passport, a student visa, and need to fulfill the eligibility criteria of the course they are willing to take admission. Apart from this medical certificates and medical insurance are the important documents that one needs to have to study abroad.</p>
+                                                             
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Which are the popular courses to study abroad for Indian student?" class="accordionTab">
+                                                            <p>Indian students choose to study MBBS, MBA, Engineering, B.Tech, M.Tech in foreign universities.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Is the degree from a foreign university valid in India?" class="accordionTab">
+                                                            <p>Yes, the degree awarded by studying abroad from a foreign university is valid in India, provided that university or college is recognized by the Indian authorized organization like National Medical Commision.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Is TOEFL/IELTS compulsory to take admission abroad?" class="accordionTab">
+                                                            <p>There are several countries like Ukraine, Georgia, Nepal, Kyrgyzstan, Bangladesh and many more where students can opt to study without clearing the TOEFL/IELTS tests.</p>
+                                                       </p-accordionTab>
+                                                       
+                                               </p>
+                                             </p-accordion>
+                                        </div>
+                                   </div>
+                                             
+                                   <div  *ngIf="isActive('review')">
+                                        <div class="row row-without-gutter relative-row">
+                                             <p-accordion [multiple]="false" id="faq-collapse" expandIcon = "pi pi-plus" collapseIcon = "pi pi-minus">
+                                                  <div class="col-lg-12 text-center">
+                                                       <h2 class="light-blue-text">VISA</h2>
+                                                  </div>
+                                                  <p>
+                                                       <p-accordionTab header="Q. Is a Visa Compulsory for studying abroad?" [selected]="true" class="accordionTab">
+                                                                 <p><b>Yes,</b> students need a visa to study abroad. There are different visas for short term courses, long term courses, and visas with work permits.</p>
+                                                             
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. What type of VISA is required for studying abroad?" class="accordionTab">
+                                                            <p>You need a student visa to study abroad.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Can I work while studying on a student visa?" class="accordionTab">
+                                                            <p><b>NO,</b> you can not work on a student visa. But if you wish to work part time while studying, you can have an extra permit for that while applying for a visa or when admitted to your college.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Can I study abroad without a visa?" class="accordionTab">
+                                                            <p>Not all the countries allow it but there are few countries who allow Indian citizens to study without a visa or on a visa on arrival basis. Ex. Qatar, Mauritius, Nepal, Ecuador, Grenada, Fiji, Indonesia and others.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. How many days does it takes to get a student visa?" class="accordionTab">
+                                                            <p>It takes around 15 to 45 days to process a student visa, yet the process time totally depends on the queue and the availability of your documents.</p>
+                                                       </p-accordionTab>
+                                                       
+                                               </p>
+                                             </p-accordion>
+                                        </div>
+                                   </div>
+                                   <div  *ngIf="isActive('placement')">
+                                        <div class="row row-without-gutter relative-row">
+                                             <p-accordion [multiple]="false" id="faq-collapse" expandIcon = "pi pi-plus" collapseIcon = "pi pi-minus">
+                                                  <div class="col-lg-12 text-center">
+                                                       <h2 class="light-blue-text">General</h2>
+                                                  </div>
+                                                  <p>
+                                                       <p-accordionTab header="Q. If I am processing my application in Select Your University, why am I getting documents from Walgreens Consultancy pvt ltd.?" [selected]="true" class="accordionTab">
+                                                                 <p>Walgreens Consultancy Pvt Ltd is a parent company of Select Your University. There is no need to be worried about the documentations and other procedures with any of the names.</p>
+                                                             
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. How much time will it take to get my admission done through Select Your University?" class="accordionTab">
+                                                            <p>Once all the documents are submitted it will take around 2 weeks to confirm your admission by the respective universities. We recommend you to start the procedure around a month or 2 prior to the last date as it will take time for the visa application in between.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Is Select Your University fraud?" class="accordionTab">
+                                                            <p>No, we are not. Let history and our work answer this.Select Your University is an authentic and trustworthy educational consultancy leading in India for a decade now. Our team personally guides students, parents, visits the university authorities, ties-up with them, and even takes care of students to pick and drop at the airport. You can see the original videos and the reviews of the students and parents here.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. Where is Select Your University’s office?" class="accordionTab">
+                                                            <p>Our head office is situated at, 3FCS-05, Ansal plaza, opposite Dabur Chowk, Sector-1,Near- Income Tax Office, Vaishali, Ghaziabad, Uttar Pradesh - 201010.Our other offices for the convenience of parents and students are located in 20+ cities of India including Delhi, Mumbai, Pune, Bhopal, Lucknow and many others.</p>
+                                                       </p-accordionTab>
+                                                       <p-accordionTab header="Q. In which countries can Select Your University get your admission done?" class="accordionTab">
+                                                            <p>We have networks and tie-ups with the universities of Ukraine, Russia, Poland, Philippines, Kyrgyzstan, Kazakhstan, Uzbekistan, Hungary, Italy, Germany, Nepal, Bangladesh, and many other countries.</p>
+                                                       </p-accordionTab>
+                                                       
+                                               </p>
+                                             </p-accordion>
+                                        </div>
+                                   </div>
+                                            
+                                   
+
+                                   
+                                 
+                              </div>
+                             
+                         </div>
+                     </div>
+                    <div class="col-lg-3 col-12"> 
+                         <div class="row row-without-gutter" #stickyDiv  [class.stickyDiv] = "stickyDiv">
+                              <div class="card need-assistance">
+                                   <div class="card-header text-center">
+                                        <h5>Need Assistance</h5>
+                                   </div>
+                                   <div class="card-body">
+                                       <div class="row row-without-gutter">
+                                             <div class="col-lg-2 col-2 col-sm-2">
+                                                  <img src="../../assets/img/FAQs_Icons/3.Need_Assistance/Phone.png" alt="" class="need-assi-img">
+                                             </div>
+                                             <div class="col-lg-10 col-sm-10 col-10 border-bottom">
+                                                  <h6 class="need-assi-text">180030700033</h6>
+                                             </div>
+                                       </div>
+                                       <div class="row row-without-gutter">
+                                             <div class="col-lg-2 col-2 col-sm-2">
+                                                  <img src="../../assets/img/FAQs_Icons/3.Need_Assistance/Mobile.png" alt="" class="need-assi-img">
+                                             </div>
+                                             <div class="col-lg-10 col-sm-10 col-10 border-bottom">
+                                                  <h6 class="need-assi-text">+91 9555120101</h6>
+                                             </div>
+                                        </div>
+                                        <div class="row row-without-gutter">
+                                             <div class="col-lg-2 col-2 col-sm-2">
+                                                  <img src="../../assets/img/FAQs_Icons/3.Need_Assistance/Time.png" alt="" class="need-assi-img">
+                                             </div>
+                                             <div class="col-lg-10 col-sm-10 col-10 border-bottom">
+                                                  <h6 class="need-assi-text">Monday - Saturday (9am-6pm)</h6>
+                                             </div>
+                                        </div>
+                                        <div class="row row-without-gutter">
+                                             <div class="col-lg-2 col-2 col-sm-2">
+                                                  <img src="../../assets/img/FAQs_Icons/3.Need_Assistance/Mail.png" alt="" class="need-assi-img">
+                                             </div>
+                                             <div class="col-lg-10 col-sm-10 col-10 border-bottom">
+                                                  <h6 class="need-assi-text">info@selectyouruniversity.com</h6>
+                                             </div>
+                                        </div>
+                                        <div class="row row-without-gutter">
+                                             <div class="col-lg-2 col-2 col-sm-2">
+                                                  <img src="../../assets/img/FAQs_Icons/3.Need_Assistance/Location.png" alt="" class="need-assi-img">
+                                             </div>
+                                             <div class="col-lg-10 col-sm-10 col-10 border-bottom">
+                                                  <h6 class="need-assi-text">3fcs05, Ansal plaza, Vaishali,
+                                                       Sector-1, Near Income Tax Office,
+                                                       Ghaziabad, Uttar Pradesh -
+                                                       201010</h6>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                               <!--form starts here-->
+            <div class="form2 col-12">
+
+               <div class="container">
+                 <!-- Left Card -->
+                 <div class="row" id="row">
+ 
+ 
+                   <!-- Right Card Form 1-->
+                   <div class="col-lg-12 col-md-12" *ngIf="form5 === true">
+                     <div class="card form-card2">
+                       <h5 class="form-head2 text-center">Register Now To Apply</h5>
+                       
+                       <form [formGroup]="RegistrationForm1">
+                         <div class="form-div2">
+                           <div class="row">
+                             <div class="form-group col-lg-12 col-md-12 col-sm-6">
+                               <div class="input-group">
+                                 <div class="input-group-text bg-transparent icon2">
+                                   <i class="fa fa-user"></i>
+                                 </div>
+                                 <input class="form-control py-2 border-right-0 border form-input2" type="text"
+                                   placeholder="Full Name*" id="name" formControlName="cCandidateName" />
+                               </div>
+                               <div *ngIf="m2['cCandidateName'].touched && m2['cCandidateName'].invalid"
+                                 class="validation2">
+                                 <div *ngIf="m2['cCandidateName'].errors['required']">Please Enter Full Name</div>
+                               </div>
+                             </div>
+                             <div class="col-lg-12 col-md-12 col-sm-6">
+                               <div class="input-group">
+                                 <div class="input-group-text bg-transparent icon2">
+                                   <i class="fa fa-envelope"></i>
+                                 </div>
+                                 <input class="form-control py-2 border-right-0 border form-input2" type="text"
+                                   placeholder="Email Address*" id="email" formControlName="cEmail" />
+                               </div>
+                               <div *ngIf="m2['cEmail'].touched && m2['cEmail'].invalid" class="validation2">
+                                 <div *ngIf="m2['cEmail'].errors['required']">Please enter email address</div>
+                                 <div *ngIf="m2['cEmail'].errors['pattern']">Please enter valid email address</div>
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                         <div class="form-div2">
+                           <div class="row">
+                             <div class="col-lg-12 col-md-12 col-sm-6" id="phone">
+                               <div class="input-group">
+                                 <div class="input-group-text bg-transparent icon2">
+                                   <i class="fa fa-phone flip2"></i>
+                                 </div>
+                                 <input class="form-control py-2 border-right-0 border form-input2" type="number"
+                                   step="0.01" placeholder="Mobile Number*" id="number" formControlName="cMobile" />
+                               </div>
+                               <div *ngIf="m2['cMobile'].touched && m2['cMobile'].invalid" class="validation2">
+                                 <div *ngIf="m2['cMobile'].errors['required']">Please enter mobile number</div>
+                                 <div *ngIf="m2['cMobile'].errors['pattern']">Mobile number is not 10 digit</div>
+                               </div>
+                             </div>
+ 
+                           </div>
+                         </div>
+                         <div class="form-div2" id="form-div2">
+                           <div class="row">
+ 
+ 
+                             <div class="terms2">
+                               <p>
+                                 By submitting this form, you accept and agree to our<span style="color: cornflowerblue">
+                                   Terms of use
+                                 </span>
+                               </p>
+                             </div>
+                             <div class="row">
+                               <!-- <div class="col-lg-10 col-md-10 col-sm-10 login-block">
+                               Already Registered? Click Here To Login.
+                             </div> -->
+                               <div class="col-lg-2 col-md-2 col-sm-2">
+                                 <button type="button" class="btn submit2" [disabled]="!RegistrationForm1.valid"
+                                   (click)="submitFormS()">
+                                   SUBMIT
+                                 </button>
+ 
+                               </div>
+ 
+                             </div>
+                           </div>
+                         </div>
+                       </form>
+                     </div>
+                   </div>
+ 
+                   <div class="col-12 vh-50 d-flex justify-content-center align-items-center" *ngIf="form6 === true"
+                     id="thankyouform2">
+                     <div>
+                       <div class="mb-4 text-center">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="75" height="75"
+                           fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                           <path
+                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                         </svg>
+                       </div>
+                       <div class="text-center">
+                         <h1>Thank You !</h1>
+                         <p>Your submission has bees sent. </p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+                         </div>
+                         <div class="row row-without-gutter">
+                             
+                         </div>
+                    </div>
+               </div>
+          </div>
+     
+</section>
+<app-chat></app-chat>
+<app-footer></app-footer>
