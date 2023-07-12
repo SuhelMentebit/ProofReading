@@ -1015,12 +1015,14 @@ import * as emporiastateuniversitykansas from '../../assets/universityData/empor
 import * as endicottcollegemaine from '../../assets/universityData/endicott-college-maine'
 import * as emmausbiblecollegeiowa from '../../assets/universityData/emmaus-bible-college-iowa'
 import * as endicottcollegemassachusetts from '../../assets/universityData/endicott-college-massachusetts'
+import * as florencedarlingtontechnicalcollege from '../../assets/universityData/florence-darlington-technical-college'
 
 
 export {
 
     //amityglobalbusinessschool,
     //amityinstituteofinformationtechnologymumbai,
+    florencedarlingtontechnicalcollege,
     endicottcollegemassachusetts,
     emmausbiblecollegeiowa,
     endicottcollegemaine,

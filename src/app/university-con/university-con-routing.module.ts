@@ -47029,6 +47029,54 @@ const routes: Routes = [
 
 
 
+
+  {
+    path: 'florence-darlington-technical-college/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'florence-darlington-technical-college/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'florence-darlington-technical-college/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'florence-darlington-technical-college/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'florence-darlington-technical-college/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'florence-darlington-technical-college/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'florence-darlington-technical-college/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'florence-darlington-technical-college/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'florence-darlington-technical-college/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'florence-darlington-technical-college/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'florence-darlington-technical-college/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
 ];
 
 @NgModule({
