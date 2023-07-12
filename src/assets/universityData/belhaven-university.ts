@@ -68,11 +68,15 @@ export const belhavenuniversity = {
             title: ""
         },
         {
-            "type": "list-bollet",
+            "type": "table",
             "title": "Courses and Fees",
             "info": "Belhaven University is a private Christian liberal arts university located in Jackson, Mississippi. It offers undergraduate, graduate, and doctoral degree programs in the fields of business, education, the arts and sciences, health sciences, and professional studies.",
             "textBelowInfo": "<b>Undergraduate Programs</b>",
-            "data": [
+            "col": [
+                "Course",
+                "Tuition & Fees"
+            ],
+            "row": [
                 {
                     "Course": "<b>Bachelor of Arts (BA)</b>",
                     "Tuition & Fees": "$21,800 per year"
@@ -108,46 +112,53 @@ export const belhavenuniversity = {
             ]
         },
         {
-            "type": "list-bollet",
+            "type": "table",
             "title": "",
             "info": "Graduate Programs",
-            "data": [
-                {
-                    "Course": "<b>Master of Business Administration (MBA)</b>",
-                    "Tuition & Fees": "$20,400 per year"
-                },
-                {
-                    "Course": "<b>Master of Education (MEd)</b>",
-                    "Tuition & Fees": "$20,400 per year"
-                },
-                {
-                    "Course": "<b>Master of Science (MS)</b>",
-                    "Tuition & Fees": "$20,400 per year"
-                },
-                {
-                    "Course": "<b>Master of Arts in Christian Ministry (MACM)</b>",
-                    "Tuition & Fees": "$20,400 per year"
-                },
-                {
-                    "Course": "<b>Master of Arts in Counseling (MAC)</b>",
-                    "Tuition & Fees": "$20,400 per year"
-                },
-                {
-                    "Course": "<b>Master of Science in Nursing (MSN)</b>",
-                    "Tuition & Fees": "$20,400 per year"
-                },
-                {
-                    "Course": "<b>Master of Science in Sport Management (MSM)</b>",
-                    "Tuition & Fees": "$20,400 per year"
-                },
+            "col": [
+                "Course",
+                "Tuition & Fees"
+            ],
+            "row": [{
+                "Course": "<b>Master of Business Administration (MBA)</b>",
+                "Tuition & Fees": "$20,400 per year"
+            },
+            {
+                "Course": "<b>Master of Education (MEd)</b>",
+                "Tuition & Fees": "$20,400 per year"
+            },
+            {
+                "Course": "<b>Master of Science (MS)</b>",
+                "Tuition & Fees": "$20,400 per year"
+            },
+            {
+                "Course": "<b>Master of Arts in Christian Ministry (MACM)</b>",
+                "Tuition & Fees": "$20,400 per year"
+            },
+            {
+                "Course": "<b>Master of Arts in Counseling (MAC)</b>",
+                "Tuition & Fees": "$20,400 per year"
+            },
+            {
+                "Course": "<b>Master of Science in Nursing (MSN)</b>",
+                "Tuition & Fees": "$20,400 per year"
+            },
+            {
+                "Course": "<b>Master of Science in Sport Management (MSM)</b>",
+                "Tuition & Fees": "$20,400 per year"
+            },
             ]
         },
 
         {
-            "type": "list-bollet",
+            "type": "table",
             "title": "",
             "info": "Doctoral Programs:",
-            "data": [
+            "col": [
+                "Course",
+                "Tuition & Fees"
+            ],
+            "row": [
                 {
                     "Course": "<b>Doctor of Education(EdD)</b>",
                     "Tuition & Fees": "$20, 400 per year"

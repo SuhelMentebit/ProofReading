@@ -19,7 +19,6 @@ export const bluecliffcollegealexandria = {
         {
             "type": "list-bollet",
             "title": "Quick highlights",
-            "info": "",
             "data": [
                 "Established in 1982, Blue Cliff College-Alexandria is a private, for-profit college located in Alexandria, Louisiana.",
                 "It offers a variety of degree and certificate programs in the fields of massage therapy, medical assisting, medical coding, dental assisting, and business administration.",
@@ -32,7 +31,6 @@ export const bluecliffcollegealexandria = {
         {
             "type": "list-bollet",
             "title": "Benefits",
-            "info": "",
             "data": [
                 "Small Class Sizes: Blue Cliff College-Alexandria offers small class sizes, which allows for more individualized attention and instruction from faculty members.",
                 "Hands-On Learning: Blue Cliff College-Alexandria offers a hands-on approach to learning, giving students the opportunity to apply their knowledge in real-world scenarios.",
@@ -48,7 +46,6 @@ export const bluecliffcollegealexandria = {
         {
             "type": "list-bollet",
             "title": "Alumni",
-            "info": "",
             "data": [
                 "Morris Bart (attorney)",
                 "J. Bennett Johnston (former US Senator)",

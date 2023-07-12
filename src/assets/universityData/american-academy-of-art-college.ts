@@ -83,7 +83,6 @@ export const americanacademyofartcollege = {
             "info": "Undergraduate Programs",
             "col": [
                 "Course",
-                "Fee Structure",
                 "Tuition",
                 "Fees",
                 "Total",
@@ -91,7 +90,6 @@ export const americanacademyofartcollege = {
             "row": [
                 {
                     "Course": "<b>Bachelor of Fine Arts in Animation</b>",
-                    "Fee Structure": "",
                     "Tuition": "$42,000",
                     "Fees": "$1,200",
                     "Total": "$43,200"
@@ -99,7 +97,6 @@ export const americanacademyofartcollege = {
 
                 {
                     "Course": "<b>Bachelor of Fine Arts in Illustration</b>",
-                    "Fee Structure": "",
                     "Tuition": "$41,000",
                     "Fees": "$1,200",
                     "Total": "$42,200"
@@ -107,7 +104,6 @@ export const americanacademyofartcollege = {
 
                 {
                     "Course": "<b>Bachelor of Fine Arts in Graphic Design</b>",
-                    "Fee Structure": "",
                     "Tuition": "$41,000",
                     "Fees": "$1,200",
                     "Total": "$42,200"
@@ -115,7 +111,6 @@ export const americanacademyofartcollege = {
 
                 {
                     "Course": "<b>Bachelor of Fine Arts in Interior Design</b>",
-                    "Fee Structure": "",
                     "Tuition": "$41,000",
                     "Fees": "$1,200",
                     "Total": "$42,200"
@@ -123,7 +118,6 @@ export const americanacademyofartcollege = {
 
                 {
                     "Course": "<b>Bachelor of Fine Arts in Sculpture and Ceramics</b>",
-                    "Fee Structure": "",
                     "Tuition": "$41,000",
                     "Fees": "$1,200",
                     "Total": "$42,200"
@@ -131,7 +125,6 @@ export const americanacademyofartcollege = {
 
                 {
                     "Course": "<b>Bachelor of Fine Arts in Painting</b>",
-                    "Fee Structure": "",
                     "Tuition": "$41,000",
                     "Fees": "$1,200",
                     "Total": "$42,200"
@@ -144,7 +137,6 @@ export const americanacademyofartcollege = {
             "info": "Graduate Programs",
             "col": [
                 "Course",
-                "Fee Structure",
                 "Tuition",
                 "Fees",
                 "Total",
@@ -152,7 +144,6 @@ export const americanacademyofartcollege = {
             "row": [
                 {
                     "Course": "<b>Master of Fine Arts in Animation</b>",
-                    "Fee Structure": "",
                     "Tuition": "$45,000",
                     "Fees": "$1,200",
                     "Total": "$46,200"
@@ -160,7 +151,6 @@ export const americanacademyofartcollege = {
 
                 {
                     "Course": "<b>Master of Fine Arts in Illustration</b>",
-                    "Fee Structure": "",
                     "Tuition": "$45,000",
                     "Fees": "$1,200",
                     "Total": "$46,200"
@@ -168,7 +158,6 @@ export const americanacademyofartcollege = {
 
                 {
                     "Course": "<b>Master of Fine Arts in Graphic Design</b>",
-                    "Fee Structure": "",
                     "Tuition": "$45,000",
                     "Fees": "$1,200",
                     "Total": "$46,200"
@@ -184,7 +173,6 @@ export const americanacademyofartcollege = {
 
                 {
                     "Course": "<b>Master of Fine Arts in Sculpture and Ceramics</b>",
-                    "Fee Structure": "",
                     "Tuition": "$45,000",
                     "Fees": "$1,200",
                     "Total": "$46,200"
@@ -192,7 +180,6 @@ export const americanacademyofartcollege = {
 
                 {
                     "Course": "<b>Master of Fine Arts in Painting</b>",
-                    "Fee Structure": "",
                     "Tuition": "$45,000",
                     "Fees": "$1,200",
                     "Total": "$46,200"

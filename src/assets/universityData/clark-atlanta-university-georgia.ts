@@ -19,7 +19,6 @@ export const clarkatlantauniversitygeorgia = {
         {
             "type": "list-bollet",
             "title": "Quick highlights",
-            "info": "Clarendon College is a public community college in Clarendon, Texas. It was established in 1898 and is accredited by the Southern Association of Colleges and Schools Commission on Colleges.",
             "data": [
                 "Clark Atlanta University is a private, historically black university (HBCU) located in Atlanta, Georgia.",
                 "Founded in 1988, Clark Atlanta is the result of the consolidation of two historically black universities, Atlanta University (established in 1865) and Clark College (established in 1869).",

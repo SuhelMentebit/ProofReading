@@ -74,7 +74,7 @@ export const collegeofidaho = {
             "info": "The College of Idaho offers over 50 majors, minors, and special programs. The following list contains all the courses offered by the college along with the fee structure.",
             "textBelowInfo": "<b>Undergraduate Programs:</b>",
             "col": [
-                "Coures",
+                "Course",
                 "Tuition",
                 "Fees"
             ],
@@ -164,7 +164,7 @@ export const collegeofidaho = {
             "title": "",
             "info": "Graduate Programs:",
             "col": [
-                "Coures",
+                "Course",
                 "Tuition",
                 "Fees"
             ],

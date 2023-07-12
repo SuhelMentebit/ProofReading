@@ -100,7 +100,7 @@ export const cegepdesaintefoy = {
                 {
                     "Course": "<b>Continuing Education Program</b>",
                     "Tuition Fees": "$78.75 per hour of",
-                    "nstruction, Student A": "vity Fees - $56.50 per semester"
+                    "Student Activity Fees": "$56.50 per semester"
                 },
                 {
                     "Course": "<b>English as a Second Language Program</b>",

@@ -1,11 +1,11 @@
-export const conservatoiredemusiqueduquébecàquébec = {
+export const conservatoiredemusiqueduquebecaquebec = {
     "Title": "Conservatoire de musique du Québec à Québec,Quebec,Canada",
     "shortTitle": "Conservatoire de musique du Québec à Québec",
     "location": "Canada",
     "type": "bb",
     "rating": "vv",
     "shareLink": "www.google.com",
-    "url": "conservatoire-de-musique-du-québec-à-québec",
+    "url": "conservatoire-de-musique-du-quebec-a-quebec",
     "info": [
         {
             type: 'title',

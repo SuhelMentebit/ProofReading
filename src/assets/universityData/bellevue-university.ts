@@ -74,7 +74,7 @@ export const bellevueuniversity = {
             "type": "list-bollet",
             "title": "Courses and Fees",
             "info": "Bellevue University, Nebraska, USA offers a wide range of undergraduate and graduate courses. Here is the list of courses offered with their respective fee structure:",
-            "textBelowInfo": "<b>UNDERGRADUATE COURSES:</b>",
+            "textBelowInfo": "<b>Undergraduate Courses:</b>",
             "data": [
                 "Bachelor of Science in Accounting: $7, 040 per semester",
                 "Bachelor of Science in Business Administration: $7, 040 per semester",
@@ -91,7 +91,7 @@ export const bellevueuniversity = {
         {
             "type": "list-bollet",
             "title": "",
-            "info": "GRADUATE COURSES:",
+            "info": "Graduate Courses:",
             "data": [
                 "Master of Business Administration: $7,600 per semester",
                 "Master of Science in Accounting: $7,600 per semester",

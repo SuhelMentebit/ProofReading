@@ -322,10 +322,20 @@ export const australiancollegeofphysicaleducation = {
         {
             "type": "list-bollet",
             "title": "Hostel",
-            "info": "",
+            "info": "On-campus accommodation",
             "data": [
-                "<b>On-campus accommodation</b><br>Australian College of Physical Education (ACPE) provides a range of on-campus accommodation options for students. This includes two residence halls, a student village, and a purpose-built student village.<br>The on-campus accommodation is provided by ACPE's accommodation provider, UniLodge, and offers a range of room types and facilities. The accommodation includes single rooms, twin rooms, four and six bed apartments, and communal living spaces. Residents also have access to a range of amenities, including a recreation area, study areas, and a communal kitchen.",
-                "<b>Off-campus accommodation</b><br>There are a number of off-campus accommodation options available for students at ACPE. These include both private and shared accommodation, such as student houses, apartments, and hostel facilities.<br>There are a number of student housing providers in the area, including Student.com, which provides a range of student housing options near ACPE. Alternatively, students can search for accommodation on private rental websites such as realestate.com.au or Domain.<br>For those looking for a more budget-friendly option, there are a number of hostel facilities in the area. These include the YWCA of Sydney and Sydney International Student Hostel, which both offer a range of accommodation options at competitive prices.    ",
+                "Australian College of Physical Education (ACPE) provides a range of on-campus accommodation options for students. This includes two residence halls, a student village, and a purpose-built student village.",
+                "The on-campus accommodation is provided by ACPE's accommodation provider, UniLodge, and offers a range of room types and facilities. The accommodation includes single rooms, twin rooms, four and six bed apartments, and communal living spaces. Residents also have access to a range of amenities, including a recreation area, study areas, and a communal kitchen.",
+            ]
+        },
+        {
+            "type": "list-bollet",
+            "title": "",
+            "info": "Off-campus accommodation",
+            "data": [
+                "There are a number of off-campus accommodation options available for students at ACPE. These include both private and shared accommodation, such as student houses, apartments, and hostel facilities.",
+                "There are a number of student housing providers in the area, including Student.com, which provides a range of student housing options near ACPE. Alternatively, students can search for accommodation on private rental websites such as realestate.com.au or Domain.",
+                "For those looking for a more budget-friendly option, there are a number of hostel facilities in the area. These include the YWCA of Sydney and Sydney International Student Hostel, which both offer a range of accommodation options at competitive prices.",
             ]
         },
         {

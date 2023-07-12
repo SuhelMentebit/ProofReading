@@ -346,7 +346,6 @@ export const concordiauniversityofchicago = {
         {
             "type": "list-bollet",
             "title": "Hostel",
-            "info": "On-Campus Accommodation:",
             "data": [
                 "<b>On-Campus Accommodation</b><br>Concordia University of Chicago offers on-campus housing for its students. The University has two residence halls, both of which feature single, double, and triple occupancy rooms. All rooms are equipped with basic furnishings, and the residence halls have common areas and kitchens. Residents are provided with access to laundry facilities, Wi-Fi, and cable television.",
                 "<b>Off-Campus Hostel Facilities</b><br>Concordia University of Chicago does not offer off-campus hostel facilities. However, there are many off-campus housing options available in the surrounding area. These include private apartments, student housing complexes, and shared housing. Additionally, there are a number of hotel and motel options located in the area.",

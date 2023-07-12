@@ -155,7 +155,7 @@ export const colegmorganwgtonypandy = {
             ]
         },
         {
-            "type": "list-bollet",
+            "type": "text",
             "title": "Fee Structure",
             "data": "<p>The fee structure for each course at Coleg Morganwg varies depending on the type of course, the length of the course, and the eligibility of the student. The college offers a range of funding options, including tuition fee loans, grants, and bursaries. More information on funding options is available on the college's website.</p>"
         },

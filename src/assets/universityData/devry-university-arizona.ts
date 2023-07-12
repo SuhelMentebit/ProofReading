@@ -308,7 +308,6 @@ export const devryuniversityarizona = {
         {
             "type": "list-bollet",
             "title": "Hostel",
-            "info": "Design Institute of San Diego does not offer on-campus accommodation for students. However, there are several options for off-campus housing and hostel facilities in the San Diego area.",
             "data": [
                 "<b>On-Campus Accommodation</b><br>DeVry University, Arizona provides on-campus student housing. The university offers furnished apartments, single bedroom apartments and student townhouses. The apartments are equipped with a full kitchen, living room and bathroom. These apartments are located on the north side of campus and provide easy access to the classrooms and other university facilities.",
                 "<b>Off-Campus Accommodation</b><br>DeVry University, Arizona also provides off-campus housing options. The university offers a variety of off-campus housing options including single bedroom apartments, shared apartments and student hostels. The apartments are located close to campus and provide easy access to the classrooms and other university facilities.",

@@ -80,71 +80,71 @@ export const chapmanuniversitycalifornia = {
             ],
             "row": [
                 {
-                    "Coures": "<b>Business Administration</b>",
+                    "Course": "<b>Business Administration</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 },
                 {
-                    "Coures": "<b>Creative Producing</b>",
+                    "Course": "<b>Creative Producing</b>",
                     "Tuition & Fees": "$48,290",
                     "Room & Board": "$13,640"
                 },
                 {
-                    "Coures": "<b>Criminal Justice</b>",
+                    "Course": "<b>Criminal Justice</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 },
                 {
-                    "Coures": "<b>Data Science</b>",
+                    "Course": "<b>Data Science</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 },
                 {
-                    "Coures": "<b>Economics</b>",
+                    "Course": "<b>Economics</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 },
                 {
-                    "Coures": "<b>English</b>",
+                    "Course": "<b>English</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 },
                 {
-                    "Coures": "<b>Environmental Science & Policy</b>",
+                    "Course": "<b>Environmental Science & Policy</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 },
                 {
-                    "Coures": "<b>Film & Television Production</b>",
+                    "Course": "<b>Film & Television Production</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 },
                 {
-                    "Coures": "<b>Global & International Studies</b>",
+                    "Course": "<b>Global & International Studies</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 },
                 {
-                    "Coures": "<b>History</b>",
+                    "Course": "<b>History</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 }, {
-                    "Coures": "<b>Public Relations & Advertising</b>",
+                    "Course": "<b>Public Relations & Advertising</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 },
                 {
-                    "Coures": "<b>Psychology</b>",
+                    "Course": "<b>Psychology</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 },
                 {
-                    "Coures": "<b>Sociology</b>",
+                    "Course": "<b>Sociology</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 },
                 {
-                    "Coures": "<b>Theatre</b>",
+                    "Course": "<b>Theatre</b>",
                     "Tuition & Fees": "$49,490",
                     "Room & Board": "$13,640"
                 },

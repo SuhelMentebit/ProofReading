@@ -471,9 +471,9 @@ import * as americanintercontinentaluniversityhoustoncampus from '../../assets/u
 import * as americanintercontinentaluniversity from '../../assets/universityData/american-intercontinental-university'
 import * as americaninternationalcollege from '../../assets/universityData/american-international-college'
 import * as americannationaluniversity from '../../assets/universityData/american-national-university'
-import * as americanrivercollege from '../../assets/universityData/american-river-college'
+import * as americanrivercollege from '../../assets/universityData/american-river-college'//check
 import * as americanuniversityofhealthsciences from '../../assets/universityData/american-university-of-health-sciences'
-import * as amherstcollege from '../../assets/universityData/amherst-college'
+import * as amherstcollege from '../../assets/universityData/amherst-college' //check
 import * as amitycollegeillawarracampus from '../../assets/universityData/amity-college-illawarra-campus'
 import * as abilenechristianuniversity from '../../assets/universityData/abilene-christian-university'
 import * as abmcollegecalgarycampus from '../../assets/universityData/abm-college-calgary-campus'
@@ -514,7 +514,7 @@ import * as australianandnewzealandcollegeofanaesthetists from '../../assets/uni
 import * as australiancatholicuniversitybrisbanecampus from '../../assets/universityData/australian-catholic-university-brisbane-campus'
 import * as australiancollegeofministries from '../../assets/universityData/australian-college-of-ministries'
 import * as australiancollegeofoptometry from '../../assets/universityData/australian-college-of-optometry'
-import * as australiancollegeofphysicaleducation from '../../assets/universityData/australian-college-of-physical-education'
+import * as australiancollegeofphysicaleducation from '../../assets/universityData/australian-college-of-physical-education'//check
 import * as australiancollegeofruralandremotemedicine from '../../assets/universityData/australian-college-of-rural-and-remote-medicine'
 import * as australiancollegeoftheology from '../../assets/universityData/australian-college-of-theology'
 import * as australianfilmtelevisionandradioschool from '../../assets/universityData/australian-film-television-and-radio-school'
@@ -576,16 +576,16 @@ import * as beaufortsecondarycollege from '../../assets/universityData/beaufort-
 import * as beckercollege from '../../assets/universityData/becker-college'
 import * as beechworthsecondarycollege from '../../assets/universityData/beechworth-secondary-college'
 import * as belfastbiblecollege from '../../assets/universityData/belfast-bible-college'
-import * as belhavenuniversity from '../../assets/universityData/belhaven-university'
+import * as belhavenuniversity from '../../assets/universityData/belhaven-university'//check
 import * as bellarmineuniversity from '../../assets/universityData/bellarmine-university'
 import * as bellevuecollege from '../../assets/universityData/bellevue-college'
-import * as bellevueuniversity from '../../assets/universityData/bellevue-university'
+import * as bellevueuniversity from '../../assets/universityData/bellevue-university'//check
 import * as bellinghamtechnicalcollege from '../../assets/universityData/bellingham-technical-college'
 import * as belmontabbeycollege from '../../assets/universityData/belmont-abbey-college'
 import * as belmontuniversity from '../../assets/universityData/belmont-university'
 import * as bemidjistateuniversity from '../../assets/universityData/bemidji-state-university'
 import * as benedictcollege from '../../assets/universityData/benedict-college'
-import * as benedictinecollege from '../../assets/universityData/benedictine-college'
+import * as benedictinecollege from '../../assets/universityData/benedictine-college'//check
 import * as benedictineuniversity from '../../assets/universityData/benedictine-university'
 import * as benjaminfranklininstituteoftechnology from '../../assets/universityData/benjamin-franklin-institute-of-technology'
 import * as bennettcollege from '../../assets/universityData/bennett-college'
@@ -756,9 +756,9 @@ import * as champlaincollegevermont from '../../assets/universityData/champlain-
 import * as charlesdarwinuniversitynorthernterritory from '../../assets/universityData/charles-darwin-university-northern-territory'
 import * as champlaincollege from '../../assets/universityData/champlain-college'
 import * as chandlergilbertcommunitycollege from '../../assets/universityData/chandler-gilbert-community-college'
-import * as chapmanuniversitycalifornia from '../../assets/universityData/chapman-university-california'
+import * as chapmanuniversitycalifornia from '../../assets/universityData/chapman-university-california' //check
 import * as chattahoocheevalleycommunitycollege from '../../assets/universityData/chattahoochee-valley-community-college'
-import * as charlestonsouthernuniversitysouthcarolina from '../../assets/universityData/charleston-southern-university-south-carolina'
+import * as charlestonsouthernuniversitysouthcarolina from '../../assets/universityData/charleston-southern-university-south-carolina' // check
 import * as charteroakstatecollege from '../../assets/universityData/charter-oak-state-college'
 import * as charlessturtuniversitystudycentresmelbourne from '../../assets/universityData/charles-sturt-university-study-centres-melbourne'
 import * as charlessturtuniversitystudycentressydney from '../../assets/universityData/charles-sturt-university-study-centres-sydney'
@@ -775,7 +775,7 @@ import * as chowanuniversitynorthcarolina from '../../assets/universityData/chow
 import * as cittuggeranongaustraliancapitalterritory from '../../assets/universityData/cit-tuggeranong-australian-capital-territory'
 import * as claremontmckennacollege from '../../assets/universityData/claremont-mckenna-college'
 import * as clarendoncollegetexas from '../../assets/universityData/clarendon-college-texas'
-import * as clarkatlantauniversitygeorgia from '../../assets/universityData/clark-atlanta-university-georgia'
+import * as clarkatlantauniversitygeorgia from '../../assets/universityData/clark-atlanta-university-georgia'// check
 import * as cityofglasgowcollege from '../../assets/universityData/city-of-glasgow-college'
 import * as claflinuniversitysouthcarolina from '../../assets/universityData/claflin-university-south-carolina'
 import * as clarkeuniversityiowa from '../../assets/universityData/clarke-university-iowa'
@@ -809,9 +809,9 @@ import * as coleggwentpontypoolcampus from '../../assets/universityData/coleg-gw
 import * as coleggwentuskcampus from '../../assets/universityData/coleg-gwent-usk-campus'
 import * as colegmenaillangefni from '../../assets/universityData/coleg-menai-llangefni'
 import * as colegsantloanstjohnscollege from '../../assets/universityData/coleg-sant-loan-st-johns-college'
-import * as colegmorganwgtonypandy from '../../assets/universityData/coleg-morganwg-tonypandy'
-import * as collègeacadieÎPÉ from '../../assets/universityData/collège-acadie-Î.-P.-É'
-import * as collègedeiacadienovascotia from '../../assets/universityData/collège-de-iacadie-nova-scotia'
+import * as colegmorganwgtonypandy from '../../assets/universityData/coleg-morganwg-tonypandy'// check
+import * as collegeacadieipe from '../../assets/universityData/college-acadie-i-p-e'//check
+import * as collegedeiacadienovascotia from '../../assets/universityData/college-de-iacadie-nova-scotia'//check
 import * as colegmenaiwales from '../../assets/universityData/coleg-menai-wales'
 import * as colegllandrillorhosonsea from '../../assets/universityData/coleg-llandrillo-rhos-on-sea'
 import * as colegycymoeddystradmynachcampus from '../../assets/universityData/coleg-y-cymoedd-ystrad-mynach-campus'
@@ -826,7 +826,7 @@ import * as collegeofcoastalgeorgia from '../../assets/universityData/college-of
 import * as collegeofsaintmarynebraska from '../../assets/universityData/college-of-saint-mary-nebraska'
 import * as collegeofourladyoftheelms from '../../assets/universityData/college-of-our-lady-of-the-elms'
 import * as collegeofnewcaledonia from '../../assets/universityData/college-of-new-caledonia'
-import * as collegeofmountsaintvincent from '../../assets/universityData/college-of-mount-saint-vincent'
+import * as collegeofmountsaintvincent from '../../assets/universityData/college-of-mount-saint-vincent'//check
 import * as collegeofmedicalscience from '../../assets/universityData/college-of-medical-science'
 import * as collegeofthemainlandtexas from '../../assets/universityData/college-of-the-mainland-texas'
 import * as collegeofthemuscogeenation from '../../assets/universityData/college-of-the-muscogee-nation'
@@ -876,7 +876,7 @@ import * as concorduniversitywestvirginia from '../../assets/universityData/conc
 import * as communitycollegeoftheairforce from '../../assets/universityData/community-college-of-the-air-force'
 import * as communitycollegeofdenvercolorado from '../../assets/universityData/community-college-of-denver-colorado'
 import * as concordiacollegeminnesota from '../../assets/universityData/concordia-college-minnesota'
-import * as concordiauniversityofchicago from '../../assets/universityData/concordia-university-of-chicago'
+import * as concordiauniversityofchicago from '../../assets/universityData/concordia-university-of-chicago' // check
 import * as concordiacollegealabama from '../../assets/universityData/concordia-college-alabama'
 import * as concordiauniversityirvinecalifornia from '../../assets/universityData/concordia-university-irvine-california'
 import * as concordiauniversityannarbormichigan from '../../assets/universityData/concordia-university-ann-arbor-michigan'
@@ -887,18 +887,18 @@ import * as concordiauniversitynebraska from '../../assets/universityData/concor
 import * as concordiauniversityofedmonton from '../../assets/universityData/concordia-university-of-edmonton'
 import * as coppinstateuniversitymaryland from '../../assets/universityData/coppin-state-university-maryland'
 import * as converseuniversitysouthcarolina from '../../assets/universityData/converse-university-south-carolina'
-import * as conservatoiredemusiqueduquébecàquébec from '../../assets/universityData/conservatoire-de-musique-du-québec-à-québec'
+import * as conservatoiredemusiqueduquebecaquebec from '../../assets/universityData/conservatoire-de-musique-du-quebec-a-quebec' //check
 import * as convergentmediacentercapitaluniversity from '../../assets/universityData/convergent-media-center-capital-university'
 import * as connecticutcollegeconnecticut from '../../assets/universityData/connecticut-college-connecticut'
 import * as confederationcollegeontario from '../../assets/universityData/confederation-college-ontario'
 import * as connorsstatecollegeoklahoma from '../../assets/universityData/connors-state-college-oklahoma'
 import * as coventryuniversityengland from '../../assets/universityData/coventry-university-england'
 import * as cowleycollegekansas from '../../assets/universityData/cowley-college-kansas'
-import * as cornishcollegeoftheartswashington from '../../assets/universityData/cornish-college-of-the-arts-washington'
+import * as cornishcollegeoftheartswashington from '../../assets/universityData/cornish-college-of-the-arts-washington'//check
 import * as cotteycollegemissouri from '../../assets/universityData/cottey-college-missouri'
 import * as cornellcollegeiowa from '../../assets/universityData/cornell-college-iowa'
 import * as cossatotcommunitycollegearkansas from '../../assets/universityData/cossatot-community-college-arkansas'
-import * as coquitlamcollegecoquitlambritishcolumbia from '../../assets/universityData/coquitlam-college-coquitlam-british-columbia'
+import * as coquitlamcollegecoquitlambritishcolumbia from '../../assets/universityData/coquitlam-college-coquitlam-british-columbia'//check
 import * as cornerstoneuniversitymichigan from '../../assets/universityData/cornerstone-university-michigan'
 import * as coxcollegemissouri from '../../assets/universityData/cox-college-missouri'
 import * as corbanuniversityoregon from '../../assets/universityData/corban-university-oregon'
@@ -915,7 +915,7 @@ import * as crowncollegeminnesota from '../../assets/universityData/crown-colleg
 import * as cumberlanduniversitytennessee from '../../assets/universityData/cumberland-university-tennessee'
 import * as dakotawesleyanuniversitysouthdakota from '../../assets/universityData/dakota-wesleyan-university-south-dakota'
 import * as curtincollegewesternaustralia from '../../assets/universityData/curtin-college-western-australia'
-import * as curtisinstituteofmusicpennsylvania from '../../assets/universityData/curtis-institute-of-music-pennsylvania'
+import * as curtisinstituteofmusicpennsylvania from '../../assets/universityData/curtis-institute-of-music-pennsylvania'//check
 import * as dakotacountytechnicalcollegeminnesota from '../../assets/universityData/dakota-county-technical-college-minnesota'
 import * as dakotastateuniversitysouthdakota from '../../assets/universityData/dakota-state-university-south-dakota'
 import * as dakotacollegeatbottineaunorthdakota from '../../assets/universityData/dakota-college-at-bottineau-north-dakota'
@@ -950,14 +950,137 @@ import * as devryuniversitytexas from '../../assets/universityData/devry-univers
 import * as devrycollegeofnewyork from '../../assets/universityData/devry-college-of-new-york'
 import * as devryuniversityindiana from '../../assets/universityData/devry-university-indiana'
 import * as devryuniversityflorida from '../../assets/universityData/devry-university-florida'
-import * as devryuniversityarizona from '../../assets/universityData/devry-university-arizona'
+import * as devryuniversityarizona from '../../assets/universityData/devry-university-arizona'//check
 import * as devryuniversitynevada from '../../assets/universityData/devry-university-nevada'
+
+//completed & sent 600 jsons
+
+import * as eastarkansascommunitycollege from '../../assets/universityData/east-arkansas-community-college'
+import * as earlhamcollegeindiana from '../../assets/universityData/earlham-college-indiana'
+import * as dukeuniversitynorthcarolina from '../../assets/universityData/duke-university-north-carolina'
+import * as duquesneuniversitypennsylvania from '../../assets/universityData/duquesne-university-pennsylvania'
+import * as eaglegatecollegemurraycampusutah from '../../assets/universityData/eagle-gate-college-murray-campus-utah'
+import * as druryuniversitymissouri from '../../assets/universityData/drury-university-missouri'
+import * as drakeuniversityiowa from '../../assets/universityData/drake-university-iowa'
+import * as dordtuniversitynebraska from '../../assets/universityData/dordt-university-nebraska'
+import * as drexeluniversitypennsylvania from '../../assets/universityData/drexel-university-pennsylvania'
+import * as drewuniversitynewjersey from '../../assets/universityData/drew-university-new-jersey'
+import * as dominicanuniversityillinois from '../../assets/universityData/dominican-university-illinois'
+import * as dodgecitycommunitycollegekansas from '../../assets/universityData/dodge-city-community-college-kansas'
+import * as dordtuniversityiowa from '../../assets/universityData/dordt-university-iowa'
+import * as dominicaluniversityofcalifornia from '../../assets/universityData/dominical-university-of-california'
+import * as donnellycollegekansas from '../../assets/universityData/donnelly-college-kansas'
+import * as easternkentuckyuniversitykentucky from '../../assets/universityData/eastern-kentucky-university-kentucky'
+import * as easternarizonacollegearizona from '../../assets/universityData/eastern-arizona-college-arizona'
+import * as easterniowacommunitycollegeiowa from '../../assets/universityData/eastern-iowa-community-college-iowa'
+import * as easternconnecticutstateuniversity from '../../assets/universityData/eastern-connecticut-state-university'
+import * as easttexasbaptistuniversitytexas from '../../assets/universityData/east-texas-baptist-university-texas'
+import * as easterncollegeaustraliavictoria from '../../assets/universityData/eastern-college-australia-victoria'
+import * as eastcarolinauniversitynorthcarolina from '../../assets/universityData/east-carolina-university-north-carolina'
+import * as easttennesseestateuniversitytennessee from '../../assets/universityData/east-tennessee-state-university-tennessee'
+import * as eastcentraluniversityoklahoma from '../../assets/universityData/east-central-university-oklahoma'
+import * as easternillinoisuniversityillinois from '../../assets/universityData/eastern-illinois-university-illinois'
+import * as easternnewmexicouniversity from '../../assets/universityData/eastern-new-mexico-university'
+import * as easternnewmexicouniversityroswellnew from '../../assets/universityData/eastern-new-mexico-university-roswell-new'
+import * as easternoregonuniversityoregon from '../../assets/universityData/eastern-oregon-university-oregon'
+import * as easternnazarenecollegemassachusetts from '../../assets/universityData/eastern-nazarene-college-massachusetts'
+import * as easternmennoniteuniversityvirginia from '../../assets/universityData/eastern-mennonite-university-virginia'
+import * as easternuniversitypennsylvania from '../../assets/universityData/eastern-university-pennsylvania'
+import * as easternwashingtonuniversitywashington from '../../assets/universityData/eastern-washington-university-washington'
+import * as easternmedicalcollegecomilla from '../../assets/universityData/eastern-medical-college-comilla'
+import * as easternmainecommunitycollegemaine from '../../assets/universityData/eastern-maine-community-college-maine'
+import * as easternmichiganuniversitymichigan from '../../assets/universityData/eastern-michigan-university-michigan'
+import * as easternwestvirginiacommunityandtechnicalcollege from '../../assets/universityData/eastern-west-virginia-community-and-technical-college'
+import * as easternwyomingcollegewyoming from '../../assets/universityData/eastern-wyoming-college-wyoming'
+import * as eckerdcollegeflorida from '../../assets/universityData/eckerd-college-florida'
+import * as ecclesiacollegearkansas from '../../assets/universityData/ecclesia-college-arkansas'
+import * as ecoledetheologieevangeliqueduquebec from '../../assets/universityData/ecole-de-theologie-evangelique-du-quebec'
+import * as ecolenationaledadministrationpublique from '../../assets/universityData/ecole-nationale-dadministration-publique'
+import * as edwardwatersuniversityflorida from '../../assets/universityData/edward-waters-university-florida'
+import * as edgewoodcollegewisconsin from '../../assets/universityData/edgewood-college-wisconsin'
+import * as edithcowanuniversityjoondalupcampus from '../../assets/universityData/edith-cowan-university-joondalup-campus'
+import * as elcaminocollegecalifornia from '../../assets/universityData/el-camino-college-california'
+import * as elderconservatoriumofmusicsouthaustralia from '../../assets/universityData/elder-conservatorium-of-music-south-australia'
+import * as elonuniversitynorthcarolina from '../../assets/universityData/elon-university-north-carolina'
+import * as elmhurstuniversityillinois from '../../assets/universityData/elmhurst-university-illinois'
+import * as ellsworthcommunitycollegeiowa from '../../assets/universityData/ellsworth-community-college-iowa'
+import * as elizabethtowncollegepennsylvania from '../../assets/universityData/elizabethtown-college-pennsylvania'
+import * as embryriddleaeronauticaluniversityflorida from '../../assets/universityData/embry-riddle-aeronautical-university-florida'
+import * as emmanuelcollegegeorgia from '../../assets/universityData/emmanuel-college-georgia'
+import * as emilycarruniversityofartanddesign from '../../assets/universityData/emily-carr-university-of-art-and-design'
+import * as embryriddleaeronauticaluniversityprescott from '../../assets/universityData/embry-riddle-aeronautical-university-prescott'
+import * as emersoncollegemassachusetts from '../../assets/universityData/emerson-college-massachusetts'
+import * as endeavourcollegeofnaturalhealthbrisbanecampus from '../../assets/universityData/endeavour-college-of-natural-health-brisbane-campus'
+import * as emporiastateuniversitykansas from '../../assets/universityData/emporia-state-university-kansas'
+import * as endicottcollegemaine from '../../assets/universityData/endicott-college-maine'
+import * as emmausbiblecollegeiowa from '../../assets/universityData/emmaus-bible-college-iowa'
+import * as endicottcollegemassachusetts from '../../assets/universityData/endicott-college-massachusetts'
 
 
 export {
 
     //amityglobalbusinessschool,
     //amityinstituteofinformationtechnologymumbai,
+    endicottcollegemassachusetts,
+    emmausbiblecollegeiowa,
+    endicottcollegemaine,
+    emporiastateuniversitykansas,
+    endeavourcollegeofnaturalhealthbrisbanecampus,
+    emersoncollegemassachusetts,
+    embryriddleaeronauticaluniversityprescott,
+    emilycarruniversityofartanddesign,
+    emmanuelcollegegeorgia,
+    embryriddleaeronauticaluniversityflorida,
+    elizabethtowncollegepennsylvania,
+    ellsworthcommunitycollegeiowa,
+    elmhurstuniversityillinois,
+    elonuniversitynorthcarolina,
+    elderconservatoriumofmusicsouthaustralia,
+    elcaminocollegecalifornia,
+    edithcowanuniversityjoondalupcampus,
+    edgewoodcollegewisconsin,
+    edwardwatersuniversityflorida,
+    ecolenationaledadministrationpublique,
+    ecoledetheologieevangeliqueduquebec,
+    ecclesiacollegearkansas,
+    eckerdcollegeflorida,
+    easternwyomingcollegewyoming,
+    easternwestvirginiacommunityandtechnicalcollege,
+    easternmichiganuniversitymichigan,
+    easternmainecommunitycollegemaine,
+    easternmedicalcollegecomilla,
+    easternwashingtonuniversitywashington,
+    easternuniversitypennsylvania,
+    easternmennoniteuniversityvirginia,
+    easternnazarenecollegemassachusetts,
+    easternoregonuniversityoregon,
+    easternnewmexicouniversityroswellnew,
+    easternnewmexicouniversity,
+    easternillinoisuniversityillinois,
+    eastcentraluniversityoklahoma,
+    easttennesseestateuniversitytennessee,
+    eastcarolinauniversitynorthcarolina,
+    easterncollegeaustraliavictoria,
+    easttexasbaptistuniversitytexas,
+    easternconnecticutstateuniversity,
+    easterniowacommunitycollegeiowa,
+    easternarizonacollegearizona,
+    easternkentuckyuniversitykentucky,
+    donnellycollegekansas,
+    dominicaluniversityofcalifornia,
+    dordtuniversityiowa,
+    dodgecitycommunitycollegekansas,
+    dominicanuniversityillinois,
+    drewuniversitynewjersey,
+    drexeluniversitypennsylvania,
+    dordtuniversitynebraska,
+    drakeuniversityiowa,
+    druryuniversitymissouri,
+    eaglegatecollegemurraycampusutah,
+    duquesneuniversitypennsylvania,
+    dukeuniversitynorthcarolina,
+    earlhamcollegeindiana,
+    eastarkansascommunitycollege,
     devryuniversitynevada,
     devryuniversityarizona,
     devryuniversityflorida,
@@ -1022,7 +1145,7 @@ export {
     confederationcollegeontario,
     connecticutcollegeconnecticut,
     convergentmediacentercapitaluniversity,
-    conservatoiredemusiqueduquébecàquébec,
+    conservatoiredemusiqueduquebecaquebec,
     converseuniversitysouthcarolina,
     coppinstateuniversitymaryland,
     concordiauniversityofedmonton,
@@ -1098,8 +1221,8 @@ export {
     colegycymoeddystradmynachcampus,
     colegllandrillorhosonsea,
     colegmenaiwales,
-    collègedeiacadienovascotia,
-    collègeacadieÎPÉ,
+    collegedeiacadienovascotia,
+    collegeacadieipe,
     colegmorganwgtonypandy,
     colegsantloanstjohnscollege,
     colegmenaillangefni,

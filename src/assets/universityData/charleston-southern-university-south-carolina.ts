@@ -75,7 +75,7 @@ export const charlestonsouthernuniversitysouthcarolina = {
             "info": "Charleston Southern University offers a range of undergraduate and graduate programs. The following is a list of courses offered at Charleston Southern University, along with the associated fee structure.",
             "textBelowInfo": "<b>Undergraduate Programs:</b>",
             "col": [
-                "course",
+                "Course",
                 "Tuition",
                 "Fee"
             ],
@@ -152,7 +152,7 @@ export const charlestonsouthernuniversitysouthcarolina = {
             "title": "",
             "info": "Graduate Programs:",
             "col": [
-                "course",
+                "Course",
                 "Tuition",
                 "Fee"
             ],

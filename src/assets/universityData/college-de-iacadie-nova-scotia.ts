@@ -1,11 +1,11 @@
-export const collègedeiacadienovascotia = {
+export const collegedeiacadienovascotia = {
     "Title": "Collège de lAcadie,Nova Scotia,Canada",
     "shortTitle": "Collège de lAcadie,Nova Scotia",
     "location": "Canada",
     "type": "bb",
     "rating": "vv",
     "shareLink": "www.google.com",
-    "url": "collège-de-iacadie-nova-scotia",
+    "url": "college-de-iacadie-nova-scotia",
     "info": [
         {
             type: 'title',

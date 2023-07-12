@@ -154,7 +154,7 @@ export const americanrivercollege = {
             ]
         },
         {
-            "type": "step-list",
+            "type": "list-bollet",
             "title": "How to Apply ?",
             "info": "Students from India who are interested in applying for admission at American River College (ARC) in California, USA, must follow the steps outlined below.",
             "data": [

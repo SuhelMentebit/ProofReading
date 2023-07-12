@@ -37562,94 +37562,94 @@ const routes: Routes = [
 
 
   {
-    path: 'collège-acadie-Î.-P.-É/.',
+    path: 'college-acadie-i-p-e/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-acadie-Î.-P.-É/courses-and-fees/.',
+    path: 'college-acadie-i-p-e/courses-and-fees/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-acadie-Î.-P.-É/admission/.',
+    path: 'college-acadie-i-p-e/admission/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-acadie-Î.-P.-É/review/.',
+    path: 'college-acadie-i-p-e/review/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-acadie-Î.-P.-É/placement/.',
+    path: 'college-acadie-i-p-e/placement/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-acadie-Î.-P.-É/gallery/.',
+    path: 'college-acadie-i-p-e/gallery/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-acadie-Î.-P.-É/scholarship/.',
+    path: 'college-acadie-i-p-e/scholarship/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-acadie-Î.-P.-É/faculty/.',
+    path: 'college-acadie-i-p-e/faculty/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-acadie-Î.-P.-É/news/.',
+    path: 'college-acadie-i-p-e/news/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-acadie-Î.-P.-É/hostel/.',
+    path: 'college-acadie-i-p-e/hostel/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-acadie-Î.-P.-É/faq/.',
+    path: 'college-acadie-i-p-e/faq/.',
     component: UniversityConComponent
   },
 
 
 
   {
-    path: 'collège-de-iacadie-nova-scotia/.',
+    path: 'college-de-iacadie-nova-scotia/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-de-iacadie-nova-scotia/courses-and-fees/.',
+    path: 'college-de-iacadie-nova-scotia/courses-and-fees/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-de-iacadie-nova-scotia/admission/.',
+    path: 'college-de-iacadie-nova-scotia/admission/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-de-iacadie-nova-scotia/review/.',
+    path: 'college-de-iacadie-nova-scotia/review/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-de-iacadie-nova-scotia/placement/.',
+    path: 'college-de-iacadie-nova-scotia/placement/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-de-iacadie-nova-scotia/gallery/.',
+    path: 'college-de-iacadie-nova-scotia/gallery/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-de-iacadie-nova-scotia/scholarship/.',
+    path: 'college-de-iacadie-nova-scotia/scholarship/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-de-iacadie-nova-scotia/faculty/.',
+    path: 'college-de-iacadie-nova-scotia/faculty/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-de-iacadie-nova-scotia/news/.',
+    path: 'college-de-iacadie-nova-scotia/news/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-de-iacadie-nova-scotia/hostel/.',
+    path: 'college-de-iacadie-nova-scotia/hostel/.',
     component: UniversityConComponent
   },
   {
-    path: 'collège-de-iacadie-nova-scotia/faq/.',
+    path: 'college-de-iacadie-nova-scotia/faq/.',
     component: UniversityConComponent
   },
 
@@ -41134,47 +41134,47 @@ const routes: Routes = [
 
 
   {
-    path: 'conservatoire-de-musique-du-québec-à-québec/.',
+    path: 'conservatoire-de-musique-du-quebec-a-quebec/.',
     component: UniversityConComponent
   },
   {
-    path: 'conservatoire-de-musique-du-québec-à-québec/courses-and-fees/.',
+    path: 'conservatoire-de-musique-du-quebec-a-quebec/courses-and-fees/.',
     component: UniversityConComponent
   },
   {
-    path: 'conservatoire-de-musique-du-québec-à-québec/admission/.',
+    path: 'conservatoire-de-musique-du-quebec-a-quebec/admission/.',
     component: UniversityConComponent
   },
   {
-    path: 'conservatoire-de-musique-du-québec-à-québec/review/.',
+    path: 'conservatoire-de-musique-du-quebec-a-quebec/review/.',
     component: UniversityConComponent
   },
   {
-    path: 'conservatoire-de-musique-du-québec-à-québec/placement/.',
+    path: 'conservatoire-de-musique-du-quebec-a-quebec/placement/.',
     component: UniversityConComponent
   },
   {
-    path: 'conservatoire-de-musique-du-québec-à-québec/gallery/.',
+    path: 'conservatoire-de-musique-du-quebec-a-quebec/gallery/.',
     component: UniversityConComponent
   },
   {
-    path: 'conservatoire-de-musique-du-québec-à-québec/scholarship/.',
+    path: 'conservatoire-de-musique-du-quebec-a-quebec/scholarship/.',
     component: UniversityConComponent
   },
   {
-    path: 'conservatoire-de-musique-du-québec-à-québec/faculty/.',
+    path: 'conservatoire-de-musique-du-quebec-a-quebec/faculty/.',
     component: UniversityConComponent
   },
   {
-    path: 'conservatoire-de-musique-du-québec-à-québec/news/.',
+    path: 'conservatoire-de-musique-du-quebec-a-quebec/news/.',
     component: UniversityConComponent
   },
   {
-    path: 'conservatoire-de-musique-du-québec-à-québec/hostel/.',
+    path: 'conservatoire-de-musique-du-quebec-a-quebec/hostel/.',
     component: UniversityConComponent
   },
   {
-    path: 'conservatoire-de-musique-du-québec-à-québec/faq/.',
+    path: 'conservatoire-de-musique-du-quebec-a-quebec/faq/.',
     component: UniversityConComponent
   },
 
@@ -44185,6 +44185,2849 @@ const routes: Routes = [
     path: 'devry-university-nevada/faq/.',
     component: UniversityConComponent
   },
+
+
+  //completed & sent 600 jsons
+  {
+    path: 'east-arkansas-community-college/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-arkansas-community-college/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-arkansas-community-college/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-arkansas-community-college/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-arkansas-community-college/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-arkansas-community-college/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-arkansas-community-college/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-arkansas-community-college/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-arkansas-community-college/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-arkansas-community-college/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-arkansas-community-college/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'earlham-college-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'earlham-college-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'earlham-college-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'earlham-college-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'earlham-college-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'earlham-college-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'earlham-college-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'earlham-college-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'earlham-college-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'earlham-college-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'earlham-college-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'duke-university-north-carolina/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duke-university-north-carolina/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duke-university-north-carolina/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duke-university-north-carolina/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duke-university-north-carolina/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duke-university-north-carolina/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duke-university-north-carolina/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duke-university-north-carolina/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duke-university-north-carolina/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duke-university-north-carolina/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duke-university-north-carolina/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'duquesne-university-pennsylvania/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duquesne-university-pennsylvania/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duquesne-university-pennsylvania/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duquesne-university-pennsylvania/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duquesne-university-pennsylvania/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duquesne-university-pennsylvania/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duquesne-university-pennsylvania/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duquesne-university-pennsylvania/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duquesne-university-pennsylvania/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duquesne-university-pennsylvania/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'duquesne-university-pennsylvania/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eagle-gate-college-murray-campus-utah/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eagle-gate-college-murray-campus-utah/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eagle-gate-college-murray-campus-utah/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eagle-gate-college-murray-campus-utah/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eagle-gate-college-murray-campus-utah/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eagle-gate-college-murray-campus-utah/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eagle-gate-college-murray-campus-utah/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eagle-gate-college-murray-campus-utah/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eagle-gate-college-murray-campus-utah/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eagle-gate-college-murray-campus-utah/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eagle-gate-college-murray-campus-utah/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'drury-university-missouri/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drury-university-missouri/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drury-university-missouri/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drury-university-missouri/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drury-university-missouri/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drury-university-missouri/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drury-university-missouri/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drury-university-missouri/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drury-university-missouri/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drury-university-missouri/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drury-university-missouri/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'drake-university-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drake-university-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drake-university-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drake-university-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drake-university-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drake-university-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drake-university-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drake-university-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drake-university-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drake-university-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drake-university-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'dordt-university-nebraska/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-nebraska/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-nebraska/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-nebraska/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-nebraska/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-nebraska/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-nebraska/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-nebraska/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-nebraska/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-nebraska/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-nebraska/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'drexel-university-pennsylvania/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drexel-university-pennsylvania/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drexel-university-pennsylvania/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drexel-university-pennsylvania/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drexel-university-pennsylvania/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drexel-university-pennsylvania/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drexel-university-pennsylvania/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drexel-university-pennsylvania/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drexel-university-pennsylvania/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drexel-university-pennsylvania/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drexel-university-pennsylvania/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'drew-university-new-jersey/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drew-university-new-jersey/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drew-university-new-jersey/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drew-university-new-jersey/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drew-university-new-jersey/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drew-university-new-jersey/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drew-university-new-jersey/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drew-university-new-jersey/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drew-university-new-jersey/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drew-university-new-jersey/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'drew-university-new-jersey/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'dominican-university-illinois/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominican-university-illinois/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominican-university-illinois/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominican-university-illinois/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominican-university-illinois/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominican-university-illinois/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominican-university-illinois/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominican-university-illinois/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominican-university-illinois/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominican-university-illinois/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominican-university-illinois/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'dodge-city-community-college-kansas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dodge-city-community-college-kansas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dodge-city-community-college-kansas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dodge-city-community-college-kansas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dodge-city-community-college-kansas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dodge-city-community-college-kansas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dodge-city-community-college-kansas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dodge-city-community-college-kansas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dodge-city-community-college-kansas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dodge-city-community-college-kansas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dodge-city-community-college-kansas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'dordt-university-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dordt-university-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'dominical-university-of-california/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominical-university-of-california/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominical-university-of-california/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominical-university-of-california/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominical-university-of-california/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominical-university-of-california/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominical-university-of-california/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominical-university-of-california/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominical-university-of-california/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominical-university-of-california/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'dominical-university-of-california/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'donnelly-college-kansas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'donnelly-college-kansas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'donnelly-college-kansas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'donnelly-college-kansas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'donnelly-college-kansas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'donnelly-college-kansas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'donnelly-college-kansas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'donnelly-college-kansas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'donnelly-college-kansas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'donnelly-college-kansas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'donnelly-college-kansas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-kentucky-university-kentucky/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-kentucky-university-kentucky/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-kentucky-university-kentucky/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-kentucky-university-kentucky/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-kentucky-university-kentucky/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-kentucky-university-kentucky/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-kentucky-university-kentucky/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-kentucky-university-kentucky/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-kentucky-university-kentucky/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-kentucky-university-kentucky/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-kentucky-university-kentucky/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-arizona-college-arizona/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-arizona-college-arizona/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-arizona-college-arizona/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-arizona-college-arizona/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-arizona-college-arizona/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-arizona-college-arizona/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-arizona-college-arizona/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-arizona-college-arizona/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-arizona-college-arizona/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-arizona-college-arizona/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-arizona-college-arizona/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-iowa-community-college-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-iowa-community-college-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-iowa-community-college-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-iowa-community-college-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-iowa-community-college-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-iowa-community-college-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-iowa-community-college-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-iowa-community-college-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-iowa-community-college-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-iowa-community-college-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-iowa-community-college-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-connecticut-state-university/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-connecticut-state-university/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-connecticut-state-university/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-connecticut-state-university/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-connecticut-state-university/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-connecticut-state-university/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-connecticut-state-university/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-connecticut-state-university/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-connecticut-state-university/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-connecticut-state-university/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-connecticut-state-university/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'east-texas-baptist-university-texas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-texas-baptist-university-texas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-texas-baptist-university-texas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-texas-baptist-university-texas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-texas-baptist-university-texas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-texas-baptist-university-texas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-texas-baptist-university-texas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-texas-baptist-university-texas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-texas-baptist-university-texas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-texas-baptist-university-texas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-texas-baptist-university-texas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-college-australia-victoria/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-college-australia-victoria/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-college-australia-victoria/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-college-australia-victoria/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-college-australia-victoria/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-college-australia-victoria/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-college-australia-victoria/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-college-australia-victoria/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-college-australia-victoria/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-college-australia-victoria/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-college-australia-victoria/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'east-carolina-university-north-carolina/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-carolina-university-north-carolina/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-carolina-university-north-carolina/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-carolina-university-north-carolina/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-carolina-university-north-carolina/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-carolina-university-north-carolina/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-carolina-university-north-carolina/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-carolina-university-north-carolina/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-carolina-university-north-carolina/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-carolina-university-north-carolina/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-carolina-university-north-carolina/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'east-tennessee-state-university-tennessee/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-tennessee-state-university-tennessee/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-tennessee-state-university-tennessee/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-tennessee-state-university-tennessee/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-tennessee-state-university-tennessee/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-tennessee-state-university-tennessee/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-tennessee-state-university-tennessee/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-tennessee-state-university-tennessee/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-tennessee-state-university-tennessee/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-tennessee-state-university-tennessee/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-tennessee-state-university-tennessee/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'east-central-university-oklahoma/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-central-university-oklahoma/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-central-university-oklahoma/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-central-university-oklahoma/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-central-university-oklahoma/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-central-university-oklahoma/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-central-university-oklahoma/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-central-university-oklahoma/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-central-university-oklahoma/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-central-university-oklahoma/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'east-central-university-oklahoma/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-illinois-university-illinois/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-illinois-university-illinois/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-illinois-university-illinois/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-illinois-university-illinois/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-illinois-university-illinois/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-illinois-university-illinois/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-illinois-university-illinois/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-illinois-university-illinois/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-illinois-university-illinois/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-illinois-university-illinois/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-illinois-university-illinois/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-new-mexico-university/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-new-mexico-university-roswell-new/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university-roswell-new/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university-roswell-new/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university-roswell-new/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university-roswell-new/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university-roswell-new/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university-roswell-new/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university-roswell-new/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university-roswell-new/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university-roswell-new/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-new-mexico-university-roswell-new/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-oregon-university-oregon/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-oregon-university-oregon/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-oregon-university-oregon/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-oregon-university-oregon/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-oregon-university-oregon/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-oregon-university-oregon/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-oregon-university-oregon/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-oregon-university-oregon/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-oregon-university-oregon/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-oregon-university-oregon/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-oregon-university-oregon/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-nazarene-college-massachusetts/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-nazarene-college-massachusetts/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-nazarene-college-massachusetts/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-nazarene-college-massachusetts/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-nazarene-college-massachusetts/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-nazarene-college-massachusetts/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-nazarene-college-massachusetts/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-nazarene-college-massachusetts/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-nazarene-college-massachusetts/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-nazarene-college-massachusetts/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-nazarene-college-massachusetts/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-mennonite-university-virginia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-mennonite-university-virginia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-mennonite-university-virginia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-mennonite-university-virginia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-mennonite-university-virginia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-mennonite-university-virginia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-mennonite-university-virginia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-mennonite-university-virginia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-mennonite-university-virginia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-mennonite-university-virginia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-mennonite-university-virginia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-university-pennsylvania/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-university-pennsylvania/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-university-pennsylvania/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-university-pennsylvania/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-university-pennsylvania/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-university-pennsylvania/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-university-pennsylvania/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-university-pennsylvania/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-university-pennsylvania/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-university-pennsylvania/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-university-pennsylvania/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-washington-university-washington/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-washington-university-washington/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-washington-university-washington/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-washington-university-washington/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-washington-university-washington/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-washington-university-washington/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-washington-university-washington/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-washington-university-washington/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-washington-university-washington/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-washington-university-washington/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-washington-university-washington/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-medical-college-comilla/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-medical-college-comilla/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-medical-college-comilla/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-medical-college-comilla/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-medical-college-comilla/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-medical-college-comilla/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-medical-college-comilla/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-medical-college-comilla/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-medical-college-comilla/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-medical-college-comilla/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-medical-college-comilla/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-maine-community-college-maine/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-maine-community-college-maine/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-maine-community-college-maine/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-maine-community-college-maine/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-maine-community-college-maine/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-maine-community-college-maine/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-maine-community-college-maine/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-maine-community-college-maine/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-maine-community-college-maine/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-maine-community-college-maine/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-maine-community-college-maine/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-michigan-university-michigan/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-michigan-university-michigan/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-michigan-university-michigan/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-michigan-university-michigan/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-michigan-university-michigan/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-michigan-university-michigan/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-michigan-university-michigan/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-michigan-university-michigan/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-michigan-university-michigan/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-michigan-university-michigan/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-michigan-university-michigan/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-west-virginia-community-and-technical-college/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-west-virginia-community-and-technical-college/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-west-virginia-community-and-technical-college/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-west-virginia-community-and-technical-college/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-west-virginia-community-and-technical-college/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-west-virginia-community-and-technical-college/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-west-virginia-community-and-technical-college/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-west-virginia-community-and-technical-college/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-west-virginia-community-and-technical-college/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-west-virginia-community-and-technical-college/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-west-virginia-community-and-technical-college/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eastern-wyoming-college-wyoming/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-wyoming-college-wyoming/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-wyoming-college-wyoming/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-wyoming-college-wyoming/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-wyoming-college-wyoming/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-wyoming-college-wyoming/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-wyoming-college-wyoming/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-wyoming-college-wyoming/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-wyoming-college-wyoming/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-wyoming-college-wyoming/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eastern-wyoming-college-wyoming/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'eckerd-college-florida/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eckerd-college-florida/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eckerd-college-florida/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eckerd-college-florida/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eckerd-college-florida/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eckerd-college-florida/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eckerd-college-florida/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eckerd-college-florida/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eckerd-college-florida/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eckerd-college-florida/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'eckerd-college-florida/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'ecclesia-college-arkansas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecclesia-college-arkansas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecclesia-college-arkansas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecclesia-college-arkansas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecclesia-college-arkansas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecclesia-college-arkansas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecclesia-college-arkansas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecclesia-college-arkansas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecclesia-college-arkansas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecclesia-college-arkansas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecclesia-college-arkansas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'ecole-de-theologie-evangelique-du-quebec/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-de-theologie-evangelique-du-quebec/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-de-theologie-evangelique-du-quebec/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-de-theologie-evangelique-du-quebec/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-de-theologie-evangelique-du-quebec/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-de-theologie-evangelique-du-quebec/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-de-theologie-evangelique-du-quebec/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-de-theologie-evangelique-du-quebec/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-de-theologie-evangelique-du-quebec/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-de-theologie-evangelique-du-quebec/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-de-theologie-evangelique-du-quebec/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'ecole-nationale-dadministration-publique/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-nationale-dadministration-publique/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-nationale-dadministration-publique/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-nationale-dadministration-publique/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-nationale-dadministration-publique/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-nationale-dadministration-publique/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-nationale-dadministration-publique/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-nationale-dadministration-publique/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-nationale-dadministration-publique/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-nationale-dadministration-publique/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ecole-nationale-dadministration-publique/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'edward-waters-university-florida/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edward-waters-university-florida/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edward-waters-university-florida/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edward-waters-university-florida/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edward-waters-university-florida/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edward-waters-university-florida/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edward-waters-university-florida/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edward-waters-university-florida/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edward-waters-university-florida/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edward-waters-university-florida/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edward-waters-university-florida/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'edgewood-college-wisconsin/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edgewood-college-wisconsin/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edgewood-college-wisconsin/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edgewood-college-wisconsin/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edgewood-college-wisconsin/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edgewood-college-wisconsin/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edgewood-college-wisconsin/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edgewood-college-wisconsin/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edgewood-college-wisconsin/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edgewood-college-wisconsin/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edgewood-college-wisconsin/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'edith-cowan-university-joondalup-campus/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edith-cowan-university-joondalup-campus/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edith-cowan-university-joondalup-campus/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edith-cowan-university-joondalup-campus/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edith-cowan-university-joondalup-campus/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edith-cowan-university-joondalup-campus/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edith-cowan-university-joondalup-campus/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edith-cowan-university-joondalup-campus/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edith-cowan-university-joondalup-campus/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edith-cowan-university-joondalup-campus/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'edith-cowan-university-joondalup-campus/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'el-camino-college-california/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'el-camino-college-california/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'el-camino-college-california/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'el-camino-college-california/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'el-camino-college-california/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'el-camino-college-california/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'el-camino-college-california/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'el-camino-college-california/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'el-camino-college-california/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'el-camino-college-california/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'el-camino-college-california/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'elder-conservatorium-of-music-south-australia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elder-conservatorium-of-music-south-australia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elder-conservatorium-of-music-south-australia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elder-conservatorium-of-music-south-australia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elder-conservatorium-of-music-south-australia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elder-conservatorium-of-music-south-australia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elder-conservatorium-of-music-south-australia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elder-conservatorium-of-music-south-australia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elder-conservatorium-of-music-south-australia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elder-conservatorium-of-music-south-australia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elder-conservatorium-of-music-south-australia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'elon-university-north-carolina/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elon-university-north-carolina/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elon-university-north-carolina/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elon-university-north-carolina/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elon-university-north-carolina/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elon-university-north-carolina/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elon-university-north-carolina/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elon-university-north-carolina/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elon-university-north-carolina/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elon-university-north-carolina/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elon-university-north-carolina/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'elmhurst-university-illinois/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elmhurst-university-illinois/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elmhurst-university-illinois/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elmhurst-university-illinois/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elmhurst-university-illinois/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elmhurst-university-illinois/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elmhurst-university-illinois/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elmhurst-university-illinois/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elmhurst-university-illinois/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elmhurst-university-illinois/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elmhurst-university-illinois/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'ellsworth-community-college-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ellsworth-community-college-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ellsworth-community-college-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ellsworth-community-college-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ellsworth-community-college-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ellsworth-community-college-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ellsworth-community-college-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ellsworth-community-college-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ellsworth-community-college-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ellsworth-community-college-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'ellsworth-community-college-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'elizabethtown-college-pennsylvania/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elizabethtown-college-pennsylvania/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elizabethtown-college-pennsylvania/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elizabethtown-college-pennsylvania/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elizabethtown-college-pennsylvania/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elizabethtown-college-pennsylvania/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elizabethtown-college-pennsylvania/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elizabethtown-college-pennsylvania/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elizabethtown-college-pennsylvania/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elizabethtown-college-pennsylvania/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'elizabethtown-college-pennsylvania/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'embry-riddle-aeronautical-university-florida/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-florida/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-florida/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-florida/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-florida/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-florida/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-florida/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-florida/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-florida/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-florida/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-florida/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+
+  {
+    path: 'emmanuel-college-georgia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmanuel-college-georgia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmanuel-college-georgia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmanuel-college-georgia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmanuel-college-georgia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmanuel-college-georgia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmanuel-college-georgia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmanuel-college-georgia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmanuel-college-georgia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmanuel-college-georgia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmanuel-college-georgia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+
+  {
+    path: 'emily-carr-university-of-art-and-design/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emily-carr-university-of-art-and-design/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emily-carr-university-of-art-and-design/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emily-carr-university-of-art-and-design/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emily-carr-university-of-art-and-design/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emily-carr-university-of-art-and-design/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emily-carr-university-of-art-and-design/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emily-carr-university-of-art-and-design/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emily-carr-university-of-art-and-design/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emily-carr-university-of-art-and-design/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emily-carr-university-of-art-and-design/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+
+  {
+    path: 'embry-riddle-aeronautical-university-prescott/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-prescott/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-prescott/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-prescott/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-prescott/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-prescott/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-prescott/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-prescott/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-prescott/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-prescott/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'embry-riddle-aeronautical-university-prescott/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+
+  {
+    path: 'emerson-college-massachusetts/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emerson-college-massachusetts/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emerson-college-massachusetts/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emerson-college-massachusetts/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emerson-college-massachusetts/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emerson-college-massachusetts/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emerson-college-massachusetts/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emerson-college-massachusetts/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emerson-college-massachusetts/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emerson-college-massachusetts/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emerson-college-massachusetts/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'endeavour-college-of-natural-health-brisbane-campus/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endeavour-college-of-natural-health-brisbane-campus/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endeavour-college-of-natural-health-brisbane-campus/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endeavour-college-of-natural-health-brisbane-campus/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endeavour-college-of-natural-health-brisbane-campus/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endeavour-college-of-natural-health-brisbane-campus/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endeavour-college-of-natural-health-brisbane-campus/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endeavour-college-of-natural-health-brisbane-campus/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endeavour-college-of-natural-health-brisbane-campus/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endeavour-college-of-natural-health-brisbane-campus/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endeavour-college-of-natural-health-brisbane-campus/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'emporia-state-university-kansas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emporia-state-university-kansas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emporia-state-university-kansas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emporia-state-university-kansas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emporia-state-university-kansas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emporia-state-university-kansas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emporia-state-university-kansas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emporia-state-university-kansas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emporia-state-university-kansas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emporia-state-university-kansas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emporia-state-university-kansas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'endicott-college-maine/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-maine/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-maine/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-maine/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-maine/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-maine/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-maine/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-maine/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-maine/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-maine/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-maine/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'emmaus-bible-college-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmaus-bible-college-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmaus-bible-college-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmaus-bible-college-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmaus-bible-college-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmaus-bible-college-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmaus-bible-college-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmaus-bible-college-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmaus-bible-college-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmaus-bible-college-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'emmaus-bible-college-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'endicott-college-massachusetts/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-massachusetts/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-massachusetts/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-massachusetts/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-massachusetts/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-massachusetts/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-massachusetts/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-massachusetts/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-massachusetts/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-massachusetts/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'endicott-college-massachusetts/faq/.',
+    component: UniversityConComponent
+  },
+
+
 
 ];
 

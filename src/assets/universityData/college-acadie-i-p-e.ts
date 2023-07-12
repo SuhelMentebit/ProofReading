@@ -1,11 +1,11 @@
-export const collègeacadieÎPÉ = {
+export const collegeacadieipe = {
     "Title": "Collège Acadie Î.-P.-É. (Collège Acadie),Prince Edward Island,Canada",
     "shortTitle": "Collège Acadie Î.-P.-É. (Collège Acadie)",
     "location": "Canada",
     "type": "bb",
     "rating": "vv",
     "shareLink": "www.google.com",
-    "url": "collège-acadie-Î.-P.-É",
+    "url": "college-acadie-i-p-e",
     "info": [
         {
             type: 'title',

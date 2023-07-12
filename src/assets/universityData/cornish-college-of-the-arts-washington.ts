@@ -324,7 +324,7 @@ export const cornishcollegeoftheartswashington = {
             "type": "list-bollet",
             "title": "",
             "info": "Accommodation and Hostel Facilities Off-Campus",
-            "textBelowInfo": "<p><b>Cornish College of the Arts offers a variety of off-campus housing options. From studio apartments to large houses, there are many different types of housing available to students.</p><p><b>The off-campus housing options include:</b></p>",
+            "textBelowInfo": "<p><b>Cornish College of the Arts offers a variety of off-campus housing options. From studio apartments to large houses, there are many different types of housing available to students.</b></p><p><b>The off-campus housing options include:</b></p>",
             "data": [
                 "<b>Studio Apartments:</b> There are several studio apartments available to rent near the college. These apartments typically come furnished and include all the necessary amenities.",
                 "<b>Shared Houses:</b> There are several shared houses available to rent near the college. These houses typically come furnished and include all the necessary amenities.",
