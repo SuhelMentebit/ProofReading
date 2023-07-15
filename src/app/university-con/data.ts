@@ -1016,12 +1016,131 @@ import * as endicottcollegemaine from '../../assets/universityData/endicott-coll
 import * as emmausbiblecollegeiowa from '../../assets/universityData/emmaus-bible-college-iowa'
 import * as endicottcollegemassachusetts from '../../assets/universityData/endicott-college-massachusetts'
 import * as florencedarlingtontechnicalcollege from '../../assets/universityData/florence-darlington-technical-college'
+import * as engineeringinstituteoftechnologywesternaustralia from '../../assets/universityData/engineering-institute-of-technology-western-australia'
+import * as estoncollegesaskatchewan from '../../assets/universityData/eston-college-saskatchewan'
+import * as enterprisestatecommunitycollegealabama from '../../assets/universityData/enterprise-state-community-college-alabama'
+import * as essexcountrycollegenewjersey from '../../assets/universityData/essex-country-college-new-jersey'
+import * as erskinecollegesouthcarolina from '../../assets/universityData/erskine-college-south-carolina'
+import * as estrellamountaincommunitycollegearizona from '../../assets/universityData/estrella-mountain-community-college-arizona'
+import * as etitechnicalcollegeohio from '../../assets/universityData/eti-technical-college-ohio'
+import * as evergladesuniversityflorida from '../../assets/universityData/everglades-university-florida'
+import * as eurekacollegeillinois from '../../assets/universityData/eureka-college-illinois'
+import * as evangeluniversitymissouri from '../../assets/universityData/evangel-university-missouri'
+import * as fairleighdickinsonuniversitynewjersey from '../../assets/universityData/fairleigh-dickinson-university-new-jersey'
+import * as fairfielduniversityconnecticut from '../../assets/universityData/fairfield-university-connecticut'
+import * as excelsiacollegenewsouthwales from '../../assets/universityData/excelsia-college-new-south-wales'
+import * as evergreenvalleycollegecalifornia from '../../assets/universityData/evergreen-valley-college-california'
+import * as fairmontstateuniversitywestvirginia from '../../assets/universityData/fairmont-state-university-west-virginia'
+import * as faithbaptistbiblecollegeiowa from '../../assets/universityData/faith-baptist-bible-college-iowa'
+import * as faulkneruniversityalabama from '../../assets/universityData/faulkner-university-alabama'
+import * as fashioninstituteoftechnologynewyork from '../../assets/universityData/fashion-institute-of-technology-new-york'
+import * as federationuniversityaustraliavictoria from '../../assets/universityData/federation-university-australia-victoria'
+import * as faithinternationaluniversityandseminary from '../../assets/universityData/faith-international-university-and-seminary'
+import * as fifecollegescotland from '../../assets/universityData/fife-college-scotland'
+import * as finlandiauniversitymichigan from '../../assets/universityData/finlandia-university-michigan'
+import * as firstnationsuniversityofcanadasaskatchewan from '../../assets/universityData/first-nations-university-of-canada-saskatchewan'
+import * as felicianuniversitynewjersey from '../../assets/universityData/felician-university-new-jersey'
+import * as ferrisstateuniversitymichigan from '../../assets/universityData/ferris-state-university-michigan'
+import * as flaglercollegeflorida from '../../assets/universityData/flagler-college-florida'
+import * as fiskuniversitytennessee from '../../assets/universityData/fisk-university-tennessee'
+import * as fishercollegemassachusetts from '../../assets/universityData/fisher-college-massachusetts'
+import * as fitchburgstateuniversitymassachusetts from '../../assets/universityData/fitchburg-state-university-massachusetts'
+import * as flindersuniversitysouthaustralia from '../../assets/universityData/flinders-university-south-australia'
+import * as floridacareercollegemiami from '../../assets/universityData/florida-career-college-miami'
+import * as floridaaandmuniversityflorida from '../../assets/universityData/florida-a-and-m-university-florida'
+import * as floridaatlanticuniversityflorida from '../../assets/universityData/florida-atlantic-university-florida'
+import * as flinthillstechnicalcollegekansas from '../../assets/universityData/flint-hills-technical-college-kansas'
+import * as fortiscollegesouthcarolina from '../../assets/universityData/fortis-college-south-carolina'
+import * as foxvalleytechnicalcollegewisconsin from '../../assets/universityData/fox-valley-technical-college-wisconsin'
+import * as francismarionuniversitysouthcarolina from '../../assets/universityData/francis-marion-university-south-carolina'
+import * as framinghamstateuniversitymassachusetts from '../../assets/universityData/framingham-state-university-massachusetts'
+import * as fortiscollegeutah from '../../assets/universityData/fortis-college-utah'
+import * as fortiscollegeohio from '../../assets/universityData/fortis-college-ohio'
+import * as fortvalleystateuniversitygeorgia from '../../assets/universityData/fort-valley-state-university-georgia'
+import * as fortiscollegeindiana from '../../assets/universityData/fortis-college-indiana'
+import * as forthvalleycollegescotland from '../../assets/universityData/forth-valley-college-scotland'
+import * as fortscottcommunitycollegekansas from '../../assets/universityData/fort-scott-community-college-kansas'
+import * as forthaysstateuniversitykansas from '../../assets/universityData/fort-hays-state-university-kansas'
+import * as fordhamuniversitynewyork from '../../assets/universityData/fordham-university-new-york'
+import * as fontbonneuniversitymissouri from '../../assets/universityData/fontbonne-university-missouri'
+import * as fortiewiscollegecolorado from '../../assets/universityData/fort-iewis-college-colorado'
+import * as floridastateuniversityflorida from '../../assets/universityData/florida-state-university-florida'
+import * as floridasouthwesternstatecollegeflorida from '../../assets/universityData/florida-southwestern-state-college-florida'
+import * as floridasoutherncollegeflorida from '../../assets/universityData/florida-southern-college-florida'
+import * as floridapolytechnicuniversityflorida from '../../assets/universityData/florida-polytechnic-university-florida'
+import * as floridanationaluniversityflorida from '../../assets/universityData/florida-national-university-florida'
+import * as floridastatecollegeatjacksonvilledowntowncampus from '../../assets/universityData/florida-state-college-at-jacksonville-downtown-campus'
+import * as floridainternationaluniversityflorida from '../../assets/universityData/florida-international-university-florida'
+import * as floridacollegeflorida from '../../assets/universityData/florida-college-florida'
+import * as floridamemorialuniversityflorida from '../../assets/universityData/florida-memorial-university-florida'
+import * as floridainstituteoftechnologyflorida from '../../assets/universityData/florida-institute-of-technology-florida'
+import * as floridagulfcoastuniversityflorida from '../../assets/universityData/florida-gulf-coast-university-florida'
+
 
 
 export {
 
     //amityglobalbusinessschool,
     //amityinstituteofinformationtechnologymumbai,
+    floridagulfcoastuniversityflorida,
+    floridainstituteoftechnologyflorida,
+    floridamemorialuniversityflorida,
+    floridacollegeflorida,
+    floridainternationaluniversityflorida,
+    floridastatecollegeatjacksonvilledowntowncampus,
+    floridanationaluniversityflorida,
+    floridapolytechnicuniversityflorida,
+    floridasoutherncollegeflorida,
+    floridasouthwesternstatecollegeflorida,
+    floridastateuniversityflorida,
+    fortiewiscollegecolorado,
+    fontbonneuniversitymissouri,
+    fordhamuniversitynewyork,
+    forthaysstateuniversitykansas,
+    fortscottcommunitycollegekansas,
+    forthvalleycollegescotland,
+    fortiscollegeindiana,
+    fortvalleystateuniversitygeorgia,
+    fortiscollegeohio,
+    fortiscollegeutah,
+    framinghamstateuniversitymassachusetts,
+    francismarionuniversitysouthcarolina,
+    foxvalleytechnicalcollegewisconsin,
+    fortiscollegesouthcarolina,
+    flinthillstechnicalcollegekansas,
+    floridaatlanticuniversityflorida,
+    floridaaandmuniversityflorida,
+    floridacareercollegemiami,
+    flindersuniversitysouthaustralia,
+    fitchburgstateuniversitymassachusetts,
+    fishercollegemassachusetts,
+    fiskuniversitytennessee,
+    flaglercollegeflorida,
+    ferrisstateuniversitymichigan,
+    felicianuniversitynewjersey,
+    firstnationsuniversityofcanadasaskatchewan,
+    fifecollegescotland,
+    finlandiauniversitymichigan,
+    faithinternationaluniversityandseminary,
+    federationuniversityaustraliavictoria,
+    fashioninstituteoftechnologynewyork,
+    faulkneruniversityalabama,
+    faithbaptistbiblecollegeiowa,
+    fairmontstateuniversitywestvirginia,
+    evergreenvalleycollegecalifornia,
+    excelsiacollegenewsouthwales,
+    fairfielduniversityconnecticut,
+    fairleighdickinsonuniversitynewjersey,
+    evangeluniversitymissouri,
+    eurekacollegeillinois,
+    evergladesuniversityflorida,
+    etitechnicalcollegeohio,
+    estrellamountaincommunitycollegearizona,
+    erskinecollegesouthcarolina,
+    essexcountrycollegenewjersey,
+    enterprisestatecommunitycollegealabama,
+    estoncollegesaskatchewan,
+    engineeringinstituteoftechnologywesternaustralia,
     florencedarlingtontechnicalcollege,
     endicottcollegemassachusetts,
     emmausbiblecollegeiowa,
