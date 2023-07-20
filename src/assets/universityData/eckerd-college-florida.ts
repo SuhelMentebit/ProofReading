@@ -71,7 +71,7 @@ export const eckerdcollegeflorida = {
             "type": "list-bollet",
             "title": "Courses and Fees",
             "info": "Eckerd College offers over 60 undergraduate majors and minors, as well as several pre-professional and accelerated degree programs. Students can also choose from a variety of courses and certifications, including study abroad and graduate options.",
-            "textBelowInfo": "<p><b>Below is a list of courses offered at Eckerd College, as well as their respective fees:</b></p><p><b>Undergraduate Courses:</b>",
+            "textBelowInfo": "<b>Below is a list of courses offered at Eckerd College, as well as their respective fees:</b></p><p><b>Undergraduate Courses:</b>",
             "data": [
                 "Accounting: $20,128",
                 "Arts and Sciences: $20,128",
@@ -103,7 +103,7 @@ export const eckerdcollegeflorida = {
         {
             "type": "list-bollet",
             "title": "",
-            "info": "Pre-Professional and Accelerated Degree Programszzzz",
+            "info": "Pre-Professional and Accelerated Degree Programs",
             "data": [
                 "Pre-Law: $20,128",
                 "Pre-Medicine: $20,128",
@@ -167,8 +167,6 @@ export const eckerdcollegeflorida = {
             "title": "",
             "info": "For Graduate Program:",
             "data": [
-
-
                 "A Bachelor’s degree from a recognized university.",
                 "A minimum of 60% marks in the qualifying degree examination.",
                 "Minimum TOEFL (IBT) score of 80 or IELTS score of 6.5. ",
