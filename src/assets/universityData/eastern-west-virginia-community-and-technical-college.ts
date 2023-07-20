@@ -350,8 +350,8 @@ export const easternwestvirginiacommunityandtechnicalcollege = {
             "title": "Hostel",
             "info": "Accommodation",
             "data": [
-                "On-Campus Accommodation:</b> Eastern West Virginia Community and Technical College has two on-campus residence halls, the Grier Hall and the College View Hall, offering a variety of suite style accommodations. Grier Hall is a two-story building with suite-style rooms, all equipped with private bathrooms, as well as a community kitchen area. The College View Hall is a three-story building also offering suite-style rooms, with private bathrooms, a community kitchen area, and a community lounge. Both halls offer air conditioning and heating, and have 24-hour security.",
-                "Off-Campus Accommodation:</b> Eastern West Virginia Community and Technical College does not have any official off-campus residence halls. However, there are several options for off-campus accommodation in the surrounding area. Students can choose from a variety of apartments, houses, and other housing options.",
+                "<b>On-Campus Accommodation:</b> <br>Eastern West Virginia Community and Technical College has two on-campus residence halls, the Grier Hall and the College View Hall, offering a variety of suite style accommodations. Grier Hall is a two-story building with suite-style rooms, all equipped with private bathrooms, as well as a community kitchen area. The College View Hall is a three-story building also offering suite-style rooms, with private bathrooms, a community kitchen area, and a community lounge. Both halls offer air conditioning and heating, and have 24-hour security.",
+                "<b>Off-Campus Accommodation:</b> <br>Eastern West Virginia Community and Technical College does not have any official off-campus residence halls. However, there are several options for off-campus accommodation in the surrounding area. Students can choose from a variety of apartments, houses, and other housing options.",
             ]
         },
         {

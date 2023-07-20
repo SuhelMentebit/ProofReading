@@ -335,7 +335,7 @@ export const florencedarlingtontechnicalcollege = {
         },
         {
             "type": "list-bollet",
-            "title": "Hostel",
+            "title": "",
             "info": "Off-Campus Accommodation",
             "textBelowInfo": "<b>The following is a list of nearby hotels and other accommodations that may be suitable for students of Florence-Darlington Technical College: </b>",
             "data": [

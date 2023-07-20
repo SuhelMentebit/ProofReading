@@ -295,8 +295,8 @@ export const easternmedicalcollegecomilla = {
             "title": "Hostel",
             "info": "Eastern Medical College, Comilla, Bangladesh provides both on-campus and off-campus accommodation and hostel facilities for its students.",
             "data": [
-                "<b>On-campus:</b> Eastern Medical College provides accommodation facilities for its students on-campus. The hostel facilities include a separate hostel for boys and girls. Each hostel is equipped with necessary amenities like a dining hall, common room, internet, and other necessary facilities.",
-                "<b>Off-campus:</b> There are several off-campus accommodation and hostel facilities available for students at Eastern Medical College, Comilla. The most popular hostels are located in neighbouring areas such as Chandina, Chhagalnaiya, and Chauddagram. These hostels provide students with all the necessary amenities and facilities.",
+                "<b>On-campus:</b> <br>Eastern Medical College provides accommodation facilities for its students on-campus. The hostel facilities include a separate hostel for boys and girls. Each hostel is equipped with necessary amenities like a dining hall, common room, internet, and other necessary facilities.",
+                "<b>Off-campus:</b> <br>There are several off-campus accommodation and hostel facilities available for students at Eastern Medical College, Comilla. The most popular hostels are located in neighbouring areas such as Chandina, Chhagalnaiya, and Chauddagram. These hostels provide students with all the necessary amenities and facilities.",
             ]
         },
         {

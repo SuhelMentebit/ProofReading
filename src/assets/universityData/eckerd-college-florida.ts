@@ -103,7 +103,7 @@ export const eckerdcollegeflorida = {
         {
             "type": "list-bollet",
             "title": "",
-            "info": "Pre-Professional and Accelerated Degree Programszzzz",
+            "info": "Pre-Professional and Accelerated Degree Programs",
             "data": [
                 "Pre-Law: $20,128",
                 "Pre-Medicine: $20,128",
