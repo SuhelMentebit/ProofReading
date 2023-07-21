@@ -1075,6 +1075,25 @@ import * as floridacollegeflorida from '../../assets/universityData/florida-coll
 import * as floridamemorialuniversityflorida from '../../assets/universityData/florida-memorial-university-florida'
 import * as floridainstituteoftechnologyflorida from '../../assets/universityData/florida-institute-of-technology-florida'
 import * as floridagulfcoastuniversityflorida from '../../assets/universityData/florida-gulf-coast-university-florida'
+import * as frankphillipscollegecaandibuildingtexas from '../../assets/universityData/frank-phillips-college-ca-and-i-building-texas'
+import * as franciscanuniversityofsteubenvilleohio from '../../assets/universityData/franciscan-university-of-steubenville-ohio'
+import * as franklincollegeindiana from '../../assets/universityData/franklin-college-indiana'
+import * as franklinpierceuniversitynewhampshire from '../../assets/universityData/franklin-pierce-university-new-hampshire'
+import * as franklinandmarshallcollegepennsylvania from '../../assets/universityData/franklin-and-marshall-college-pennsylvania'
+import * as franciscanmissionariesofourladyuniversity from '../../assets/universityData/franciscan-missionaries-of-our-lady-university'
+import * as friendsuniversitykansas from '../../assets/universityData/friends-university-kansas'
+import * as freedhardemanuniversitytennessee from '../../assets/universityData/freed-hardeman-university-tennessee'
+import * as franklinuniversityohio from '../../assets/universityData/franklin-university-ohio'
+import * as fraserinternationalcollegebritishcolumbia from '../../assets/universityData/fraser-international-college-british-columbia'
+import * as fresnopacificuniversitycalifornia from '../../assets/universityData/fresno-pacific-university-california'
+import * as frontrangecommunitycollegecolorado from '../../assets/universityData/front-range-community-college-colorado'
+import * as gandakimedicalcollege from '../../assets/universityData/gandaki-medical-college'
+import * as frostburgstateuniversitymaryland from '../../assets/universityData/frostburg-state-university-maryland'
+import * as gadsdenstatecommunitycollegealabama from '../../assets/universityData/gadsden-state-community-college-alabama'
+import * as galvestoncollegetexas from '../../assets/universityData/galveston-college-texas'
+import * as fullsailuniversityflorida from '../../assets/universityData/full-sail-university-florida'
+import * as fsaulavalquebec from '../../assets/universityData/fsa-ulaval-quebec'
+import * as furmanuniversitysouthcarolina from '../../assets/universityData/furman-university-south-carolina'
 
 
 
@@ -1082,6 +1101,25 @@ export {
 
     //amityglobalbusinessschool,
     //amityinstituteofinformationtechnologymumbai,
+    furmanuniversitysouthcarolina,
+    fullsailuniversityflorida,
+    fsaulavalquebec,
+    galvestoncollegetexas,
+    gadsdenstatecommunitycollegealabama,
+    frostburgstateuniversitymaryland,
+    gandakimedicalcollege,
+    frontrangecommunitycollegecolorado,
+    fresnopacificuniversitycalifornia,
+    fraserinternationalcollegebritishcolumbia,
+    franklinuniversityohio,
+    freedhardemanuniversitytennessee,
+    friendsuniversitykansas,
+    franklinandmarshallcollegepennsylvania,
+    franciscanmissionariesofourladyuniversity,
+    franklinpierceuniversitynewhampshire,
+    franklincollegeindiana,
+    franciscanuniversityofsteubenvilleohio,
+    frankphillipscollegecaandibuildingtexas,
     floridagulfcoastuniversityflorida,
     floridainstituteoftechnologyflorida,
     floridamemorialuniversityflorida,

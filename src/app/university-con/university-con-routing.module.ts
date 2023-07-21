@@ -49868,6 +49868,899 @@ const routes: Routes = [
   },
 
 
+
+  {
+    path: 'frank-phillips-college-ca-and-i-building-texas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frank-phillips-college-ca-and-i-building-texas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frank-phillips-college-ca-and-i-building-texas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frank-phillips-college-ca-and-i-building-texas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frank-phillips-college-ca-and-i-building-texas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frank-phillips-college-ca-and-i-building-texas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frank-phillips-college-ca-and-i-building-texas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frank-phillips-college-ca-and-i-building-texas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frank-phillips-college-ca-and-i-building-texas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frank-phillips-college-ca-and-i-building-texas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frank-phillips-college-ca-and-i-building-texas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'franciscan-university-of-steubenville-ohio/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-university-of-steubenville-ohio/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-university-of-steubenville-ohio/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-university-of-steubenville-ohio/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-university-of-steubenville-ohio/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-university-of-steubenville-ohio/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-university-of-steubenville-ohio/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-university-of-steubenville-ohio/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-university-of-steubenville-ohio/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-university-of-steubenville-ohio/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-university-of-steubenville-ohio/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'franklin-college-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-college-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-college-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-college-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-college-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-college-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-college-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-college-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-college-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-college-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-college-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'franklin-pierce-university-new-hampshire/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-pierce-university-new-hampshire/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-pierce-university-new-hampshire/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-pierce-university-new-hampshire/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-pierce-university-new-hampshire/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-pierce-university-new-hampshire/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-pierce-university-new-hampshire/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-pierce-university-new-hampshire/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-pierce-university-new-hampshire/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-pierce-university-new-hampshire/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-pierce-university-new-hampshire/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'franklin-and-marshall-college-pennsylvania/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-and-marshall-college-pennsylvania/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-and-marshall-college-pennsylvania/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-and-marshall-college-pennsylvania/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-and-marshall-college-pennsylvania/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-and-marshall-college-pennsylvania/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-and-marshall-college-pennsylvania/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-and-marshall-college-pennsylvania/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-and-marshall-college-pennsylvania/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-and-marshall-college-pennsylvania/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-and-marshall-college-pennsylvania/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'franciscan-missionaries-of-our-lady-university/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-missionaries-of-our-lady-university/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-missionaries-of-our-lady-university/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-missionaries-of-our-lady-university/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-missionaries-of-our-lady-university/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-missionaries-of-our-lady-university/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-missionaries-of-our-lady-university/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-missionaries-of-our-lady-university/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-missionaries-of-our-lady-university/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-missionaries-of-our-lady-university/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franciscan-missionaries-of-our-lady-university/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'friends-university-kansas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'friends-university-kansas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'friends-university-kansas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'friends-university-kansas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'friends-university-kansas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'friends-university-kansas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'friends-university-kansas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'friends-university-kansas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'friends-university-kansas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'friends-university-kansas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'friends-university-kansas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'freed-hardeman-university-tennessee/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'freed-hardeman-university-tennessee/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'freed-hardeman-university-tennessee/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'freed-hardeman-university-tennessee/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'freed-hardeman-university-tennessee/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'freed-hardeman-university-tennessee/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'freed-hardeman-university-tennessee/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'freed-hardeman-university-tennessee/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'freed-hardeman-university-tennessee/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'freed-hardeman-university-tennessee/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'freed-hardeman-university-tennessee/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'franklin-university-ohio/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-university-ohio/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-university-ohio/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-university-ohio/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-university-ohio/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-university-ohio/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-university-ohio/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-university-ohio/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-university-ohio/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-university-ohio/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'franklin-university-ohio/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'fraser-international-college-british-columbia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fraser-international-college-british-columbia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fraser-international-college-british-columbia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fraser-international-college-british-columbia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fraser-international-college-british-columbia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fraser-international-college-british-columbia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fraser-international-college-british-columbia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fraser-international-college-british-columbia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fraser-international-college-british-columbia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fraser-international-college-british-columbia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fraser-international-college-british-columbia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'fresno-pacific-university-california/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fresno-pacific-university-california/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fresno-pacific-university-california/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fresno-pacific-university-california/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fresno-pacific-university-california/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fresno-pacific-university-california/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fresno-pacific-university-california/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fresno-pacific-university-california/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fresno-pacific-university-california/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fresno-pacific-university-california/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fresno-pacific-university-california/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'front-range-community-college-colorado/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'front-range-community-college-colorado/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'front-range-community-college-colorado/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'front-range-community-college-colorado/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'front-range-community-college-colorado/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'front-range-community-college-colorado/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'front-range-community-college-colorado/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'front-range-community-college-colorado/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'front-range-community-college-colorado/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'front-range-community-college-colorado/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'front-range-community-college-colorado/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'gandaki-medical-college/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gandaki-medical-college/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gandaki-medical-college/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gandaki-medical-college/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gandaki-medical-college/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gandaki-medical-college/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gandaki-medical-college/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gandaki-medical-college/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gandaki-medical-college/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gandaki-medical-college/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gandaki-medical-college/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'frostburg-state-university-maryland/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frostburg-state-university-maryland/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frostburg-state-university-maryland/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frostburg-state-university-maryland/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frostburg-state-university-maryland/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frostburg-state-university-maryland/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frostburg-state-university-maryland/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frostburg-state-university-maryland/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frostburg-state-university-maryland/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frostburg-state-university-maryland/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'frostburg-state-university-maryland/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'gadsden-state-community-college-alabama/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gadsden-state-community-college-alabama/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gadsden-state-community-college-alabama/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gadsden-state-community-college-alabama/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gadsden-state-community-college-alabama/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gadsden-state-community-college-alabama/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gadsden-state-community-college-alabama/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gadsden-state-community-college-alabama/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gadsden-state-community-college-alabama/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gadsden-state-community-college-alabama/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gadsden-state-community-college-alabama/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'galveston-college-texas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'galveston-college-texas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'galveston-college-texas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'galveston-college-texas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'galveston-college-texas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'galveston-college-texas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'galveston-college-texas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'galveston-college-texas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'galveston-college-texas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'galveston-college-texas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'galveston-college-texas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'full-sail-university-florida/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'full-sail-university-florida/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'full-sail-university-florida/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'full-sail-university-florida/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'full-sail-university-florida/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'full-sail-university-florida/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'full-sail-university-florida/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'full-sail-university-florida/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'full-sail-university-florida/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'full-sail-university-florida/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'full-sail-university-florida/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'furman-university-south-carolina/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'furman-university-south-carolina/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'furman-university-south-carolina/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'furman-university-south-carolina/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'furman-university-south-carolina/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'furman-university-south-carolina/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'furman-university-south-carolina/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'furman-university-south-carolina/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'furman-university-south-carolina/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'furman-university-south-carolina/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'furman-university-south-carolina/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'fsa-ulaval-quebec/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fsa-ulaval-quebec/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fsa-ulaval-quebec/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fsa-ulaval-quebec/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fsa-ulaval-quebec/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fsa-ulaval-quebec/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fsa-ulaval-quebec/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fsa-ulaval-quebec/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fsa-ulaval-quebec/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fsa-ulaval-quebec/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'fsa-ulaval-quebec/faq/.',
+    component: UniversityConComponent
+  },
+
+
 ];
 
 @NgModule({
