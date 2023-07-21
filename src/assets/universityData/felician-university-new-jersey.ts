@@ -125,7 +125,7 @@ export const felicianuniversitynewjersey = {
             "type": "list-bollet",
             "title": "Eligibility Requirements",
             "info": "The Felician University in New Jersey, USA is open to international applications, including those from India.",
-            "textBelowInfo": "<p><b>In order to be eligible to apply for an undergraduate program, you must have completed the equivalent of a U.S. high school diploma (12 years of schooling) and have achieved a minimum of 55% in your final examinations. You will also need to provide evidence of English language proficiency.</b></p><p><b>To apply for a graduate program, you must have a four-year bachelor's degree from a recognized university with a minimum cumulative grade point average of 2.75 on a 4.0 scale or equivalent. You will also need to provide evidence of English language proficiency.</b></p><p><b>You will need to submit all required documents, including:</b></p>",
+            "textBelowInfo": "<p>In order to be eligible to apply for an undergraduate program, you must have completed the equivalent of a U.S. high school diploma (12 years of schooling) and have achieved a minimum of 55% in your final examinations. You will also need to provide evidence of English language proficiency.</p><p>To apply for a graduate program, you must have a four-year bachelor's degree from a recognized university with a minimum cumulative grade point average of 2.75 on a 4.0 scale or equivalent. You will also need to provide evidence of English language proficiency.</p><p><b>You will need to submit all required documents, including:</b></p>",
             "data": [
                 "Official transcripts from all the educational institutions you attended",
                 "Official exam scores",
