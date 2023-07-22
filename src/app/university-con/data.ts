@@ -1075,6 +1075,9 @@ import * as floridacollegeflorida from '../../assets/universityData/florida-coll
 import * as floridamemorialuniversityflorida from '../../assets/universityData/florida-memorial-university-florida'
 import * as floridainstituteoftechnologyflorida from '../../assets/universityData/florida-institute-of-technology-florida'
 import * as floridagulfcoastuniversityflorida from '../../assets/universityData/florida-gulf-coast-university-florida'
+
+// new files
+
 import * as frankphillipscollegecaandibuildingtexas from '../../assets/universityData/frank-phillips-college-ca-and-i-building-texas'
 import * as franciscanuniversityofsteubenvilleohio from '../../assets/universityData/franciscan-university-of-steubenville-ohio'
 import * as franklincollegeindiana from '../../assets/universityData/franklin-college-indiana'
