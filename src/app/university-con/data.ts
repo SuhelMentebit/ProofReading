@@ -1075,9 +1075,6 @@ import * as floridacollegeflorida from '../../assets/universityData/florida-coll
 import * as floridamemorialuniversityflorida from '../../assets/universityData/florida-memorial-university-florida'
 import * as floridainstituteoftechnologyflorida from '../../assets/universityData/florida-institute-of-technology-florida'
 import * as floridagulfcoastuniversityflorida from '../../assets/universityData/florida-gulf-coast-university-florida'
-
-// new files
-
 import * as frankphillipscollegecaandibuildingtexas from '../../assets/universityData/frank-phillips-college-ca-and-i-building-texas'
 import * as franciscanuniversityofsteubenvilleohio from '../../assets/universityData/franciscan-university-of-steubenville-ohio'
 import * as franklincollegeindiana from '../../assets/universityData/franklin-college-indiana'
@@ -1098,12 +1095,71 @@ import * as fullsailuniversityflorida from '../../assets/universityData/full-sai
 import * as fsaulavalquebec from '../../assets/universityData/fsa-ulaval-quebec'
 import * as furmanuniversitysouthcarolina from '../../assets/universityData/furman-university-south-carolina'
 
+// new files
+
+import * as gatewaycommunitycollegewashingtoncampus from '../../assets/universityData/gateway-community-college-washington-campus'
+import * as gardnerwebbuniversitynorthcarolina from '../../assets/universityData/gardner-webb-university-north-carolina'
+import * as gatewaycommunitycollegeconnecticut from '../../assets/universityData/gateway-community-college-connecticut'
+import * as gannonuniversitypennsylvania from '../../assets/universityData/gannon-university-pennsylvania'
+import * as genevacollegepennsylvania from '../../assets/universityData/geneva-college-pennsylvania'
+import * as gardencitycommunitycollegekansas from '../../assets/universityData/garden-city-community-college-kansas'
+import * as georgetowncollegekentucky from '../../assets/universityData/georgetown-college-kentucky'
+import * as georgemasonuniversityvirginia from '../../assets/universityData/george-mason-university-virginia'
+import * as georgecwallacecommunitycollegedothan from '../../assets/universityData/george-c-wallace-community-college-dothan'
+import * as georgecorleywallacestatecommunitycollegeselma from '../../assets/universityData/george-corley-wallace-state-community-college-selma'
+import * as georgebrowncollegecasalomacampusontario from '../../assets/universityData/george-brown-college-casa-loma-campus-ontario'
+import * as georgiasouthernuniversitygeorgia from '../../assets/universityData/georgia-southern-university-georgia'
+import * as georgiasouthwesternstateuniversitygeorgia from '../../assets/universityData/georgia-southwestern-state-university-georgia'
+import * as georgiacollegegeorgia from '../../assets/universityData/georgia-college-georgia'
+import * as georgiainstituteoftechnologygeorgia from '../../assets/universityData/georgia-institute-of-technology-georgia'
+import * as georgiancourtuniversitynewjersey from '../../assets/universityData/georgian-court-university-new-jersey'
+import * as georgetownuniversitymaryland from '../../assets/universityData/georgetown-university-maryland'
+import * as glamorganbusinessschoolwales from '../../assets/universityData/glamorgan-business-school-wales'
+import * as glasgowclydecollegescotland from '../../assets/universityData/glasgow-clyde-college-scotland'
+import * as glasgowkevincollegescotland from '../../assets/universityData/glasgow-kevin-college-scotland'
+import * as glendalecommunitycollegearizona from '../../assets/universityData/glendale-community-college-arizona'
+import * as glenvillestatecollegewestvirginia from '../../assets/universityData/glenville-state-college-west-virginia'
+import * as gonzagauniversitywashington from '../../assets/universityData/gonzaga-university-washington'
+import * as gordoncollegemaine from '../../assets/universityData/gordon-college-maine'
+import * as goshencollegeindiana from '../../assets/universityData/goshen-college-indiana'
+import * as goldeybeacomcollegedelaware from '../../assets/universityData/goldey-beacom-college-delaware'
+import * as goldenstateuniversitycalifornia from '../../assets/universityData/golden-state-university-california'
+import * as goodwinuniversityconnecticut from '../../assets/universityData/goodwin-university-connecticut'
+
 
 
 export {
 
     //amityglobalbusinessschool,
     //amityinstituteofinformationtechnologymumbai,
+    goodwinuniversityconnecticut,
+    goldenstateuniversitycalifornia,
+    goldeybeacomcollegedelaware,
+    goshencollegeindiana,
+    gordoncollegemaine,
+    gonzagauniversitywashington,
+    glenvillestatecollegewestvirginia,
+    glendalecommunitycollegearizona,
+    glasgowkevincollegescotland,
+    glasgowclydecollegescotland,
+    glamorganbusinessschoolwales,
+    georgetownuniversitymaryland,
+    georgiancourtuniversitynewjersey,
+    georgiainstituteoftechnologygeorgia,
+    georgiacollegegeorgia,
+    georgiasouthwesternstateuniversitygeorgia,
+    georgiasouthernuniversitygeorgia,
+    georgebrowncollegecasalomacampusontario,
+    georgecorleywallacestatecommunitycollegeselma,
+    georgecwallacecommunitycollegedothan,
+    georgemasonuniversityvirginia,
+    georgetowncollegekentucky,
+    gardencitycommunitycollegekansas,
+    genevacollegepennsylvania,
+    gannonuniversitypennsylvania,
+    gatewaycommunitycollegeconnecticut,
+    gardnerwebbuniversitynorthcarolina,
+    gatewaycommunitycollegewashingtoncampus,
     furmanuniversitysouthcarolina,
     fullsailuniversityflorida,
     fsaulavalquebec,

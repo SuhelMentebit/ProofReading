@@ -50761,6 +50761,1322 @@ const routes: Routes = [
   },
 
 
+
+  {
+    path: 'gateway-community-college-washington-campus/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-washington-campus/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-washington-campus/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-washington-campus/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-washington-campus/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-washington-campus/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-washington-campus/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-washington-campus/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-washington-campus/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-washington-campus/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-washington-campus/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'gardner-webb-university-north-carolina/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gardner-webb-university-north-carolina/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gardner-webb-university-north-carolina/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gardner-webb-university-north-carolina/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gardner-webb-university-north-carolina/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gardner-webb-university-north-carolina/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gardner-webb-university-north-carolina/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gardner-webb-university-north-carolina/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gardner-webb-university-north-carolina/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gardner-webb-university-north-carolina/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gardner-webb-university-north-carolina/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'gateway-community-college-connecticut/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-connecticut/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-connecticut/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-connecticut/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-connecticut/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-connecticut/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-connecticut/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-connecticut/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-connecticut/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-connecticut/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gateway-community-college-connecticut/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'gannon-university-pennsylvania/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gannon-university-pennsylvania/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gannon-university-pennsylvania/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gannon-university-pennsylvania/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gannon-university-pennsylvania/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gannon-university-pennsylvania/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gannon-university-pennsylvania/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gannon-university-pennsylvania/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gannon-university-pennsylvania/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gannon-university-pennsylvania/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gannon-university-pennsylvania/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'geneva-college-pennsylvania/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'geneva-college-pennsylvania/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'geneva-college-pennsylvania/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'geneva-college-pennsylvania/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'geneva-college-pennsylvania/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'geneva-college-pennsylvania/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'geneva-college-pennsylvania/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'geneva-college-pennsylvania/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'geneva-college-pennsylvania/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'geneva-college-pennsylvania/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'geneva-college-pennsylvania/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'garden-city-community-college-kansas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'garden-city-community-college-kansas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'garden-city-community-college-kansas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'garden-city-community-college-kansas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'garden-city-community-college-kansas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'garden-city-community-college-kansas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'garden-city-community-college-kansas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'garden-city-community-college-kansas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'garden-city-community-college-kansas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'garden-city-community-college-kansas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'garden-city-community-college-kansas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'georgetown-college-kentucky/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-college-kentucky/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-college-kentucky/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-college-kentucky/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-college-kentucky/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-college-kentucky/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-college-kentucky/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-college-kentucky/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-college-kentucky/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-college-kentucky/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-college-kentucky/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'george-mason-university-virginia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-mason-university-virginia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-mason-university-virginia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-mason-university-virginia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-mason-university-virginia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-mason-university-virginia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-mason-university-virginia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-mason-university-virginia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-mason-university-virginia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-mason-university-virginia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-mason-university-virginia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'george-c-wallace-community-college-dothan/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-c-wallace-community-college-dothan/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-c-wallace-community-college-dothan/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-c-wallace-community-college-dothan/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-c-wallace-community-college-dothan/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-c-wallace-community-college-dothan/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-c-wallace-community-college-dothan/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-c-wallace-community-college-dothan/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-c-wallace-community-college-dothan/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-c-wallace-community-college-dothan/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-c-wallace-community-college-dothan/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'george-corley-wallace-state-community-college-selma/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-corley-wallace-state-community-college-selma/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-corley-wallace-state-community-college-selma/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-corley-wallace-state-community-college-selma/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-corley-wallace-state-community-college-selma/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-corley-wallace-state-community-college-selma/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-corley-wallace-state-community-college-selma/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-corley-wallace-state-community-college-selma/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-corley-wallace-state-community-college-selma/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-corley-wallace-state-community-college-selma/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-corley-wallace-state-community-college-selma/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'george-brown-college-casa-loma-campus-ontario/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-brown-college-casa-loma-campus-ontario/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-brown-college-casa-loma-campus-ontario/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-brown-college-casa-loma-campus-ontario/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-brown-college-casa-loma-campus-ontario/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-brown-college-casa-loma-campus-ontario/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-brown-college-casa-loma-campus-ontario/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-brown-college-casa-loma-campus-ontario/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-brown-college-casa-loma-campus-ontario/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-brown-college-casa-loma-campus-ontario/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'george-brown-college-casa-loma-campus-ontario/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'georgia-southern-university-georgia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southern-university-georgia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southern-university-georgia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southern-university-georgia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southern-university-georgia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southern-university-georgia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southern-university-georgia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southern-university-georgia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southern-university-georgia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southern-university-georgia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southern-university-georgia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'georgia-southwestern-state-university-georgia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southwestern-state-university-georgia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southwestern-state-university-georgia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southwestern-state-university-georgia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southwestern-state-university-georgia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southwestern-state-university-georgia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southwestern-state-university-georgia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southwestern-state-university-georgia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southwestern-state-university-georgia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southwestern-state-university-georgia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-southwestern-state-university-georgia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'georgia-college-georgia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-college-georgia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-college-georgia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-college-georgia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-college-georgia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-college-georgia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-college-georgia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-college-georgia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-college-georgia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-college-georgia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-college-georgia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'georgia-institute-of-technology-georgia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-institute-of-technology-georgia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-institute-of-technology-georgia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-institute-of-technology-georgia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-institute-of-technology-georgia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-institute-of-technology-georgia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-institute-of-technology-georgia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-institute-of-technology-georgia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-institute-of-technology-georgia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-institute-of-technology-georgia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgia-institute-of-technology-georgia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'georgian-court-university-new-jersey/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgian-court-university-new-jersey/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgian-court-university-new-jersey/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgian-court-university-new-jersey/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgian-court-university-new-jersey/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgian-court-university-new-jersey/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgian-court-university-new-jersey/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgian-court-university-new-jersey/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgian-court-university-new-jersey/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgian-court-university-new-jersey/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgian-court-university-new-jersey/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'georgetown-university-maryland/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-university-maryland/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-university-maryland/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-university-maryland/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-university-maryland/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-university-maryland/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-university-maryland/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-university-maryland/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-university-maryland/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-university-maryland/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'georgetown-university-maryland/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'glamorgan-business-school-wales/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glamorgan-business-school-wales/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glamorgan-business-school-wales/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glamorgan-business-school-wales/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glamorgan-business-school-wales/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glamorgan-business-school-wales/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glamorgan-business-school-wales/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glamorgan-business-school-wales/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glamorgan-business-school-wales/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glamorgan-business-school-wales/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glamorgan-business-school-wales/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'glasgow-clyde-college-scotland/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-clyde-college-scotland/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-clyde-college-scotland/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-clyde-college-scotland/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-clyde-college-scotland/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-clyde-college-scotland/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-clyde-college-scotland/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-clyde-college-scotland/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-clyde-college-scotland/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-clyde-college-scotland/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-clyde-college-scotland/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'glasgow-kevin-college-scotland/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-kevin-college-scotland/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-kevin-college-scotland/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-kevin-college-scotland/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-kevin-college-scotland/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-kevin-college-scotland/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-kevin-college-scotland/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-kevin-college-scotland/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-kevin-college-scotland/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-kevin-college-scotland/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glasgow-kevin-college-scotland/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'glendale-community-college-arizona/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glendale-community-college-arizona/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glendale-community-college-arizona/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glendale-community-college-arizona/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glendale-community-college-arizona/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glendale-community-college-arizona/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glendale-community-college-arizona/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glendale-community-college-arizona/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glendale-community-college-arizona/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glendale-community-college-arizona/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glendale-community-college-arizona/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'glenville-state-college-west-virginia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glenville-state-college-west-virginia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glenville-state-college-west-virginia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glenville-state-college-west-virginia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glenville-state-college-west-virginia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glenville-state-college-west-virginia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glenville-state-college-west-virginia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glenville-state-college-west-virginia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glenville-state-college-west-virginia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glenville-state-college-west-virginia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'glenville-state-college-west-virginia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'gonzaga-university-washington/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gonzaga-university-washington/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gonzaga-university-washington/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gonzaga-university-washington/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gonzaga-university-washington/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gonzaga-university-washington/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gonzaga-university-washington/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gonzaga-university-washington/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gonzaga-university-washington/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gonzaga-university-washington/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gonzaga-university-washington/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'gordon-college-maine/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gordon-college-maine/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gordon-college-maine/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gordon-college-maine/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gordon-college-maine/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gordon-college-maine/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gordon-college-maine/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gordon-college-maine/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gordon-college-maine/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gordon-college-maine/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'gordon-college-maine/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'goshen-college-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goshen-college-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goshen-college-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goshen-college-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goshen-college-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goshen-college-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goshen-college-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goshen-college-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goshen-college-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goshen-college-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goshen-college-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'goldey-beacom-college-delaware/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goldey-beacom-college-delaware/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goldey-beacom-college-delaware/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goldey-beacom-college-delaware/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goldey-beacom-college-delaware/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goldey-beacom-college-delaware/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goldey-beacom-college-delaware/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goldey-beacom-college-delaware/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goldey-beacom-college-delaware/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goldey-beacom-college-delaware/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goldey-beacom-college-delaware/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'golden-state-university-california/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'golden-state-university-california/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'golden-state-university-california/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'golden-state-university-california/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'golden-state-university-california/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'golden-state-university-california/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'golden-state-university-california/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'golden-state-university-california/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'golden-state-university-california/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'golden-state-university-california/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'golden-state-university-california/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'goodwin-university-connecticut/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goodwin-university-connecticut/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goodwin-university-connecticut/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goodwin-university-connecticut/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goodwin-university-connecticut/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goodwin-university-connecticut/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goodwin-university-connecticut/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goodwin-university-connecticut/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goodwin-university-connecticut/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goodwin-university-connecticut/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goodwin-university-connecticut/faq/.',
+    component: UniversityConComponent
+  },
+
+
 ];
 
 @NgModule({
