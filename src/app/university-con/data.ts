@@ -1125,6 +1125,26 @@ import * as goshencollegeindiana from '../../assets/universityData/goshen-colleg
 import * as goldeybeacomcollegedelaware from '../../assets/universityData/goldey-beacom-college-delaware'
 import * as goldenstateuniversitycalifornia from '../../assets/universityData/golden-state-university-california'
 import * as goodwinuniversityconnecticut from '../../assets/universityData/goodwin-university-connecticut'
+import * as gouchercollegemaryland from '../../assets/universityData/goucher-college-maryland'
+import * as gracelanduniversityiowa from '../../assets/universityData/graceland-university-iowa'
+import * as gracechristianuniversitymichigan from '../../assets/universityData/grace-christian-university-michigan'
+import * as governorsstateuniversityillinois from '../../assets/universityData/governors-state-university-illinois'
+import * as gracecollegeindiana from '../../assets/universityData/grace-college-indiana'
+import * as grandcanyonuniversityarizona from '../../assets/universityData/grand-canyon-university-arizona'
+import * as grandvalleystateuniversitymichigan from '../../assets/universityData/grand-valley-state-university-michigan'
+import * as gramblingstateuniversitylouisiana from '../../assets/universityData/grambling-state-university-louisiana'
+import * as graduateschoolofpublicpolicyuniversityofregina from '../../assets/universityData/graduate-school-of-public-policy-university-of-regina'
+import * as grandviewuniversityiowa from '../../assets/universityData/grand-view-university-iowa'
+import * as graysoncollegetexas from '../../assets/universityData/grayson-college-texas'
+import * as grandeprairieregionalcollegealberta from '../../assets/universityData/grande-prairie-regional-college-alberta'
+import * as granthamuniversitykansas from '../../assets/universityData/grantham-university-kansas'
+import * as greatbasincollegenevada from '../../assets/universityData/great-basin-college-nevada'
+import * as granitestatecollegenewhampshire from '../../assets/universityData/granite-state-college-new-hampshire'
+import * as greenvalleyislamiccollegenewsouthwales from '../../assets/universityData/green-valley-islamic-college-new-south-wales'
+import * as greatplainscollegesaskatchewan from '../../assets/universityData/great-plains-college-saskatchewan'
+import * as greatlakeschristiancollegemichigan from '../../assets/universityData/great-lakes-christian-college-michigan'
+import * as greenvilletechnicalcollegesouthcarolina from '../../assets/universityData/greenville-technical-college-south-carolina'
+import * as greensborocollegenorthcarolina from '../../assets/universityData/greensboro-college-north-carolina'
 
 
 
@@ -1132,6 +1152,26 @@ export {
 
     //amityglobalbusinessschool,
     //amityinstituteofinformationtechnologymumbai,
+    greensborocollegenorthcarolina,
+    greenvilletechnicalcollegesouthcarolina,
+    greatlakeschristiancollegemichigan,
+    greatplainscollegesaskatchewan,
+    greenvalleyislamiccollegenewsouthwales,
+    granitestatecollegenewhampshire,
+    greatbasincollegenevada,
+    granthamuniversitykansas,
+    grandeprairieregionalcollegealberta,
+    graysoncollegetexas,
+    grandviewuniversityiowa,
+    graduateschoolofpublicpolicyuniversityofregina,
+    gramblingstateuniversitylouisiana,
+    grandvalleystateuniversitymichigan,
+    grandcanyonuniversityarizona,
+    gracecollegeindiana,
+    governorsstateuniversityillinois,
+    gracechristianuniversitymichigan,
+    gracelanduniversityiowa,
+    gouchercollegemaryland,
     goodwinuniversityconnecticut,
     goldenstateuniversitycalifornia,
     goldeybeacomcollegedelaware,

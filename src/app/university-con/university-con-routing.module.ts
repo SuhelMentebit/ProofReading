@@ -52077,6 +52077,946 @@ const routes: Routes = [
   },
 
 
+
+  {
+    path: 'goucher-college-maryland/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goucher-college-maryland/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goucher-college-maryland/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goucher-college-maryland/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goucher-college-maryland/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goucher-college-maryland/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goucher-college-maryland/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goucher-college-maryland/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goucher-college-maryland/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goucher-college-maryland/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'goucher-college-maryland/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'graceland-university-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graceland-university-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graceland-university-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graceland-university-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graceland-university-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graceland-university-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graceland-university-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graceland-university-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graceland-university-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graceland-university-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graceland-university-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'grace-christian-university-michigan/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-christian-university-michigan/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-christian-university-michigan/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-christian-university-michigan/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-christian-university-michigan/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-christian-university-michigan/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-christian-university-michigan/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-christian-university-michigan/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-christian-university-michigan/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-christian-university-michigan/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-christian-university-michigan/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'governors-state-university-illinois/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'governors-state-university-illinois/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'governors-state-university-illinois/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'governors-state-university-illinois/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'governors-state-university-illinois/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'governors-state-university-illinois/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'governors-state-university-illinois/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'governors-state-university-illinois/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'governors-state-university-illinois/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'governors-state-university-illinois/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'governors-state-university-illinois/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'grace-college-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-college-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-college-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-college-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-college-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-college-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-college-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-college-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-college-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-college-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grace-college-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'grand-canyon-university-arizona/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-canyon-university-arizona/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-canyon-university-arizona/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-canyon-university-arizona/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-canyon-university-arizona/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-canyon-university-arizona/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-canyon-university-arizona/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-canyon-university-arizona/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-canyon-university-arizona/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-canyon-university-arizona/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-canyon-university-arizona/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'grand-valley-state-university-michigan/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-valley-state-university-michigan/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-valley-state-university-michigan/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-valley-state-university-michigan/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-valley-state-university-michigan/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-valley-state-university-michigan/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-valley-state-university-michigan/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-valley-state-university-michigan/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-valley-state-university-michigan/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-valley-state-university-michigan/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-valley-state-university-michigan/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'grambling-state-university-louisiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grambling-state-university-louisiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grambling-state-university-louisiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grambling-state-university-louisiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grambling-state-university-louisiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grambling-state-university-louisiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grambling-state-university-louisiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grambling-state-university-louisiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grambling-state-university-louisiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grambling-state-university-louisiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grambling-state-university-louisiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'graduate-school-of-public-policy-university-of-regina/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graduate-school-of-public-policy-university-of-regina/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graduate-school-of-public-policy-university-of-regina/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graduate-school-of-public-policy-university-of-regina/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graduate-school-of-public-policy-university-of-regina/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graduate-school-of-public-policy-university-of-regina/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graduate-school-of-public-policy-university-of-regina/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graduate-school-of-public-policy-university-of-regina/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graduate-school-of-public-policy-university-of-regina/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graduate-school-of-public-policy-university-of-regina/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'graduate-school-of-public-policy-university-of-regina/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'grand-view-university-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-view-university-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-view-university-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-view-university-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-view-university-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-view-university-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-view-university-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-view-university-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-view-university-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-view-university-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grand-view-university-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'grayson-college-texas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grayson-college-texas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grayson-college-texas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grayson-college-texas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grayson-college-texas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grayson-college-texas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grayson-college-texas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grayson-college-texas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grayson-college-texas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grayson-college-texas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grayson-college-texas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'grande-prairie-regional-college-alberta/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grande-prairie-regional-college-alberta/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grande-prairie-regional-college-alberta/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grande-prairie-regional-college-alberta/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grande-prairie-regional-college-alberta/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grande-prairie-regional-college-alberta/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grande-prairie-regional-college-alberta/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grande-prairie-regional-college-alberta/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grande-prairie-regional-college-alberta/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grande-prairie-regional-college-alberta/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grande-prairie-regional-college-alberta/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'grantham-university-kansas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grantham-university-kansas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grantham-university-kansas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grantham-university-kansas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grantham-university-kansas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grantham-university-kansas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grantham-university-kansas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grantham-university-kansas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grantham-university-kansas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grantham-university-kansas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'grantham-university-kansas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'great-basin-college-nevada/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-basin-college-nevada/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-basin-college-nevada/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-basin-college-nevada/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-basin-college-nevada/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-basin-college-nevada/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-basin-college-nevada/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-basin-college-nevada/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-basin-college-nevada/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-basin-college-nevada/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-basin-college-nevada/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'granite-state-college-new-hampshire/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'granite-state-college-new-hampshire/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'granite-state-college-new-hampshire/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'granite-state-college-new-hampshire/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'granite-state-college-new-hampshire/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'granite-state-college-new-hampshire/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'granite-state-college-new-hampshire/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'granite-state-college-new-hampshire/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'granite-state-college-new-hampshire/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'granite-state-college-new-hampshire/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'granite-state-college-new-hampshire/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'green-valley-islamic-college-new-south-wales/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'green-valley-islamic-college-new-south-wales/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'green-valley-islamic-college-new-south-wales/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'green-valley-islamic-college-new-south-wales/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'green-valley-islamic-college-new-south-wales/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'green-valley-islamic-college-new-south-wales/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'green-valley-islamic-college-new-south-wales/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'green-valley-islamic-college-new-south-wales/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'green-valley-islamic-college-new-south-wales/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'green-valley-islamic-college-new-south-wales/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'green-valley-islamic-college-new-south-wales/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'great-plains-college-saskatchewan/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-plains-college-saskatchewan/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-plains-college-saskatchewan/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-plains-college-saskatchewan/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-plains-college-saskatchewan/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-plains-college-saskatchewan/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-plains-college-saskatchewan/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-plains-college-saskatchewan/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-plains-college-saskatchewan/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-plains-college-saskatchewan/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-plains-college-saskatchewan/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'great-lakes-christian-college-michigan/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-lakes-christian-college-michigan/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-lakes-christian-college-michigan/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-lakes-christian-college-michigan/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-lakes-christian-college-michigan/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-lakes-christian-college-michigan/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-lakes-christian-college-michigan/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-lakes-christian-college-michigan/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-lakes-christian-college-michigan/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-lakes-christian-college-michigan/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'great-lakes-christian-college-michigan/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'greenville-technical-college-south-carolina/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greenville-technical-college-south-carolina/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greenville-technical-college-south-carolina/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greenville-technical-college-south-carolina/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greenville-technical-college-south-carolina/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greenville-technical-college-south-carolina/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greenville-technical-college-south-carolina/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greenville-technical-college-south-carolina/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greenville-technical-college-south-carolina/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greenville-technical-college-south-carolina/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greenville-technical-college-south-carolina/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'greensboro-college-north-carolina/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greensboro-college-north-carolina/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greensboro-college-north-carolina/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greensboro-college-north-carolina/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greensboro-college-north-carolina/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greensboro-college-north-carolina/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greensboro-college-north-carolina/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greensboro-college-north-carolina/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greensboro-college-north-carolina/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greensboro-college-north-carolina/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'greensboro-college-north-carolina/faq/.',
+    component: UniversityConComponent
+  },
+
+
 ];
 
 @NgModule({
