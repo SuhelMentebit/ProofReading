@@ -1145,6 +1145,46 @@ import * as greatplainscollegesaskatchewan from '../../assets/universityData/gre
 import * as greatlakeschristiancollegemichigan from '../../assets/universityData/great-lakes-christian-college-michigan'
 import * as greenvilletechnicalcollegesouthcarolina from '../../assets/universityData/greenville-technical-college-south-carolina'
 import * as greensborocollegenorthcarolina from '../../assets/universityData/greensboro-college-north-carolina'
+import * as grinnellcollegeiowa from '../../assets/universityData/grinnell-college-iowa'
+import * as griffithfilmschoolqueensland from '../../assets/universityData/griffith-film-school-queensland'
+import * as groveschristiancollegequeensland from '../../assets/universityData/groves-christian-college-queensland'
+import * as greenvilleuniversityillinoi from '../../assets/universityData/greenville-university-illinoi'
+import * as griffithlawschoolqueensland from '../../assets/universityData/griffith-law-school-queensland'
+import * as hamlineuniversityminnesota from '../../assets/universityData/hamline-university-minnesota'
+import * as guilfordcollegenorthcarolina from '../../assets/universityData/guilford-college-north-carolina'
+import * as gustavusadolphuscollegeminnesota from '../../assets/universityData/gustavus-adolphus-college-minnesota'
+import * as hamiltontechnicalcollegeiowa from '../../assets/universityData/hamilton-technical-college-iowa'
+import * as gwyneddmercyuniversitypennsylvania from '../../assets/universityData/gwynedd-mercy-university-pennsylvania'
+import * as hardinguniversityarkansas from '../../assets/universityData/harding-university-arkansas'
+import * as hanovercollegeindiana from '../../assets/universityData/hanover-college-indiana'
+import * as hardinsimmonsuniversitytexas from '../../assets/universityData/hardin-simmons-university-texas'
+import * as hampshirecollegemassachusetts from '../../assets/universityData/hampshire-college-massachusetts'
+import * as hanniballagrangeuniversitymissouri from '../../assets/universityData/hannibal-lagrange-university-missouri'
+import * as hartpuryuniversityengland from '../../assets/universityData/hartpury-university-england'
+import * as harrisburgareacommunitycollegepennsylvania from '../../assets/universityData/harrisburg-area-community-college-pennsylvania'
+import * as harvarduniversitymassachusetts from '../../assets/universityData/harvard-university-massachusetts'
+import * as harrisstowestateuniversitymissouri from '../../assets/universityData/harris-stowe-state-university-missouri'
+import * as harrisburguniversityofscienceandtechnologypennsylvania from '../../assets/universityData/harrisburg-university-of-science-and-technology-pennsylvania'
+import * as haverfordcollegepennsylvania from '../../assets/universityData/haverford-college-pennsylvania'
+import * as hawaiimedicalcollegehawaii from '../../assets/universityData/hawaii-medical-college-hawaii'
+import * as haskellindiannationsuniversitykansas from '../../assets/universityData/haskell-indian-nations-university-kansas'
+import * as harveymuddcollegecalifornia from '../../assets/universityData/harvey-mudd-college-california'
+import * as hastingscollegenebraska from '../../assets/universityData/hastings-college-nebraska'
+import * as helpmannacademysouthaustralia from '../../assets/universityData/helpmann-academy-south-australia'
+import * as heidelberguniversityohio from '../../assets/universityData/heidelberg-university-ohio'
+import * as hawaiipacificuniversityhawaii from '../../assets/universityData/hawaii-pacific-university-hawaii'
+import * as hawkeyecommunitycollegemaincampusiowa from '../../assets/universityData/hawkeye-community-college-main-campus-iowa'
+import * as hendersonstateuniversityarkansas from '../../assets/universityData/henderson-state-university-arkansas'
+import * as herzinguniversitymadisonwisconsin from '../../assets/universityData/herzing-university-madison-wisconsin'
+import * as heriotwattuniversityscotland from '../../assets/universityData/heriot-watt-university-scotland'
+import * as hendrixcollegearkansas from '../../assets/universityData/hendrix-college-arkansas'
+import * as heritageuniversitywashington from '../../assets/universityData/heritage-university-washington'
+import * as herzinguniversityminneapolisminnesota from '../../assets/universityData/herzing-university-minneapolis-minnesota'
+import * as highlandcommunitycollegekansas from '../../assets/universityData/highland-community-college-kansas'
+import * as herzinguniversityohio from '../../assets/universityData/herzing-university-ohio'
+import * as hesstoncollegekansas from '../../assets/universityData/hesston-college-kansas'
+import * as herzinguniversitylouisiana from '../../assets/universityData/herzing-university-louisiana'
+import * as highpointuniversitynorthcarolina from '../../assets/universityData/high-point-university-north-carolina'
 
 
 
@@ -1152,6 +1192,46 @@ export {
 
     //amityglobalbusinessschool,
     //amityinstituteofinformationtechnologymumbai,
+    highpointuniversitynorthcarolina,
+    herzinguniversitylouisiana,
+    hesstoncollegekansas,
+    herzinguniversityohio,
+    highlandcommunitycollegekansas,
+    herzinguniversityminneapolisminnesota,
+    heritageuniversitywashington,
+    hendrixcollegearkansas,
+    heriotwattuniversityscotland,
+    herzinguniversitymadisonwisconsin,
+    hendersonstateuniversityarkansas,
+    hawkeyecommunitycollegemaincampusiowa,
+    hawaiipacificuniversityhawaii,
+    heidelberguniversityohio,
+    helpmannacademysouthaustralia,
+    hastingscollegenebraska,
+    harveymuddcollegecalifornia,
+    haskellindiannationsuniversitykansas,
+    hawaiimedicalcollegehawaii,
+    haverfordcollegepennsylvania,
+    harrisburguniversityofscienceandtechnologypennsylvania,
+    harrisstowestateuniversitymissouri,
+    harvarduniversitymassachusetts,
+    harrisburgareacommunitycollegepennsylvania,
+    hartpuryuniversityengland,
+    hanniballagrangeuniversitymissouri,
+    hampshirecollegemassachusetts,
+    hardinsimmonsuniversitytexas,
+    hanovercollegeindiana,
+    hardinguniversityarkansas,
+    gwyneddmercyuniversitypennsylvania,
+    hamiltontechnicalcollegeiowa,
+    gustavusadolphuscollegeminnesota,
+    guilfordcollegenorthcarolina,
+    hamlineuniversityminnesota,
+    griffithlawschoolqueensland,
+    greenvilleuniversityillinoi,
+    groveschristiancollegequeensland,
+    griffithfilmschoolqueensland,
+    grinnellcollegeiowa,
     greensborocollegenorthcarolina,
     greenvilletechnicalcollegesouthcarolina,
     greatlakeschristiancollegemichigan,
