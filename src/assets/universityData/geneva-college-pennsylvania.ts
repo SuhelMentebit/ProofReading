@@ -356,10 +356,14 @@ export const genevacollegepennsylvania = {
                 "West Hall",
                 "South Hall",
             ],
-            "heading": "<p>The residence halls offer single and double rooms, with some rooms equipped with private bathrooms. The residence halls also have lounges, laundry facilities, and common kitchen areas.</p>"
         },
         {
-            "type": "list-bollet",
+            "type": "text",
+            "title": "",
+            "data": "<p>The residence halls offer single and double rooms, with some rooms equipped with private bathrooms. The residence halls also have lounges, laundry facilities, and common kitchen areas.</p>"
+        },
+        {
+            "type": "text",
             "title": "",
             "info": "Off-Campus Accommodation",
             "data": "<p>Geneva College does not own or manage any off-campus housing options. However, there are several off-campus housing options in the area. These include apartments, townhouses, and houses for rent.</p>"
