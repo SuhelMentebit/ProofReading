@@ -1185,6 +1185,26 @@ import * as herzinguniversityohio from '../../assets/universityData/herzing-univ
 import * as hesstoncollegekansas from '../../assets/universityData/hesston-college-kansas'
 import * as herzinguniversitylouisiana from '../../assets/universityData/herzing-university-louisiana'
 import * as highpointuniversitynorthcarolina from '../../assets/universityData/high-point-university-north-carolina'
+import * as highlandscollegemontana from '../../assets/universityData/highlands-college-montana'
+import * as hillsongcollegenewsouthwales from '../../assets/universityData/hillsong-college-new-south-wales'
+import * as hillcollegetexas from '../../assets/universityData/hill-college-texas'
+import * as hiramcollegeohio from '../../assets/universityData/hiram-college-ohio'
+import * as hockingcollegeohio from '../../assets/universityData/hocking-college-ohio'
+import * as holmesgleninstitutecitycampusvictoria from '../../assets/universityData/holmesglen-institute-city-campus-victoria'
+import * as hofstrauniversitynewyork from '../../assets/universityData/hofstra-university-new-york'
+import * as holycrosscollegeindiana from '../../assets/universityData/holy-cross-college-indiana'
+import * as hodgesuniversityflorida from '../../assets/universityData/hodges-university-florida'
+import * as hollandcollegeprinceedwardisland from '../../assets/universityData/holland-college-prince-edward-island'
+import * as honolulucommunitycollegehawaii from '../../assets/universityData/honolulu-community-college-hawaii'
+import * as hoodcollegemaryland from '../../assets/universityData/hood-college-maryland'
+import * as holyspiritseminarybrisbanequeensland from '../../assets/universityData/holy-spirit-seminary-brisbane-queensland'
+import * as hondroscollegeohio from '../../assets/universityData/hondros-college-ohio'
+import * as holynamesuniversitycalifornia from '../../assets/universityData/holy-names-university-california'
+import * as housatoniccommunitycollegeconnecticut from '../../assets/universityData/housatonic-community-college-connecticut'
+import * as horizoncollegeandseminarysaskatchewan from '../../assets/universityData/horizon-college-and-seminary-saskatchewan'
+import * as hopecollegemontana from '../../assets/universityData/hope-college-montana'
+import * as hopeinternationaluniversitycalifornia from '../../assets/universityData/hope-international-university-california'
+import * as horrygeorgetowntechnicalcollegesouthcarolina from '../../assets/universityData/horry-georgetown-technical-college-south-carolina'
 
 
 
@@ -1192,6 +1212,26 @@ export {
 
     //amityglobalbusinessschool,
     //amityinstituteofinformationtechnologymumbai,
+    horrygeorgetowntechnicalcollegesouthcarolina,
+    hopeinternationaluniversitycalifornia,
+    hopecollegemontana,
+    horizoncollegeandseminarysaskatchewan,
+    housatoniccommunitycollegeconnecticut,
+    holynamesuniversitycalifornia,
+    hondroscollegeohio,
+    holyspiritseminarybrisbanequeensland,
+    hoodcollegemaryland,
+    honolulucommunitycollegehawaii,
+    hollandcollegeprinceedwardisland,
+    hodgesuniversityflorida,
+    holycrosscollegeindiana,
+    hofstrauniversitynewyork,
+    holmesgleninstitutecitycampusvictoria,
+    hockingcollegeohio,
+    hiramcollegeohio,
+    hillcollegetexas,
+    hillsongcollegenewsouthwales,
+    highlandscollegemontana,
     highpointuniversitynorthcarolina,
     herzinguniversitylouisiana,
     hesstoncollegekansas,

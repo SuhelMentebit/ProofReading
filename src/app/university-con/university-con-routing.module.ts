@@ -54897,6 +54897,950 @@ const routes: Routes = [
   },
 
 
+
+  {
+    path: 'highlands-college-montana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'highlands-college-montana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'highlands-college-montana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'highlands-college-montana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'highlands-college-montana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'highlands-college-montana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'highlands-college-montana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'highlands-college-montana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'highlands-college-montana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'highlands-college-montana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'highlands-college-montana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'hillsong-college-new-south-wales/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hillsong-college-new-south-wales/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hillsong-college-new-south-wales/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hillsong-college-new-south-wales/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hillsong-college-new-south-wales/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hillsong-college-new-south-wales/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hillsong-college-new-south-wales/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hillsong-college-new-south-wales/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hillsong-college-new-south-wales/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hillsong-college-new-south-wales/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hillsong-college-new-south-wales/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'hill-college-texas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hill-college-texas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hill-college-texas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hill-college-texas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hill-college-texas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hill-college-texas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hill-college-texas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hill-college-texas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hill-college-texas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hill-college-texas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hill-college-texas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'hiram-college-ohio/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hiram-college-ohio/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hiram-college-ohio/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hiram-college-ohio/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hiram-college-ohio/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hiram-college-ohio/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hiram-college-ohio/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hiram-college-ohio/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hiram-college-ohio/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hiram-college-ohio/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hiram-college-ohio/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'hocking-college-ohio/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hocking-college-ohio/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hocking-college-ohio/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hocking-college-ohio/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hocking-college-ohio/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hocking-college-ohio/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hocking-college-ohio/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hocking-college-ohio/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hocking-college-ohio/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hocking-college-ohio/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hocking-college-ohio/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'holmesglen-institute-city-campus-victoria/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holmesglen-institute-city-campus-victoria/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holmesglen-institute-city-campus-victoria/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holmesglen-institute-city-campus-victoria/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holmesglen-institute-city-campus-victoria/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holmesglen-institute-city-campus-victoria/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holmesglen-institute-city-campus-victoria/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holmesglen-institute-city-campus-victoria/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holmesglen-institute-city-campus-victoria/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holmesglen-institute-city-campus-victoria/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holmesglen-institute-city-campus-victoria/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'hofstra-university-new-york/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hofstra-university-new-york/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hofstra-university-new-york/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hofstra-university-new-york/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hofstra-university-new-york/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hofstra-university-new-york/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hofstra-university-new-york/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hofstra-university-new-york/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hofstra-university-new-york/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hofstra-university-new-york/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hofstra-university-new-york/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'holy-cross-college-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-cross-college-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-cross-college-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-cross-college-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-cross-college-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-cross-college-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-cross-college-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-cross-college-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-cross-college-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-cross-college-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-cross-college-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'hodges-university-florida/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hodges-university-florida/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hodges-university-florida/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hodges-university-florida/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hodges-university-florida/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hodges-university-florida/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hodges-university-florida/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hodges-university-florida/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hodges-university-florida/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hodges-university-florida/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hodges-university-florida/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'holland-college-prince-edward-island/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holland-college-prince-edward-island/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holland-college-prince-edward-island/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holland-college-prince-edward-island/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holland-college-prince-edward-island/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holland-college-prince-edward-island/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holland-college-prince-edward-island/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holland-college-prince-edward-island/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holland-college-prince-edward-island/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holland-college-prince-edward-island/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holland-college-prince-edward-island/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+
+  {
+    path: 'honolulu-community-college-hawaii/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'honolulu-community-college-hawaii/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'honolulu-community-college-hawaii/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'honolulu-community-college-hawaii/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'honolulu-community-college-hawaii/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'honolulu-community-college-hawaii/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'honolulu-community-college-hawaii/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'honolulu-community-college-hawaii/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'honolulu-community-college-hawaii/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'honolulu-community-college-hawaii/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'honolulu-community-college-hawaii/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'hood-college-maryland/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hood-college-maryland/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hood-college-maryland/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hood-college-maryland/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hood-college-maryland/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hood-college-maryland/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hood-college-maryland/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hood-college-maryland/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hood-college-maryland/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hood-college-maryland/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hood-college-maryland/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'holy-spirit-seminary-brisbane-queensland/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-spirit-seminary-brisbane-queensland/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-spirit-seminary-brisbane-queensland/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-spirit-seminary-brisbane-queensland/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-spirit-seminary-brisbane-queensland/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-spirit-seminary-brisbane-queensland/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-spirit-seminary-brisbane-queensland/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-spirit-seminary-brisbane-queensland/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-spirit-seminary-brisbane-queensland/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-spirit-seminary-brisbane-queensland/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-spirit-seminary-brisbane-queensland/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'hondros-college-ohio/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hondros-college-ohio/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hondros-college-ohio/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hondros-college-ohio/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hondros-college-ohio/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hondros-college-ohio/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hondros-college-ohio/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hondros-college-ohio/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hondros-college-ohio/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hondros-college-ohio/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hondros-college-ohio/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'holy-names-university-california/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-names-university-california/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-names-university-california/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-names-university-california/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-names-university-california/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-names-university-california/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-names-university-california/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-names-university-california/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-names-university-california/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-names-university-california/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'holy-names-university-california/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'housatonic-community-college-connecticut/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'housatonic-community-college-connecticut/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'housatonic-community-college-connecticut/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'housatonic-community-college-connecticut/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'housatonic-community-college-connecticut/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'housatonic-community-college-connecticut/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'housatonic-community-college-connecticut/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'housatonic-community-college-connecticut/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'housatonic-community-college-connecticut/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'housatonic-community-college-connecticut/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'housatonic-community-college-connecticut/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'horizon-college-and-seminary-saskatchewan/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horizon-college-and-seminary-saskatchewan/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horizon-college-and-seminary-saskatchewan/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horizon-college-and-seminary-saskatchewan/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horizon-college-and-seminary-saskatchewan/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horizon-college-and-seminary-saskatchewan/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horizon-college-and-seminary-saskatchewan/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horizon-college-and-seminary-saskatchewan/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horizon-college-and-seminary-saskatchewan/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horizon-college-and-seminary-saskatchewan/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horizon-college-and-seminary-saskatchewan/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'hope-college-montana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-college-montana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-college-montana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-college-montana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-college-montana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-college-montana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-college-montana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-college-montana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-college-montana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-college-montana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-college-montana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'hope-international-university-california/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-international-university-california/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-international-university-california/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-international-university-california/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-international-university-california/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-international-university-california/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-international-university-california/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-international-university-california/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-international-university-california/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-international-university-california/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hope-international-university-california/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'horry-georgetown-technical-college-south-carolina/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horry-georgetown-technical-college-south-carolina/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horry-georgetown-technical-college-south-carolina/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horry-georgetown-technical-college-south-carolina/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horry-georgetown-technical-college-south-carolina/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horry-georgetown-technical-college-south-carolina/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horry-georgetown-technical-college-south-carolina/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horry-georgetown-technical-college-south-carolina/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horry-georgetown-technical-college-south-carolina/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horry-georgetown-technical-college-south-carolina/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'horry-georgetown-technical-college-south-carolina/faq/.',
+    component: UniversityConComponent
+  },
+
+
 ];
 
 @NgModule({
