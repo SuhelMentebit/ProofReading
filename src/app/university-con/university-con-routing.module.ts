@@ -55796,6 +55796,53 @@ const routes: Routes = [
 
 
   {
+    path: 'houston-baptist-university-texas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'houston-baptist-university-texas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'houston-baptist-university-texas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'houston-baptist-university-texas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'houston-baptist-university-texas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'houston-baptist-university-texas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'houston-baptist-university-texas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'houston-baptist-university-texas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'houston-baptist-university-texas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'houston-baptist-university-texas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'houston-baptist-university-texas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
     path: 'horry-georgetown-technical-college-south-carolina/.',
     component: UniversityConComponent
   },
@@ -55837,6 +55884,2121 @@ const routes: Routes = [
   },
   {
     path: 'horry-georgetown-technical-college-south-carolina/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'humboldt-state-university-california/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humboldt-state-university-california/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humboldt-state-university-california/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humboldt-state-university-california/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humboldt-state-university-california/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humboldt-state-university-california/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humboldt-state-university-california/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humboldt-state-university-california/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humboldt-state-university-california/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humboldt-state-university-california/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humboldt-state-university-california/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'howard-college-texas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-college-texas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-college-texas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-college-texas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-college-texas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-college-texas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-college-texas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-college-texas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-college-texas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-college-texas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-college-texas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'humber-college-ontario/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humber-college-ontario/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humber-college-ontario/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humber-college-ontario/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humber-college-ontario/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humber-college-ontario/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humber-college-ontario/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humber-college-ontario/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humber-college-ontario/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humber-college-ontario/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humber-college-ontario/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'howard-payne-university-texas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-payne-university-texas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-payne-university-texas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-payne-university-texas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-payne-university-texas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-payne-university-texas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-payne-university-texas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-payne-university-texas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-payne-university-texas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-payne-university-texas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'howard-payne-university-texas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'huntingdon-college-alabama/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntingdon-college-alabama/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntingdon-college-alabama/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntingdon-college-alabama/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntingdon-college-alabama/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntingdon-college-alabama/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntingdon-college-alabama/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntingdon-college-alabama/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntingdon-college-alabama/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntingdon-college-alabama/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntingdon-college-alabama/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'huntington-junior-college-west-virginia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntington-junior-college-west-virginia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntington-junior-college-west-virginia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntington-junior-college-west-virginia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntington-junior-college-west-virginia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntington-junior-college-west-virginia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntington-junior-college-west-virginia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntington-junior-college-west-virginia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntington-junior-college-west-virginia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntington-junior-college-west-virginia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huntington-junior-college-west-virginia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'humphreys-university-california/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humphreys-university-california/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humphreys-university-california/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humphreys-university-california/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humphreys-university-california/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humphreys-university-california/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humphreys-university-california/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humphreys-university-california/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humphreys-university-california/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humphreys-university-california/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'humphreys-university-california/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'huston-tillotson-university-texas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huston-tillotson-university-texas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huston-tillotson-university-texas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huston-tillotson-university-texas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huston-tillotson-university-texas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huston-tillotson-university-texas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huston-tillotson-university-texas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huston-tillotson-university-texas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huston-tillotson-university-texas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huston-tillotson-university-texas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'huston-tillotson-university-texas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'husson-university-maine/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'husson-university-maine/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'husson-university-maine/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'husson-university-maine/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'husson-university-maine/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'husson-university-maine/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'husson-university-maine/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'husson-university-maine/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'husson-university-maine/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'husson-university-maine/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'husson-university-maine/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'hutchinson-community-college-kansas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutchinson-community-college-kansas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutchinson-community-college-kansas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutchinson-community-college-kansas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutchinson-community-college-kansas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutchinson-community-college-kansas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutchinson-community-college-kansas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutchinson-community-college-kansas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutchinson-community-college-kansas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutchinson-community-college-kansas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutchinson-community-college-kansas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'illinois-college-illinois/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-college-illinois/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-college-illinois/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-college-illinois/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-college-illinois/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-college-illinois/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-college-illinois/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-college-illinois/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-college-illinois/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-college-illinois/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-college-illinois/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'hutington-university-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutington-university-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutington-university-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutington-university-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutington-university-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutington-university-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutington-university-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutington-university-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutington-university-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutington-university-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'hutington-university-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'idaho-state-university-idaho/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'idaho-state-university-idaho/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'idaho-state-university-idaho/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'idaho-state-university-idaho/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'idaho-state-university-idaho/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'idaho-state-university-idaho/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'idaho-state-university-idaho/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'idaho-state-university-idaho/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'idaho-state-university-idaho/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'idaho-state-university-idaho/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'idaho-state-university-idaho/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'iglobal-university-virginia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iglobal-university-virginia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iglobal-university-virginia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iglobal-university-virginia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iglobal-university-virginia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iglobal-university-virginia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iglobal-university-virginia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iglobal-university-virginia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iglobal-university-virginia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iglobal-university-virginia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iglobal-university-virginia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'imperial-college-london-england/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'imperial-college-london-england/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'imperial-college-london-england/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'imperial-college-london-england/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'imperial-college-london-england/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'imperial-college-london-england/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'imperial-college-london-england/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'imperial-college-london-england/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'imperial-college-london-england/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'imperial-college-london-england/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'imperial-college-london-england/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'illinois-wesleyan-university-illinois/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-wesleyan-university-illinois/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-wesleyan-university-illinois/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-wesleyan-university-illinois/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-wesleyan-university-illinois/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-wesleyan-university-illinois/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-wesleyan-university-illinois/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-wesleyan-university-illinois/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-wesleyan-university-illinois/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-wesleyan-university-illinois/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-wesleyan-university-illinois/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'immaculata-university-pennsylvania/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'immaculata-university-pennsylvania/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'immaculata-university-pennsylvania/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'immaculata-university-pennsylvania/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'immaculata-university-pennsylvania/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'immaculata-university-pennsylvania/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'immaculata-university-pennsylvania/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'immaculata-university-pennsylvania/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'immaculata-university-pennsylvania/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'immaculata-university-pennsylvania/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'immaculata-university-pennsylvania/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'illinois-state-university-illinois/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-state-university-illinois/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-state-university-illinois/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-state-university-illinois/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-state-university-illinois/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-state-university-illinois/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-state-university-illinois/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-state-university-illinois/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-state-university-illinois/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-state-university-illinois/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-state-university-illinois/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'illinois-institute-of-technology-illinois/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-institute-of-technology-illinois/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-institute-of-technology-illinois/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-institute-of-technology-illinois/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-institute-of-technology-illinois/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-institute-of-technology-illinois/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-institute-of-technology-illinois/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-institute-of-technology-illinois/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-institute-of-technology-illinois/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-institute-of-technology-illinois/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'illinois-institute-of-technology-illinois/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'indiana-tech-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-tech-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-tech-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-tech-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-tech-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-tech-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-tech-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-tech-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-tech-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-tech-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-tech-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'indian-hills-community-college-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indian-hills-community-college-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indian-hills-community-college-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indian-hills-community-college-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indian-hills-community-college-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indian-hills-community-college-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indian-hills-community-college-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indian-hills-community-college-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indian-hills-community-college-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indian-hills-community-college-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indian-hills-community-college-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'independence-university-utah/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-university-utah/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-university-utah/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-university-utah/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-university-utah/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-university-utah/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-university-utah/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-university-utah/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-university-utah/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-university-utah/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-university-utah/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'independence-community-college-kansas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-community-college-kansas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-community-college-kansas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-community-college-kansas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-community-college-kansas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-community-college-kansas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-community-college-kansas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-community-college-kansas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-community-college-kansas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-community-college-kansas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'independence-community-college-kansas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'indiana-state-university-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-state-university-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-state-university-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-state-university-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-state-university-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-state-university-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-state-university-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-state-university-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-state-university-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-state-university-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-state-university-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'indiana-university-of-pennsylvania/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-of-pennsylvania/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-of-pennsylvania/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-of-pennsylvania/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-of-pennsylvania/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-of-pennsylvania/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-of-pennsylvania/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-of-pennsylvania/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-of-pennsylvania/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-of-pennsylvania/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-of-pennsylvania/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'indiana-university-kokomo-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-kokomo-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-kokomo-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-kokomo-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-kokomo-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-kokomo-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-kokomo-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-kokomo-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-kokomo-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-kokomo-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-kokomo-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'indiana-university-northwest-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-northwest-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-northwest-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-northwest-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-northwest-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-northwest-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-northwest-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-northwest-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-northwest-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-northwest-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-northwest-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'indiana-university-east-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-east-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-east-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-east-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-east-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-east-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-east-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-east-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-east-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-east-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-east-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'indiana-university-bloomington-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-bloomington-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-bloomington-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-bloomington-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-bloomington-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-bloomington-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-bloomington-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-bloomington-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-bloomington-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-bloomington-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-bloomington-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'indiana-university-southeast-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-southeast-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-southeast-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-southeast-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-southeast-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-southeast-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-southeast-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-southeast-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-southeast-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-southeast-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-southeast-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'institute-of-american-indian-arts-new-mexico/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institute-of-american-indian-arts-new-mexico/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institute-of-american-indian-arts-new-mexico/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institute-of-american-indian-arts-new-mexico/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institute-of-american-indian-arts-new-mexico/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institute-of-american-indian-arts-new-mexico/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institute-of-american-indian-arts-new-mexico/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institute-of-american-indian-arts-new-mexico/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institute-of-american-indian-arts-new-mexico/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institute-of-american-indian-arts-new-mexico/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institute-of-american-indian-arts-new-mexico/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'indiana-wesleyan-university-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-wesleyan-university-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-wesleyan-university-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-wesleyan-university-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-wesleyan-university-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-wesleyan-university-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-wesleyan-university-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-wesleyan-university-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-wesleyan-university-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-wesleyan-university-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-wesleyan-university-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'institut-national-de-la-recherche-scientifique/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institut-national-de-la-recherche-scientifique/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institut-national-de-la-recherche-scientifique/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institut-national-de-la-recherche-scientifique/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institut-national-de-la-recherche-scientifique/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institut-national-de-la-recherche-scientifique/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institut-national-de-la-recherche-scientifique/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institut-national-de-la-recherche-scientifique/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institut-national-de-la-recherche-scientifique/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institut-national-de-la-recherche-scientifique/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'institut-national-de-la-recherche-scientifique/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'indiana-university-south-bend-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-south-bend-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-south-bend-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-south-bend-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-south-bend-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-south-bend-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-south-bend-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-south-bend-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-south-bend-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-south-bend-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'indiana-university-south-bend-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'international-college-at-robert-gordon-university-scotland/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-at-robert-gordon-university-scotland/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-at-robert-gordon-university-scotland/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-at-robert-gordon-university-scotland/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-at-robert-gordon-university-scotland/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-at-robert-gordon-university-scotland/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-at-robert-gordon-university-scotland/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-at-robert-gordon-university-scotland/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-at-robert-gordon-university-scotland/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-at-robert-gordon-university-scotland/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-at-robert-gordon-university-scotland/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'international-college-dundee-scotland/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-dundee-scotland/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-dundee-scotland/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-dundee-scotland/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-dundee-scotland/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-dundee-scotland/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-dundee-scotland/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-dundee-scotland/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-dundee-scotland/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-dundee-scotland/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-dundee-scotland/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'international-medical-college-bangladesh/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-medical-college-bangladesh/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-medical-college-bangladesh/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-medical-college-bangladesh/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-medical-college-bangladesh/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-medical-college-bangladesh/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-medical-college-bangladesh/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-medical-college-bangladesh/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-medical-college-bangladesh/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-medical-college-bangladesh/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-medical-college-bangladesh/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'international-college-of-management-new-south-wales/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-of-management-new-south-wales/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-of-management-new-south-wales/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-of-management-new-south-wales/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-of-management-new-south-wales/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-of-management-new-south-wales/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-of-management-new-south-wales/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-of-management-new-south-wales/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-of-management-new-south-wales/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-of-management-new-south-wales/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-college-of-management-new-south-wales/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'international-baptist-college-and-seminary-arizona/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-baptist-college-and-seminary-arizona/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-baptist-college-and-seminary-arizona/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-baptist-college-and-seminary-arizona/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-baptist-college-and-seminary-arizona/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-baptist-college-and-seminary-arizona/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-baptist-college-and-seminary-arizona/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-baptist-college-and-seminary-arizona/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-baptist-college-and-seminary-arizona/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-baptist-college-and-seminary-arizona/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'international-baptist-college-and-seminary-arizona/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'iowa-wesleyan-university-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-wesleyan-university-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-wesleyan-university-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-wesleyan-university-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-wesleyan-university-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-wesleyan-university-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-wesleyan-university-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-wesleyan-university-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-wesleyan-university-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-wesleyan-university-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-wesleyan-university-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'iowa-state-university-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-state-university-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-state-university-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-state-university-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-state-university-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-state-university-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-state-university-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-state-university-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-state-university-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-state-university-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-state-university-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'iona-college-new-york/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iona-college-new-york/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iona-college-new-york/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iona-college-new-york/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iona-college-new-york/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iona-college-new-york/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iona-college-new-york/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iona-college-new-york/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iona-college-new-york/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iona-college-new-york/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iona-college-new-york/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'iowa-central-community-college-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-central-community-college-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-central-community-college-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-central-community-college-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-central-community-college-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-central-community-college-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-central-community-college-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-central-community-college-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-central-community-college-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-central-community-college-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-central-community-college-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'iowa-lakes-community-college-estherville-campus/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-lakes-community-college-estherville-campus/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-lakes-community-college-estherville-campus/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-lakes-community-college-estherville-campus/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-lakes-community-college-estherville-campus/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-lakes-community-college-estherville-campus/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-lakes-community-college-estherville-campus/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-lakes-community-college-estherville-campus/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-lakes-community-college-estherville-campus/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-lakes-community-college-estherville-campus/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iowa-lakes-community-college-estherville-campus/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'iupui-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iupui-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iupui-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iupui-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iupui-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iupui-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iupui-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iupui-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iupui-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iupui-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'iupui-indiana/faq/.',
     component: UniversityConComponent
   },
 

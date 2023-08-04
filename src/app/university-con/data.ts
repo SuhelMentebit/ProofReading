@@ -1205,6 +1205,52 @@ import * as horizoncollegeandseminarysaskatchewan from '../../assets/universityD
 import * as hopecollegemontana from '../../assets/universityData/hope-college-montana'
 import * as hopeinternationaluniversitycalifornia from '../../assets/universityData/hope-international-university-california'
 import * as horrygeorgetowntechnicalcollegesouthcarolina from '../../assets/universityData/horry-georgetown-technical-college-south-carolina'
+import * as houstonbaptistuniversitytexas from '../../assets/universityData/houston-baptist-university-texas'
+import * as humboldtstateuniversitycalifornia from '../../assets/universityData/humboldt-state-university-california'
+import * as howardcollegetexas from '../../assets/universityData/howard-college-texas'
+import * as humbercollegeontario from '../../assets/universityData/humber-college-ontario'
+import * as howardpayneuniversitytexas from '../../assets/universityData/howard-payne-university-texas'
+import * as huntingdoncollegealabama from '../../assets/universityData/huntingdon-college-alabama'
+import * as huntingtonjuniorcollegewestvirginia from '../../assets/universityData/huntington-junior-college-west-virginia'
+import * as humphreysuniversitycalifornia from '../../assets/universityData/humphreys-university-california'
+import * as hustontillotsonuniversitytexas from '../../assets/universityData/huston-tillotson-university-texas'
+import * as hussonuniversitymaine from '../../assets/universityData/husson-university-maine'
+import * as hutchinsoncommunitycollegekansas from '../../assets/universityData/hutchinson-community-college-kansas'
+import * as illinoiscollegeillinois from '../../assets/universityData/illinois-college-illinois'
+import * as hutingtonuniversityindiana from '../../assets/universityData/hutington-university-indiana'
+import * as idahostateuniversityidaho from '../../assets/universityData/idaho-state-university-idaho'
+import * as iglobaluniversityvirginia from '../../assets/universityData/iglobal-university-virginia'
+import * as imperialcollegelondonengland from '../../assets/universityData/imperial-college-london-england'
+import * as illinoiswesleyanuniversityillinois from '../../assets/universityData/illinois-wesleyan-university-illinois'
+import * as immaculatauniversitypennsylvania from '../../assets/universityData/immaculata-university-pennsylvania'
+import * as illinoisstateuniversityillinois from '../../assets/universityData/illinois-state-university-illinois'
+import * as illinoisinstituteoftechnologyillinois from '../../assets/universityData/illinois-institute-of-technology-illinois'
+import * as indianatechindiana from '../../assets/universityData/indiana-tech-indiana'
+import * as indianhillscommunitycollegeiowa from '../../assets/universityData/indian-hills-community-college-iowa'
+import * as independenceuniversityutah from '../../assets/universityData/independence-university-utah'
+import * as independencecommunitycollegekansas from '../../assets/universityData/independence-community-college-kansas'
+import * as indianastateuniversityindiana from '../../assets/universityData/indiana-state-university-indiana'
+import * as indianauniversityofpennsylvania from '../../assets/universityData/indiana-university-of-pennsylvania'
+import * as indianauniversitykokomoindiana from '../../assets/universityData/indiana-university-kokomo-indiana'
+import * as indianauniversitynorthwestindiana from '../../assets/universityData/indiana-university-northwest-indiana'
+import * as indianauniversityeastindiana from '../../assets/universityData/indiana-university-east-indiana'
+import * as indianauniversitybloomingtonindiana from '../../assets/universityData/indiana-university-bloomington-indiana'
+import * as indianauniversitysoutheastindiana from '../../assets/universityData/indiana-university-southeast-indiana'
+import * as instituteofamericanindianartsnewmexico from '../../assets/universityData/institute-of-american-indian-arts-new-mexico'
+import * as indianawesleyanuniversityindiana from '../../assets/universityData/indiana-wesleyan-university-indiana'
+import * as institutnationaldelarecherchescientifique from '../../assets/universityData/institut-national-de-la-recherche-scientifique'
+import * as indianauniversitysouthbendindiana from '../../assets/universityData/indiana-university-south-bend-indiana'
+import * as internationalcollegeatrobertgordonuniversityscotland from '../../assets/universityData/international-college-at-robert-gordon-university-scotland'
+import * as internationalcollegedundeescotland from '../../assets/universityData/international-college-dundee-scotland'
+import * as internationalmedicalcollegebangladesh from '../../assets/universityData/international-medical-college-bangladesh'
+import * as internationalcollegeofmanagementnewsouthwales from '../../assets/universityData/international-college-of-management-new-south-wales'
+import * as internationalbaptistcollegeandseminaryarizona from '../../assets/universityData/international-baptist-college-and-seminary-arizona'
+import * as iowawesleyanuniversityiowa from '../../assets/universityData/iowa-wesleyan-university-iowa'
+import * as iowastateuniversityiowa from '../../assets/universityData/iowa-state-university-iowa'
+import * as ionacollegenewyork from '../../assets/universityData/iona-college-new-york'
+import * as iowacentralcommunitycollegeiowa from '../../assets/universityData/iowa-central-community-college-iowa'
+import * as iowalakescommunitycollegeesthervillecampus from '../../assets/universityData/iowa-lakes-community-college-estherville-campus'
+import * as iupuiindiana from '../../assets/universityData/iupui-indiana'
 
 
 
@@ -1212,6 +1258,52 @@ export {
 
     //amityglobalbusinessschool,
     //amityinstituteofinformationtechnologymumbai,
+    iupuiindiana,
+    iowalakescommunitycollegeesthervillecampus,
+    iowacentralcommunitycollegeiowa,
+    ionacollegenewyork,
+    iowastateuniversityiowa,
+    iowawesleyanuniversityiowa,
+    internationalbaptistcollegeandseminaryarizona,
+    internationalcollegeofmanagementnewsouthwales,
+    internationalmedicalcollegebangladesh,
+    internationalcollegedundeescotland,
+    internationalcollegeatrobertgordonuniversityscotland,
+    indianauniversitysouthbendindiana,
+    institutnationaldelarecherchescientifique,
+    indianawesleyanuniversityindiana,
+    instituteofamericanindianartsnewmexico,
+    indianauniversitysoutheastindiana,
+    indianauniversitybloomingtonindiana,
+    indianauniversityeastindiana,
+    indianauniversitynorthwestindiana,
+    indianauniversitykokomoindiana,
+    indianauniversityofpennsylvania,
+    indianastateuniversityindiana,
+    independencecommunitycollegekansas,
+    independenceuniversityutah,
+    indianhillscommunitycollegeiowa,
+    indianatechindiana,
+    illinoisinstituteoftechnologyillinois,
+    illinoisstateuniversityillinois,
+    immaculatauniversitypennsylvania,
+    illinoiswesleyanuniversityillinois,
+    imperialcollegelondonengland,
+    iglobaluniversityvirginia,
+    idahostateuniversityidaho,
+    hutingtonuniversityindiana,
+    illinoiscollegeillinois,
+    hutchinsoncommunitycollegekansas,
+    hussonuniversitymaine,
+    hustontillotsonuniversitytexas,
+    humphreysuniversitycalifornia,
+    huntingtonjuniorcollegewestvirginia,
+    huntingdoncollegealabama,
+    howardpayneuniversitytexas,
+    humbercollegeontario,
+    howardcollegetexas,
+    humboldtstateuniversitycalifornia,
+    houstonbaptistuniversitytexas,
     horrygeorgetowntechnicalcollegesouthcarolina,
     hopeinternationaluniversitycalifornia,
     hopecollegemontana,
