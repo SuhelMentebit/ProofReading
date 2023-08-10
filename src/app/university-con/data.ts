@@ -1251,6 +1251,75 @@ import * as ionacollegenewyork from '../../assets/universityData/iona-college-ne
 import * as iowacentralcommunitycollegeiowa from '../../assets/universityData/iowa-central-community-college-iowa'
 import * as iowalakescommunitycollegeesthervillecampus from '../../assets/universityData/iowa-lakes-community-college-estherville-campus'
 import * as iupuiindiana from '../../assets/universityData/iupui-indiana'
+import * as jacksonstateuniversitymississippi from '../../assets/universityData/jackson-state-university-mississippi'
+import * as jacksonvillecollegetexas from '../../assets/universityData/jacksonville-college-texas'
+import * as irishbaptistcollegenorthernireland from '../../assets/universityData/irish-baptist-college-northern-ireland'
+import * as iowawesterncommunitycollegeiowa from '../../assets/universityData/iowa-western-community-college-iowa'
+import * as irishschoolofecumenicsnorthernireland from '../../assets/universityData/irish-school-of-ecumenics-northern-ireland'
+import * as jamesmadisonuniversityvirginia from '../../assets/universityData/james-madison-university-virginia'
+import * as jamescookuniversityqueensland from '../../assets/universityData/james-cook-university-queensland'
+import * as jameshfaulknerstatecommunitycollegealabama from '../../assets/universityData/james-h-faulkner-state-community-college-alabama'
+import * as jacksonvilleuniversityflorida from '../../assets/universityData/jacksonville-university-florida'
+import * as jacksonvillestateuniversityalabama from '../../assets/universityData/jacksonville-state-university-alabama'
+import * as jarvischristiancollegetexas from '../../assets/universityData/jarvis-christian-college-texas'
+import * as janakimedicalcollege from '../../assets/universityData/janaki-medical-college'
+import * as jciinstitutebritishcolumbia from '../../assets/universityData/jci-institute-british-columbia'
+import * as jeffersonstatecommunitycollegealabama from '../../assets/universityData/jefferson-state-community-college-alabama'
+import * as jeffersondaviscommunitycollegealabama from '../../assets/universityData/jefferson-davis-community-college-alabama'
+import * as jmcacademynewsouthwales from '../../assets/universityData/jmc-academy-new-south-wales'
+import * as johnbrownuniversityarkansas from '../../assets/universityData/john-brown-university-arkansas'
+import * as johnpaulthegreatcatholicuniversitycalifornia from '../../assets/universityData/john-paul-the-great-catholic-university-california'
+import * as jervisbayschooljervisbayterritory from '../../assets/universityData/jervis-bay-school-jervis-bay-territory'
+import * as johncarrolluniversityohio from '../../assets/universityData/john-carroll-university-ohio'
+import * as johnsonandwalesuniversityprovidencecampusrhodeisland from '../../assets/universityData/johnson-and-wales-university-providence-campus-rhode-island'
+import * as johnsoncollegepennsylvania from '../../assets/universityData/johnson-college-pennsylvania'
+import * as johnshopkinsuniversitymaryland from '../../assets/universityData/johns-hopkins-university-maryland'
+import * as johnsoncsmithuniversitynorthcarolina from '../../assets/universityData/johnson-c-smith-university-north-carolina'
+import * as johnsonuniversityflorida from '../../assets/universityData/johnson-university-florida'
+import * as judsoncollegealabama from '../../assets/universityData/judson-college-alabama'
+import * as juniatacollegepennsylvania from '../../assets/universityData/juniata-college-pennsylvania'
+import * as johnsoncountycommunitycollegekansas from '../../assets/universityData/johnson-county-community-college-kansas'
+import * as judsonuniversityillinois from '../../assets/universityData/judson-university-illinois'
+import * as kansascityartcollegemissouri from '../../assets/universityData/kansas-city-art-college-missouri'
+import * as justiceinstituteofbritishcolumbiabritishcolumbia from '../../assets/universityData/justice-institute-of-british-columbia-british-columbia'
+import * as kanganinstitutevictoria from '../../assets/universityData/kangan-institute-victoria'
+import * as kansaschristiancollegekansas from '../../assets/universityData/kansas-christian-college-kansas'
+import * as kalamazoocollegemichigan from '../../assets/universityData/kalamazoo-college-michigan'
+import * as kapiolanicommunitycollegehawaii from '../../assets/universityData/kapiolani-community-college-hawaii'
+import * as kansascitykansascommunitycollegekansas from '../../assets/universityData/kansas-city-kansas-community-college-kansas'
+import * as katteringuniversitymichigan from '../../assets/universityData/kattering-university-michigan'
+import * as kansaswesleyanuniversitykansas from '../../assets/universityData/kansas-wesleyan-university-kansas'
+import * as kansasstateuniversitykansas from '../../assets/universityData/kansas-state-university-kansas'
+import * as keiseruniversityflorida from '../../assets/universityData/keiser-university-florida'
+import * as keanuniversitynewjersey from '../../assets/universityData/kean-university-new-jersey'
+import * as keenestatecollegenewhampshire from '../../assets/universityData/keene-state-college-new-hampshire'
+import * as kentstateuniversityohio from '../../assets/universityData/kent-state-university-ohio'
+import * as kdconservatoryactingschoolfilmmakingschooldramaschool from '../../assets/universityData/kd-conservatory-acting-school-filmmaking-school-drama-school'
+import * as kenvalecollegeofhospitalitycookeryandevents from '../../assets/universityData/kenvale-college-of-hospitality-cookery-and-events'
+import * as kenyoncollegeohio from '../../assets/universityData/kenyon-college-ohio'
+import * as kentuckystateuniversitykentucky from '../../assets/universityData/kentucky-state-university-kentucky'
+import * as kentuckychristianuniversitykentucky from '../../assets/universityData/kentucky-christian-university-kentucky'
+import * as kentuckywesleyancollegekentucky from '../../assets/universityData/kentucky-wesleyan-college-kentucky'
+import * as kiamacommunitycollegejervisbayterritory from '../../assets/universityData/kiama-community-college-jervis-bay-territory'
+import * as ketteringcollegeohio from '../../assets/universityData/kettering-college-ohio'
+import * as kilgorecollegetexas from '../../assets/universityData/kilgore-college-texas'
+import * as keyanocollegefortmcmurrayalberta from '../../assets/universityData/keyano-college-fort-mcmurray-alberta'
+import * as keyincollegeadultlearningcenternewfoundlandandlabrador from '../../assets/universityData/keyin-college-adult-learning-center-newfoundland-and-labrador'
+import * as kingstonbiblecollegeacademynovascotia from '../../assets/universityData/kingston-bible-college-academy-nova-scotia'
+import * as kilkeelcollegeoffurthereducationnorthernireland from '../../assets/universityData/kilkeel-college-of-further-education-northern-ireland'
+import * as kingstonbiblecollegenovascotia from '../../assets/universityData/kingston-bible-college-nova-scotia'
+import * as kingscollegepennsylvania from '../../assets/universityData/kings-college-pennsylvania'
+import * as kinguniversitytennessee from '../../assets/universityData/king-university-tennessee'
+import * as kingswooduniversitysussexnewbrunswick from '../../assets/universityData/kingswood-university-sussex-new-brunswick'
+import * as latrobeuniversityvictoria from '../../assets/universityData/la-trobe-university-victoria'
+import * as kutztownuniversityofpennsylvaniapennsylvania from '../../assets/universityData/kutztown-university-of-pennsylvania-pennsylvania'
+import * as kuypercollegemichigan from '../../assets/universityData/kuyper-college-michigan'
+import * as lasierrauniversitycalifornia from '../../assets/universityData/la-sierra-university-california'
+import * as kwantlenpolytechnicuniversitybritishcolumbia from '../../assets/universityData/kwantlen-polytechnic-university-british-columbia'
+import * as kioloacoastalcampusjervisbayterritory from '../../assets/universityData/kioloa-coastal-campus-jervis-bay-territory'
+import * as knoxcollegeillinois from '../../assets/universityData/knox-college-illinois'
+import * as kirkwoodcommunitycollegeiowa from '../../assets/universityData/kirkwood-community-college-iowa'
+import * as kistmedicalcollege from '../../assets/universityData/kist-medical-college'
 
 
 
@@ -1258,6 +1327,75 @@ export {
 
     //amityglobalbusinessschool,
     //amityinstituteofinformationtechnologymumbai,
+    kistmedicalcollege,
+    kirkwoodcommunitycollegeiowa,
+    knoxcollegeillinois,
+    kioloacoastalcampusjervisbayterritory,
+    kwantlenpolytechnicuniversitybritishcolumbia,
+    lasierrauniversitycalifornia,
+    kuypercollegemichigan,
+    kutztownuniversityofpennsylvaniapennsylvania,
+    latrobeuniversityvictoria,
+    kingswooduniversitysussexnewbrunswick,
+    kinguniversitytennessee,
+    kingscollegepennsylvania,
+    kingstonbiblecollegenovascotia,
+    kilkeelcollegeoffurthereducationnorthernireland,
+    kingstonbiblecollegeacademynovascotia,
+    keyincollegeadultlearningcenternewfoundlandandlabrador,
+    keyanocollegefortmcmurrayalberta,
+    kilgorecollegetexas,
+    ketteringcollegeohio,
+    kiamacommunitycollegejervisbayterritory,
+    kentuckywesleyancollegekentucky,
+    kentuckychristianuniversitykentucky,
+    kentuckystateuniversitykentucky,
+    kenyoncollegeohio,
+    kenvalecollegeofhospitalitycookeryandevents,
+    kdconservatoryactingschoolfilmmakingschooldramaschool,
+    kentstateuniversityohio,
+    keenestatecollegenewhampshire,
+    keanuniversitynewjersey,
+    keiseruniversityflorida,
+    kansasstateuniversitykansas,
+    kansaswesleyanuniversitykansas,
+    katteringuniversitymichigan,
+    kansascitykansascommunitycollegekansas,
+    kapiolanicommunitycollegehawaii,
+    kalamazoocollegemichigan,
+    kansaschristiancollegekansas,
+    kanganinstitutevictoria,
+    justiceinstituteofbritishcolumbiabritishcolumbia,
+    kansascityartcollegemissouri,
+    judsonuniversityillinois,
+    johnsoncountycommunitycollegekansas,
+    juniatacollegepennsylvania,
+    judsoncollegealabama,
+    johnsonuniversityflorida,
+    johnsoncsmithuniversitynorthcarolina,
+    johnshopkinsuniversitymaryland,
+    johnsoncollegepennsylvania,
+    johnsonandwalesuniversityprovidencecampusrhodeisland,
+    johncarrolluniversityohio,
+    jervisbayschooljervisbayterritory,
+    johnpaulthegreatcatholicuniversitycalifornia,
+    johnbrownuniversityarkansas,
+    jmcacademynewsouthwales,
+    jeffersondaviscommunitycollegealabama,
+    jeffersonstatecommunitycollegealabama,
+    jciinstitutebritishcolumbia,
+    janakimedicalcollege,
+    jarvischristiancollegetexas,
+    jacksonvillestateuniversityalabama,
+    jacksonvilleuniversityflorida,
+    jameshfaulknerstatecommunitycollegealabama,
+    jamescookuniversityqueensland,
+    jamesmadisonuniversityvirginia,
+    irishschoolofecumenicsnorthernireland,
+    iowawesterncommunitycollegeiowa,
+    irishbaptistcollegenorthernireland,
+    jacksonvillecollegetexas,
+    jacksonstateuniversitymississippi,
     iupuiindiana,
     iowalakescommunitycollegeesthervillecampus,
     iowacentralcommunitycollegeiowa,
