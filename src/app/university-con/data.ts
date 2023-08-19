@@ -1320,6 +1320,86 @@ import * as kioloacoastalcampusjervisbayterritory from '../../assets/universityD
 import * as knoxcollegeillinois from '../../assets/universityData/knox-college-illinois'
 import * as kirkwoodcommunitycollegeiowa from '../../assets/universityData/kirkwood-community-college-iowa'
 import * as kistmedicalcollege from '../../assets/universityData/kist-medical-college'
+import * as lagunacollegeofartanddesigncalifornia from '../../assets/universityData/laguna-college-of-art-and-design-california'
+import * as labourecollegeofhealthcaremassachusetts from '../../assets/universityData/laboure-college-of-healthcare-massachusetts'
+import * as labettecommunitycollegekansas from '../../assets/universityData/labette-community-college-kansas'
+import * as lafayettecollegepennsylvania from '../../assets/universityData/lafayette-college-pennsylvania'
+import * as lackawannacollegepennsylvania from '../../assets/universityData/lackawanna-college-pennsylvania'
+import * as lakeshoretechnicalcollegewisconsin from '../../assets/universityData/lakeshore-technical-college-wisconsin'
+import * as landeruniversitysouthcarolina from '../../assets/universityData/lander-university-south-carolina'
+import * as lamaruniversitytexas from '../../assets/universityData/lamar-university-texas'
+import * as lamarcommunitycollegecolorado from '../../assets/universityData/lamar-community-college-colorado'
+import * as lamarstatecollegeorangetexas from '../../assets/universityData/lamar-state-college-orange-texas'
+import * as lakesregioncommunitycollegenewhampshire from '../../assets/universityData/lakes-region-community-college-new-hampshire'
+import * as lakelandcollegevermilionalberta from '../../assets/universityData/lakeland-college-vermilion-alberta'
+import * as lakewashingtoninstituteoftechnologywashington from '../../assets/universityData/lake-washington-institute-of-technology-washington'
+import * as lakelanduniversitywisconsin from '../../assets/universityData/lakeland-university-wisconsin'
+import * as lakesuperiorstateuniversitymichigan from '../../assets/universityData/lake-superior-state-university-michigan'
+import * as lakeregionstatecollegenorthdakota from '../../assets/universityData/lake-region-state-college-north-dakota'
+import * as lakesuperiorcollegeminnesota from '../../assets/universityData/lake-superior-college-minnesota'
+import * as lakeforestcollegeillinois from '../../assets/universityData/lake-forest-college-illinois'
+import * as lakeeriecollegeohio from '../../assets/universityData/lake-erie-college-ohio'
+import * as lakeareatechnicalcollegesouthdakota from '../../assets/universityData/lake-area-technical-college-south-dakota'
+import * as laselluniversitymassachusetts from '../../assets/universityData/lasell-university-massachusetts'
+import * as lasallecollegevancouverbritishcolumbia from '../../assets/universityData/lasalle-college-vancouver-british-columbia'
+import * as lasvegascollegenevada from '../../assets/universityData/las-vegas-college-nevada'
+import * as laramiecountycommunitycollegewyoming from '../../assets/universityData/laramie-county-community-college-wyoming'
+import * as lavaluniversityquebec from '../../assets/universityData/laval-university-quebec'
+import * as langaracollegevancouverbritishcolumbia from '../../assets/universityData/langara-college-vancouver-british-columbia'
+import * as langstonuniversityoklahoma from '../../assets/universityData/langston-university-oklahoma'
+import * as lanecollegetennessee from '../../assets/universityData/lane-college-tennessee'
+import * as landmarkcollegevermont from '../../assets/universityData/landmark-college-vermont'
+import * as lansbridgeuniversityfrederictonnewbrunswick from '../../assets/universityData/lansbridge-university-fredericton-new-brunswick'
+import * as emmanuelcollegemassachusetts from '../../assets/universityData/emmanuel-college-massachusetts'
+import * as batchelorinstituteofindigenoustertiaryeducationnorthernterritory from '../../assets/universityData/batchelor-institute-of-indigenous-tertiary-education-northern-territory'
+import * as limestoneuniversitysouthcarolina from '../../assets/universityData/limestone-university-south-carolina'
+import * as limcollegemaxwellhallnewyork from '../../assets/universityData/lim-college-maxwell-hall-new-york'
+import * as lincolnchristianuniversityillinois from '../../assets/universityData/lincoln-christian-university-illinois'
+import * as libertyuniversityvirginia from '../../assets/universityData/liberty-university-virginia'
+import * as lifeuniversitygeorgia from '../../assets/universityData/life-university-georgia'
+import * as lewisclarkstatecollegeidaho from '../../assets/universityData/lewis-clark-state-college-idaho'
+import * as lewisandclarkcollegeoregon from '../../assets/universityData/lewis-and-clark-college-oregon'
+import * as lewisuniversityillinois from '../../assets/universityData/lewis-university-illinois'
+import * as lesleyuniversitymassachusetts from '../../assets/universityData/lesley-university-massachusetts'
+import * as lethbridgecollegelethbridgealberta from '../../assets/universityData/lethbridge-college-lethbridge-alberta'
+import * as lenoirrhyneuniversitynorthcarolina from '../../assets/universityData/lenoir-rhyne-university-north-carolina'
+import * as letourneauuniversitytexas from '../../assets/universityData/letourneau-university-texas'
+import * as lehighuniversitypennsylvania from '../../assets/universityData/lehigh-university-pennsylvania'
+import * as leeuniversitytennessee from '../../assets/universityData/lee-university-tennessee'
+import * as leedstrinityuniversityengland from '../../assets/universityData/leeds-trinity-university-england'
+import * as leesmcraecollegenorthcarolina from '../../assets/universityData/lees-mcrae-college-north-carolina'
+import * as leewardcommunitycollegehawaii from '../../assets/universityData/leeward-community-college-hawaii'
+import * as leecollegetexas from '../../assets/universityData/lee-college-texas'
+import * as lawrencetechnologicaluniversitymichigan from '../../assets/universityData/lawrence-technological-university-michigan'
+import * as lawrenceuniversitywisconsin from '../../assets/universityData/lawrence-university-wisconsin'
+import * as lcimelbournevictoria from '../../assets/universityData/lci-melbourne-victoria'
+import * as lawsonstatecommunitycollegealabama from '../../assets/universityData/lawson-state-community-college-alabama'
+import * as lebanonvalleycollegepennsylvania from '../../assets/universityData/lebanon-valley-college-pennsylvania'
+import * as lindseywilsoncollegekentucky from '../../assets/universityData/lindsey-wilson-college-kentucky'
+import * as lindenwooduniversitymissouri from '../../assets/universityData/lindenwood-university-missouri'
+import * as lincolncollegeillinois from '../../assets/universityData/lincoln-college-illinois'
+import * as lincolnuniversitycalifornia from '../../assets/universityData/lincoln-university-california'
+import * as linfielduniversityoregon from '../../assets/universityData/linfield-university-oregon'
+import * as livingstonecollegenorthcarolina from '../../assets/universityData/livingstone-college-north-carolina'
+import * as lipscombuniversityaustincentertexas from '../../assets/universityData/lipscomb-university-austin-center-texas'
+import * as lipscombuniversitytennessee from '../../assets/universityData/lipscomb-university-tennessee'
+import * as littlepriesttribalcollegenebraska from '../../assets/universityData/little-priest-tribal-college-nebraska'
+import * as livingartscollegenorthcarolina from '../../assets/universityData/living-arts-college-north-carolina'
+import * as longerenongcollegevictoria from '../../assets/universityData/longerenong-college-victoria'
+import * as loughboroughuniversityengland from '../../assets/universityData/loughborough-university-england'
+import * as londonbusinessschoolengland from '../../assets/universityData/london-business-school-england'
+import * as lorascollegeiowa from '../../assets/universityData/loras-college-iowa'
+import * as loganuniversitymissouri from '../../assets/universityData/logan-university-missouri'
+import * as loyolauniversitymarylandmaryland from '../../assets/universityData/loyola-university-maryland-maryland'
+import * as loyalistcollegeontario from '../../assets/universityData/loyalist-college-ontario'
+import * as loyolauniversitychicagoillinois from '../../assets/universityData/loyola-university-chicago-illinois'
+import * as lourdesuniversityohio from '../../assets/universityData/lourdes-university-ohio'
+import * as louisianachristianuniversitylouisiana from '../../assets/universityData/louisiana-christian-university-louisiana'
+import * as loyolamarymountuniversitycalifornia from '../../assets/universityData/loyola-marymount-university-california'
+import * as louisianastateuniversityeunicelouisiana from '../../assets/universityData/louisiana-state-university-eunice-louisiana'
+import * as louisburgcollegenorthcarolina from '../../assets/universityData/louisburg-college-north-carolina'
+import * as louisianatechuniversitylouisiana from '../../assets/universityData/louisiana-tech-university-louisiana'
+import * as louisianastateuniversitylouisiana from '../../assets/universityData/louisiana-state-university-louisiana'
 
 
 
@@ -1327,6 +1407,86 @@ export {
 
     //amityglobalbusinessschool,
     //amityinstituteofinformationtechnologymumbai,
+    louisianastateuniversitylouisiana,
+    louisianatechuniversitylouisiana,
+    louisburgcollegenorthcarolina,
+    louisianastateuniversityeunicelouisiana,
+    loyolamarymountuniversitycalifornia,
+    louisianachristianuniversitylouisiana,
+    lourdesuniversityohio,
+    loyolauniversitychicagoillinois,
+    loyalistcollegeontario,
+    loyolauniversitymarylandmaryland,
+    loganuniversitymissouri,
+    lorascollegeiowa,
+    londonbusinessschoolengland,
+    loughboroughuniversityengland,
+    longerenongcollegevictoria,
+    livingartscollegenorthcarolina,
+    littlepriesttribalcollegenebraska,
+    lipscombuniversitytennessee,
+    lipscombuniversityaustincentertexas,
+    livingstonecollegenorthcarolina,
+    linfielduniversityoregon,
+    lincolnuniversitycalifornia,
+    lincolncollegeillinois,
+    lindenwooduniversitymissouri,
+    lindseywilsoncollegekentucky,
+    lebanonvalleycollegepennsylvania,
+    lawsonstatecommunitycollegealabama,
+    lcimelbournevictoria,
+    lawrenceuniversitywisconsin,
+    lawrencetechnologicaluniversitymichigan,
+    leecollegetexas,
+    leewardcommunitycollegehawaii,
+    leesmcraecollegenorthcarolina,
+    leedstrinityuniversityengland,
+    leeuniversitytennessee,
+    lehighuniversitypennsylvania,
+    letourneauuniversitytexas,
+    lenoirrhyneuniversitynorthcarolina,
+    lethbridgecollegelethbridgealberta,
+    lesleyuniversitymassachusetts,
+    lewisuniversityillinois,
+    lewisandclarkcollegeoregon,
+    lewisclarkstatecollegeidaho,
+    lifeuniversitygeorgia,
+    libertyuniversityvirginia,
+    lincolnchristianuniversityillinois,
+    limcollegemaxwellhallnewyork,
+    limestoneuniversitysouthcarolina,
+    batchelorinstituteofindigenoustertiaryeducationnorthernterritory,
+    emmanuelcollegemassachusetts,
+    lansbridgeuniversityfrederictonnewbrunswick,
+    landmarkcollegevermont,
+    lanecollegetennessee,
+    langstonuniversityoklahoma,
+    langaracollegevancouverbritishcolumbia,
+    lavaluniversityquebec,
+    laramiecountycommunitycollegewyoming,
+    lasvegascollegenevada,
+    lasallecollegevancouverbritishcolumbia,
+    laselluniversitymassachusetts,
+    lakeareatechnicalcollegesouthdakota,
+    lakeeriecollegeohio,
+    lakeforestcollegeillinois,
+    lakesuperiorcollegeminnesota,
+    lakeregionstatecollegenorthdakota,
+    lakesuperiorstateuniversitymichigan,
+    lakelanduniversitywisconsin,
+    lakewashingtoninstituteoftechnologywashington,
+    lakelandcollegevermilionalberta,
+    lakesregioncommunitycollegenewhampshire,
+    lamarstatecollegeorangetexas,
+    lamarcommunitycollegecolorado,
+    lamaruniversitytexas,
+    landeruniversitysouthcarolina,
+    lakeshoretechnicalcollegewisconsin,
+    lackawannacollegepennsylvania,
+    lafayettecollegepennsylvania,
+    labettecommunitycollegekansas,
+    labourecollegeofhealthcaremassachusetts,
+    lagunacollegeofartanddesigncalifornia,
     kistmedicalcollege,
     kirkwoodcommunitycollegeiowa,
     knoxcollegeillinois,
