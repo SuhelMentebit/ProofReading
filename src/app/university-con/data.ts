@@ -1401,12 +1401,115 @@ import * as louisburgcollegenorthcarolina from '../../assets/universityData/loui
 import * as louisianatechuniversitylouisiana from '../../assets/universityData/louisiana-tech-university-louisiana'
 import * as louisianastateuniversitylouisiana from '../../assets/universityData/louisiana-state-university-louisiana'
 
+// new-jsons
+
+import * as macalestercollegeminnesota from '../../assets/universityData/macalester-college-minnesota'
+import * as luthercollegehighschoolsaskatchewan from '../../assets/universityData/luther-college-high-school-saskatchewan'
+import * as luthercollegeiowa from '../../assets/universityData/luther-college-iowa'
+import * as lynnuniversityflorida from '../../assets/universityData/lynn-university-florida'
+import * as lyoncollegearkansas from '../../assets/universityData/lyon-college-arkansas'
+import * as loyolauniversityneworleanslouisiana from '../../assets/universityData/loyola-university-new-orleans-louisiana'
+import * as lurleenbwallacecommunitycollegealabama from '../../assets/universityData/lurleen-bwallace-community-college-alabama'
+import * as lubbockchristianuniversitytexas from '../../assets/universityData/lubbock-christian-university-texas'
+import * as lumbinimedicalcollegenepal from '../../assets/universityData/lumbini-medical-college-nepal'
+import * as lunacommunitycollegenewmexico from '../../assets/universityData/luna-community-college-new-mexico'
+import * as macewanuniversityedmontonalberta from '../../assets/universityData/macewan-university-edmonton-alberta'
+import * as madonnauniversitymichigan from '../../assets/universityData/madonna-university-michigan'
+import * as macleaycollegenewsouthwales from '../../assets/universityData/macleay-college-new-south-wales'
+import * as macquarieuniversitynewsouthwales from '../../assets/universityData/macquarie-university-new-south-wales'
+import * as maharishiinternationaluniversityiowa from '../../assets/universityData/maharishi-international-university-iowa'
+import * as maloneuniversityohio from '../../assets/universityData/malone-university-ohio'
+import * as mamaraphacollegewesternaustralia from '../../assets/universityData/mamarapha-college-western-australia'
+import * as mainecollegeofhealthprofessionsmaine from '../../assets/universityData/maine-college-of-health-professions-maine'
+import * as mainemaritimeacademymaine from '../../assets/universityData/maine-maritime-academy-maine'
+import * as mainecollegeofartanddesignmaine from '../../assets/universityData/maine-college-of-art-and-design-maine'
+import * as marcusoldhamcollegevictoria from '../../assets/universityData/marcus-oldham-college-victoria'
+import * as manhattanvillecollegenewyork from '../../assets/universityData/manhattanville-college-new-york'
+import * as manhattancollegenewyork from '../../assets/universityData/manhattan-college-new-york'
+import * as mannauniversitynorthcarolina from '../../assets/universityData/manna-university-north-carolina'
+import * as mansfielduniversityofpennsylvaniapennsylvania from '../../assets/universityData/mansfield-university-of-pennsylvania-pennsylvania'
+import * as manhattanareatechnicalcollegekansas from '../../assets/universityData/manhattan-area-technical-college-kansas'
+import * as manhattanchristiancollegekansas from '../../assets/universityData/manhattan-christian-college-kansas'
+import * as machestercommunitycollegeconnecticut from '../../assets/universityData/machester-community-college-connecticut'
+import * as manchestercommunitycollegenewhampshire from '../../assets/universityData/manchester-community-college-new-hampshire'
+import * as manchesteruniversityindiana from '../../assets/universityData/manchester-university-indiana'
+import * as marquetteuniversitywisconsin from '../../assets/universityData/marquette-university-wisconsin'
+import * as marshilluniversitynorthcarolina from '../../assets/universityData/mars-hill-university-north-carolina'
+import * as marshalluniversitywestvirginia from '../../assets/universityData/marshall-university-west-virginia'
+import * as marshalltowncommunitycollegeiowa from '../../assets/universityData/marshalltown-community-college-iowa'
+import * as martinsburgcollegewestvirginia from '../../assets/universityData/martinsburg-college-west-virginia'
+import * as marksmedicalcollegedhaka from '../../assets/universityData/marks-medical-college-dhaka'
+import * as marymountmanhattancollegenewyork from '../../assets/universityData/marymount-manhattan-college-new-york'
+import * as martinuniversityindiana from '../../assets/universityData/martin-university-indiana'
+import * as marylandinstitutecollegeofartmaryland from '../../assets/universityData/maryland-institute-college-of-art-maryland'
+import * as martinluthercollegeminnesota from '../../assets/universityData/martin-luther-college-minnesota'
+import * as maritimecollegeofforesttechnologynewbrunswick from '../../assets/universityData/maritime-college-of-forest-technology-new-brunswick'
+import * as marischalcollegescotland from '../../assets/universityData/marischal-college-scotland'
+import * as marionmilitaryinstitutealabama from '../../assets/universityData/marion-military-institute-alabama'
+import * as maritimechristiancollegeprinceedwardisland from '../../assets/universityData/maritime-christian-college-prince-edward-island'
+import * as marineandinformationtechnologycentrewales from '../../assets/universityData/marine-and-information-technology-centre-wales'
+import * as mardenseniorcollegesouthaustralia from '../../assets/universityData/marden-senior-college-south-australia'
+import * as marianuniversityindianapolisindiana from '../../assets/universityData/marian-university-indianapolis-indiana'
+import * as marianuniversitysancillacollegeindiana from '../../assets/universityData/marian-universitys-ancilla-college-indiana'
+import * as mariettacollegeohio from '../../assets/universityData/marietta-college-ohio'
+import * as marianuniversitywisconsin from '../../assets/universityData/marian-university-wisconsin'
+
 
 
 export {
 
     //amityglobalbusinessschool,
     //amityinstituteofinformationtechnologymumbai,
+    marianuniversitywisconsin,
+    mariettacollegeohio,
+    marianuniversitysancillacollegeindiana,
+    marianuniversityindianapolisindiana,
+    mardenseniorcollegesouthaustralia,
+    marineandinformationtechnologycentrewales,
+    maritimechristiancollegeprinceedwardisland,
+    marionmilitaryinstitutealabama,
+    marischalcollegescotland,
+    maritimecollegeofforesttechnologynewbrunswick,
+    martinluthercollegeminnesota,
+    marylandinstitutecollegeofartmaryland,
+    martinuniversityindiana,
+    marymountmanhattancollegenewyork,
+    marksmedicalcollegedhaka,
+    martinsburgcollegewestvirginia,
+    marshalltowncommunitycollegeiowa,
+    marshalluniversitywestvirginia,
+    marshilluniversitynorthcarolina,
+    marquetteuniversitywisconsin,
+    manchesteruniversityindiana,
+    manchestercommunitycollegenewhampshire,
+    machestercommunitycollegeconnecticut,
+    manhattanchristiancollegekansas,
+    manhattanareatechnicalcollegekansas,
+    mansfielduniversityofpennsylvaniapennsylvania,
+    mannauniversitynorthcarolina,
+    manhattancollegenewyork,
+    manhattanvillecollegenewyork,
+    marcusoldhamcollegevictoria,
+    mainecollegeofartanddesignmaine,
+    mainemaritimeacademymaine,
+    mainecollegeofhealthprofessionsmaine,
+    mamaraphacollegewesternaustralia,
+    maloneuniversityohio,
+    maharishiinternationaluniversityiowa,
+    macquarieuniversitynewsouthwales,
+    macleaycollegenewsouthwales,
+    madonnauniversitymichigan,
+    macewanuniversityedmontonalberta,
+    lunacommunitycollegenewmexico,
+    lumbinimedicalcollegenepal,
+    lubbockchristianuniversitytexas,
+    lurleenbwallacecommunitycollegealabama,
+    loyolauniversityneworleanslouisiana,
+    lyoncollegearkansas,
+    lynnuniversityflorida,
+    luthercollegeiowa,
+    luthercollegehighschoolsaskatchewan,
+    macalestercollegeminnesota,
     louisianastateuniversitylouisiana,
     louisianatechuniversitylouisiana,
     louisburgcollegenorthcarolina,

@@ -65021,6 +65021,2356 @@ const routes: Routes = [
   },
 
 
+
+  {
+    path: 'macalester-college-minnesota/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macalester-college-minnesota/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macalester-college-minnesota/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macalester-college-minnesota/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macalester-college-minnesota/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macalester-college-minnesota/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macalester-college-minnesota/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macalester-college-minnesota/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macalester-college-minnesota/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macalester-college-minnesota/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macalester-college-minnesota/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'luther-college-high-school-saskatchewan/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-high-school-saskatchewan/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-high-school-saskatchewan/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-high-school-saskatchewan/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-high-school-saskatchewan/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-high-school-saskatchewan/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-high-school-saskatchewan/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-high-school-saskatchewan/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-high-school-saskatchewan/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-high-school-saskatchewan/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-high-school-saskatchewan/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'luther-college-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luther-college-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'lynn-university-florida/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lynn-university-florida/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lynn-university-florida/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lynn-university-florida/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lynn-university-florida/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lynn-university-florida/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lynn-university-florida/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lynn-university-florida/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lynn-university-florida/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lynn-university-florida/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lynn-university-florida/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'lyon-college-arkansas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lyon-college-arkansas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lyon-college-arkansas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lyon-college-arkansas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lyon-college-arkansas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lyon-college-arkansas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lyon-college-arkansas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lyon-college-arkansas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lyon-college-arkansas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lyon-college-arkansas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lyon-college-arkansas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'loyola-university-new-orleans-louisiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'loyola-university-new-orleans-louisiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'loyola-university-new-orleans-louisiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'loyola-university-new-orleans-louisiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'loyola-university-new-orleans-louisiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'loyola-university-new-orleans-louisiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'loyola-university-new-orleans-louisiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'loyola-university-new-orleans-louisiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'loyola-university-new-orleans-louisiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'loyola-university-new-orleans-louisiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'loyola-university-new-orleans-louisiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'lurleen-bwallace-community-college-alabama/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lurleen-bwallace-community-college-alabama/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lurleen-bwallace-community-college-alabama/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lurleen-bwallace-community-college-alabama/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lurleen-bwallace-community-college-alabama/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lurleen-bwallace-community-college-alabama/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lurleen-bwallace-community-college-alabama/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lurleen-bwallace-community-college-alabama/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lurleen-bwallace-community-college-alabama/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lurleen-bwallace-community-college-alabama/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lurleen-bwallace-community-college-alabama/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'lubbock-christian-university-texas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lubbock-christian-university-texas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lubbock-christian-university-texas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lubbock-christian-university-texas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lubbock-christian-university-texas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lubbock-christian-university-texas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lubbock-christian-university-texas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lubbock-christian-university-texas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lubbock-christian-university-texas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lubbock-christian-university-texas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lubbock-christian-university-texas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'lumbini-medical-college-nepal/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lumbini-medical-college-nepal/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lumbini-medical-college-nepal/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lumbini-medical-college-nepal/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lumbini-medical-college-nepal/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lumbini-medical-college-nepal/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lumbini-medical-college-nepal/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lumbini-medical-college-nepal/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lumbini-medical-college-nepal/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lumbini-medical-college-nepal/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'lumbini-medical-college-nepal/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'luna-community-college-new-mexico/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luna-community-college-new-mexico/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luna-community-college-new-mexico/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luna-community-college-new-mexico/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luna-community-college-new-mexico/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luna-community-college-new-mexico/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luna-community-college-new-mexico/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luna-community-college-new-mexico/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luna-community-college-new-mexico/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luna-community-college-new-mexico/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'luna-community-college-new-mexico/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'macewan-university-edmonton-alberta/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macewan-university-edmonton-alberta/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macewan-university-edmonton-alberta/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macewan-university-edmonton-alberta/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macewan-university-edmonton-alberta/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macewan-university-edmonton-alberta/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macewan-university-edmonton-alberta/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macewan-university-edmonton-alberta/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macewan-university-edmonton-alberta/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macewan-university-edmonton-alberta/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macewan-university-edmonton-alberta/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'madonna-university-michigan/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'madonna-university-michigan/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'madonna-university-michigan/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'madonna-university-michigan/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'madonna-university-michigan/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'madonna-university-michigan/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'madonna-university-michigan/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'madonna-university-michigan/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'madonna-university-michigan/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'madonna-university-michigan/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'madonna-university-michigan/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'macleay-college-new-south-wales/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macleay-college-new-south-wales/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macleay-college-new-south-wales/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macleay-college-new-south-wales/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macleay-college-new-south-wales/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macleay-college-new-south-wales/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macleay-college-new-south-wales/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macleay-college-new-south-wales/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macleay-college-new-south-wales/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macleay-college-new-south-wales/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macleay-college-new-south-wales/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'macquarie-university-new-south-wales/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macquarie-university-new-south-wales/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macquarie-university-new-south-wales/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macquarie-university-new-south-wales/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macquarie-university-new-south-wales/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macquarie-university-new-south-wales/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macquarie-university-new-south-wales/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macquarie-university-new-south-wales/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macquarie-university-new-south-wales/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macquarie-university-new-south-wales/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'macquarie-university-new-south-wales/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'maharishi-international-university-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maharishi-international-university-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maharishi-international-university-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maharishi-international-university-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maharishi-international-university-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maharishi-international-university-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maharishi-international-university-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maharishi-international-university-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maharishi-international-university-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maharishi-international-university-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maharishi-international-university-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'malone-university-ohio/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'malone-university-ohio/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'malone-university-ohio/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'malone-university-ohio/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'malone-university-ohio/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'malone-university-ohio/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'malone-university-ohio/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'malone-university-ohio/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'malone-university-ohio/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'malone-university-ohio/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'malone-university-ohio/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'mamarapha-college-western-australia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mamarapha-college-western-australia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mamarapha-college-western-australia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mamarapha-college-western-australia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mamarapha-college-western-australia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mamarapha-college-western-australia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mamarapha-college-western-australia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mamarapha-college-western-australia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mamarapha-college-western-australia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mamarapha-college-western-australia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mamarapha-college-western-australia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'maine-college-of-health-professions-maine/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-health-professions-maine/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-health-professions-maine/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-health-professions-maine/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-health-professions-maine/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-health-professions-maine/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-health-professions-maine/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-health-professions-maine/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-health-professions-maine/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-health-professions-maine/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-health-professions-maine/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'maine-maritime-academy-maine/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-maritime-academy-maine/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-maritime-academy-maine/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-maritime-academy-maine/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-maritime-academy-maine/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-maritime-academy-maine/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-maritime-academy-maine/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-maritime-academy-maine/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-maritime-academy-maine/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-maritime-academy-maine/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-maritime-academy-maine/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'maine-college-of-art-and-design-maine/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-art-and-design-maine/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-art-and-design-maine/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-art-and-design-maine/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-art-and-design-maine/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-art-and-design-maine/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-art-and-design-maine/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-art-and-design-maine/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-art-and-design-maine/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-art-and-design-maine/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maine-college-of-art-and-design-maine/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marcus-oldham-college-victoria/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marcus-oldham-college-victoria/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marcus-oldham-college-victoria/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marcus-oldham-college-victoria/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marcus-oldham-college-victoria/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marcus-oldham-college-victoria/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marcus-oldham-college-victoria/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marcus-oldham-college-victoria/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marcus-oldham-college-victoria/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marcus-oldham-college-victoria/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marcus-oldham-college-victoria/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'manhattanville-college-new-york/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattanville-college-new-york/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattanville-college-new-york/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattanville-college-new-york/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattanville-college-new-york/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattanville-college-new-york/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattanville-college-new-york/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattanville-college-new-york/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattanville-college-new-york/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattanville-college-new-york/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattanville-college-new-york/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'manhattan-college-new-york/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-college-new-york/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-college-new-york/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-college-new-york/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-college-new-york/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-college-new-york/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-college-new-york/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-college-new-york/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-college-new-york/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-college-new-york/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-college-new-york/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'manna-university-north-carolina/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manna-university-north-carolina/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manna-university-north-carolina/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manna-university-north-carolina/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manna-university-north-carolina/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manna-university-north-carolina/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manna-university-north-carolina/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manna-university-north-carolina/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manna-university-north-carolina/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manna-university-north-carolina/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manna-university-north-carolina/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'mansfield-university-of-pennsylvania-pennsylvania/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mansfield-university-of-pennsylvania-pennsylvania/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mansfield-university-of-pennsylvania-pennsylvania/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mansfield-university-of-pennsylvania-pennsylvania/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mansfield-university-of-pennsylvania-pennsylvania/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mansfield-university-of-pennsylvania-pennsylvania/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mansfield-university-of-pennsylvania-pennsylvania/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mansfield-university-of-pennsylvania-pennsylvania/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mansfield-university-of-pennsylvania-pennsylvania/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mansfield-university-of-pennsylvania-pennsylvania/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mansfield-university-of-pennsylvania-pennsylvania/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'manhattan-area-technical-college-kansas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-area-technical-college-kansas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-area-technical-college-kansas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-area-technical-college-kansas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-area-technical-college-kansas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-area-technical-college-kansas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-area-technical-college-kansas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-area-technical-college-kansas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-area-technical-college-kansas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-area-technical-college-kansas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-area-technical-college-kansas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'manhattan-christian-college-kansas/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-christian-college-kansas/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-christian-college-kansas/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-christian-college-kansas/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-christian-college-kansas/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-christian-college-kansas/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-christian-college-kansas/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-christian-college-kansas/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-christian-college-kansas/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-christian-college-kansas/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manhattan-christian-college-kansas/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'machester-community-college-connecticut/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'machester-community-college-connecticut/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'machester-community-college-connecticut/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'machester-community-college-connecticut/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'machester-community-college-connecticut/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'machester-community-college-connecticut/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'machester-community-college-connecticut/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'machester-community-college-connecticut/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'machester-community-college-connecticut/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'machester-community-college-connecticut/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'machester-community-college-connecticut/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'manchester-community-college-new-hampshire/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-community-college-new-hampshire/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-community-college-new-hampshire/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-community-college-new-hampshire/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-community-college-new-hampshire/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-community-college-new-hampshire/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-community-college-new-hampshire/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-community-college-new-hampshire/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-community-college-new-hampshire/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-community-college-new-hampshire/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-community-college-new-hampshire/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'manchester-university-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-university-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-university-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-university-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-university-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-university-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-university-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-university-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-university-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-university-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'manchester-university-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marquette-university-wisconsin/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marquette-university-wisconsin/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marquette-university-wisconsin/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marquette-university-wisconsin/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marquette-university-wisconsin/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marquette-university-wisconsin/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marquette-university-wisconsin/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marquette-university-wisconsin/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marquette-university-wisconsin/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marquette-university-wisconsin/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marquette-university-wisconsin/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'mars-hill-university-north-carolina/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mars-hill-university-north-carolina/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mars-hill-university-north-carolina/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mars-hill-university-north-carolina/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mars-hill-university-north-carolina/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mars-hill-university-north-carolina/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mars-hill-university-north-carolina/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mars-hill-university-north-carolina/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mars-hill-university-north-carolina/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mars-hill-university-north-carolina/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'mars-hill-university-north-carolina/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marshall-university-west-virginia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshall-university-west-virginia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshall-university-west-virginia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshall-university-west-virginia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshall-university-west-virginia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshall-university-west-virginia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshall-university-west-virginia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshall-university-west-virginia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshall-university-west-virginia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshall-university-west-virginia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshall-university-west-virginia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marshalltown-community-college-iowa/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshalltown-community-college-iowa/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshalltown-community-college-iowa/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshalltown-community-college-iowa/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshalltown-community-college-iowa/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshalltown-community-college-iowa/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshalltown-community-college-iowa/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshalltown-community-college-iowa/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshalltown-community-college-iowa/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshalltown-community-college-iowa/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marshalltown-community-college-iowa/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'martinsburg-college-west-virginia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martinsburg-college-west-virginia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martinsburg-college-west-virginia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martinsburg-college-west-virginia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martinsburg-college-west-virginia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martinsburg-college-west-virginia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martinsburg-college-west-virginia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martinsburg-college-west-virginia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martinsburg-college-west-virginia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martinsburg-college-west-virginia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martinsburg-college-west-virginia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marks-medical-college-dhaka/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marks-medical-college-dhaka/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marks-medical-college-dhaka/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marks-medical-college-dhaka/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marks-medical-college-dhaka/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marks-medical-college-dhaka/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marks-medical-college-dhaka/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marks-medical-college-dhaka/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marks-medical-college-dhaka/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marks-medical-college-dhaka/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marks-medical-college-dhaka/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marymount-manhattan-college-new-york/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marymount-manhattan-college-new-york/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marymount-manhattan-college-new-york/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marymount-manhattan-college-new-york/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marymount-manhattan-college-new-york/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marymount-manhattan-college-new-york/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marymount-manhattan-college-new-york/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marymount-manhattan-college-new-york/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marymount-manhattan-college-new-york/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marymount-manhattan-college-new-york/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marymount-manhattan-college-new-york/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'martin-university-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-university-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-university-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-university-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-university-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-university-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-university-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-university-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-university-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-university-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-university-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'maryland-institute-college-of-art-maryland/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maryland-institute-college-of-art-maryland/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maryland-institute-college-of-art-maryland/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maryland-institute-college-of-art-maryland/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maryland-institute-college-of-art-maryland/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maryland-institute-college-of-art-maryland/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maryland-institute-college-of-art-maryland/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maryland-institute-college-of-art-maryland/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maryland-institute-college-of-art-maryland/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maryland-institute-college-of-art-maryland/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maryland-institute-college-of-art-maryland/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'martin-luther-college-minnesota/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-luther-college-minnesota/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-luther-college-minnesota/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-luther-college-minnesota/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-luther-college-minnesota/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-luther-college-minnesota/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-luther-college-minnesota/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-luther-college-minnesota/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-luther-college-minnesota/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-luther-college-minnesota/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'martin-luther-college-minnesota/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'maritime-college-of-forest-technology-new-brunswick/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-college-of-forest-technology-new-brunswick/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-college-of-forest-technology-new-brunswick/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-college-of-forest-technology-new-brunswick/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-college-of-forest-technology-new-brunswick/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-college-of-forest-technology-new-brunswick/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-college-of-forest-technology-new-brunswick/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-college-of-forest-technology-new-brunswick/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-college-of-forest-technology-new-brunswick/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-college-of-forest-technology-new-brunswick/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-college-of-forest-technology-new-brunswick/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marischal-college-scotland/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marischal-college-scotland/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marischal-college-scotland/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marischal-college-scotland/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marischal-college-scotland/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marischal-college-scotland/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marischal-college-scotland/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marischal-college-scotland/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marischal-college-scotland/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marischal-college-scotland/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marischal-college-scotland/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marion-military-institute-alabama/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marion-military-institute-alabama/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marion-military-institute-alabama/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marion-military-institute-alabama/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marion-military-institute-alabama/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marion-military-institute-alabama/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marion-military-institute-alabama/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marion-military-institute-alabama/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marion-military-institute-alabama/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marion-military-institute-alabama/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marion-military-institute-alabama/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'maritime-christian-college-prince-edward-island/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-christian-college-prince-edward-island/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-christian-college-prince-edward-island/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-christian-college-prince-edward-island/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-christian-college-prince-edward-island/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-christian-college-prince-edward-island/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-christian-college-prince-edward-island/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-christian-college-prince-edward-island/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-christian-college-prince-edward-island/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-christian-college-prince-edward-island/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'maritime-christian-college-prince-edward-island/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marine-and-information-technology-centre-wales/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marine-and-information-technology-centre-wales/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marine-and-information-technology-centre-wales/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marine-and-information-technology-centre-wales/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marine-and-information-technology-centre-wales/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marine-and-information-technology-centre-wales/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marine-and-information-technology-centre-wales/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marine-and-information-technology-centre-wales/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marine-and-information-technology-centre-wales/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marine-and-information-technology-centre-wales/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marine-and-information-technology-centre-wales/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marden-senior-college-south-australia/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marden-senior-college-south-australia/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marden-senior-college-south-australia/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marden-senior-college-south-australia/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marden-senior-college-south-australia/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marden-senior-college-south-australia/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marden-senior-college-south-australia/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marden-senior-college-south-australia/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marden-senior-college-south-australia/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marden-senior-college-south-australia/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marden-senior-college-south-australia/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marian-university-indianapolis-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-indianapolis-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-indianapolis-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-indianapolis-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-indianapolis-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-indianapolis-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-indianapolis-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-indianapolis-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-indianapolis-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-indianapolis-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-indianapolis-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marian-universitys-ancilla-college-indiana/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-universitys-ancilla-college-indiana/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-universitys-ancilla-college-indiana/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-universitys-ancilla-college-indiana/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-universitys-ancilla-college-indiana/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-universitys-ancilla-college-indiana/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-universitys-ancilla-college-indiana/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-universitys-ancilla-college-indiana/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-universitys-ancilla-college-indiana/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-universitys-ancilla-college-indiana/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-universitys-ancilla-college-indiana/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marietta-college-ohio/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marietta-college-ohio/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marietta-college-ohio/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marietta-college-ohio/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marietta-college-ohio/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marietta-college-ohio/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marietta-college-ohio/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marietta-college-ohio/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marietta-college-ohio/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marietta-college-ohio/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marietta-college-ohio/faq/.',
+    component: UniversityConComponent
+  },
+
+
+
+  {
+    path: 'marian-university-wisconsin/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-wisconsin/courses-and-fees/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-wisconsin/admission/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-wisconsin/review/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-wisconsin/placement/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-wisconsin/gallery/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-wisconsin/scholarship/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-wisconsin/faculty/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-wisconsin/news/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-wisconsin/hostel/.',
+    component: UniversityConComponent
+  },
+  {
+    path: 'marian-university-wisconsin/faq/.',
+    component: UniversityConComponent
+  },
+
+
 ];
 
 @NgModule({
